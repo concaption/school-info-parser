@@ -1,0 +1,944 @@
+{
+  "school_name": "Centre of English Studies",
+  "locations": [
+    {
+      "city": null,
+      "country": null,
+      "address": null,
+      "courses": [],
+      "accommodations": [],
+      "additional_fees": {}
+    },
+    {
+      "city": null,
+      "country": null,
+      "address": null,
+      "courses": [],
+      "accommodations": [],
+      "additional_fees": {}
+    },
+    {
+      "city": "Dublin",
+      "country": "Ireland",
+      "address": "7/12 Dame Street, Dublin 2, Ireland",
+      "courses": [
+        {
+          "name": "English Language and Activity Programme",
+          "lessons_per_week": 15,
+          "description": "15 hours tuition per week in multinational classes. Full board homestay accommodation.",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u20ac1785",
+              "currency": "EUR"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "\u20ac2677",
+              "currency": "EUR"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u20ac3570",
+              "currency": "EUR"
+            },
+            {
+              "duration": "extra week",
+              "price": "\u20ac892",
+              "currency": "EUR"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "Super Intensive English Language and Activity Programme",
+          "lessons_per_week": 20.5,
+          "description": "20.5 hours tuition per week in multinational classes. Full board homestay accommodation.",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u20ac2025",
+              "currency": "EUR"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "\u20ac2895",
+              "currency": "EUR"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u20ac4055",
+              "currency": "EUR"
+            },
+            {
+              "duration": "extra week",
+              "price": "\u20ac1015",
+              "currency": "EUR"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "English Language and Rugby Programme",
+          "lessons_per_week": 15,
+          "description": "15 hours tuition per week in multinational classes. 4 afternoons per week of rugby. Full board homestay accommodation.",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u20ac2247",
+              "currency": "EUR"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u20ac4494",
+              "currency": "EUR"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "CAE FAST TRACK Exam Preparation + Activity Programme",
+          "lessons_per_week": 15,
+          "description": "15 hours tuition per week in multinational classes. Full board homestay accommodation. Minimum 6 students required.",
+          "prices": [
+            {
+              "duration": "4 weeks",
+              "price": "\u20ac3906",
+              "currency": "EUR"
+            }
+          ],
+          "requirements": ""
+        }
+      ],
+      "accommodations": [
+        {
+          "type": "Homestay",
+          "price_per_week": null,
+          "description": "Full board homestay accommodation included in course fees.",
+          "supplements": {}
+        }
+      ],
+      "additional_fees": {
+        "registration": "\u20ac85"
+      }
+    },
+    {
+      "city": "Dublin",
+      "country": "Ireland",
+      "address": "7/12 Dame Street, Dublin 2, Ireland",
+      "courses": [
+        {
+          "name": "English Language and Activity Programme",
+          "lessons_per_week": 15,
+          "description": "15 hours tuition per week in multinational classes. Full board homestay accommodation.",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u20ac1785",
+              "currency": "EUR"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "\u20ac2677",
+              "currency": "EUR"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u20ac3570",
+              "currency": "EUR"
+            },
+            {
+              "duration": "extra week",
+              "price": "\u20ac892",
+              "currency": "EUR"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "Super Intensive English Language and Activity Programme",
+          "lessons_per_week": 20.5,
+          "description": "20.5 hours tuition per week in multinational classes. Full board homestay accommodation.",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u20ac2025",
+              "currency": "EUR"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "\u20ac2895",
+              "currency": "EUR"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u20ac4055",
+              "currency": "EUR"
+            },
+            {
+              "duration": "extra week",
+              "price": "\u20ac1015",
+              "currency": "EUR"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "English Language and Rugby Programme",
+          "lessons_per_week": 15,
+          "description": "15 hours tuition per week in multinational classes. 4 afternoons per week of rugby. Full board homestay accommodation.",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u20ac2247",
+              "currency": "EUR"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u20ac4494",
+              "currency": "EUR"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "CAE FAST TRACK Exam Preparation + Activity Programme",
+          "lessons_per_week": 15,
+          "description": "15 hours tuition per week in multinational classes. Full board homestay accommodation. Minimum 6 students required.",
+          "prices": [
+            {
+              "duration": "4 weeks",
+              "price": "\u20ac3906",
+              "currency": "EUR"
+            }
+          ],
+          "requirements": ""
+        }
+      ],
+      "accommodations": [
+        {
+          "type": "Homestay",
+          "price_per_week": null,
+          "description": "Full board homestay accommodation included in course fees.",
+          "supplements": {}
+        }
+      ],
+      "additional_fees": {
+        "registration": "\u20ac85"
+      }
+    },
+    {
+      "city": "Worthing",
+      "country": "United Kingdom",
+      "address": "27 South Street, Worthing, West Sussex, BN11 3AR",
+      "courses": [
+        {
+          "name": "English Language and Activity Programme",
+          "lessons_per_week": 15,
+          "description": "15 hours tuition per week in multinational classes. Full board residential accommodation (Brighton University).",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u00a31553",
+              "currency": "GBP"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "\u00a32326",
+              "currency": "GBP"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u00a33074",
+              "currency": "GBP"
+            },
+            {
+              "duration": "extra week",
+              "price": "\u00a3765",
+              "currency": "GBP"
+            }
+          ],
+          "requirements": ""
+        }
+      ],
+      "accommodations": [
+        {
+          "type": "Homestay",
+          "price_per_week": null,
+          "description": "Full board homestay accommodation included in course fees.",
+          "supplements": {}
+        },
+        {
+          "type": "Residential",
+          "price_per_week": null,
+          "description": "Full board residential accommodation included in course fees.",
+          "supplements": {}
+        }
+      ],
+      "additional_fees": {
+        "registration": "GBP \u00a385"
+      }
+    },
+    {
+      "city": "Worthing",
+      "country": "United Kingdom",
+      "address": "27 South Street, Worthing, West Sussex, BN11 3AR",
+      "courses": [
+        {
+          "name": "English Language and Activity Programme",
+          "lessons_per_week": 15,
+          "description": "15 hours tuition per week in multinational classes. Full board residential accommodation (Brighton University).",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u00a31553",
+              "currency": "GBP"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "\u00a32326",
+              "currency": "GBP"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u00a33074",
+              "currency": "GBP"
+            },
+            {
+              "duration": "extra week",
+              "price": "\u00a3765",
+              "currency": "GBP"
+            }
+          ],
+          "requirements": ""
+        }
+      ],
+      "accommodations": [
+        {
+          "type": "Homestay",
+          "price_per_week": null,
+          "description": "Full board homestay accommodation included in course fees.",
+          "supplements": {}
+        },
+        {
+          "type": "Residential",
+          "price_per_week": null,
+          "description": "Full board residential accommodation included in course fees.",
+          "supplements": {}
+        }
+      ],
+      "additional_fees": {
+        "registration": "GBP \u00a385"
+      }
+    },
+    {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "address": null,
+      "courses": [
+        {
+          "name": "English Language and Activity Programme",
+          "lessons_per_week": 15,
+          "description": "15 hours tuition per week in multinational classes. Full board residential accommodation (Pollock Halls).",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u00a31787",
+              "currency": "GBP"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "\u00a32645",
+              "currency": "GBP"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u00a33483",
+              "currency": "GBP"
+            },
+            {
+              "duration": "extra week",
+              "price": "\u00a3865",
+              "currency": "GBP"
+            }
+          ],
+          "requirements": ""
+        }
+      ],
+      "accommodations": [
+        {
+          "type": "Homestay",
+          "price_per_week": null,
+          "description": "Full board homestay accommodation included in course fees.",
+          "supplements": {}
+        },
+        {
+          "type": "Residential",
+          "price_per_week": null,
+          "description": "Full board residential accommodation included in course fees.",
+          "supplements": {}
+        }
+      ],
+      "additional_fees": {
+        "registration": "\u00a375"
+      }
+    },
+    {
+      "city": "Edinburgh",
+      "country": "United Kingdom",
+      "address": null,
+      "courses": [
+        {
+          "name": "English Language and Activity Programme",
+          "lessons_per_week": 15,
+          "description": "15 hours tuition per week in multinational classes. Full board residential accommodation (Pollock Halls).",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u00a31787",
+              "currency": "GBP"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "\u00a32645",
+              "currency": "GBP"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u00a33483",
+              "currency": "GBP"
+            },
+            {
+              "duration": "extra week",
+              "price": "\u00a3865",
+              "currency": "GBP"
+            }
+          ],
+          "requirements": ""
+        }
+      ],
+      "accommodations": [
+        {
+          "type": "Homestay",
+          "price_per_week": null,
+          "description": "Full board homestay accommodation included in course fees.",
+          "supplements": {}
+        },
+        {
+          "type": "Residential",
+          "price_per_week": null,
+          "description": "Full board residential accommodation included in course fees.",
+          "supplements": {}
+        }
+      ],
+      "additional_fees": {
+        "registration": "\u00a375"
+      }
+    },
+    {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "address": null,
+      "courses": [
+        {
+          "name": "English Language and Activity Programme",
+          "lessons_per_week": 15,
+          "description": "15 hours tuition per week in multinational classes. Full board residential accommodation (Ruskin Halls).",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u00a31935",
+              "currency": "GBP"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "\u00a32852",
+              "currency": "GBP"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u00a33779",
+              "currency": "GBP"
+            },
+            {
+              "duration": "extra week",
+              "price": "\u00a3940",
+              "currency": "GBP"
+            }
+          ],
+          "requirements": ""
+        }
+      ],
+      "accommodations": [
+        {
+          "type": "Homestay",
+          "price_per_week": null,
+          "description": "Full board homestay accommodation included in course fees.",
+          "supplements": {}
+        },
+        {
+          "type": "Residential",
+          "price_per_week": null,
+          "description": "Full board residential accommodation included in course fees.",
+          "supplements": {}
+        }
+      ],
+      "additional_fees": {
+        "registration": "\u00a375"
+      }
+    },
+    {
+      "city": "Oxford",
+      "country": "United Kingdom",
+      "address": null,
+      "courses": [
+        {
+          "name": "English Language and Activity Programme",
+          "lessons_per_week": 15,
+          "description": "15 hours tuition per week in multinational classes. Full board residential accommodation (Ruskin Halls).",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u00a31935",
+              "currency": "GBP"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "\u00a32852",
+              "currency": "GBP"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u00a33779",
+              "currency": "GBP"
+            },
+            {
+              "duration": "extra week",
+              "price": "\u00a3940",
+              "currency": "GBP"
+            }
+          ],
+          "requirements": ""
+        }
+      ],
+      "accommodations": [
+        {
+          "type": "Homestay",
+          "price_per_week": null,
+          "description": "Full board homestay accommodation included in course fees.",
+          "supplements": {}
+        },
+        {
+          "type": "Residential",
+          "price_per_week": null,
+          "description": "Full board residential accommodation included in course fees.",
+          "supplements": {}
+        }
+      ],
+      "additional_fees": {
+        "registration": "\u00a375"
+      }
+    },
+    {
+      "city": "Leeds",
+      "country": "United Kingdom",
+      "address": null,
+      "courses": [
+        {
+          "name": "English Language and Activity Programme",
+          "lessons_per_week": 15,
+          "description": "",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u00a31463",
+              "currency": "GBP"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "\u00a32189",
+              "currency": "GBP"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u00a32915",
+              "currency": "GBP"
+            },
+            {
+              "extra_week": "\u00a3725",
+              "currency": "GBP"
+            }
+          ],
+          "requirements": ""
+        }
+      ],
+      "accommodations": [],
+      "additional_fees": {}
+    },
+    {
+      "city": "Leeds",
+      "country": "United Kingdom",
+      "address": null,
+      "courses": [
+        {
+          "name": "English Language and Activity Programme",
+          "lessons_per_week": 15,
+          "description": "",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "\u00a31463",
+              "currency": "GBP"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "\u00a32189",
+              "currency": "GBP"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "\u00a32915",
+              "currency": "GBP"
+            },
+            {
+              "extra_week": "\u00a3725",
+              "currency": "GBP"
+            }
+          ],
+          "requirements": ""
+        }
+      ],
+      "accommodations": [],
+      "additional_fees": {}
+    },
+    {
+      "city": "Toronto",
+      "country": "Canada",
+      "address": "19 Bloor Street West, Toronto, Ontario, Canada M4W 1A3",
+      "courses": [
+        {
+          "name": "English Language and Activity Programme (Homestay)",
+          "lessons_per_week": 20,
+          "description": "",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "$3480",
+              "currency": "USD"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "$4760",
+              "currency": "USD"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "$5860",
+              "currency": "USD"
+            },
+            {
+              "extra_week": "$1715",
+              "currency": "USD"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "English Language and Activity Programme (Residence)",
+          "lessons_per_week": 20,
+          "description": "",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "$4980",
+              "currency": "USD"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "$7095",
+              "currency": "USD"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "$8895",
+              "currency": "USD"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "Leadership and Activity Programme",
+          "lessons_per_week": 20,
+          "description": "",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "$3480",
+              "currency": "USD"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "$4760",
+              "currency": "USD"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "$5860",
+              "currency": "USD"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "Cambridge Fast Track & Activity Programme",
+          "lessons_per_week": 25,
+          "description": "",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "$3480",
+              "currency": "USD"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "$4760",
+              "currency": "USD"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "$5860",
+              "currency": "USD"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "Parent and Child Programme",
+          "lessons_per_week": 20,
+          "description": "",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "$5680",
+              "currency": "USD"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "$7750",
+              "currency": "USD"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "$9700",
+              "currency": "USD"
+            },
+            {
+              "extra_week": "$2435",
+              "currency": "USD"
+            }
+          ],
+          "requirements": ""
+        }
+      ],
+      "accommodations": [
+        {
+          "type": "Custodial Fee",
+          "price_per_week": null,
+          "description": "",
+          "supplements": {}
+        },
+        {
+          "type": "Special Dietary Supplements",
+          "price_per_week": null,
+          "description": "",
+          "supplements": {}
+        }
+      ],
+      "additional_fees": {
+        "registration": "CAD $150"
+      }
+    },
+    {
+      "city": "Toronto",
+      "country": "Canada",
+      "address": "19 Bloor Street West, Toronto, Ontario, Canada M4W 1A3",
+      "courses": [
+        {
+          "name": "English Language and Activity Programme (Homestay)",
+          "lessons_per_week": 20,
+          "description": "",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "$3480",
+              "currency": "USD"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "$4760",
+              "currency": "USD"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "$5860",
+              "currency": "USD"
+            },
+            {
+              "extra_week": "$1715",
+              "currency": "USD"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "English Language and Activity Programme (Residence)",
+          "lessons_per_week": 20,
+          "description": "",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "$4980",
+              "currency": "USD"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "$7095",
+              "currency": "USD"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "$8895",
+              "currency": "USD"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "Leadership and Activity Programme",
+          "lessons_per_week": 20,
+          "description": "",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "$3480",
+              "currency": "USD"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "$4760",
+              "currency": "USD"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "$5860",
+              "currency": "USD"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "Cambridge Fast Track & Activity Programme",
+          "lessons_per_week": 25,
+          "description": "",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "$3480",
+              "currency": "USD"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "$4760",
+              "currency": "USD"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "$5860",
+              "currency": "USD"
+            }
+          ],
+          "requirements": ""
+        },
+        {
+          "name": "Parent and Child Programme",
+          "lessons_per_week": 20,
+          "description": "",
+          "prices": [
+            {
+              "duration": "2 weeks",
+              "price": "$5680",
+              "currency": "USD"
+            },
+            {
+              "duration": "3 weeks",
+              "price": "$7750",
+              "currency": "USD"
+            },
+            {
+              "duration": "4 weeks",
+              "price": "$9700",
+              "currency": "USD"
+            },
+            {
+              "extra_week": "$2435",
+              "currency": "USD"
+            }
+          ],
+          "requirements": ""
+        }
+      ],
+      "accommodations": [
+        {
+          "type": "Custodial Fee",
+          "price_per_week": null,
+          "description": "",
+          "supplements": {}
+        },
+        {
+          "type": "Special Dietary Supplements",
+          "price_per_week": null,
+          "description": "",
+          "supplements": {}
+        }
+      ],
+      "additional_fees": {
+        "registration": "CAD $150"
+      }
+    },
+    {
+      "city": "Lastly",
+      "country": "Unknown",
+      "address": null,
+      "courses": [],
+      "accommodations": [],
+      "additional_fees": {}
+    },
+    {
+      "city": "Lastly",
+      "country": "Unknown",
+      "address": null,
+      "courses": [],
+      "accommodations": [],
+      "additional_fees": {}
+    }
+  ],
+  "terms": {
+    "cancellation": {
+      "notice_period": "14 days",
+      "cancellation_fees": {
+        "Ireland": "\u20ac250",
+        "United Kingdom": "\u00a3250",
+        "Canada": "CAD $350"
+      },
+      "refunds_policy": "Bookings canceled less than 14 days before arrival will forfeit the accommodation deposit of \u20ac500 per week."
+    },
+    "teaching_hours": "45-minute teaching hours.",
+    "max_class_size": 15,
+    "additional_costs": "Travel card or Metro Pass not included and must be purchased separately.",
+    "general": [
+      "Fees include tuition, full board accommodation, activities and excursions, assessment tests, certificate of attendance, and 24-hour emergency support.",
+      "Supplements per week include: \u20ac35 (Ireland), GBP \u00a335 (UK), CAD $50 (Canada) for special diets or age-specific additional fees.",
+      "CES policies include a strict anti-bullying rule and discourage alcohol or drug use, violations may result in being sent home."
+    ]
+  }
+}
