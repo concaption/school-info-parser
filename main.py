@@ -5,11 +5,11 @@ import base64
 import json
 import fitz  # PyMuPDF
 from openai import OpenAI
-from dataclasses import dataclass, field
-from typing import List, Dict
 from dotenv import load_dotenv
 import io
 from PIL import Image
+from pydantic import BaseModel, Field
+from typing import List, Dict, Optional
 import logging
 from logging.handlers import RotatingFileHandler
 import sys
@@ -60,49 +60,36 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if not OPENAI_API_KEY:
     logger.error("OpenAI API key not found in environment variables")
     raise ValueError("OpenAI API key not found")
+class Price(BaseModel):
+    duration: str = Field(..., description="Duration of the course")
+    price: str = Field(..., description="Price of the course")
+    currency: str = Field(..., description="Currency of the price")
 
+class Course(BaseModel):
+    name: str = Field(..., description="Name of the course")
+    lessons_per_week: int = Field(..., description="Number of lessons per week")
+    description: str = Field(..., description="Course description")
+    prices: List[Price] = Field(..., description="List of prices for the course")
+    requirements: Optional[str] = Field(None, description="Course requirements")
 
-# Data Structure Classes
-@dataclass
-class Price:
-    duration: str
-    price: str
-    currency: str
+class Accommodation(BaseModel):
+    type: str = Field(..., description="Type of accommodation")
+    price_per_week: str = Field(..., description="Weekly price of accommodation")
+    description: str = Field(..., description="Accommodation description")
+    supplements: Optional[Dict[str, str]] = Field(default_factory=dict, description="Additional supplements")
 
+class Location(BaseModel):
+    city: str = Field(..., description="City where the school is located")
+    country: str = Field(..., description="Country where the school is located")
+    address: str = Field(..., description="Address of the school")
+    courses: List[Course] = Field(..., description="List of available courses")
+    accommodations: List[Accommodation] = Field(..., description="List of accommodations")
+    additional_fees: Optional[Dict[str, str]] = Field(default_factory=dict, description="Additional fees")
 
-@dataclass
-class Course:
-    name: str
-    lessons_per_week: int
-    description: str
-    prices: List[Price]
-    requirements: str = ""
-
-
-@dataclass
-class Accommodation:
-    type: str
-    price_per_week: str
-    description: str
-    supplements: Dict[str, str] = field(default_factory=dict)
-
-
-@dataclass
-class Location:
-    city: str
-    country: str
-    address: str
-    courses: List[Course]
-    accommodations: List[Accommodation]
-    additional_fees: Dict[str, str] = field(default_factory=dict)
-
-
-@dataclass
-class School:
-    name: str
-    locations: List[Location]
-    terms: Dict[str, str] = field(default_factory=dict)
-
+class School(BaseModel):
+    name: str = Field(..., description="Name of the school")
+    locations: List[Location] = Field(..., description="List of locations where the school operates")
+    terms: Optional[Dict[str, str]] = Field(default_factory=dict, description="Terms and conditions")
 
 class PDFParser:
     def __init__(self, api_key):
@@ -169,7 +156,7 @@ Format the response as valid JSON with this structure:
             base64_image = base64.b64encode(img_byte_arr).decode("utf-8")
 
             logger.info("Sending request to OpenAI API")
-            response = self.client.chat.completions.create(
+            response = self.client.beta.chat.completions.parse(
                 model="gpt-4o-2024-11-20",
                 messages=[
                     {
@@ -186,7 +173,7 @@ Format the response as valid JSON with this structure:
                     }
                 ],
                 max_completion_tokens=16383,
-                response_format={"type": "json_object"},
+                response_format=School,
             )
 
             logger.debug("Received response from OpenAI API")
@@ -208,7 +195,6 @@ Format the response as valid JSON with this structure:
         except Exception as e:
             logger.error(f"Error in parse_page: {str(e)}")
             raise
-
 
 
 class PDFProcessor:
