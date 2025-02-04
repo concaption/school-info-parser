@@ -1,0 +1,439 @@
+{
+  "raw_results": [
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Unknown",
+          "country": "IE",
+          "address": "Not specified",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Dublin",
+          "country": "IE",
+          "address": "Dublin, Ireland",
+          "courses": [
+            {
+              "name": "English Language and Activity Programme",
+              "lessons_per_week": 15,
+              "description": "15 hours tuition per week in multinational classes",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u20ac1785",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u20ac2677",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u20ac3570",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "extra week",
+                  "price": "\u20ac892",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Super Intensive English Language and Activity Programme",
+              "lessons_per_week": 20,
+              "description": "20.5 hours tuition per week in multinational classes",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u20ac2025",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u20ac2895",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u20ac4055",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "extra week",
+                  "price": "\u20ac1015",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "English Language and Rugby Programme",
+              "lessons_per_week": 15,
+              "description": "Includes 4 afternoons per week of rugby training.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u20ac2247",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u20ac4494",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Pre-registration for Rugby is required."
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "Included in course fees",
+              "description": "Shared room, full board",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "\u20ac85"
+          }
+        },
+        {
+          "city": "Worthing",
+          "country": "GB",
+          "address": "Worthing, United Kingdom",
+          "courses": [
+            {
+              "name": "English Language and Activity Programme",
+              "lessons_per_week": 15,
+              "description": "15 hours tuition per week in multinational classes.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u00a31553",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u00a32326",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a33074",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "extra week",
+                  "price": "\u00a3765",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "Included in course fees",
+              "description": "Twin rooms, full board",
+              "supplements": null
+            },
+            {
+              "type": "Residential",
+              "price_per_week": "Included in course fees",
+              "description": "Single rooms, includes Brighton University full board.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "\u00a375"
+          }
+        },
+        {
+          "city": "Edinburgh",
+          "country": "GB",
+          "address": "Edinburgh, United Kingdom",
+          "courses": [
+            {
+              "name": "English Language and Activity Programme",
+              "lessons_per_week": 15,
+              "description": "15 hours tuition per week in multinational classes.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u00a31787",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u00a32645",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a33483",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "extra week",
+                  "price": "\u00a3865",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "Included in course fees",
+              "description": "Shared room, full board",
+              "supplements": null
+            },
+            {
+              "type": "Residential",
+              "price_per_week": "Included in course fees",
+              "description": "Single rooms at Pollock Halls.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "\u00a375"
+          }
+        },
+        {
+          "city": "Oxford",
+          "country": "GB",
+          "address": "Oxford, United Kingdom",
+          "courses": [
+            {
+              "name": "English Language and Activity Programme",
+              "lessons_per_week": 15,
+              "description": "15 hours tuition per week in multinational classes.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u00a31935",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u00a32852",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a33779",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "extra week",
+                  "price": "\u00a3940",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "Included in course fees",
+              "description": "Twin rooms, full board.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "\u00a375"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Leeds",
+          "country": "GB",
+          "address": "Not stated",
+          "courses": [
+            {
+              "name": "English Language and Activity Programme (Homestay)",
+              "lessons_per_week": 15,
+              "description": "15 hours tuition per week in multinational classes, full board homestay accommodation.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u00a31463",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u00a32189",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a32915",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "each additional week",
+                  "price": "\u00a3725",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "English Language and Activity Programme (Residential)",
+              "lessons_per_week": 15,
+              "description": "15 hours tuition per week in multinational classes, full board residential accommodation at Leeds Trinity University.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u00a32226",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u00a33334",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a34442",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "each additional week",
+                  "price": "\u00a31105",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Toronto",
+          "country": "CA",
+          "address": "Not stated",
+          "courses": [
+            {
+              "name": "English Language and Activity Programme (Homestay)",
+              "lessons_per_week": 20,
+              "description": "20 lessons per week with multinational classes, full board homestay accommodation, airport transfer and activities.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "$3480",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "$4760",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "$5860",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "each additional week",
+                  "price": "$1715",
+                  "currency": "CAD"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Vancouver",
+          "country": "CA",
+          "address": "Not stated",
+          "courses": [
+            {
+              "name": "English Language and Activity Programme",
+              "lessons_per_week": 20,
+              "description": "20 lessons per week in multinational classes, full board homestay accommodation, airport transfer, afternoon activities.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "$3685",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "$5165",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "$6645",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "each additional week",
+                  "price": "$1660",
+                  "currency": "CAD"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "Not stated"
+      },
+      "repeat": false
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Dublin",
+          "country": "IE",
+          "address": "72 Dame Street, Dublin 2",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": {
+            "cancellation_fee": "\u20ac250",
+            "special_diet_supplement": "\u20ac45/week",
+            "accommodation_security_deposit": "\u20ac500"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "For cancellations 14 days or less prior to arrival, a fee of \u20ac250 will apply."
+      },
+      "repeat": false
+    }
+  ]
+}
