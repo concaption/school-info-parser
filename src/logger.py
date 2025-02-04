@@ -1,3 +1,9 @@
+"""
+path: src/logger.py
+author: concaption
+description: This script contains the setup_logging function that configures the logging for the application.
+"""
+
 import logging
 import os
 import sys
@@ -10,7 +16,7 @@ def setup_logging():
     os.makedirs("logs", exist_ok=True)
 
     # Configure logging
-    logger = logging.getLogger("PDFParser")
+    logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
 
     # File handler with rotation

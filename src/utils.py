@@ -1,26 +1,11 @@
-import logging
+"""
+path: src/utils.py
+author: concaption
+description: This script contains utility functions for merging dictionaries.
+"""
 import copy
 from typing import Optional
-
-def setup_logging():
-   """Configure and return a logger instance"""
-   logger = logging.getLogger('merger')
-   logger.setLevel(logging.INFO)
-   
-   console = logging.StreamHandler()
-   console.setLevel(logging.INFO)
-   
-   file_handler = logging.FileHandler('merger.log')
-   file_handler.setLevel(logging.INFO)
-   
-   formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-   console.setFormatter(formatter)
-   file_handler.setFormatter(formatter)
-   
-   logger.addHandler(console)
-   logger.addHandler(file_handler)
-   
-   return logger
+from .logger import setup_logging
 
 logger = setup_logging()
 
