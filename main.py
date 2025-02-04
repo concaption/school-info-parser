@@ -3,6 +3,7 @@
 import os
 import base64
 import json
+import time
 import fitz  # PyMuPDF
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -14,42 +15,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 import sys
 import traceback
-
-
-# Set up logging
-def setup_logging():
-    # Create logs directory if it doesn't exist
-    os.makedirs("logs", exist_ok=True)
-
-    # Configure logging
-    logger = logging.getLogger("PDFParser")
-    logger.setLevel(logging.DEBUG)
-
-    # File handler with rotation
-    file_handler = RotatingFileHandler(
-        "logs/pdf_parser.log", maxBytes=1024 * 1024, backupCount=5  # 1MB
-    )
-    file_handler.setLevel(logging.DEBUG)
-
-    # Console handler
-    console_handler = logging.StreamHandler(sys.stdout)
-    console_handler.setLevel(logging.INFO)
-
-    # Create formatters and add it to the handlers
-    file_formatter = logging.Formatter(
-        "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-    )
-    console_formatter = logging.Formatter("%(levelname)s: %(message)s")
-
-    file_handler.setFormatter(file_formatter)
-    console_handler.setFormatter(console_formatter)
-
-    # Add the handlers to the logger
-    logger.addHandler(file_handler)
-    logger.addHandler(console_handler)
-
-    return logger
-
+from logger import setup_logging
 
 # Initialize logger
 logger = setup_logging()
@@ -81,8 +47,8 @@ class Accommodation(BaseModel):
     supplements: Optional[Dict[str, str]] = Field(default_factory=dict, description="Additional supplements")
 
 class Location(BaseModel):
-    city: str = Field(..., description="City where the school is located")
-    country: str = Field(..., description="Country where the school is located")
+    city: str = Field(..., description="City where the school is located in English")
+    country: str = Field(..., description="Country where the school is located in ISO 3166-1 alpha-2 format")
     address: str = Field(..., description="Address of the school")
     courses: List[Course] = Field(..., description="List of available courses")
     accommodations: List[Accommodation] = Field(..., description="List of accommodations")
@@ -92,6 +58,7 @@ class School(BaseModel):
     name: str = Field(..., description="Name of the school")
     locations: List[Location] = Field(..., description="List of locations where the school operates")
     terms: Optional[Dict[str, str]] = Field(default_factory=dict, description="Terms and conditions")
+    repeat: Optional[bool] = Field(description="If there are more courses available but can not fit in one response, set this flag to true")
 
 class PDFParser:
     def __init__(self, api_key):
@@ -106,13 +73,19 @@ class PDFParser:
 - Accommodation options
 - Any terms or conditions
 
+if there are more than one location, please provide information for all locations.
+if there are more than one course, please provide information for all courses.
+make sure to include all the courses available, including the prices and any additional fees.
+
+if there are more courses available but can not fit in one response, please set the repeat flag to true and provide the remaining courses in the next response.
+
 Format the response as valid JSON with this structure:
 {
     "school_name": "Centre of English Studies",
     "locations": [
         {
             "city": "Dublin",
-            "country": "Ireland",
+            "country": "IE",
             "address": "...",
             "courses": [
                 {
@@ -142,9 +115,11 @@ Format the response as valid JSON with this structure:
     "terms": {
         "cancellation": "14 days notice required"
     }
-}"""
+}
 
-    def parse_page(self, pixmap):
+"""
+
+    def parse_page(self, pixmap, previous_output=[]):
         try:
             logger.debug("Converting PyMuPDF pixmap to PIL Image")
             img = Image.frombytes("RGB", [pixmap.width, pixmap.height], pixmap.samples)
@@ -158,13 +133,25 @@ Format the response as valid JSON with this structure:
             base64_image = base64.b64encode(img_byte_arr).decode("utf-8")
 
             logger.info("Sending request to OpenAI API")
+            prompt = self.system_prompt
+            if previous_output is not None and len(previous_output) > 0:
+                prompt += "\nPlease provide the remaining courses that were not included in the previous response. \n Previous response was: \n " + json.dumps(previous_output, indent=2)
+            logger.debug(f"Prompt:\n {prompt}")
+
+            # save the image to disk for debugging
+            # generate a unique filename based on the current timestamp
+            image_filename = f"logs/image_{int(time.time())}.jpg"
+            with open(image_filename, "wb") as f:
+                f.write(img_byte_arr)
+            logger.debug(f"Saved image to {image_filename}")
+
             response = self.client.beta.chat.completions.parse(
                 model="gpt-4o-2024-11-20",
                 messages=[
                     {
                         "role": "user",
                         "content": [
-                            {"type": "text", "text": self.system_prompt},
+                            {"type": "text", "text": prompt},
                             {
                                 "type": "image_url",
                                 "image_url": {
@@ -219,17 +206,35 @@ class PDFProcessor:
                 logger.info(f"Processing page {page_num + 1}/{pdf_document.page_count}")
                 page = pdf_document[page_num]
                 pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))
+                retry_count = 0
+                max_retries = 3  # Set a maximum number of retries to prevent infinite loops
+                previous_outputs = []
                 
-                try:
-                    page_data = self.parser.parse_page(pix)
-                    self.results.append(page_data)
-                    logger.info(f"Successfully processed page {page_num + 1}")
-                except Exception as e:
-                    logger.error(f"Error processing page {page_num + 1}: {str(e)}")
+                while True:
+                    try:
+                        page_data = self.parser.parse_page(pix, previous_output=previous_outputs)
+                        self.results.append(page_data)
+                        previous_outputs.append(page_data)
+                        if page_data.get("repeat") and retry_count < max_retries:
+                            logger.info("Repeat flag set. Processing the the page again")
+                            retry_count += 1
+                            logger.info(f"Repeat flag set. Processing page {page_num + 1} again (attempt {retry_count + 1})")
+                            continue
+                        else:
+                            logger.info(f"Successfully processed page {page_num + 1}")
+                            break
+                    except Exception as e:
+                        logger.error(f"Error processing page {page_num + 1}: {str(e)}")
+                        logger.error("Retrying page processing")
+                        retry_count += 1
+                        if retry_count >= max_retries:
+                            logger.error(f"Max retries reached for page {page_num + 1}. Skipping page")
+                            break
             
             pdf_document.close()
             logger.info("PDF processing completed")
             # return self.merge_results()
+
             return self.results
             
         except Exception as e:
@@ -241,12 +246,15 @@ if __name__ == "__main__":
     try:
         logger.info("Starting PDF processing")
         processor = PDFProcessor(api_key=OPENAI_API_KEY)
-        result = processor.process_pdf("data/input_files/2025_CES_Adult_Price_List_as_at_8th_August.pdf")
+        file_path = "data/input_files/2025_CES_Adult_Price_List_as_at_8th_August.pdf"
+        result = processor.process_pdf(file_path)
         
-        output_file = "output.json"
+        output_file =  f"data/output_files/{os.path.basename(file_path).replace('.pdf', '_output.json')}"
+        output_data = {}
+        output_data["parsed_results"] = result
         logger.info(f"Writing results to {output_file}")
         with open(output_file, "w") as f:
-            json.dump(result, f, indent=2)
+            json.dump(output_data, f, indent=2)
         
         logger.info("Processing complete. Results saved to output.json")
         
