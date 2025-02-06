@@ -1,0 +1,937 @@
+{
+  "raw_results": [
+    {
+      "name": "IELS Malta",
+      "locations": [
+        {
+          "city": "Sliema",
+          "country": "MT",
+          "address": "Mattew Pulis Street, Sliema, Malta",
+          "courses": [
+            {
+              "name": "General English",
+              "lessons_per_week": 20,
+              "description": "Improve your English skills with our General English course focused on reading, writing, speaking and listening.",
+              "prices": [
+                {
+                  "duration": "1-3 weeks",
+                  "price": "\u20ac290",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4-8 weeks",
+                  "price": "\u20ac270",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "9+ weeks",
+                  "price": "\u20ac250",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive English",
+              "lessons_per_week": 30,
+              "description": "An advanced course for fast-track English learning.",
+              "prices": [
+                {
+                  "duration": "1-3 weeks",
+                  "price": "\u20ac360",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4-8 weeks",
+                  "price": "\u20ac340",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "9+ weeks",
+                  "price": "\u20ac320",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac250",
+              "description": "Stay with a local family and experience the Maltese lifestyle. Includes breakfast and dinner.",
+              "supplements": {
+                "High Season": "\u20ac45/week"
+              }
+            },
+            {
+              "type": "Student Apartment",
+              "price_per_week": "\u20ac300",
+              "description": "Shared flat for students. Close to the school.",
+              "supplements": {
+                "Cleaning Fee": "\u20ac30"
+              }
+            },
+            {
+              "type": "Hotel",
+              "price_per_week": "\u20ac700",
+              "description": "Single room in a 3-star hotel. Breakfast included.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "\u20ac50",
+            "course_materials_fee": "\u20ac35"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation_policy": "Full refund for cancellations made 15 days before commencement. No refund for late cancellations."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Adult Language School",
+      "locations": [
+        {
+          "city": "Unknown City",
+          "country": "MT",
+          "address": "N/A",
+          "courses": [
+            {
+              "name": "Core English Courses",
+              "lessons_per_week": 20,
+              "description": "English language courses with focused lessons.",
+              "prices": [
+                {
+                  "duration": "8 weeks",
+                  "price": "Included in main fee",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Minimum age: 16, minimum stay: 1 week."
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Not Specified",
+              "price_per_week": "Not Specified",
+              "description": "Accommodation can be arranged upon request.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u20ac55",
+            "course_materials": "\u20ac35 (per 8 weeks)",
+            "accommodation_placement": "\u20ac30"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Refer to school policy documentation for details."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Adult English Language Center",
+      "locations": [
+        {
+          "city": "N/A",
+          "country": "N/A",
+          "address": "N/A",
+          "courses": [
+            {
+              "name": "General English 20 Lessons (15 hours)",
+              "lessons_per_week": 20,
+              "description": "Morning or afternoon",
+              "prices": [
+                {
+                  "duration": "1-7 weeks",
+                  "price": "\u20ac270",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "8-20 weeks",
+                  "price": "\u20ac245",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "21+ weeks",
+                  "price": "\u20ac230",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive English 30 Lessons (22.5 hours)",
+              "lessons_per_week": 30,
+              "description": "Morning or afternoon",
+              "prices": [
+                {
+                  "duration": "1-7 weeks",
+                  "price": "\u20ac385",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "8-20 weeks",
+                  "price": "\u20ac330",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "21+ weeks",
+                  "price": "\u20ac295",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Business English Plus 10 Lessons (7.5 hours) / WK",
+              "lessons_per_week": 10,
+              "description": "Morning or afternoon",
+              "prices": [
+                {
+                  "duration": "1-7 weeks",
+                  "price": "\u20ac147",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "8-20 weeks",
+                  "price": "\u20ac125",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "registration": "\u20ac40"
+          }
+        }
+      ],
+      "terms": null,
+      "repeat": true
+    },
+    {
+      "name": "Adult English Language Center",
+      "locations": [
+        {
+          "city": "N/A",
+          "country": "N/A",
+          "address": "N/A",
+          "courses": [
+            {
+              "name": "Mini-Group General English",
+              "lessons_per_week": 20,
+              "description": "Morning or afternoon",
+              "prices": [
+                {
+                  "duration": "1-7 weeks",
+                  "price": "\u20ac370",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "8-20 weeks",
+                  "price": "\u20ac315",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "21+ weeks",
+                  "price": "\u20ac295",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Business English",
+              "lessons_per_week": 20,
+              "description": "Morning or afternoon",
+              "prices": [
+                {
+                  "duration": "1-7 weeks",
+                  "price": "\u20ac285",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "IELTS Plus 10",
+              "lessons_per_week": 10,
+              "description": "Morning or afternoon",
+              "prices": [
+                {
+                  "duration": "1-7 weeks",
+                  "price": "\u20ac140",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Cambridge FCE Exam Preparation",
+              "lessons_per_week": 30,
+              "description": "Full course for FCE preparation",
+              "prices": [
+                {
+                  "duration": "6 weeks",
+                  "price": "\u20ac2310",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Minimum B2 level"
+            },
+            {
+              "name": "Intensive CELTA Teacher Training",
+              "lessons_per_week": 30,
+              "description": "In-depth CELTA certification training",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "\u20ac1500",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Native level"
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Adult Language School",
+      "locations": [
+        {
+          "city": "Sliema",
+          "country": "MT",
+          "address": "Not specified",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Residence",
+              "price_per_week": "238-399",
+              "description": "Day's Inn Accommodation: En-suite shared twin or single rooms with breakfast/dinner available at supplement prices.",
+              "supplements": {
+                "Breakfast": "56/week",
+                "Dinner": "161-126/week",
+                "Summer Supplement": "91/week"
+              }
+            },
+            {
+              "type": "Residence",
+              "price_per_week": "217-392",
+              "description": "IELS Campus Self-catering apartments with shared or single occupancy.",
+              "supplements": {
+                "Dinner": "Included",
+                "Summer Supplement": "91-126/week"
+              }
+            },
+            {
+              "type": "Residence",
+              "price_per_week": "266-273",
+              "description": "Sliema Tigne Suites - Self-catering apartments for up to 24-week bookings.",
+              "supplements": {
+                "Summer Supplement": "49/week"
+              }
+            },
+            {
+              "type": "Homestay",
+              "price_per_week": "294-476",
+              "description": "Half-board homestay options with private or shared rooms.",
+              "supplements": {
+                "Special Diets": "55/week",
+                "Wifi Available": "20/week",
+                "Summer Supplement": "98-168/week"
+              }
+            }
+          ],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "Non-refundable payments if within 60 days of booking."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Unknown",
+      "locations": [
+        {
+          "city": "Unknown",
+          "country": "MT",
+          "address": "Unknown",
+          "courses": [
+            {
+              "name": "Young Learners' Program",
+              "lessons_per_week": 0,
+              "description": "A language program designed for young learners.",
+              "prices": [
+                {
+                  "duration": "Per week",
+                  "price": "Unknown",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Minimum age: Unspecified."
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "Unknown",
+              "description": "An opportunity to stay with a local family.",
+              "supplements": {
+                "Homestay Special Diet Supplement": "55 EUR/week",
+                "Homestay Wireless Internet Supplement": "20 EUR/week"
+              }
+            }
+          ],
+          "additional_fees": {
+            "Registration": "Included",
+            "Accommodation Placement": "Included",
+            "Change Fee": "60 EUR",
+            "Document Courier Fee": "80 EUR",
+            "Travel & Medical Insurance": "17 EUR/week",
+            "Unaccompanied Minor Fee": "35 EUR/trip"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "No price reductions for missed lessons.",
+        "minimum_stay": "1 week",
+        "key_information": "Average class size is 15, maximum is 17, age ranges undefined."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Young Learners Full Packages",
+      "locations": [
+        {
+          "city": "Dublin",
+          "country": "IE",
+          "address": "---",
+          "courses": [
+            {
+              "name": "Vacation English Plus (Spring/Autumn)",
+              "lessons_per_week": 20,
+              "description": "15 hours per week",
+              "prices": [
+                {
+                  "duration": "1st week",
+                  "price": "\u20ac1032",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "extra week",
+                  "price": "\u20ac935",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Vacation English Plus (Summer)",
+              "lessons_per_week": 20,
+              "description": "15 hours per week",
+              "prices": [
+                {
+                  "duration": "1st week",
+                  "price": "\u20ac1176",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "extra week",
+                  "price": "\u20ac1079",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Abitur 30 (Spring/Autumn)",
+              "lessons_per_week": 30,
+              "description": "22.5 hours per week",
+              "prices": [
+                {
+                  "duration": "1st week",
+                  "price": "\u20ac925",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "extra week",
+                  "price": "\u20ac828",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Abitur 30 (Summer)",
+              "lessons_per_week": 30,
+              "description": "22.5 hours per week",
+              "prices": [
+                {
+                  "duration": "1st week",
+                  "price": "\u20ac1338",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "extra week",
+                  "price": "\u20ac1241",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "16-17 years old"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Centre Residence",
+              "price_per_week": "\u20ac1032",
+              "description": "Shared Bedroom, Shared Bathroom",
+              "supplements": null
+            },
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac750",
+              "description": "Shared Bedroom, Shared Bathroom",
+              "supplements": null
+            }
+          ],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    }
+  ],
+  "merged_results": {
+    "name": "IELS Malta",
+    "locations": [
+      {
+        "city": "Sliema",
+        "country": "MT",
+        "address": "Mattew Pulis Street, Sliema, Malta",
+        "courses": [
+          {
+            "name": "General English",
+            "lessons_per_week": 20,
+            "description": "Improve your English skills with our General English course focused on reading, writing, speaking and listening.",
+            "prices": [
+              {
+                "duration": "1-3 weeks",
+                "price": "\u20ac290",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4-8 weeks",
+                "price": "\u20ac270",
+                "currency": "EUR"
+              },
+              {
+                "duration": "9+ weeks",
+                "price": "\u20ac250",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive English",
+            "lessons_per_week": 30,
+            "description": "An advanced course for fast-track English learning.",
+            "prices": [
+              {
+                "duration": "1-3 weeks",
+                "price": "\u20ac360",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4-8 weeks",
+                "price": "\u20ac340",
+                "currency": "EUR"
+              },
+              {
+                "duration": "9+ weeks",
+                "price": "\u20ac320",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "294-476",
+            "description": "Half-board homestay options with private or shared rooms.",
+            "supplements": {
+              "High Season": "\u20ac45/week",
+              "Special Diets": "55/week",
+              "Wifi Available": "20/week",
+              "Summer Supplement": "98-168/week"
+            }
+          },
+          {
+            "type": "Student Apartment",
+            "price_per_week": "\u20ac300",
+            "description": "Shared flat for students. Close to the school.",
+            "supplements": {
+              "Cleaning Fee": "\u20ac30"
+            }
+          },
+          {
+            "type": "Hotel",
+            "price_per_week": "\u20ac700",
+            "description": "Single room in a 3-star hotel. Breakfast included.",
+            "supplements": null
+          },
+          {
+            "type": "Residence",
+            "price_per_week": "266-273",
+            "description": "Sliema Tigne Suites - Self-catering apartments for up to 24-week bookings.",
+            "supplements": {
+              "Breakfast": "56/week",
+              "Dinner": "Included",
+              "Summer Supplement": "49/week"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration_fee": "\u20ac50",
+          "course_materials_fee": "\u20ac35"
+        }
+      },
+      {
+        "city": "Unknown City",
+        "country": "MT",
+        "address": "N/A",
+        "courses": [
+          {
+            "name": "Core English Courses",
+            "lessons_per_week": 20,
+            "description": "English language courses with focused lessons.",
+            "prices": [
+              {
+                "duration": "8 weeks",
+                "price": "Included in main fee",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Minimum age: 16, minimum stay: 1 week."
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Not Specified",
+            "price_per_week": "Not Specified",
+            "description": "Accommodation can be arranged upon request.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u20ac55",
+          "course_materials": "\u20ac35 (per 8 weeks)",
+          "accommodation_placement": "\u20ac30"
+        }
+      },
+      {
+        "city": "N/A",
+        "country": "N/A",
+        "address": "N/A",
+        "courses": [
+          {
+            "name": "General English 20 Lessons (15 hours)",
+            "lessons_per_week": 20,
+            "description": "Morning or afternoon",
+            "prices": [
+              {
+                "duration": "1-7 weeks",
+                "price": "\u20ac270",
+                "currency": "EUR"
+              },
+              {
+                "duration": "8-20 weeks",
+                "price": "\u20ac245",
+                "currency": "EUR"
+              },
+              {
+                "duration": "21+ weeks",
+                "price": "\u20ac230",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive English 30 Lessons (22.5 hours)",
+            "lessons_per_week": 30,
+            "description": "Morning or afternoon",
+            "prices": [
+              {
+                "duration": "1-7 weeks",
+                "price": "\u20ac385",
+                "currency": "EUR"
+              },
+              {
+                "duration": "8-20 weeks",
+                "price": "\u20ac330",
+                "currency": "EUR"
+              },
+              {
+                "duration": "21+ weeks",
+                "price": "\u20ac295",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Business English Plus 10 Lessons (7.5 hours) / WK",
+            "lessons_per_week": 10,
+            "description": "Morning or afternoon",
+            "prices": [
+              {
+                "duration": "1-7 weeks",
+                "price": "\u20ac147",
+                "currency": "EUR"
+              },
+              {
+                "duration": "8-20 weeks",
+                "price": "\u20ac125",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Mini-Group General English",
+            "lessons_per_week": 20,
+            "description": "Morning or afternoon",
+            "prices": [
+              {
+                "duration": "1-7 weeks",
+                "price": "\u20ac370",
+                "currency": "EUR"
+              },
+              {
+                "duration": "8-20 weeks",
+                "price": "\u20ac315",
+                "currency": "EUR"
+              },
+              {
+                "duration": "21+ weeks",
+                "price": "\u20ac295",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Business English",
+            "lessons_per_week": 20,
+            "description": "Morning or afternoon",
+            "prices": [
+              {
+                "duration": "1-7 weeks",
+                "price": "\u20ac285",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "IELTS Plus 10",
+            "lessons_per_week": 10,
+            "description": "Morning or afternoon",
+            "prices": [
+              {
+                "duration": "1-7 weeks",
+                "price": "\u20ac140",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge FCE Exam Preparation",
+            "lessons_per_week": 30,
+            "description": "Full course for FCE preparation",
+            "prices": [
+              {
+                "duration": "6 weeks",
+                "price": "\u20ac2310",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Minimum B2 level"
+          },
+          {
+            "name": "Intensive CELTA Teacher Training",
+            "lessons_per_week": 30,
+            "description": "In-depth CELTA certification training",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "\u20ac1500",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Native level"
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": {
+          "registration": "\u20ac40"
+        }
+      },
+      {
+        "city": "Unknown",
+        "country": "MT",
+        "address": "Unknown",
+        "courses": [
+          {
+            "name": "Young Learners' Program",
+            "lessons_per_week": 0,
+            "description": "A language program designed for young learners.",
+            "prices": [
+              {
+                "duration": "Per week",
+                "price": "Unknown",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Minimum age: Unspecified."
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "Unknown",
+            "description": "An opportunity to stay with a local family.",
+            "supplements": {
+              "Homestay Special Diet Supplement": "55 EUR/week",
+              "Homestay Wireless Internet Supplement": "20 EUR/week"
+            }
+          }
+        ],
+        "additional_fees": {
+          "Registration": "Included",
+          "Accommodation Placement": "Included",
+          "Change Fee": "60 EUR",
+          "Document Courier Fee": "80 EUR",
+          "Travel & Medical Insurance": "17 EUR/week",
+          "Unaccompanied Minor Fee": "35 EUR/trip"
+        }
+      },
+      {
+        "city": "Dublin",
+        "country": "IE",
+        "address": "---",
+        "courses": [
+          {
+            "name": "Vacation English Plus (Spring/Autumn)",
+            "lessons_per_week": 20,
+            "description": "15 hours per week",
+            "prices": [
+              {
+                "duration": "1st week",
+                "price": "\u20ac1032",
+                "currency": "EUR"
+              },
+              {
+                "duration": "extra week",
+                "price": "\u20ac935",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Vacation English Plus (Summer)",
+            "lessons_per_week": 20,
+            "description": "15 hours per week",
+            "prices": [
+              {
+                "duration": "1st week",
+                "price": "\u20ac1176",
+                "currency": "EUR"
+              },
+              {
+                "duration": "extra week",
+                "price": "\u20ac1079",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Abitur 30 (Spring/Autumn)",
+            "lessons_per_week": 30,
+            "description": "22.5 hours per week",
+            "prices": [
+              {
+                "duration": "1st week",
+                "price": "\u20ac925",
+                "currency": "EUR"
+              },
+              {
+                "duration": "extra week",
+                "price": "\u20ac828",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Abitur 30 (Summer)",
+            "lessons_per_week": 30,
+            "description": "22.5 hours per week",
+            "prices": [
+              {
+                "duration": "1st week",
+                "price": "\u20ac1338",
+                "currency": "EUR"
+              },
+              {
+                "duration": "extra week",
+                "price": "\u20ac1241",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "16-17 years old"
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Centre Residence",
+            "price_per_week": "\u20ac1032",
+            "description": "Shared Bedroom, Shared Bathroom",
+            "supplements": null
+          },
+          {
+            "type": "Homestay",
+            "price_per_week": "\u20ac750",
+            "description": "Shared Bedroom, Shared Bathroom",
+            "supplements": null
+          }
+        ],
+        "additional_fees": null
+      }
+    ],
+    "terms": {
+      "cancellation_policy": "Full refund for cancellations made 15 days before commencement. No refund for late cancellations.",
+      "cancellation": "No price reductions for missed lessons.",
+      "minimum_stay": "1 week",
+      "key_information": "Average class size is 15, maximum is 17, age ranges undefined."
+    },
+    "repeat": false
+  }
+}

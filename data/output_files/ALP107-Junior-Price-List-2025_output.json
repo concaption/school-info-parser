@@ -1,0 +1,1238 @@
+{
+  "raw_results": [
+    {
+      "name": "Alpadia Language Schools by Kaplan International",
+      "locations": [
+        {
+          "city": "Location 1",
+          "country": "Unknown",
+          "address": "Address not provided",
+          "courses": [
+            {
+              "name": "French Summer Camp",
+              "lessons_per_week": 20,
+              "description": "French language course at summer camp",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac350",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "\u20ac650",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "None"
+            },
+            {
+              "name": "German Summer Camp",
+              "lessons_per_week": 20,
+              "description": "German language course at summer camp",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac350",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "\u20ac650",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "None"
+            },
+            {
+              "name": "English Summer Camp",
+              "lessons_per_week": 20,
+              "description": "English language course at summer camp",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac350",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "\u20ac650",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "None"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Dormitory",
+              "price_per_week": "\u20ac200",
+              "description": "Shared room with full board",
+              "supplements": {
+                "Single room": "\u20ac50/week"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u20ac60"
+          }
+        },
+        {
+          "city": "Location 2",
+          "country": "Unknown",
+          "address": "Address not provided",
+          "courses": [
+            {
+              "name": "Specialized German Camp",
+              "lessons_per_week": 25,
+              "description": "Advanced German intensive course",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac450",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "\u20ac850",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "None"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac250",
+              "description": "Single room with half board",
+              "supplements": {
+                "Dietary requirements": "\u20ac35/week"
+              }
+            },
+            {
+              "type": "Hotel",
+              "price_per_week": "\u20ac500",
+              "description": "Double room with full board",
+              "supplements": {
+                "Single room": "\u20ac75/week"
+              }
+            }
+          ],
+          "additional_fees": {
+            "late_registration_fee": "\u20ac50"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation_policy": "14 days notice required",
+        "payment_terms": "50% deposit required on registration"
+      },
+      "repeat": null
+    },
+    {
+      "name": "Language Education Centers",
+      "locations": [
+        {
+          "city": "Los Angeles",
+          "country": "US",
+          "address": "Not provided",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "London City",
+          "country": "UK",
+          "address": "Not provided",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Berlin-Wannsee",
+          "country": "DE",
+          "address": "Not provided",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Nice",
+          "country": "FR",
+          "address": "Not provided",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Leysin",
+          "country": "CH",
+          "address": "Not provided",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": null
+    },
+    {
+      "name": "Alpadia and Kaplan Summer Camps",
+      "locations": [
+        {
+          "city": "Leysin",
+          "country": "CH",
+          "address": "...",
+          "courses": [
+            {
+              "name": "Alpadia Summer Camp in Leysin",
+              "lessons_per_week": 20,
+              "description": "Camps organized in Leysin for ages 8-17",
+              "prices": [
+                {
+                  "duration": "Session",
+                  "price": "CHF 1500",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Bath",
+          "country": "GB",
+          "address": "...",
+          "courses": [
+            {
+              "name": "Kaplan Summer Camp in Bath",
+              "lessons_per_week": 15,
+              "description": "Language camp in Bath for ages 12-17",
+              "prices": [
+                {
+                  "duration": "Week",
+                  "price": "GBP 1200",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Alpadia Summer Camp / Kaplan Summer Camp",
+      "locations": [
+        {
+          "city": "Leysin",
+          "country": "CH",
+          "address": "Leysin",
+          "courses": [
+            {
+              "name": "Standard Course 20",
+              "lessons_per_week": 20,
+              "description": "Standard course with 20 lessons per week.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "CHF 1650",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "CHF 3135",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "CHF 4400",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "CHF 5860",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Course 25",
+              "lessons_per_week": 25,
+              "description": "Intensive course with 25 lessons per week.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "CHF 1750",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "CHF 3315",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "CHF 4700",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "CHF 6270",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Private +5",
+              "lessons_per_week": 5,
+              "description": "Private lessons and activities.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "CHF 1570",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "application": "CHF 125"
+          }
+        },
+        {
+          "city": "Bath",
+          "country": "GB",
+          "address": "Bath",
+          "courses": [
+            {
+              "name": "Standard Course 20",
+              "lessons_per_week": 20,
+              "description": "General English course.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u00a3750",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "\u00a31500",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u00a32250",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a33000",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "application": "\u00a360"
+          }
+        }
+      ],
+      "terms": null,
+      "repeat": true
+    },
+    {
+      "name": "Alpadia Summer Camp / Kaplan Summer Camp",
+      "locations": [
+        {
+          "city": "Montreux Riviera",
+          "country": "CH",
+          "address": "Montreux Riviera",
+          "courses": [
+            {
+              "name": "Standard Course 20",
+              "lessons_per_week": 20,
+              "description": "Standard course with 20 lessons per week.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "CHF 1380",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "CHF 2660",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "CHF 3870",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "CHF 5200",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Course 25",
+              "lessons_per_week": 25,
+              "description": "Intensive course with 25 lessons per week.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "CHF 1570",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "CHF 3065",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "CHF 4550",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "CHF 6125",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Private +5",
+              "lessons_per_week": 5,
+              "description": "Private lessons and activities.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "CHF 1535",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "application": "CHF 125"
+          }
+        }
+      ],
+      "terms": {
+        "insurance": "CHF 15 per week"
+      },
+      "repeat": true
+    },
+    {
+      "name": "Alpadia Summer Camp / Kaplan Summer Camp",
+      "locations": [
+        {
+          "city": "Engelberg",
+          "country": "CH",
+          "address": "Engelberg",
+          "courses": [
+            {
+              "name": "Standard Course 20",
+              "lessons_per_week": 20,
+              "description": "Standard course with 20 lessons per week.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "CHF 1695",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "CHF 3170",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "CHF 4680",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "CHF 6250",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Course 25",
+              "lessons_per_week": 25,
+              "description": "Intensive course with 25 lessons per week.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "CHF 1815",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "CHF 3420",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "CHF 4950",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "CHF 6675",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Private +5",
+              "lessons_per_week": 5,
+              "description": "Private lessons and activities.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "CHF 1570",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "application": "CHF 125"
+          }
+        }
+      ],
+      "terms": {
+        "insurance": "CHF/EUR/GBP 15 per week."
+      },
+      "repeat": true
+    },
+    {
+      "name": "Alpadia & Kaplan Summer Camps",
+      "locations": [
+        {
+          "city": "Paris-Igny",
+          "country": "FR",
+          "address": "Paris-Igny",
+          "courses": [
+            {
+              "name": "Standard Course 20",
+              "lessons_per_week": 20,
+              "description": "Standard course with 20 lessons per week.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac1095",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "\u20ac2130",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u20ac3180",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u20ac4240",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Course 25",
+              "lessons_per_week": 25,
+              "description": "Intensive course with 25 lessons per week.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac1160",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "\u20ac2260",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u20ac3390",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u20ac4520",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Private +5",
+              "lessons_per_week": 5,
+              "description": "Private lessons and activities.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac1130",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "application": "\u20ac90"
+          }
+        }
+      ],
+      "terms": {
+        "insurance": "\u20ac15 per week"
+      },
+      "repeat": true
+    },
+    {
+      "name": "Summer Camp Language School",
+      "locations": [
+        {
+          "city": "Leysin",
+          "country": "CH",
+          "address": "N/A",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Montreux",
+          "country": "CH",
+          "address": "N/A",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Kaplan Summer Camp",
+      "locations": [
+        {
+          "city": "Bath",
+          "country": "GB",
+          "address": "Various drop-off points per schedule",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Torquay",
+          "country": "GB",
+          "address": "Various drop-off points per schedule",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "Please refer to the individual departure points for specific conditions."
+      },
+      "repeat": false
+    }
+  ],
+  "merged_results": {
+    "name": "Alpadia Language Schools by Kaplan International",
+    "locations": [
+      {
+        "city": "Location 1",
+        "country": "Unknown",
+        "address": "Address not provided",
+        "courses": [
+          {
+            "name": "French Summer Camp",
+            "lessons_per_week": 20,
+            "description": "French language course at summer camp",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac350",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "\u20ac650",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "None"
+          },
+          {
+            "name": "German Summer Camp",
+            "lessons_per_week": 20,
+            "description": "German language course at summer camp",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac350",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "\u20ac650",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "None"
+          },
+          {
+            "name": "English Summer Camp",
+            "lessons_per_week": 20,
+            "description": "English language course at summer camp",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac350",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "\u20ac650",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "None"
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Dormitory",
+            "price_per_week": "\u20ac200",
+            "description": "Shared room with full board",
+            "supplements": {
+              "Single room": "\u20ac50/week"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u20ac60"
+        }
+      },
+      {
+        "city": "Location 2",
+        "country": "Unknown",
+        "address": "Address not provided",
+        "courses": [
+          {
+            "name": "Specialized German Camp",
+            "lessons_per_week": 25,
+            "description": "Advanced German intensive course",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac450",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "\u20ac850",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "None"
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u20ac250",
+            "description": "Single room with half board",
+            "supplements": {
+              "Dietary requirements": "\u20ac35/week"
+            }
+          },
+          {
+            "type": "Hotel",
+            "price_per_week": "\u20ac500",
+            "description": "Double room with full board",
+            "supplements": {
+              "Single room": "\u20ac75/week"
+            }
+          }
+        ],
+        "additional_fees": {
+          "late_registration_fee": "\u20ac50"
+        }
+      },
+      {
+        "city": "Los Angeles",
+        "country": "US",
+        "address": "Not provided",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": null
+      },
+      {
+        "city": "London City",
+        "country": "UK",
+        "address": "Not provided",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": null
+      },
+      {
+        "city": "Berlin-Wannsee",
+        "country": "DE",
+        "address": "Not provided",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": null
+      },
+      {
+        "city": "Nice",
+        "country": "FR",
+        "address": "Not provided",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": null
+      },
+      {
+        "city": "Leysin",
+        "country": "CH",
+        "address": "Not provided",
+        "courses": [
+          {
+            "name": "Alpadia Summer Camp in Leysin",
+            "lessons_per_week": 20,
+            "description": "Camps organized in Leysin for ages 8-17",
+            "prices": [
+              {
+                "duration": "Session",
+                "price": "CHF 1500",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Standard Course 20",
+            "lessons_per_week": 20,
+            "description": "Standard course with 20 lessons per week.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "CHF 1650",
+                "currency": "CHF"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "CHF 3135",
+                "currency": "CHF"
+              },
+              {
+                "duration": "3 weeks",
+                "price": "CHF 4400",
+                "currency": "CHF"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "CHF 5860",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive Course 25",
+            "lessons_per_week": 25,
+            "description": "Intensive course with 25 lessons per week.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "CHF 1750",
+                "currency": "CHF"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "CHF 3315",
+                "currency": "CHF"
+              },
+              {
+                "duration": "3 weeks",
+                "price": "CHF 4700",
+                "currency": "CHF"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "CHF 6270",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Private +5",
+            "lessons_per_week": 5,
+            "description": "Private lessons and activities.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "CHF 1570",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": {
+          "application": "CHF 125"
+        }
+      },
+      {
+        "city": "Bath",
+        "country": "GB",
+        "address": "...",
+        "courses": [
+          {
+            "name": "Kaplan Summer Camp in Bath",
+            "lessons_per_week": 15,
+            "description": "Language camp in Bath for ages 12-17",
+            "prices": [
+              {
+                "duration": "Week",
+                "price": "GBP 1200",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Standard Course 20",
+            "lessons_per_week": 20,
+            "description": "General English course.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u00a3750",
+                "currency": "GBP"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "\u00a31500",
+                "currency": "GBP"
+              },
+              {
+                "duration": "3 weeks",
+                "price": "\u00a32250",
+                "currency": "GBP"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "\u00a33000",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": {
+          "application": "\u00a360"
+        }
+      },
+      {
+        "city": "Montreux Riviera",
+        "country": "CH",
+        "address": "Montreux Riviera",
+        "courses": [
+          {
+            "name": "Standard Course 20",
+            "lessons_per_week": 20,
+            "description": "Standard course with 20 lessons per week.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "CHF 1380",
+                "currency": "CHF"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "CHF 2660",
+                "currency": "CHF"
+              },
+              {
+                "duration": "3 weeks",
+                "price": "CHF 3870",
+                "currency": "CHF"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "CHF 5200",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive Course 25",
+            "lessons_per_week": 25,
+            "description": "Intensive course with 25 lessons per week.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "CHF 1570",
+                "currency": "CHF"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "CHF 3065",
+                "currency": "CHF"
+              },
+              {
+                "duration": "3 weeks",
+                "price": "CHF 4550",
+                "currency": "CHF"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "CHF 6125",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Private +5",
+            "lessons_per_week": 5,
+            "description": "Private lessons and activities.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "CHF 1535",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": {
+          "application": "CHF 125"
+        }
+      },
+      {
+        "city": "Engelberg",
+        "country": "CH",
+        "address": "Engelberg",
+        "courses": [
+          {
+            "name": "Standard Course 20",
+            "lessons_per_week": 20,
+            "description": "Standard course with 20 lessons per week.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "CHF 1695",
+                "currency": "CHF"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "CHF 3170",
+                "currency": "CHF"
+              },
+              {
+                "duration": "3 weeks",
+                "price": "CHF 4680",
+                "currency": "CHF"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "CHF 6250",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive Course 25",
+            "lessons_per_week": 25,
+            "description": "Intensive course with 25 lessons per week.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "CHF 1815",
+                "currency": "CHF"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "CHF 3420",
+                "currency": "CHF"
+              },
+              {
+                "duration": "3 weeks",
+                "price": "CHF 4950",
+                "currency": "CHF"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "CHF 6675",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Private +5",
+            "lessons_per_week": 5,
+            "description": "Private lessons and activities.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "CHF 1570",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": {
+          "application": "CHF 125"
+        }
+      },
+      {
+        "city": "Paris-Igny",
+        "country": "FR",
+        "address": "Paris-Igny",
+        "courses": [
+          {
+            "name": "Standard Course 20",
+            "lessons_per_week": 20,
+            "description": "Standard course with 20 lessons per week.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac1095",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "\u20ac2130",
+                "currency": "EUR"
+              },
+              {
+                "duration": "3 weeks",
+                "price": "\u20ac3180",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "\u20ac4240",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive Course 25",
+            "lessons_per_week": 25,
+            "description": "Intensive course with 25 lessons per week.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac1160",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "\u20ac2260",
+                "currency": "EUR"
+              },
+              {
+                "duration": "3 weeks",
+                "price": "\u20ac3390",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "\u20ac4520",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Private +5",
+            "lessons_per_week": 5,
+            "description": "Private lessons and activities.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac1130",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": {
+          "application": "\u20ac90"
+        }
+      },
+      {
+        "city": "Montreux",
+        "country": "CH",
+        "address": "N/A",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": null
+      },
+      {
+        "city": "Torquay",
+        "country": "GB",
+        "address": "Various drop-off points per schedule",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": null
+      }
+    ],
+    "terms": {
+      "cancellation_policy": "14 days notice required",
+      "payment_terms": "50% deposit required on registration",
+      "insurance": "\u20ac15 per week",
+      "cancellation": "Please refer to the individual departure points for specific conditions."
+    },
+    "repeat": null
+  }
+}

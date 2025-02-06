@@ -1,0 +1,3694 @@
+{
+  "raw_results": [
+    {
+      "name": "Bayswater Language School",
+      "locations": [
+        {
+          "city": "London",
+          "country": "UK",
+          "address": "123 Bayswater Road, London, UK",
+          "courses": [
+            {
+              "name": "General English",
+              "lessons_per_week": 20,
+              "description": "Improve your English proficiency in all areas.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u00a3500",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a3900",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Intermediate or above"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u00a3200",
+              "description": "Stay with a local family. Includes breakfast and dinner.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u00a350"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Cancellation must be made 14 days prior to the course start date."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Centre of Skill Development",
+      "locations": [
+        {
+          "city": "London",
+          "country": "UK",
+          "address": "[Specific address not provided]",
+          "courses": [
+            {
+              "name": "Advanced Professional Skills",
+              "lessons_per_week": 20,
+              "description": "Course that focuses on enhancing practical professional skills needed in various industries.",
+              "prices": [
+                {
+                  "duration": "2-6 weeks",
+                  "price": "\u00a3450",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "7-12 weeks",
+                  "price": "\u00a3420",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Intermediate level of English."
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Host Family",
+              "price_per_week": "\u00a3150",
+              "description": "Stay with a British family.",
+              "supplements": null
+            },
+            {
+              "type": "Student Apartment",
+              "price_per_week": "\u00a3220",
+              "description": "Share an apartment with other students.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "\u00a350",
+            "material_fee": "\u00a330"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Full refund on cancellations within 14 days."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater Language School",
+      "locations": [
+        {
+          "city": "London",
+          "country": "GB",
+          "address": "To Be Confirmed",
+          "courses": [
+            {
+              "name": "General English",
+              "lessons_per_week": 20,
+              "description": "Learn English for everyday use, improving speaking, listening, reading, and writing.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u00a3450",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a3860",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Beginner to Advanced learners"
+            },
+            {
+              "name": "IELTS Preparation",
+              "lessons_per_week": 25,
+              "description": "Specialized course for IELTS test readiness.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u00a3500",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Intermediate to advanced"
+            },
+            {
+              "name": "Business English",
+              "lessons_per_week": 20,
+              "description": "Focused on English usage in business contexts.",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a3920",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Intermediate level or higher"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u00a3250",
+              "description": "Daily breakfast and dinner, single room.",
+              "supplements": {
+                "Summer Supplement": "\u00a330 per week"
+              }
+            },
+            {
+              "type": "Student Residence",
+              "price_per_week": "\u00a3350",
+              "description": "Self-catering, en-suite room.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "Registration Fee": "\u00a350",
+            "Materials Fee": "\u00a330"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation_policy": "Full refund for cancellations made 2 weeks prior to course start."
+      },
+      "repeat": null
+    },
+    {
+      "name": "Bayswater",
+      "locations": [
+        {
+          "city": "London",
+          "country": "GB",
+          "address": "167 Queensway, London W2 4SB",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "General English lessons focusing on improving speaking, listening, reading, and writing",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "360",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "325",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "285",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive English",
+              "lessons_per_week": 25,
+              "description": "An intensive English course for quicker progression",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "405",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "360",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "315",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Super Intensive English",
+              "lessons_per_week": 30,
+              "description": "Super-intensive English for fast track improvement",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "450",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "405",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "360",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Family English - Young Learner",
+              "lessons_per_week": 20,
+              "description": "Courses designed for young learners",
+              "prices": [
+                {
+                  "duration": "1+ weeks",
+                  "price": "360",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Family English - Parent & Child",
+              "lessons_per_week": 20,
+              "description": "Courses designed for families",
+              "prices": [
+                {
+                  "duration": "1+ weeks",
+                  "price": "650",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Family English - Day Camp",
+              "lessons_per_week": 20,
+              "description": "Day Camp for children aged 12-17",
+              "prices": [
+                {
+                  "duration": "1+ weeks",
+                  "price": "565",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Cambridge Exam Preparation - Standard",
+              "lessons_per_week": 20,
+              "description": "Preparation for Cambridge Exams at Standard level",
+              "prices": [
+                {
+                  "duration": "8 weeks",
+                  "price": "2880",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "10 weeks",
+                  "price": "3600",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Cambridge Exam Preparation - Intensive",
+              "lessons_per_week": 25,
+              "description": "Preparation for Cambridge Exams at Intensive level",
+              "prices": [
+                {
+                  "duration": "8 weeks",
+                  "price": "3240",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "10 weeks",
+                  "price": "4500",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Cambridge Exam Preparation - Super Intensive",
+              "lessons_per_week": 30,
+              "description": "Preparation for Cambridge Exams at Super Intensive level",
+              "prices": [
+                {
+                  "duration": "8 weeks",
+                  "price": "3600",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "10 weeks",
+                  "price": "4500",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Professional - Digital Marketing",
+              "lessons_per_week": -1,
+              "description": "Digital marketing course to enhance your professional skills",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "2100",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Level 5 (Bayswater)/ B1+ (CEFR)"
+            },
+            {
+              "name": "Professional - International Business Management",
+              "lessons_per_week": -1,
+              "description": "Business management course for the international market",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "2100",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Level 5 (Bayswater)/ B1+ (CEFR)"
+            },
+            {
+              "name": "Professional - Luxury Brand Management",
+              "lessons_per_week": -1,
+              "description": "Training course focusing on managing luxury brands",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "2100",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Level 5 (Bayswater)/ B1+ (CEFR)"
+            },
+            {
+              "name": "Professional - Customer Experience Management",
+              "lessons_per_week": -1,
+              "description": "Improving professional skills in managing customer experiences",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "2100",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Level 5 (Bayswater)/ B1+ (CEFR)"
+            },
+            {
+              "name": "Premium Package",
+              "lessons_per_week": 30,
+              "description": "Combined Professional and English courses for comprehensive training",
+              "prices": [
+                {
+                  "duration": "8 weeks",
+                  "price": "3310",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12 weeks",
+                  "price": "4530",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24 weeks",
+                  "price": "8000",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "36 weeks",
+                  "price": "11430",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Bayswater",
+      "locations": [
+        {
+          "city": "London",
+          "country": "GB",
+          "address": "167 Queensway, London W2 4SB",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "from \u00a3230",
+              "description": "Single or twin rooms, shared bathroom",
+              "supplements": {
+                "Summer Supplement": "\u00a330/week",
+                "Christmas Supplement": "\u00a350/week",
+                "Private Bathroom (where available)": "\u00a345/week",
+                "Dietary Supplement": "\u00a325-45/week",
+                "Under 18 Supplement": "\u00a320/week"
+              }
+            },
+            {
+              "type": "Residences Age 18+",
+              "price_per_week": "from \u00a3425",
+              "description": "Standard and premium studio or en-suite",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u00a395",
+            "accommodation booking fee": "\u00a350",
+            "bank charges": "\u00a312",
+            "exam fees": "from \u00a3225",
+            "professional course materials": "\u00a328",
+            "work placement programme fee": "\u00a31,000"
+          }
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Bayswater",
+      "locations": [
+        {
+          "city": "Liverpool",
+          "country": "UK",
+          "address": "42-46 Whitechapel, Liverpool L1 6DS",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "General English classes focused on core language skills.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "\u00a3275",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "\u00a3250",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u00a3230",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive General English",
+              "lessons_per_week": 25,
+              "description": "Comprehensive English language studies.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "\u00a3305",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "\u00a3275",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u00a3250",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Professional Course: Digital Marketing",
+              "lessons_per_week": 0,
+              "description": "Specialist digital marketing course.",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a32100",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Level B1+/B2 in English"
+            },
+            {
+              "name": "Premium Package",
+              "lessons_per_week": 0,
+              "description": "Combined English and professional courses.",
+              "prices": [
+                {
+                  "duration": "8 weeks",
+                  "price": "\u00a33310",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u00a3150",
+              "description": "Single room, half board.",
+              "supplements": {
+                "Summer Fee": "\u00a325/week"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "\u00a350"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Cancellation must be made in writing."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater College",
+      "locations": [
+        {
+          "city": "Liverpool",
+          "country": "GB",
+          "address": "42-46 Whitechapel, Liverpool L1 6DS",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Homestay 16+",
+              "price_per_week": "\u00a3175-\u00a3200",
+              "description": "Single room with shared bathroom, varying meal plans.",
+              "supplements": {
+                "Summer": "\u00a330/week",
+                "Christmas": "\u00a350/week",
+                "Private Bathroom": "\u00a345/week",
+                "Dietary": "\u00a335/week",
+                "Under 18": "\u00a320/week"
+              }
+            },
+            {
+              "type": "Residences 18+",
+              "price_per_week": "\u00a3165-\u00a3205",
+              "description": "Different options like Budget, Standard, and Premium Single En Suites.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u00a395",
+            "accommodation_booking": "\u00a350",
+            "bank_charges": "\u00a312",
+            "professional_materials": "\u00a328/4 weeks",
+            "work_placement": "\u00a31000",
+            "materials_fee": "\u00a37/week",
+            "insurance": "\u00a38/week"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "No specific cancellation terms observed in the image."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater",
+      "locations": [
+        {
+          "city": "Brighton",
+          "country": "GB",
+          "address": "61 Western Rd, Hove BN3 1JD",
+          "courses": [
+            {
+              "name": "General English - Standard",
+              "lessons_per_week": 20,
+              "description": "Standard English lessons.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "\u00a3330",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "\u00a3295",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u00a3255",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Minimum age 16"
+            },
+            {
+              "name": "Cambridge Exam Preparation - Standard",
+              "lessons_per_week": 20,
+              "description": "Preparation for Cambridge exam.",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a31,200",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "10 weeks",
+                  "price": "\u00a33,000",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Level B2 (Baywater 8)"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u00a3200",
+              "description": "Single room, half-board",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u00a350",
+            "books": "\u00a330"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation_policy": "7 days notice required."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater Brighton Language School",
+      "locations": [
+        {
+          "city": "Brighton",
+          "country": "GB",
+          "address": "61 Western Rd, Hove BN3 1JD",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "General English course for improving everyday language skills.",
+              "prices": [
+                {
+                  "duration": "1-11 weeks",
+                  "price": "\u00a3350",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12+ weeks",
+                  "price": "\u00a3325",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u00a3165 (B&B), \u00a3210 (Half Board)",
+              "description": "Single room shared bathroom, bus transfer available.",
+              "supplements": {
+                "Summer Supplement": "\u00a330/week",
+                "Private Bathroom": "\u00a380/week"
+              }
+            },
+            {
+              "type": "Residence",
+              "price_per_week": "\u00a3350 (1-11 weeks), \u00a3325 (12+ weeks)",
+              "description": "Single ensuite room, within walking distance.",
+              "supplements": {
+                "Cleaning Supplement": "\u00a322.50/week"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u00a395",
+            "accommodation_booking_fee": "\u00a350"
+          }
+        },
+        {
+          "city": "Brighton (Summer Accommodation)",
+          "country": "GB",
+          "address": "Brighton Summer Accommodation, Specific to course location",
+          "courses": [
+            {
+              "name": "Summer English Programme",
+              "lessons_per_week": 20,
+              "description": "English improvement course during summer seasons.",
+              "prices": [
+                {
+                  "duration": "Summer only",
+                  "price": "\u00a3350",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Residence",
+              "price_per_week": "\u00a3350 (1-11 weeks)",
+              "description": "Summer availability residence standard single ensuite.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "material_fee": "\u00a37"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required prior to arrival date."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater Bournemouth",
+      "locations": [
+        {
+          "city": "Bournemouth",
+          "country": "GB",
+          "address": "St Peters Quarter, Bournemouth BH1 2AD",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "General English course with 20 lessons per week, starting every Monday.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "\u00a3275",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "\u00a3250",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u00a3230",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive General English",
+              "lessons_per_week": 25,
+              "description": "Intensive General English course with additional lessons.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "\u00a3305",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "\u00a3275",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u00a3250",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Super Intensive General English",
+              "lessons_per_week": 30,
+              "description": "Super intensive English course for quicker progress.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "\u00a3345",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "\u00a3330",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u00a3295",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Professional Course: International Business Management",
+              "lessons_per_week": 0,
+              "description": "A professional course focusing on international business management.",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a32,100",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Minimum B1+"
+            },
+            {
+              "name": "Professional Course: Customer Experience Management",
+              "lessons_per_week": 0,
+              "description": "A professional course focused on customer experience management.",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a32,100",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Minimum B1+"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u00a3155-\u00a3200",
+              "description": "Single room with half board; availability on request.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "\u00a385"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation_policy": "Terms apply, inquire with the school for full details."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater Bournemouth Language School",
+      "locations": [
+        {
+          "city": "Bournemouth",
+          "country": "GB",
+          "address": "51-65 Holdenhurst Rd, Bournemouth BH8 8GN",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Homestay (Single, Shared Bathroom)",
+              "price_per_week": "\u00a3160-\u00a3190 (Bed & Breakfast/Half Board)",
+              "description": "Includes private rooms at local residences.",
+              "supplements": {
+                "Special Supplements": "\u00a325-\u00a345/week (Special Diets, Private Bathrooms)"
+              }
+            },
+            {
+              "type": "Residences (Single Ensuire)",
+              "price_per_week": "\u00a3240-\u00a3275",
+              "description": "Room and breakfast accommodation in the residence",
+              "supplements": {
+                "Summer Supplement": "\u00a340/week for packed lunch"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "\u00a395",
+            "accommodation_booking_fee": "\u00a350",
+            "transfer_fees": "\u00a365-\u00a3290"
+          }
+        }
+      ],
+      "terms": {
+        "notice_period": "14 days required for cancellation"
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater Vancouver",
+      "locations": [
+        {
+          "city": "Vancouver",
+          "country": "CA",
+          "address": "549 Howe Street, 9th Floor, Vancouver, BC, Canada, V6C 2C2",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "General English course covering a variety of language skills.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "390",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "370",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "330",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive General English",
+              "lessons_per_week": 25,
+              "description": "Intensive language learning classes.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "440",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "425",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "390",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Super Intensive General English",
+              "lessons_per_week": 30,
+              "description": "A super intensive course for fast-paced learning.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "485",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "470",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "430",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "Minimum 14 days notice required for cancellation."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater Language School",
+      "locations": [
+        {
+          "city": "Vancouver",
+          "country": "CA",
+          "address": "549 Howe Street, 9th Floor, Vancouver, British Columbia, V6C 2C2",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "$330",
+              "description": "Single Room, Shared Bathroom, Off site, Half Board or Full Board options",
+              "supplements": {
+                "Summer Supplement (Jun 01-Aug 30)": "+$50/week",
+                "Dietary Supplement": "+$30/week",
+                "Minor Fee for under 19s": "+$60/week"
+              }
+            },
+            {
+              "type": "Residence",
+              "price_per_week": "$330-$550",
+              "description": "Shared/Private Bathroom, Twin/Single Room, Self-catering.",
+              "supplements": {
+                "Security Deposit Standard Room (Refundable)": "$330",
+                "Security Deposit Premium Room (Refundable)": "$400",
+                "Amenities Fee Standard Room (Non-refundable)": "$84",
+                "Amenities Fee Premium Room (Non-refundable)": "$210"
+              }
+            },
+            {
+              "type": "Airport Transfer",
+              "price_per_week": "$175",
+              "description": "Airport pickup any time (Vancouver International)",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "$190",
+            "diploma_registration_fee": "$175",
+            "accommodation_booking_fee": "$275",
+            "bank_charges": "$35",
+            "exam_fees": "$365",
+            "work_placement_programme_fee": "$1500",
+            "professional_course_material_fee": "$40",
+            "insurance": "$25/week",
+            "materials_fee": "$10/week"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Conditions apply"
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater - Toronto",
+      "locations": [
+        {
+          "city": "Toronto",
+          "country": "CA",
+          "address": "5 Park Home Ave, 6th floor, North York, Toronto ON M2N 6L4",
+          "courses": [
+            {
+              "name": "General English: Standard",
+              "lessons_per_week": 20,
+              "description": "Standard general English course.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "$390",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "$370",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "$330",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "General English: Intensive",
+              "lessons_per_week": 25,
+              "description": "Intensive general English course.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "$440",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "$425",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "$390",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "General English: Super Intensive",
+              "lessons_per_week": 30,
+              "description": "Super intensive general English course.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "$485",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "$470",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "$430",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "University Pathway Program",
+              "lessons_per_week": 30,
+              "description": "Preparation program for university admission.",
+              "prices": [
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "$470",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "$430",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Cambridge Exam Intensive",
+              "lessons_per_week": 25,
+              "description": "Preparation for Cambridge exams FCE/CAE.",
+              "prices": [
+                {
+                  "duration": "8 weeks",
+                  "price": "$3,520",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "11 weeks",
+                  "price": "$4,840",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "12 weeks",
+                  "price": "$5,100",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": "Minimum level for FIRST: B2 (Bayswater), and Advanced level: C1 (Bayswater)."
+            },
+            {
+              "name": "Cambridge Exam Super Intensive",
+              "lessons_per_week": 30,
+              "description": "Super intensive preparation for Cambridge exams FCE/CAE.",
+              "prices": [
+                {
+                  "duration": "8 weeks",
+                  "price": "$3,880",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "11 weeks",
+                  "price": "$5,335",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "12 weeks",
+                  "price": "$5,640",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": "Minimum level for FIRST: B2 (Bayswater), and Advanced level: C1 (Bayswater)."
+            },
+            {
+              "name": "Professional - International Business Management",
+              "lessons_per_week": 0,
+              "description": "Specialized course on business management.",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "$2,360",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": "Level 5 (Bayswater) and B1+"
+            },
+            {
+              "name": "Professional - Digital Marketing",
+              "lessons_per_week": 0,
+              "description": "Specialized course on digital marketing.",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "$2,360",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": "Level 5 (Bayswater) and B1+"
+            },
+            {
+              "name": "Professional - Project Management",
+              "lessons_per_week": 0,
+              "description": "Specialized course on project management.",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "$2,360",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": "Level 5 (Bayswater) and B1+"
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {}
+        },
+        {
+          "city": "Toronto - Summer Camp",
+          "country": "CA",
+          "address": "Bayswater Toronto Summer Camp offered.",
+          "courses": [
+            {
+              "name": "Young Learners",
+              "lessons_per_week": 20,
+              "description": "Course for learners aged 12+.",
+              "prices": [
+                {
+                  "duration": "1+ weeks",
+                  "price": "$390",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": "Must be 12 years or older."
+            },
+            {
+              "name": "Parent & Child",
+              "lessons_per_week": 20,
+              "description": "Course for parents and their children aged 12+.",
+              "prices": [
+                {
+                  "duration": "1+ weeks",
+                  "price": "$740",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": "Parents study along with their children."
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "Courses are subject to change. Contact the schools for more details."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater",
+      "locations": [
+        {
+          "city": "Toronto",
+          "country": "CA",
+          "address": "5 Park Home Avenue, 6th floor, Toronto, ON M2N 6L4",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "$320",
+              "description": "Single Room, Shared Bathroom, Full Board",
+              "supplements": {
+                "Summer": "$50/week",
+                "Minor Fee": "$60/week"
+              }
+            },
+            {
+              "type": "Residences",
+              "price_per_week": "$600",
+              "description": "Standard Single Room, Private Bathroom",
+              "supplements": {
+                "Summer Bedding Fee": "$150"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration": "$190",
+            "accommodation_booking_fee": "$275",
+            "exam_fee_Cambridge": "$450",
+            "exam_fee_IELTS": "$400"
+          }
+        }
+      ],
+      "terms": null,
+      "repeat": null
+    },
+    {
+      "name": "Bayswater",
+      "locations": [
+        {
+          "city": "Calgary",
+          "country": "CA",
+          "address": "#100, 840 6 Ave SW, Calgary, AB T2P 3E5, Canada",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "General English course with 15 hours per week focusing on standard lessons.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "$390",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "$370",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "$330",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive",
+              "lessons_per_week": 25,
+              "description": "General English with additional lessons adding up to 18.75 hours per week.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "$440",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "$425",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "$390",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Super Intensive",
+              "lessons_per_week": 30,
+              "description": "General English encompassing a full workload of 22.5 hours per week.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "$485",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "$470",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "$430",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "University Preparation - Pathway Program",
+              "lessons_per_week": 30,
+              "description": "Specialized program preparing students for university-level preparation.",
+              "prices": [
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "$470",
+                  "currency": "USD"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "$430",
+                  "currency": "USD"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "Course schedules are subject to change and availability.",
+        "minimum_age": "Minimum age: 16.",
+        "minimum_stay": "Minimum stay: 1 week.",
+        "start_dates": "Courses start every Monday.",
+        "capacity": "Class size: Max 15, Average 12."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater Calgary",
+      "locations": [
+        {
+          "city": "Calgary",
+          "country": "CA",
+          "address": "#100, 840 6 Ave SW, Calgary, AB T2P 3E5, Canada",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Homestay Age 16+",
+              "price_per_week": "$325 Full Board / $300 Half Board",
+              "description": "Single Room, Shared Bathroom",
+              "supplements": {
+                "Summer": "$50/week (01 Jun - 30 Aug)",
+                "Minor Fee (Students under 18 years old)": "$60 per week",
+                "Dietary Supplement": "$70 per week"
+              }
+            },
+            {
+              "type": "Student Residences Age 18+",
+              "price_per_week": "$330 (2-11 weeks stays)/$300 (12+ weeks stays)",
+              "description": "Standard Single Room with Shared Bathroom",
+              "supplements": {
+                "Refundable Security Deposit": "$200",
+                "Laundry Card": "$2 per load"
+              }
+            }
+          ],
+          "additional_fees": {
+            "Registration Fee": "$190",
+            "Accommodation Booking Fee": "$225",
+            "Bank Charges": "$35",
+            "IELTS Exam Fee": "$365",
+            "Custodianship": "$150",
+            "Professional Courses Materials Fee": "$40",
+            "Work Placement Programme Fee": "$1500",
+            "Weekly Fees": ". Materials: $10, Insurance: $25"
+          }
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Bayswater",
+      "locations": [
+        {
+          "city": "Paris",
+          "country": "FR",
+          "address": "13 Passage Dauphine, 75006 Paris, France",
+          "courses": [
+            {
+              "name": "Standard General French",
+              "lessons_per_week": 20,
+              "description": "General French course with 20 lessons per week.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "\u20ac350",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "\u20ac310",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u20ac260",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive General French",
+              "lessons_per_week": 25,
+              "description": "Intensive General French course with 25 lessons per week.",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "\u20ac399",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "\u20ac360",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u20ac310",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "French Plus Add-ons (One-to-One Lessons)",
+              "lessons_per_week": 5,
+              "description": "Additional one-to-one lessons to complement your course.",
+              "prices": [
+                {
+                  "duration": "Custom Packages",
+                  "price": "\u20ac375",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Family Options - Young Learner (age 10+)",
+              "lessons_per_week": 0,
+              "description": "For young learners aged 10+.",
+              "prices": [
+                {
+                  "duration": "1+ weeks",
+                  "price": "\u20ac350",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Family Options - Parent & Child (age 10+)",
+              "lessons_per_week": 0,
+              "description": "For parents and children aged 10+",
+              "prices": [
+                {
+                  "duration": "1+ weeks",
+                  "price": "\u20ac620",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "DELF/DALF Exam Preparation",
+              "lessons_per_week": 25,
+              "description": "Exam preparation module for DELF/DALF.",
+              "prices": [
+                {
+                  "duration": "2 to 4 weeks",
+                  "price": "\u20ac399",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "registration": "\u20ac85"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Subject to specific conditions. Contact school for details."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater Language School",
+      "locations": [
+        {
+          "city": "Paris",
+          "country": "FR",
+          "address": "13 Passage Dauphine, 75006 Paris, France",
+          "courses": [
+            {
+              "name": "Standard Language Course",
+              "lessons_per_week": 20,
+              "description": "Standard course for language learners.",
+              "prices": [
+                {
+                  "duration": "1 to 4 weeks",
+                  "price": "\u20ac350",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5+ weeks",
+                  "price": "\u20ac325",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Minimum age 16"
+            },
+            {
+              "name": "Premium Language Course",
+              "lessons_per_week": 25,
+              "description": "Premium course with additional lessons for better immersion.",
+              "prices": [
+                {
+                  "duration": "1 to 4 weeks",
+                  "price": "\u20ac745",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5+ weeks",
+                  "price": "\u20ac545",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Minimum age 16"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac295 to \u20ac390",
+              "description": "Available in various board types like bed & breakfast, semi board, and half board with supplements available.",
+              "supplements": {
+                "Dietary Supplement": "\u20ac55-75/week",
+                "Private Bathroom Supplement": "\u20ac75/week"
+              }
+            },
+            {
+              "type": "Residence",
+              "price_per_week": "\u20ac350 to \u20ac745",
+              "description": "Studio apartments with self-catering options.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "\u20ac95",
+            "exam_fees": "\u20ac225 to \u20ac280",
+            "materials_fee": "\u20ac7",
+            "airport_transfers": "\u20ac90-115"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Fees are non-refundable after start date, 14-day notice required for cancellation."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater",
+      "locations": [
+        {
+          "city": "Cape Town",
+          "country": "ZA",
+          "address": "40 Shortmarket Street, Leadership House Building, 1st Floor, Cape Town, 8001, South Africa",
+          "courses": [
+            {
+              "name": "Standard English",
+              "lessons_per_week": 20,
+              "description": "General English and IELTS Preparation, morning classes",
+              "prices": [
+                {
+                  "duration": "1-11 weeks",
+                  "price": "\u20ac275",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac235",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u20ac215",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Minimum age: 16"
+            },
+            {
+              "name": "Intensive English",
+              "lessons_per_week": 25,
+              "description": "General English and IELTS Preparation, intensive study",
+              "prices": [
+                {
+                  "duration": "1-11 weeks",
+                  "price": "\u20ac330",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac285",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u20ac250",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Minimum age: 16"
+            },
+            {
+              "name": "Super Intensive English",
+              "lessons_per_week": 30,
+              "description": "General English and IELTS Preparation, super-intensive study",
+              "prices": [
+                {
+                  "duration": "1-11 weeks",
+                  "price": "\u20ac370",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac330",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u20ac285",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Minimum age: 16"
+            },
+            {
+              "name": "Cambridge Exam Preparation (Intensive)",
+              "lessons_per_week": 25,
+              "description": "First (FCE) and Advanced (CAE) preparation course",
+              "prices": [
+                {
+                  "duration": "10 weeks",
+                  "price": "\u20ac3,300",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12 weeks",
+                  "price": "\u20ac3,420",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Minimum B2 Level for FCE, C1 Level for CAE"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac280",
+              "description": "Single Room, Half-Board, all-year available",
+              "supplements": null
+            },
+            {
+              "type": "Student Residence",
+              "price_per_week": "\u20ac300",
+              "description": "Full board, shared accommodation",
+              "supplements": null
+            }
+          ],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required"
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater",
+      "locations": [
+        {
+          "city": "Cape Town",
+          "country": "ZA",
+          "address": "106 Adderley St, Cape Town, City Centre, Cape Town, 8001",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "General English course for all levels.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac250",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac215",
+              "description": "Single Room with Shared Bathroom, Half Board",
+              "supplements": {
+                "Dietary Supplement": "\u20ac50 per week"
+              }
+            },
+            {
+              "type": "Residences",
+              "price_per_week": "\u20ac300",
+              "description": "Premium Single En suite, Self-catering",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u20ac75",
+            "accommodation_booking_fee": "\u20ac55",
+            "bank_charges": "\u20ac12"
+          }
+        }
+      ],
+      "terms": null,
+      "repeat": null
+    },
+    {
+      "name": "Bayswater Language School",
+      "locations": [
+        {
+          "city": "Limassol",
+          "country": "CY",
+          "address": "138 Vasileos Constantinou, Limassol, 3080",
+          "courses": [
+            {
+              "name": "Standard English",
+              "lessons_per_week": 20,
+              "description": "General English classes",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "\u20ac270",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "\u20ac225",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u20ac190",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive English",
+              "lessons_per_week": 25,
+              "description": "An intensive English course",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "\u20ac325",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "\u20ac260",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u20ac220",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Minimum level B2 (CEFR)"
+            },
+            {
+              "name": "Combination Course",
+              "lessons_per_week": 30,
+              "description": "A mix of courses for comprehensive learning",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "\u20ac600",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12 to 23 weeks",
+                  "price": "\u20ac535",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u20ac495",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Combination of Standard English with specific modules"
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "Notice required as per school policy"
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater Cyprus",
+      "locations": [
+        {
+          "city": "Limassol",
+          "country": "CY",
+          "address": "138 Vasileos Constantinou, Limassol, Cyprus",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Hotel Age 18+",
+              "price_per_week": "\u20ac380 (Winter); \u20ac490 (Summer)",
+              "description": "Standard Single En Suite BB",
+              "supplements": null
+            },
+            {
+              "type": "Apartment Age 18+",
+              "price_per_week": "\u20ac440 (Winter); \u20ac525 (Summer)",
+              "description": "Standard Single En Suite SC",
+              "supplements": null
+            },
+            {
+              "type": "Homestay Age 16+",
+              "price_per_week": "\u20ac220 (B&B); \u20ac270 (HB)",
+              "description": "Single room shared bathroom",
+              "supplements": {
+                "Summer Supplement (1 Jun-31 Aug)": "\u20ac45",
+                "Dietary Supplement": "\u20ac30"
+              }
+            },
+            {
+              "type": "Summer Standard Residence Age 18+",
+              "price_per_week": "\u20ac310",
+              "description": "1 Bed-studio SC",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u20ac75",
+            "accommodation_booking_fee": "\u20ac55",
+            "bayswater_cyprus_shuttle_bus_per_week": "\u20ac110 (3-4 people); \u20ac90 (1-2 people)",
+            "credit_card_fee": "1.5%",
+            "materials_fee": "\u20ac7"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Subject to prior notice as per the institution's policies."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater College",
+      "locations": [
+        {
+          "city": "London",
+          "country": "GB",
+          "address": "167 Queensway, London W2 4SB",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    }
+  ],
+  "merged_results": {
+    "name": "Bayswater Language School",
+    "locations": [
+      {
+        "city": "London",
+        "country": "UK",
+        "address": "123 Bayswater Road, London, UK",
+        "courses": [
+          {
+            "name": "General English",
+            "lessons_per_week": 20,
+            "description": "Improve your English proficiency in all areas.",
+            "prices": [
+              {
+                "duration": "2 weeks",
+                "price": "\u00a3500",
+                "currency": "GBP"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "\u00a3900",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Intermediate or above"
+          },
+          {
+            "name": "Advanced Professional Skills",
+            "lessons_per_week": 20,
+            "description": "Course that focuses on enhancing practical professional skills needed in various industries.",
+            "prices": [
+              {
+                "duration": "2-6 weeks",
+                "price": "\u00a3450",
+                "currency": "GBP"
+              },
+              {
+                "duration": "7-12 weeks",
+                "price": "\u00a3420",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Intermediate level of English."
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u00a3200",
+            "description": "Stay with a local family. Includes breakfast and dinner.",
+            "supplements": null
+          },
+          {
+            "type": "Host Family",
+            "price_per_week": "\u00a3150",
+            "description": "Stay with a British family.",
+            "supplements": null
+          },
+          {
+            "type": "Student Apartment",
+            "price_per_week": "\u00a3220",
+            "description": "Share an apartment with other students.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u00a350",
+          "registration_fee": "\u00a350",
+          "material_fee": "\u00a330"
+        }
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "address": "To Be Confirmed",
+        "courses": [
+          {
+            "name": "General English",
+            "lessons_per_week": 20,
+            "description": "Learn English for everyday use, improving speaking, listening, reading, and writing.",
+            "prices": [
+              {
+                "duration": "2 weeks",
+                "price": "\u00a3450",
+                "currency": "GBP"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "\u00a3860",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Beginner to Advanced learners"
+          },
+          {
+            "name": "IELTS Preparation",
+            "lessons_per_week": 25,
+            "description": "Specialized course for IELTS test readiness.",
+            "prices": [
+              {
+                "duration": "2 weeks",
+                "price": "\u00a3500",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Intermediate to advanced"
+          },
+          {
+            "name": "Business English",
+            "lessons_per_week": 20,
+            "description": "Focused on English usage in business contexts.",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "\u00a3920",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Intermediate level or higher"
+          },
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "General English lessons focusing on improving speaking, listening, reading, and writing",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "360",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "325",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "285",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive English",
+            "lessons_per_week": 25,
+            "description": "An intensive English course for quicker progression",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "405",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "360",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "315",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Super Intensive English",
+            "lessons_per_week": 30,
+            "description": "Super-intensive English for fast track improvement",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "450",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "405",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "360",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Family English - Young Learner",
+            "lessons_per_week": 20,
+            "description": "Courses designed for young learners",
+            "prices": [
+              {
+                "duration": "1+ weeks",
+                "price": "360",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Family English - Parent & Child",
+            "lessons_per_week": 20,
+            "description": "Courses designed for families",
+            "prices": [
+              {
+                "duration": "1+ weeks",
+                "price": "650",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Family English - Day Camp",
+            "lessons_per_week": 20,
+            "description": "Day Camp for children aged 12-17",
+            "prices": [
+              {
+                "duration": "1+ weeks",
+                "price": "565",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge Exam Preparation - Standard",
+            "lessons_per_week": 20,
+            "description": "Preparation for Cambridge Exams at Standard level",
+            "prices": [
+              {
+                "duration": "8 weeks",
+                "price": "2880",
+                "currency": "GBP"
+              },
+              {
+                "duration": "10 weeks",
+                "price": "3600",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge Exam Preparation - Intensive",
+            "lessons_per_week": 25,
+            "description": "Preparation for Cambridge Exams at Intensive level",
+            "prices": [
+              {
+                "duration": "8 weeks",
+                "price": "3240",
+                "currency": "GBP"
+              },
+              {
+                "duration": "10 weeks",
+                "price": "4500",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge Exam Preparation - Super Intensive",
+            "lessons_per_week": 30,
+            "description": "Preparation for Cambridge Exams at Super Intensive level",
+            "prices": [
+              {
+                "duration": "8 weeks",
+                "price": "3600",
+                "currency": "GBP"
+              },
+              {
+                "duration": "10 weeks",
+                "price": "4500",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Professional - Digital Marketing",
+            "lessons_per_week": -1,
+            "description": "Digital marketing course to enhance your professional skills",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "2100",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Level 5 (Bayswater)/ B1+ (CEFR)"
+          },
+          {
+            "name": "Professional - International Business Management",
+            "lessons_per_week": -1,
+            "description": "Business management course for the international market",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "2100",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Level 5 (Bayswater)/ B1+ (CEFR)"
+          },
+          {
+            "name": "Professional - Luxury Brand Management",
+            "lessons_per_week": -1,
+            "description": "Training course focusing on managing luxury brands",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "2100",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Level 5 (Bayswater)/ B1+ (CEFR)"
+          },
+          {
+            "name": "Professional - Customer Experience Management",
+            "lessons_per_week": -1,
+            "description": "Improving professional skills in managing customer experiences",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "2100",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Level 5 (Bayswater)/ B1+ (CEFR)"
+          },
+          {
+            "name": "Premium Package",
+            "lessons_per_week": 30,
+            "description": "Combined Professional and English courses for comprehensive training",
+            "prices": [
+              {
+                "duration": "8 weeks",
+                "price": "3310",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12 weeks",
+                "price": "4530",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24 weeks",
+                "price": "8000",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36 weeks",
+                "price": "11430",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "from \u00a3230",
+            "description": "Single or twin rooms, shared bathroom",
+            "supplements": {
+              "Summer Supplement": "\u00a330/week",
+              "Christmas Supplement": "\u00a350/week",
+              "Private Bathroom (where available)": "\u00a345/week",
+              "Dietary Supplement": "\u00a325-45/week",
+              "Under 18 Supplement": "\u00a320/week"
+            }
+          },
+          {
+            "type": "Student Residence",
+            "price_per_week": "\u00a3350",
+            "description": "Self-catering, en-suite room.",
+            "supplements": null
+          },
+          {
+            "type": "Residences Age 18+",
+            "price_per_week": "from \u00a3425",
+            "description": "Standard and premium studio or en-suite",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "Registration Fee": "\u00a350",
+          "Materials Fee": "\u00a330",
+          "registration": "\u00a395",
+          "accommodation booking fee": "\u00a350",
+          "bank charges": "\u00a312",
+          "exam fees": "from \u00a3225",
+          "professional course materials": "\u00a328",
+          "work placement programme fee": "\u00a31,000"
+        }
+      },
+      {
+        "city": "Liverpool",
+        "country": "UK",
+        "address": "42-46 Whitechapel, Liverpool L1 6DS",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "General English classes focused on core language skills.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "\u00a3275",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "\u00a3250",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u00a3230",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive General English",
+            "lessons_per_week": 25,
+            "description": "Comprehensive English language studies.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "\u00a3305",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "\u00a3275",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u00a3250",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Professional Course: Digital Marketing",
+            "lessons_per_week": 0,
+            "description": "Specialist digital marketing course.",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "\u00a32100",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Level B1+/B2 in English"
+          },
+          {
+            "name": "Premium Package",
+            "lessons_per_week": 0,
+            "description": "Combined English and professional courses.",
+            "prices": [
+              {
+                "duration": "8 weeks",
+                "price": "\u00a33310",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u00a3150",
+            "description": "Single room, half board.",
+            "supplements": {
+              "Summer Fee": "\u00a325/week"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration_fee": "\u00a350"
+        }
+      },
+      {
+        "city": "Liverpool",
+        "country": "GB",
+        "address": "42-46 Whitechapel, Liverpool L1 6DS",
+        "courses": [],
+        "accommodations": [
+          {
+            "type": "Homestay 16+",
+            "price_per_week": "\u00a3175-\u00a3200",
+            "description": "Single room with shared bathroom, varying meal plans.",
+            "supplements": {
+              "Summer": "\u00a330/week",
+              "Christmas": "\u00a350/week",
+              "Private Bathroom": "\u00a345/week",
+              "Dietary": "\u00a335/week",
+              "Under 18": "\u00a320/week"
+            }
+          },
+          {
+            "type": "Residences 18+",
+            "price_per_week": "\u00a3165-\u00a3205",
+            "description": "Different options like Budget, Standard, and Premium Single En Suites.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u00a395",
+          "accommodation_booking": "\u00a350",
+          "bank_charges": "\u00a312",
+          "professional_materials": "\u00a328/4 weeks",
+          "work_placement": "\u00a31000",
+          "materials_fee": "\u00a37/week",
+          "insurance": "\u00a38/week"
+        }
+      },
+      {
+        "city": "Brighton",
+        "country": "GB",
+        "address": "61 Western Rd, Hove BN3 1JD",
+        "courses": [
+          {
+            "name": "General English - Standard",
+            "lessons_per_week": 20,
+            "description": "Standard English lessons.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "\u00a3330",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "\u00a3295",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u00a3255",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Minimum age 16"
+          },
+          {
+            "name": "Cambridge Exam Preparation - Standard",
+            "lessons_per_week": 20,
+            "description": "Preparation for Cambridge exam.",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "\u00a31,200",
+                "currency": "GBP"
+              },
+              {
+                "duration": "10 weeks",
+                "price": "\u00a33,000",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Level B2 (Baywater 8)"
+          },
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "General English course for improving everyday language skills.",
+            "prices": [
+              {
+                "duration": "1-11 weeks",
+                "price": "\u00a3350",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12+ weeks",
+                "price": "\u00a3325",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u00a3165 (B&B), \u00a3210 (Half Board)",
+            "description": "Single room shared bathroom, bus transfer available.",
+            "supplements": {
+              "Summer Supplement": "\u00a330/week",
+              "Private Bathroom": "\u00a380/week"
+            }
+          },
+          {
+            "type": "Residence",
+            "price_per_week": "\u00a3350 (1-11 weeks), \u00a3325 (12+ weeks)",
+            "description": "Single ensuite room, within walking distance.",
+            "supplements": {
+              "Cleaning Supplement": "\u00a322.50/week"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u00a395",
+          "books": "\u00a330",
+          "accommodation_booking_fee": "\u00a350"
+        }
+      },
+      {
+        "city": "Brighton (Summer Accommodation)",
+        "country": "GB",
+        "address": "Brighton Summer Accommodation, Specific to course location",
+        "courses": [
+          {
+            "name": "Summer English Programme",
+            "lessons_per_week": 20,
+            "description": "English improvement course during summer seasons.",
+            "prices": [
+              {
+                "duration": "Summer only",
+                "price": "\u00a3350",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Residence",
+            "price_per_week": "\u00a3350 (1-11 weeks)",
+            "description": "Summer availability residence standard single ensuite.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "material_fee": "\u00a37"
+        }
+      },
+      {
+        "city": "Bournemouth",
+        "country": "GB",
+        "address": "St Peters Quarter, Bournemouth BH1 2AD",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "General English course with 20 lessons per week, starting every Monday.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "\u00a3275",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "\u00a3250",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u00a3230",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive General English",
+            "lessons_per_week": 25,
+            "description": "Intensive General English course with additional lessons.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "\u00a3305",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "\u00a3275",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u00a3250",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Super Intensive General English",
+            "lessons_per_week": 30,
+            "description": "Super intensive English course for quicker progress.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "\u00a3345",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "\u00a3330",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u00a3295",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Professional Course: International Business Management",
+            "lessons_per_week": 0,
+            "description": "A professional course focusing on international business management.",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "\u00a32,100",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Minimum B1+"
+          },
+          {
+            "name": "Professional Course: Customer Experience Management",
+            "lessons_per_week": 0,
+            "description": "A professional course focused on customer experience management.",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "\u00a32,100",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Minimum B1+"
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u00a3155-\u00a3200",
+            "description": "Single room with half board; availability on request.",
+            "supplements": null
+          },
+          {
+            "type": "Homestay (Single, Shared Bathroom)",
+            "price_per_week": "\u00a3160-\u00a3190 (Bed & Breakfast/Half Board)",
+            "description": "Includes private rooms at local residences.",
+            "supplements": {
+              "Special Supplements": "\u00a325-\u00a345/week (Special Diets, Private Bathrooms)"
+            }
+          },
+          {
+            "type": "Residences (Single Ensuire)",
+            "price_per_week": "\u00a3240-\u00a3275",
+            "description": "Room and breakfast accommodation in the residence",
+            "supplements": {
+              "Summer Supplement": "\u00a340/week for packed lunch"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration_fee": "\u00a395",
+          "accommodation_booking_fee": "\u00a350",
+          "transfer_fees": "\u00a365-\u00a3290"
+        }
+      },
+      {
+        "city": "Vancouver",
+        "country": "CA",
+        "address": "549 Howe Street, 9th Floor, Vancouver, BC, Canada, V6C 2C2",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "General English course covering a variety of language skills.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "390",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "370",
+                "currency": "USD"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "330",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive General English",
+            "lessons_per_week": 25,
+            "description": "Intensive language learning classes.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "440",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "425",
+                "currency": "USD"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "390",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Super Intensive General English",
+            "lessons_per_week": 30,
+            "description": "A super intensive course for fast-paced learning.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "485",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "470",
+                "currency": "USD"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "430",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "$330",
+            "description": "Single Room, Shared Bathroom, Off site, Half Board or Full Board options",
+            "supplements": {
+              "Summer Supplement (Jun 01-Aug 30)": "+$50/week",
+              "Dietary Supplement": "+$30/week",
+              "Minor Fee for under 19s": "+$60/week"
+            }
+          },
+          {
+            "type": "Residence",
+            "price_per_week": "$330-$550",
+            "description": "Shared/Private Bathroom, Twin/Single Room, Self-catering.",
+            "supplements": {
+              "Security Deposit Standard Room (Refundable)": "$330",
+              "Security Deposit Premium Room (Refundable)": "$400",
+              "Amenities Fee Standard Room (Non-refundable)": "$84",
+              "Amenities Fee Premium Room (Non-refundable)": "$210"
+            }
+          },
+          {
+            "type": "Airport Transfer",
+            "price_per_week": "$175",
+            "description": "Airport pickup any time (Vancouver International)",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "$190",
+          "diploma_registration_fee": "$175",
+          "accommodation_booking_fee": "$275",
+          "bank_charges": "$35",
+          "exam_fees": "$365",
+          "work_placement_programme_fee": "$1500",
+          "professional_course_material_fee": "$40",
+          "insurance": "$25/week",
+          "materials_fee": "$10/week"
+        }
+      },
+      {
+        "city": "Toronto",
+        "country": "CA",
+        "address": "5 Park Home Ave, 6th floor, North York, Toronto ON M2N 6L4",
+        "courses": [
+          {
+            "name": "General English: Standard",
+            "lessons_per_week": 20,
+            "description": "Standard general English course.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "$390",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "$370",
+                "currency": "USD"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "$330",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "General English: Intensive",
+            "lessons_per_week": 25,
+            "description": "Intensive general English course.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "$440",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "$425",
+                "currency": "USD"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "$390",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "General English: Super Intensive",
+            "lessons_per_week": 30,
+            "description": "Super intensive general English course.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "$485",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "$470",
+                "currency": "USD"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "$430",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "University Pathway Program",
+            "lessons_per_week": 30,
+            "description": "Preparation program for university admission.",
+            "prices": [
+              {
+                "duration": "12 to 23 weeks",
+                "price": "$470",
+                "currency": "USD"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "$430",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge Exam Intensive",
+            "lessons_per_week": 25,
+            "description": "Preparation for Cambridge exams FCE/CAE.",
+            "prices": [
+              {
+                "duration": "8 weeks",
+                "price": "$3,520",
+                "currency": "USD"
+              },
+              {
+                "duration": "11 weeks",
+                "price": "$4,840",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 weeks",
+                "price": "$5,100",
+                "currency": "USD"
+              }
+            ],
+            "requirements": "Minimum level for FIRST: B2 (Bayswater), and Advanced level: C1 (Bayswater)."
+          },
+          {
+            "name": "Cambridge Exam Super Intensive",
+            "lessons_per_week": 30,
+            "description": "Super intensive preparation for Cambridge exams FCE/CAE.",
+            "prices": [
+              {
+                "duration": "8 weeks",
+                "price": "$3,880",
+                "currency": "USD"
+              },
+              {
+                "duration": "11 weeks",
+                "price": "$5,335",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 weeks",
+                "price": "$5,640",
+                "currency": "USD"
+              }
+            ],
+            "requirements": "Minimum level for FIRST: B2 (Bayswater), and Advanced level: C1 (Bayswater)."
+          },
+          {
+            "name": "Professional - International Business Management",
+            "lessons_per_week": 0,
+            "description": "Specialized course on business management.",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "$2,360",
+                "currency": "USD"
+              }
+            ],
+            "requirements": "Level 5 (Bayswater) and B1+"
+          },
+          {
+            "name": "Professional - Digital Marketing",
+            "lessons_per_week": 0,
+            "description": "Specialized course on digital marketing.",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "$2,360",
+                "currency": "USD"
+              }
+            ],
+            "requirements": "Level 5 (Bayswater) and B1+"
+          },
+          {
+            "name": "Professional - Project Management",
+            "lessons_per_week": 0,
+            "description": "Specialized course on project management.",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "$2,360",
+                "currency": "USD"
+              }
+            ],
+            "requirements": "Level 5 (Bayswater) and B1+"
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "$320",
+            "description": "Single Room, Shared Bathroom, Full Board",
+            "supplements": {
+              "Summer": "$50/week",
+              "Minor Fee": "$60/week"
+            }
+          },
+          {
+            "type": "Residences",
+            "price_per_week": "$600",
+            "description": "Standard Single Room, Private Bathroom",
+            "supplements": {
+              "Summer Bedding Fee": "$150"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration": "$190",
+          "accommodation_booking_fee": "$275",
+          "exam_fee_Cambridge": "$450",
+          "exam_fee_IELTS": "$400"
+        }
+      },
+      {
+        "city": "Toronto - Summer Camp",
+        "country": "CA",
+        "address": "Bayswater Toronto Summer Camp offered.",
+        "courses": [
+          {
+            "name": "Young Learners",
+            "lessons_per_week": 20,
+            "description": "Course for learners aged 12+.",
+            "prices": [
+              {
+                "duration": "1+ weeks",
+                "price": "$390",
+                "currency": "USD"
+              }
+            ],
+            "requirements": "Must be 12 years or older."
+          },
+          {
+            "name": "Parent & Child",
+            "lessons_per_week": 20,
+            "description": "Course for parents and their children aged 12+.",
+            "prices": [
+              {
+                "duration": "1+ weeks",
+                "price": "$740",
+                "currency": "USD"
+              }
+            ],
+            "requirements": "Parents study along with their children."
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": null
+      },
+      {
+        "city": "Calgary",
+        "country": "CA",
+        "address": "#100, 840 6 Ave SW, Calgary, AB T2P 3E5, Canada",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "General English course with 15 hours per week focusing on standard lessons.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "$390",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "$370",
+                "currency": "USD"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "$330",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive",
+            "lessons_per_week": 25,
+            "description": "General English with additional lessons adding up to 18.75 hours per week.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "$440",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "$425",
+                "currency": "USD"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "$390",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Super Intensive",
+            "lessons_per_week": 30,
+            "description": "General English encompassing a full workload of 22.5 hours per week.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "$485",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "$470",
+                "currency": "USD"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "$430",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "University Preparation - Pathway Program",
+            "lessons_per_week": 30,
+            "description": "Specialized program preparing students for university-level preparation.",
+            "prices": [
+              {
+                "duration": "12 to 23 weeks",
+                "price": "$470",
+                "currency": "USD"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "$430",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay Age 16+",
+            "price_per_week": "$325 Full Board / $300 Half Board",
+            "description": "Single Room, Shared Bathroom",
+            "supplements": {
+              "Summer": "$50/week (01 Jun - 30 Aug)",
+              "Minor Fee (Students under 18 years old)": "$60 per week",
+              "Dietary Supplement": "$70 per week"
+            }
+          },
+          {
+            "type": "Student Residences Age 18+",
+            "price_per_week": "$330 (2-11 weeks stays)/$300 (12+ weeks stays)",
+            "description": "Standard Single Room with Shared Bathroom",
+            "supplements": {
+              "Refundable Security Deposit": "$200",
+              "Laundry Card": "$2 per load"
+            }
+          }
+        ],
+        "additional_fees": {
+          "Registration Fee": "$190",
+          "Accommodation Booking Fee": "$225",
+          "Bank Charges": "$35",
+          "IELTS Exam Fee": "$365",
+          "Custodianship": "$150",
+          "Professional Courses Materials Fee": "$40",
+          "Work Placement Programme Fee": "$1500",
+          "Weekly Fees": ". Materials: $10, Insurance: $25"
+        }
+      },
+      {
+        "city": "Paris",
+        "country": "FR",
+        "address": "13 Passage Dauphine, 75006 Paris, France",
+        "courses": [
+          {
+            "name": "Standard General French",
+            "lessons_per_week": 20,
+            "description": "General French course with 20 lessons per week.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "\u20ac350",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "\u20ac310",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u20ac260",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive General French",
+            "lessons_per_week": 25,
+            "description": "Intensive General French course with 25 lessons per week.",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "\u20ac399",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "\u20ac360",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u20ac310",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "French Plus Add-ons (One-to-One Lessons)",
+            "lessons_per_week": 5,
+            "description": "Additional one-to-one lessons to complement your course.",
+            "prices": [
+              {
+                "duration": "Custom Packages",
+                "price": "\u20ac375",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Family Options - Young Learner (age 10+)",
+            "lessons_per_week": 0,
+            "description": "For young learners aged 10+.",
+            "prices": [
+              {
+                "duration": "1+ weeks",
+                "price": "\u20ac350",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Family Options - Parent & Child (age 10+)",
+            "lessons_per_week": 0,
+            "description": "For parents and children aged 10+",
+            "prices": [
+              {
+                "duration": "1+ weeks",
+                "price": "\u20ac620",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "DELF/DALF Exam Preparation",
+            "lessons_per_week": 25,
+            "description": "Exam preparation module for DELF/DALF.",
+            "prices": [
+              {
+                "duration": "2 to 4 weeks",
+                "price": "\u20ac399",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Standard Language Course",
+            "lessons_per_week": 20,
+            "description": "Standard course for language learners.",
+            "prices": [
+              {
+                "duration": "1 to 4 weeks",
+                "price": "\u20ac350",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5+ weeks",
+                "price": "\u20ac325",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Minimum age 16"
+          },
+          {
+            "name": "Premium Language Course",
+            "lessons_per_week": 25,
+            "description": "Premium course with additional lessons for better immersion.",
+            "prices": [
+              {
+                "duration": "1 to 4 weeks",
+                "price": "\u20ac745",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5+ weeks",
+                "price": "\u20ac545",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Minimum age 16"
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u20ac295 to \u20ac390",
+            "description": "Available in various board types like bed & breakfast, semi board, and half board with supplements available.",
+            "supplements": {
+              "Dietary Supplement": "\u20ac55-75/week",
+              "Private Bathroom Supplement": "\u20ac75/week"
+            }
+          },
+          {
+            "type": "Residence",
+            "price_per_week": "\u20ac350 to \u20ac745",
+            "description": "Studio apartments with self-catering options.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u20ac85",
+          "registration_fee": "\u20ac95",
+          "exam_fees": "\u20ac225 to \u20ac280",
+          "materials_fee": "\u20ac7",
+          "airport_transfers": "\u20ac90-115"
+        }
+      },
+      {
+        "city": "Cape Town",
+        "country": "ZA",
+        "address": "40 Shortmarket Street, Leadership House Building, 1st Floor, Cape Town, 8001, South Africa",
+        "courses": [
+          {
+            "name": "Standard English",
+            "lessons_per_week": 20,
+            "description": "General English and IELTS Preparation, morning classes",
+            "prices": [
+              {
+                "duration": "1-11 weeks",
+                "price": "\u20ac275",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac235",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u20ac215",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Minimum age: 16"
+          },
+          {
+            "name": "Intensive English",
+            "lessons_per_week": 25,
+            "description": "General English and IELTS Preparation, intensive study",
+            "prices": [
+              {
+                "duration": "1-11 weeks",
+                "price": "\u20ac330",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac285",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u20ac250",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Minimum age: 16"
+          },
+          {
+            "name": "Super Intensive English",
+            "lessons_per_week": 30,
+            "description": "General English and IELTS Preparation, super-intensive study",
+            "prices": [
+              {
+                "duration": "1-11 weeks",
+                "price": "\u20ac370",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac330",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u20ac285",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Minimum age: 16"
+          },
+          {
+            "name": "Cambridge Exam Preparation (Intensive)",
+            "lessons_per_week": 25,
+            "description": "First (FCE) and Advanced (CAE) preparation course",
+            "prices": [
+              {
+                "duration": "10 weeks",
+                "price": "\u20ac3,300",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12 weeks",
+                "price": "\u20ac3,420",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Minimum B2 Level for FCE, C1 Level for CAE"
+          },
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "General English course for all levels.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac250",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u20ac215",
+            "description": "Single Room with Shared Bathroom, Half Board",
+            "supplements": {
+              "Dietary Supplement": "\u20ac50 per week"
+            }
+          },
+          {
+            "type": "Student Residence",
+            "price_per_week": "\u20ac300",
+            "description": "Full board, shared accommodation",
+            "supplements": null
+          },
+          {
+            "type": "Residences",
+            "price_per_week": "\u20ac300",
+            "description": "Premium Single En suite, Self-catering",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u20ac75",
+          "accommodation_booking_fee": "\u20ac55",
+          "bank_charges": "\u20ac12"
+        }
+      },
+      {
+        "city": "Limassol",
+        "country": "CY",
+        "address": "138 Vasileos Constantinou, Limassol, 3080",
+        "courses": [
+          {
+            "name": "Standard English",
+            "lessons_per_week": 20,
+            "description": "General English classes",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "\u20ac270",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "\u20ac225",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u20ac190",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive English",
+            "lessons_per_week": 25,
+            "description": "An intensive English course",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "\u20ac325",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "\u20ac260",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u20ac220",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Minimum level B2 (CEFR)"
+          },
+          {
+            "name": "Combination Course",
+            "lessons_per_week": 30,
+            "description": "A mix of courses for comprehensive learning",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "\u20ac600",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12 to 23 weeks",
+                "price": "\u20ac535",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u20ac495",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Combination of Standard English with specific modules"
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Hotel Age 18+",
+            "price_per_week": "\u20ac380 (Winter); \u20ac490 (Summer)",
+            "description": "Standard Single En Suite BB",
+            "supplements": null
+          },
+          {
+            "type": "Apartment Age 18+",
+            "price_per_week": "\u20ac440 (Winter); \u20ac525 (Summer)",
+            "description": "Standard Single En Suite SC",
+            "supplements": null
+          },
+          {
+            "type": "Homestay Age 16+",
+            "price_per_week": "\u20ac220 (B&B); \u20ac270 (HB)",
+            "description": "Single room shared bathroom",
+            "supplements": {
+              "Summer Supplement (1 Jun-31 Aug)": "\u20ac45",
+              "Dietary Supplement": "\u20ac30"
+            }
+          },
+          {
+            "type": "Summer Standard Residence Age 18+",
+            "price_per_week": "\u20ac310",
+            "description": "1 Bed-studio SC",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u20ac75",
+          "accommodation_booking_fee": "\u20ac55",
+          "bayswater_cyprus_shuttle_bus_per_week": "\u20ac110 (3-4 people); \u20ac90 (1-2 people)",
+          "credit_card_fee": "1.5%",
+          "materials_fee": "\u20ac7"
+        }
+      }
+    ],
+    "terms": {
+      "cancellation": "Subject to prior notice as per the institution's policies.",
+      "cancellation_policy": "Terms apply, inquire with the school for full details.",
+      "notice_period": "14 days required for cancellation",
+      "minimum_age": "Minimum age: 16.",
+      "minimum_stay": "Minimum stay: 1 week.",
+      "start_dates": "Courses start every Monday.",
+      "capacity": "Class size: Max 15, Average 12."
+    },
+    "repeat": false
+  }
+}

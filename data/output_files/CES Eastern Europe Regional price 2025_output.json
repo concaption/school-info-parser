@@ -1,0 +1,657 @@
+{
+  "raw_results": [
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Dublin",
+          "country": "IE",
+          "address": "Not Provided",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "Morning classes Mon-Fri",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac284.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac252.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac228.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac185.50",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "+36 weeks",
+                  "price": "\u20ac178.50",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive English",
+              "lessons_per_week": 26,
+              "description": "Morning and afternoon classes",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac340.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac320.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac308.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac241.50",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "+36 weeks",
+                  "price": "\u20ac231.00",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Afternoon English",
+              "lessons_per_week": 15,
+              "description": "Afternoon only classes",
+              "prices": [
+                {
+                  "duration": "full course",
+                  "price": "\u20ac2950.00",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Cork",
+          "country": "IE",
+          "address": "Not Provided",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "Morning classes Mon-Fri",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac228.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac200.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac180.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac140.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "+36 weeks",
+                  "price": "\u20ac133.00",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive English",
+              "lessons_per_week": 26,
+              "description": "Morning and afternoon classes",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac280.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac252.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac232.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac185.50",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "+36 weeks",
+                  "price": "\u20ac178.50",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required"
+      },
+      "repeat": true
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "London",
+          "country": "GB",
+          "address": "Not Provided",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "Classes cover general English skills.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u00a3220.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u00a3212.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u00a3204.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u00a3175.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u00a3168.00",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive English",
+              "lessons_per_week": 26,
+              "description": "A mix of morning and afternoon lessons.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u00a3312.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u00a3296.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u00a3292.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u00a3248.50",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u00a3241.50",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Toronto",
+          "country": "CA",
+          "address": "Not Provided",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "Dedicated English instruction.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "CA$330.00",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "CA$311.25",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "CA$296.25",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "CA$273.75",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "CA$258.75",
+                  "currency": "CAD"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Super Intensive English",
+              "lessons_per_week": 30,
+              "description": "Focus on advanced English skills.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "CA$375.00",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "CA$356.25",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "CA$333.75",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "CA$315.00",
+                  "currency": "CAD"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "CA$300.00",
+                  "currency": "CAD"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required"
+      },
+      "repeat": false
+    }
+  ],
+  "merged_results": {
+    "name": "Centre of English Studies",
+    "locations": [
+      {
+        "city": "Dublin",
+        "country": "IE",
+        "address": "Not Provided",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "Morning classes Mon-Fri",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac284.00",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac252.00",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac228.00",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u20ac185.50",
+                "currency": "EUR"
+              },
+              {
+                "duration": "+36 weeks",
+                "price": "\u20ac178.50",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive English",
+            "lessons_per_week": 26,
+            "description": "Morning and afternoon classes",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac340.00",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac320.00",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac308.00",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u20ac241.50",
+                "currency": "EUR"
+              },
+              {
+                "duration": "+36 weeks",
+                "price": "\u20ac231.00",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Afternoon English",
+            "lessons_per_week": 15,
+            "description": "Afternoon only classes",
+            "prices": [
+              {
+                "duration": "full course",
+                "price": "\u20ac2950.00",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": null
+      },
+      {
+        "city": "Cork",
+        "country": "IE",
+        "address": "Not Provided",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "Morning classes Mon-Fri",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac228.00",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac200.00",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac180.00",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u20ac140.00",
+                "currency": "EUR"
+              },
+              {
+                "duration": "+36 weeks",
+                "price": "\u20ac133.00",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive English",
+            "lessons_per_week": 26,
+            "description": "Morning and afternoon classes",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac280.00",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac252.00",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac232.00",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u20ac185.50",
+                "currency": "EUR"
+              },
+              {
+                "duration": "+36 weeks",
+                "price": "\u20ac178.50",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": null
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "address": "Not Provided",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "Classes cover general English skills.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u00a3220.00",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u00a3212.00",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u00a3204.00",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u00a3175.00",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u00a3168.00",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive English",
+            "lessons_per_week": 26,
+            "description": "A mix of morning and afternoon lessons.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u00a3312.00",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u00a3296.00",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u00a3292.00",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u00a3248.50",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u00a3241.50",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": null
+      },
+      {
+        "city": "Toronto",
+        "country": "CA",
+        "address": "Not Provided",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "Dedicated English instruction.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "CA$330.00",
+                "currency": "CAD"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "CA$311.25",
+                "currency": "CAD"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "CA$296.25",
+                "currency": "CAD"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "CA$273.75",
+                "currency": "CAD"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "CA$258.75",
+                "currency": "CAD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Super Intensive English",
+            "lessons_per_week": 30,
+            "description": "Focus on advanced English skills.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "CA$375.00",
+                "currency": "CAD"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "CA$356.25",
+                "currency": "CAD"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "CA$333.75",
+                "currency": "CAD"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "CA$315.00",
+                "currency": "CAD"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "CA$300.00",
+                "currency": "CAD"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": null
+      }
+    ],
+    "terms": {
+      "cancellation": "14 days notice required"
+    },
+    "repeat": true
+  }
+}

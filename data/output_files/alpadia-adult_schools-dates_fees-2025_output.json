@@ -1,0 +1,1493 @@
+{
+  "raw_results": [
+    {
+      "name": "Alpadia Language Schools",
+      "locations": [
+        {
+          "city": "Berlin",
+          "country": "DE",
+          "address": "Unspecified",
+          "courses": [
+            {
+              "name": "German Language Course",
+              "lessons_per_week": 20,
+              "description": "German course for international students",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac300",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u20ac1000",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac270",
+              "description": "Single room, half board",
+              "supplements": null
+            }
+          ],
+          "additional_fees": null
+        },
+        {
+          "city": "Freiburg",
+          "country": "DE",
+          "address": "Unspecified",
+          "courses": [
+            {
+              "name": "German Language Course",
+              "lessons_per_week": 20,
+              "description": "Learn German in Freiburg with our immersive program",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u20ac600",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Shared Apartment",
+              "price_per_week": "\u20ac350",
+              "description": "Private room, shared amenities",
+              "supplements": null
+            }
+          ],
+          "additional_fees": null
+        },
+        {
+          "city": "Lyon",
+          "country": "FR",
+          "address": "Unspecified",
+          "courses": [
+            {
+              "name": "French Language Course",
+              "lessons_per_week": 25,
+              "description": "Intensive French for all levels",
+              "prices": [
+                {
+                  "duration": "3 weeks",
+                  "price": "\u20ac800",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Residence",
+              "price_per_week": "\u20ac300",
+              "description": "Single room, full board",
+              "supplements": null
+            }
+          ],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "Fees apply for cancellations less than 14 days before start date"
+      },
+      "repeat": false
+    },
+    {
+      "name": "Language Institute Berlin",
+      "locations": [
+        {
+          "city": "Berlin",
+          "country": "DE",
+          "address": "Central Berlin, Germany",
+          "courses": [
+            {
+              "name": "Standard 20 lessons",
+              "lessons_per_week": 20,
+              "description": "20 morning lessons, Monday\u2013Friday",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "180",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2\u20134 weeks",
+                  "price": "175",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5\u20138 weeks",
+                  "price": "160",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Exam Preparation Course",
+              "lessons_per_week": 20,
+              "description": "Preparation for international exams",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "380",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "255",
+              "description": "Single room, half board",
+              "supplements": {
+                "High season": "20 EUR/week"
+              }
+            },
+            {
+              "type": "Apartment",
+              "price_per_week": "360",
+              "description": "Fully equipped apartment",
+              "supplements": {
+                "High season": "30 EUR/week"
+              }
+            }
+          ],
+          "additional_fees": {
+            "application_fee": "90 EUR",
+            "registration_fee": "50 EUR"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation_policy": "Standard school terms apply. Cancellation must occur 14 days prior to the course start date.",
+        "additional_conditions": "High season supplement applies from June 16th to August 16th annually."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Language School Freiburg",
+      "locations": [
+        {
+          "city": "Freiburg",
+          "country": "DE",
+          "address": "[Address Unspecified]",
+          "courses": [
+            {
+              "name": "Standard",
+              "lessons_per_week": 20,
+              "description": "Standard General English course.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "195",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2-3 weeks",
+                  "price": "190 p/week",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4-7 weeks",
+                  "price": "185 p/week",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive",
+              "lessons_per_week": 25,
+              "description": "Intensive Language Course.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "240",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay Full Board",
+              "price_per_week": "360",
+              "description": "Stay with a host family",
+              "supplements": {
+                "Summer Supplement": "20 EUR/week"
+              }
+            },
+            {
+              "type": "Apartment",
+              "price_per_week": "480",
+              "description": "Independent Apartment",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "30 EUR"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Two weeks advanced notice required."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Language School in Lyon",
+      "locations": [
+        {
+          "city": "Lyon",
+          "country": "FR",
+          "address": "Not specified",
+          "courses": [
+            {
+              "name": "Standard",
+              "lessons_per_week": 20,
+              "description": "20 lessons per week - Group course",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac240",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2-3 weeks",
+                  "price": "\u20ac230",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4-7 weeks",
+                  "price": "\u20ac210",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "8-11 weeks",
+                  "price": "\u20ac200",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive",
+              "lessons_per_week": 25,
+              "description": "25 lessons per week - Group course",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac310",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2-3 weeks",
+                  "price": "\u20ac295",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac225",
+              "description": "Room with meals",
+              "supplements": {
+                "details": "Summer fee of \u20ac35 applies during June-August"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u20ac90",
+            "textbook": "\u20ac35"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Refer to school policy",
+        "additional_fees_include": "Service fees and taxes"
+      },
+      "repeat": false
+    },
+    {
+      "name": "Institute in Montreux",
+      "locations": [
+        {
+          "city": "Montreux",
+          "country": "CH",
+          "address": "Montreux, Switzerland",
+          "courses": [
+            {
+              "name": "Standard Course",
+              "lessons_per_week": 20,
+              "description": "Ideal introduction to language learning with 20 lessons per week",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "345",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "4-7 weeks",
+                  "price": "330",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": "None"
+            },
+            {
+              "name": "Premium Course",
+              "lessons_per_week": 30,
+              "description": "Intensive course for flexible schedules",
+              "prices": [
+                {
+                  "duration": "12 weeks",
+                  "price": "9,420",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": "Beginner Level 0+"
+            },
+            {
+              "name": "DELF preparation",
+              "lessons_per_week": 30,
+              "description": "Exam Preparation for DELF B1 and B2",
+              "prices": [
+                {
+                  "duration": "1-8 weeks",
+                  "price": "2,100",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": "Min A2 level"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "310",
+              "description": "Single room with bed and breakfast, Swiss traditional home.",
+              "supplements": {
+                "summer_period": "CHF 35 for July-August"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration": "CHF 125",
+            "insurance_fee": "Mandatory CHF 15+ per week"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "A prior notice of 21 days is required. Insurance required for cancellations."
+      },
+      "repeat": false
+    },
+    {
+      "name": "NICE Language School",
+      "locations": [
+        {
+          "city": "Nice",
+          "country": "FR",
+          "address": "-",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "Morning classes from Monday to Friday.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "325",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2-3 weeks",
+                  "price": "305/week",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4-7 weeks",
+                  "price": "275/week",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "8+ weeks",
+                  "price": "225/week",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive English",
+              "lessons_per_week": 25,
+              "description": "An intensive English course",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "355",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay BnB",
+              "price_per_week": "EUR 325",
+              "description": "Private accommodation with breakfast.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "EUR 50",
+            "extra lesson": "EUR100"
+          }
+        },
+        {
+          "city": "Location2",
+          "country": "Country2",
+          "address": "2nd address .. same format",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "No refund for 14 days-prior nuite"
+      },
+      "repeat": true
+    },
+    {
+      "name": "NICE Language School",
+      "locations": [
+        {
+          "city": "Nice",
+          "country": "FR",
+          "address": "-",
+          "courses": [
+            {
+              "name": "Premium English",
+              "lessons_per_week": 30,
+              "description": "Advanced classes with additional lessons.",
+              "prices": [
+                {
+                  "duration": "2-3 weeks",
+                  "price": "305/week",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4-7 weeks",
+                  "price": "255/week",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "8+ weeks",
+                  "price": "255/week",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "COMB1 English",
+              "lessons_per_week": 20,
+              "description": "Combination of General English and focused sessions.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "345",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2-3 weeks",
+                  "price": "345/week",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4+ weeks",
+                  "price": "305/week",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Residence",
+              "price_per_week": "EUR 525",
+              "description": "Modern residence with all amenities",
+              "supplements": {
+                "Specific Diet Weekly Supplement": "130"
+              }
+            }
+          ],
+          "additional_fees": {
+            "Application Fee": "EUR 95",
+            "Exam Fee": "EUR 160"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "No refund for 14 days-prior notice."
+      },
+      "repeat": false
+    },
+    {
+      "name": "N/A",
+      "locations": [],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Alpadia Language Schools",
+      "locations": [
+        {
+          "city": "Montreux",
+          "country": "CH",
+          "address": "Grand-Rue 42, 1820 Montreux, Switzerland",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": {
+            "registration": "CHF 125 for bookings in Switzerland",
+            "Express Registration": "CHF 45 for bookings in Switzerland"
+          }
+        },
+        {
+          "city": "Germany",
+          "country": "DE",
+          "address": "Various",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": {
+            "registration": "\u20ac90 for bookings in Germany",
+            "Express Registration": "\u20ac40 for bookings in Germany"
+          }
+        },
+        {
+          "city": "England",
+          "country": "UK",
+          "address": "Various",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": {
+            "registration": "GBP 60 for bookings in England",
+            "Express Registration": "GBP 40 for bookings in England"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Fees non-refundable for courses within cancellation window",
+        "image_rights": "Students grant permission for promotional use."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Alpadia Language School",
+      "locations": [
+        {
+          "city": "Montreux",
+          "country": "CH",
+          "address": "Montreux, Switzerland",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": {
+            "registration": "CHF 125",
+            "administration": "CHF 170",
+            "courier": "CHF 120",
+            "bank_charges": "CHF 45",
+            "transfer": "Varies"
+          }
+        },
+        {
+          "city": "Freystaedtler",
+          "country": "DE",
+          "address": "Freystaedtler, Germany",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": {
+            "registration": "EUR 90",
+            "administration": "EUR 125",
+            "courier": "EUR 90",
+            "bank_charges": "EUR 40",
+            "transfer": "Varies"
+          }
+        },
+        {
+          "city": "Guildford",
+          "country": "UK",
+          "address": "Guildford, England",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": {
+            "registration": "GBP 60",
+            "administration": "GBP 105",
+            "courier": "GBP 40",
+            "bank_charges": "GBP 40",
+            "transfer": "Varies"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation_policy": "Different rules apply depending on time of cancellation - details available in image.",
+        "payment_policy": "Detailed payment schedule provided."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Alpadia",
+      "locations": [
+        {
+          "city": "Unknown",
+          "country": "CH",
+          "address": "Unknown",
+          "courses": [
+            {
+              "name": "General Language Course",
+              "lessons_per_week": 20,
+              "description": "Standard course as per schedule.",
+              "prices": [
+                {
+                  "duration": "Week",
+                  "price": "Unknown",
+                  "currency": "Unknown"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Standard Accommodation",
+              "price_per_week": "Unknown",
+              "description": "Accommodation with specific regulations.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "Unknown"
+          }
+        }
+      ],
+      "terms": null,
+      "repeat": null
+    },
+    {
+      "name": "Alpadia Language Schools",
+      "locations": [
+        {
+          "city": "Montreux",
+          "country": "CH",
+          "address": "Specific address unavailable",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": {
+            "registration": "Information unavailable"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required"
+      },
+      "repeat": null
+    },
+    {
+      "name": "Alpadia Language Schools",
+      "locations": [
+        {
+          "city": "Montreux",
+          "country": "CH",
+          "address": "Montreux, Switzerland",
+          "courses": [
+            {
+              "name": "Standard French Course",
+              "lessons_per_week": 20,
+              "description": "Morning classes Monday to Friday.",
+              "prices": [
+                {
+                  "duration": "1-4 weeks",
+                  "price": "CHF 350",
+                  "currency": "CHF"
+                },
+                {
+                  "duration": "5-8 weeks",
+                  "price": "CHF 330",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "CHF 200",
+              "description": "Single room with breakfast and dinner.",
+              "supplements": {
+                "summer": "CHF 50 per week"
+              }
+            }
+          ],
+          "additional_fees": {
+            "enrollment fee": "CHF 125"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Written cancellation notice 22 days before the arrival date"
+      },
+      "repeat": false
+    },
+    {
+      "name": "Alpadia Language School",
+      "locations": [
+        {
+          "city": "Multiple",
+          "country": "Various",
+          "address": "Various",
+          "courses": [
+            {
+              "name": "Language Schools",
+              "lessons_per_week": 0,
+              "description": "General language instructions offered at various locations.",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "University Pathway Programs (UPP)",
+              "lessons_per_week": 0,
+              "description": "Support for university placement and academic improvement.",
+              "prices": [],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "administration_fee": "CHF 170 or \u20ac 125",
+            "courier_fee": "CHF 120 or \u20ac 90",
+            "bank_charges": "CHF 45 or \u20ac 40",
+            "application_fee": "CHF 865",
+            "university_placement_fee": "CHF 510 | \u20ac 525 for France/Germany"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice period.",
+        "visa_refusal_refunds": "Administration, courier, and bank charges will be deducted.",
+        "cancellation_insurance": "Cancellation insurance is recommended."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Alpadia Language School",
+      "locations": [
+        {
+          "city": "Montreux",
+          "country": "CH",
+          "address": "Montreux, Switzerland",
+          "courses": [
+            {
+              "name": "General French Course",
+              "lessons_per_week": 20,
+              "description": "Morning and afternoon classes focusing on French language skills.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "350",
+                  "currency": "CHF"
+                }
+              ],
+              "requirements": "Placement test before course commencement."
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "280",
+              "description": "Homestay accommodation including breakfast and dinner.",
+              "supplements": {
+                "type": "Extra Nights",
+                "cost_per_night": "40",
+                "currency": "CHF"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "50"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Cancellation requires 4 weeks notice."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Equals",
+      "locations": [
+        {
+          "city": "London",
+          "country": "GB",
+          "address": "29/30 Fitzroy Square, W1T 6LQ, London, United Kingdom",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "Applies where courses are affected by circumstances beyond Equals' control, including Force Majeure events."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Alpadia Language Schools",
+      "locations": [],
+      "terms": {
+        "Liability": "The liability terms concern damages or losses caused during participation in activities provided by Alpadia Language Schools as stated in their liability clause.",
+        "Safety": "Measures for ensuring participant safety and well-being, authorized medical care, and data privacy policies.",
+        "Promotional material": "Photographs and other material may be used by Alpadia for promotional purposes.",
+        "Applicable law and jurisdiction": "Swiss law applies to the contract and disputes are resolved in courts of Montreux, Switzerland.",
+        "General": "Includes compliance with global sanction regulations and safeguarding policies."
+      },
+      "repeat": null
+    }
+  ],
+  "merged_results": {
+    "name": "Alpadia Language Schools",
+    "locations": [
+      {
+        "city": "Berlin",
+        "country": "DE",
+        "address": "Unspecified",
+        "courses": [
+          {
+            "name": "German Language Course",
+            "lessons_per_week": 20,
+            "description": "German course for international students",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac300",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "\u20ac1000",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Standard 20 lessons",
+            "lessons_per_week": 20,
+            "description": "20 morning lessons, Monday\u2013Friday",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "180",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2\u20134 weeks",
+                "price": "175",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5\u20138 weeks",
+                "price": "160",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Exam Preparation Course",
+            "lessons_per_week": 20,
+            "description": "Preparation for international exams",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "380",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "255",
+            "description": "Single room, half board",
+            "supplements": {
+              "High season": "20 EUR/week"
+            }
+          },
+          {
+            "type": "Apartment",
+            "price_per_week": "360",
+            "description": "Fully equipped apartment",
+            "supplements": {
+              "High season": "30 EUR/week"
+            }
+          }
+        ],
+        "additional_fees": {
+          "application_fee": "90 EUR",
+          "registration_fee": "50 EUR"
+        }
+      },
+      {
+        "city": "Freiburg",
+        "country": "DE",
+        "address": "Unspecified",
+        "courses": [
+          {
+            "name": "German Language Course",
+            "lessons_per_week": 20,
+            "description": "Learn German in Freiburg with our immersive program",
+            "prices": [
+              {
+                "duration": "2 weeks",
+                "price": "\u20ac600",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Standard",
+            "lessons_per_week": 20,
+            "description": "Standard General English course.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "195",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2-3 weeks",
+                "price": "190 p/week",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4-7 weeks",
+                "price": "185 p/week",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive",
+            "lessons_per_week": 25,
+            "description": "Intensive Language Course.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "240",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Shared Apartment",
+            "price_per_week": "\u20ac350",
+            "description": "Private room, shared amenities",
+            "supplements": null
+          },
+          {
+            "type": "Homestay Full Board",
+            "price_per_week": "360",
+            "description": "Stay with a host family",
+            "supplements": {
+              "Summer Supplement": "20 EUR/week"
+            }
+          },
+          {
+            "type": "Apartment",
+            "price_per_week": "480",
+            "description": "Independent Apartment",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "30 EUR"
+        }
+      },
+      {
+        "city": "Lyon",
+        "country": "FR",
+        "address": "Unspecified",
+        "courses": [
+          {
+            "name": "French Language Course",
+            "lessons_per_week": 25,
+            "description": "Intensive French for all levels",
+            "prices": [
+              {
+                "duration": "3 weeks",
+                "price": "\u20ac800",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Standard",
+            "lessons_per_week": 20,
+            "description": "20 lessons per week - Group course",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac240",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2-3 weeks",
+                "price": "\u20ac230",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4-7 weeks",
+                "price": "\u20ac210",
+                "currency": "EUR"
+              },
+              {
+                "duration": "8-11 weeks",
+                "price": "\u20ac200",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive",
+            "lessons_per_week": 25,
+            "description": "25 lessons per week - Group course",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac310",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2-3 weeks",
+                "price": "\u20ac295",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Residence",
+            "price_per_week": "\u20ac300",
+            "description": "Single room, full board",
+            "supplements": null
+          },
+          {
+            "type": "Homestay",
+            "price_per_week": "\u20ac225",
+            "description": "Room with meals",
+            "supplements": {
+              "details": "Summer fee of \u20ac35 applies during June-August"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u20ac90",
+          "textbook": "\u20ac35"
+        }
+      },
+      {
+        "city": "Montreux",
+        "country": "CH",
+        "address": "Montreux, Switzerland",
+        "courses": [
+          {
+            "name": "Standard Course",
+            "lessons_per_week": 20,
+            "description": "Ideal introduction to language learning with 20 lessons per week",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "345",
+                "currency": "CHF"
+              },
+              {
+                "duration": "4-7 weeks",
+                "price": "330",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": "None"
+          },
+          {
+            "name": "Premium Course",
+            "lessons_per_week": 30,
+            "description": "Intensive course for flexible schedules",
+            "prices": [
+              {
+                "duration": "12 weeks",
+                "price": "9,420",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": "Beginner Level 0+"
+          },
+          {
+            "name": "DELF preparation",
+            "lessons_per_week": 30,
+            "description": "Exam Preparation for DELF B1 and B2",
+            "prices": [
+              {
+                "duration": "1-8 weeks",
+                "price": "2,100",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": "Min A2 level"
+          },
+          {
+            "name": "Standard French Course",
+            "lessons_per_week": 20,
+            "description": "Morning classes Monday to Friday.",
+            "prices": [
+              {
+                "duration": "1-4 weeks",
+                "price": "CHF 350",
+                "currency": "CHF"
+              },
+              {
+                "duration": "5-8 weeks",
+                "price": "CHF 330",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "General French Course",
+            "lessons_per_week": 20,
+            "description": "Morning and afternoon classes focusing on French language skills.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "350",
+                "currency": "CHF"
+              }
+            ],
+            "requirements": "Placement test before course commencement."
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "280",
+            "description": "Homestay accommodation including breakfast and dinner.",
+            "supplements": {
+              "summer_period": "CHF 35 for July-August",
+              "summer": "CHF 50 per week",
+              "type": "Extra Nights",
+              "cost_per_night": "40",
+              "currency": "CHF"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration": "Information unavailable",
+          "insurance_fee": "Mandatory CHF 15+ per week",
+          "Express Registration": "CHF 45 for bookings in Switzerland",
+          "administration": "CHF 170",
+          "courier": "CHF 120",
+          "bank_charges": "CHF 45",
+          "transfer": "Varies",
+          "enrollment fee": "CHF 125",
+          "registration_fee": "50"
+        }
+      },
+      {
+        "city": "Nice",
+        "country": "FR",
+        "address": "-",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "Morning classes from Monday to Friday.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "325",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2-3 weeks",
+                "price": "305/week",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4-7 weeks",
+                "price": "275/week",
+                "currency": "EUR"
+              },
+              {
+                "duration": "8+ weeks",
+                "price": "225/week",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive English",
+            "lessons_per_week": 25,
+            "description": "An intensive English course",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "355",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Premium English",
+            "lessons_per_week": 30,
+            "description": "Advanced classes with additional lessons.",
+            "prices": [
+              {
+                "duration": "2-3 weeks",
+                "price": "305/week",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4-7 weeks",
+                "price": "255/week",
+                "currency": "EUR"
+              },
+              {
+                "duration": "8+ weeks",
+                "price": "255/week",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "COMB1 English",
+            "lessons_per_week": 20,
+            "description": "Combination of General English and focused sessions.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "345",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2-3 weeks",
+                "price": "345/week",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4+ weeks",
+                "price": "305/week",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay BnB",
+            "price_per_week": "EUR 325",
+            "description": "Private accommodation with breakfast.",
+            "supplements": null
+          },
+          {
+            "type": "Residence",
+            "price_per_week": "EUR 525",
+            "description": "Modern residence with all amenities",
+            "supplements": {
+              "Specific Diet Weekly Supplement": "130"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration": "EUR 50",
+          "extra lesson": "EUR100",
+          "Application Fee": "EUR 95",
+          "Exam Fee": "EUR 160"
+        }
+      },
+      {
+        "city": "Location2",
+        "country": "Country2",
+        "address": "2nd address .. same format",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": null
+      },
+      {
+        "city": "Germany",
+        "country": "DE",
+        "address": "Various",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": {
+          "registration": "\u20ac90 for bookings in Germany",
+          "Express Registration": "\u20ac40 for bookings in Germany"
+        }
+      },
+      {
+        "city": "England",
+        "country": "UK",
+        "address": "Various",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": {
+          "registration": "GBP 60 for bookings in England",
+          "Express Registration": "GBP 40 for bookings in England"
+        }
+      },
+      {
+        "city": "Freystaedtler",
+        "country": "DE",
+        "address": "Freystaedtler, Germany",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": {
+          "registration": "EUR 90",
+          "administration": "EUR 125",
+          "courier": "EUR 90",
+          "bank_charges": "EUR 40",
+          "transfer": "Varies"
+        }
+      },
+      {
+        "city": "Guildford",
+        "country": "UK",
+        "address": "Guildford, England",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": {
+          "registration": "GBP 60",
+          "administration": "GBP 105",
+          "courier": "GBP 40",
+          "bank_charges": "GBP 40",
+          "transfer": "Varies"
+        }
+      },
+      {
+        "city": "Unknown",
+        "country": "CH",
+        "address": "Unknown",
+        "courses": [
+          {
+            "name": "General Language Course",
+            "lessons_per_week": 20,
+            "description": "Standard course as per schedule.",
+            "prices": [
+              {
+                "duration": "Week",
+                "price": "Unknown",
+                "currency": "Unknown"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Standard Accommodation",
+            "price_per_week": "Unknown",
+            "description": "Accommodation with specific regulations.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "Unknown"
+        }
+      },
+      {
+        "city": "Multiple",
+        "country": "Various",
+        "address": "Various",
+        "courses": [
+          {
+            "name": "Language Schools",
+            "lessons_per_week": 0,
+            "description": "General language instructions offered at various locations.",
+            "prices": [],
+            "requirements": null
+          },
+          {
+            "name": "University Pathway Programs (UPP)",
+            "lessons_per_week": 0,
+            "description": "Support for university placement and academic improvement.",
+            "prices": [],
+            "requirements": null
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": {
+          "administration_fee": "CHF 170 or \u20ac 125",
+          "courier_fee": "CHF 120 or \u20ac 90",
+          "bank_charges": "CHF 45 or \u20ac 40",
+          "application_fee": "CHF 865",
+          "university_placement_fee": "CHF 510 | \u20ac 525 for France/Germany"
+        }
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "address": "29/30 Fitzroy Square, W1T 6LQ, London, United Kingdom",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": null
+      }
+    ],
+    "terms": {
+      "cancellation": "Applies where courses are affected by circumstances beyond Equals' control, including Force Majeure events.",
+      "cancellation_policy": "Different rules apply depending on time of cancellation - details available in image.",
+      "additional_conditions": "High season supplement applies from June 16th to August 16th annually.",
+      "additional_fees_include": "Service fees and taxes",
+      "image_rights": "Students grant permission for promotional use.",
+      "payment_policy": "Detailed payment schedule provided.",
+      "visa_refusal_refunds": "Administration, courier, and bank charges will be deducted.",
+      "cancellation_insurance": "Cancellation insurance is recommended.",
+      "Liability": "The liability terms concern damages or losses caused during participation in activities provided by Alpadia Language Schools as stated in their liability clause.",
+      "Safety": "Measures for ensuring participant safety and well-being, authorized medical care, and data privacy policies.",
+      "Promotional material": "Photographs and other material may be used by Alpadia for promotional purposes.",
+      "Applicable law and jurisdiction": "Swiss law applies to the contract and disputes are resolved in courts of Montreux, Switzerland.",
+      "General": "Includes compliance with global sanction regulations and safeguarding policies."
+    },
+    "repeat": false
+  }
+}

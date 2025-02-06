@@ -17,7 +17,7 @@ from PIL import Image
 from .schema import School
 from .prompts import system_prompt
 from .logger import setup_logging
-from .utils import merge_schools
+from .utils import merge_all_results
 
 # Initialize logger
 logger = setup_logging()
@@ -155,7 +155,7 @@ class PDFProcessor:
             logger.info("PDF processing completed")
             self.all_results["raw_results"] = self.raw_results
             try:
-                self.merged_results = merge_schools(self.raw_results)
+                self.merged_results = merge_all_results(self.raw_results)
                 self.all_results["merged_results"] = self.merged_results
             except Exception as e:
                 logger.error(f"Error merging schools: {str(e)}")

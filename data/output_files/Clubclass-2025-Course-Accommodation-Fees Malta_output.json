@@ -1,0 +1,1653 @@
+{
+  "raw_results": [
+    {
+      "name": "Clubclass English Language School",
+      "locations": [
+        {
+          "city": "Swieqi",
+          "country": "MT",
+          "address": "Clubclass Residential Language School, Swieqi, Malta",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Clubclass English Language School",
+      "locations": [
+        {
+          "city": "Malta",
+          "country": "MT",
+          "address": "address not provided",
+          "courses": [
+            {
+              "name": "General English - Standard",
+              "lessons_per_week": 20,
+              "description": "Group class with up to 12 students.",
+              "prices": [
+                {
+                  "duration": "1-7 weeks",
+                  "price": "\u20ac200",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "8-23 weeks",
+                  "price": "\u20ac160",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u20ac140",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Intermediate level."
+            },
+            {
+              "name": "General English - Intensive",
+              "lessons_per_week": 30,
+              "description": "Increased lesson involvement for faster improvement.",
+              "prices": [
+                {
+                  "duration": "1-7 weeks",
+                  "price": "\u20ac265",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "8-23 weeks",
+                  "price": "\u20ac225",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "price": "\u20ac205",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Intermediate or higher level."
+            },
+            {
+              "name": "Individual English - 10 lessons",
+              "lessons_per_week": 10,
+              "description": "Individual lessons for focused language learning.",
+              "prices": [
+                {
+                  "duration": "constant",
+                  "price": "\u20ac360",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac180",
+              "description": "Shared accommodation with a host family.",
+              "supplements": {
+                "Summer": "\u20ac80 per week"
+              }
+            },
+            {
+              "type": "Self-Catering Apartment",
+              "price_per_week": "\u20ac260",
+              "description": "Independence living with self-catering options.",
+              "supplements": {
+                "Summer": "\u20ac100 per week additional"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u20ac25",
+            "exam_fee": "\u20ac100"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required for full refund."
+      },
+      "repeat": null
+    },
+    {
+      "name": "Clubclass English Language School",
+      "locations": [
+        {
+          "city": "Not provided",
+          "country": "Not provided",
+          "address": "Not provided",
+          "courses": [
+            {
+              "name": "Exam Preparation - Classic",
+              "lessons_per_week": 30,
+              "description": "One to One 10 + General English - Standard",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Exam Preparation - Fluency",
+              "lessons_per_week": 30,
+              "description": "One to One 20 + General English - Fluency",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Exam Preparation - 30",
+              "lessons_per_week": 30,
+              "description": "One to One 30",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Combination Course - Standard",
+              "lessons_per_week": 30,
+              "description": "General English - Standard + Individual English 10",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Combination Course - Intensive",
+              "lessons_per_week": 30,
+              "description": "Individual English 20 + General English - Fluency",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Business English - Intensive",
+              "lessons_per_week": 30,
+              "description": "Business English - Mini Group + General English - Fluency",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Business English - Combination",
+              "lessons_per_week": 30,
+              "description": "Business English - Mini Group + Individual English 10",
+              "prices": [],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "Airport Transfers": ". On Arrival: Free (when booking accommodation). On Departure: \u20ac28.50.",
+            "Pocket Money Fee": "\u20ac10",
+            "Courier Fee for Original Documents": "Europe \u20ac65; Asia incl. CIS \u20ac75; South America \u20ac85",
+            "Specific Lessons Time Supplement": "\u20ac45 per week"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Bookings extending beyond one season will be charged respective weekly supplement."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Unidentified School",
+      "locations": [
+        {
+          "city": "Unknown",
+          "country": "MT",
+          "address": "Unavailable",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Student House (SC)",
+              "price_per_week": "\u20ac155-\u20ac145 (1-7 to 24+ weeks respectively)",
+              "description": "Shared room (up to 4) self-catered.",
+              "supplements": {
+                "High season supplement": "\u20ac80/week"
+              }
+            },
+            {
+              "type": "Sidra Apartments (SC)",
+              "price_per_week": "\u20ac160-\u20ac150 (1-7 to 24+ weeks respectively)",
+              "description": "Shared room self-catered.",
+              "supplements": null
+            },
+            {
+              "type": "Host Family (HB)",
+              "price_per_week": "\u20ac220-\u20ac200 (1-7 to 24+ weeks respectively)",
+              "description": "Half board (shared room).",
+              "supplements": {
+                "High season supplement": "None for >24 weeks."
+              }
+            }
+          ],
+          "additional_fees": {
+            "Airport transfer on booking accommodation (min one week)": "FREE",
+            "Additional fees": "EUr 100 refundable upon departure."
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Terms apply by local, consult student guide."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Language School Name (not mentioned in the provided image)",
+      "locations": [
+        {
+          "city": "Sliema",
+          "country": "MT",
+          "address": "Exact address not mentioned in the image",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "St. Andrews Suites - One Bedroom",
+              "price_per_week": "",
+              "description": "Walking distance from the school, shared and private options available, kitchen, wi-fi, and air conditioning.",
+              "supplements": null
+            },
+            {
+              "type": "Sunshine Court - One Bedroom Suite",
+              "price_per_week": "",
+              "description": "Within same building as school, all available features such as kitchen, air conditioning, and multiple room styles supported.",
+              "supplements": null
+            },
+            {
+              "type": "Garden View - One Bedroom Apartment",
+              "price_per_week": "",
+              "description": "Provided with options for twin, shared, and excellent features like kitchen and wi-fi.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "extra_nights": "Calculated on pro-rata basis for any extensions."
+          }
+        }
+      ],
+      "terms": {
+        "notes": "Students traveling to this school and settings might be required for shared or private accommodations through reservations. Policies for cancellation or early departure might apply."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Internships Worldwide",
+      "locations": [
+        {
+          "city": "Valletta",
+          "country": "MT",
+          "address": "N/A",
+          "courses": [
+            {
+              "name": "Unpaid Internship",
+              "lessons_per_week": 0,
+              "description": "Practical work placements to enhance language skills and work experience.",
+              "prices": [
+                {
+                  "duration": "Standard",
+                  "price": "\u20ac395",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Available to individuals of 16 years old and upward, with elementary level of English, requiring no previous work experience."
+            },
+            {
+              "name": "Paid Internship",
+              "lessons_per_week": 0,
+              "description": "Work experience placements compensating with a stipend.",
+              "prices": [
+                {
+                  "duration": "Standard",
+                  "price": "\u20ac595",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Available to European citizens only, 16 years old and upward, with elementary level of English, requiring no previous work experience."
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "additional_week_per_fee_over_12_weeks": "\u20ac20"
+          }
+        },
+        {
+          "city": "Madrid",
+          "country": "ES",
+          "address": "N/A",
+          "courses": [
+            {
+              "name": "Unpaid Internship",
+              "lessons_per_week": 0,
+              "description": "Practical work placements to enhance language skills and work experience.",
+              "prices": [
+                {
+                  "duration": "Standard",
+                  "price": "\u20ac325",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Available to individuals of 16 years old and upward, with elementary level of English, requiring no previous work experience."
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "additional_week_per_fee_over_12_weeks": "\u20ac20"
+          }
+        },
+        {
+          "city": "Dublin",
+          "country": "IE",
+          "address": "N/A",
+          "courses": [
+            {
+              "name": "Unpaid Internship",
+              "lessons_per_week": 0,
+              "description": "Practical work placements to enhance language skills and work experience.",
+              "prices": [
+                {
+                  "duration": "Standard",
+                  "price": "\u20ac695",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Available to individuals of 16 years old and upward, with elementary level of English, requiring no previous work experience."
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "additional_week_per_fee_over_12_weeks": "\u20ac20"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Minimum duration of the program is 1 week, and paid internships are only for European applicants.",
+        "other_inclusions": "Placement service includes pre-internship coaching, consultation, CV revision, and support throughout the program."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Escuela Internacional de Idiomas",
+      "locations": [
+        {
+          "city": "Madrid",
+          "country": "ES",
+          "address": "Calle de Alcal\u00e1, 45, Madrid, Espa\u00f1a",
+          "courses": [
+            {
+              "name": "Spanish for Beginners",
+              "lessons_per_week": 20,
+              "description": "An introduction to Spanish language and culture.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u20ac300",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u20ac500",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "None"
+            },
+            {
+              "name": "Spanish Immersion",
+              "lessons_per_week": 30,
+              "description": "Intensive Spanish course with cultural activities.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac350",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u20ac900",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Basic understanding of Spanish"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac200",
+              "description": "Single room with breakfast and dinner.",
+              "supplements": null
+            },
+            {
+              "type": "Shared Apartment",
+              "price_per_week": "\u20ac150",
+              "description": "Shared room in an apartment with access to kitchen.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "\u20ac50",
+            "materials_fee": "\u20ac20"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation_policy": "Full refund is available for cancellations made 30 days before the course start date.",
+        "payment_terms": "A 20% deposit is required within two weeks of enrollment to secure your spot."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Clubclass",
+      "locations": [
+        {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": "",
+          "courses": [
+            {
+              "name": "Group English Course",
+              "lessons_per_week": 20,
+              "description": "Classes with a maximum of 15 students aimed for groups aged 7 and older.",
+              "prices": [],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Host Family (FB)",
+              "price_per_week": "\u20ac420",
+              "description": "Staying with a host family including breakfast, packed lunch, and dinner.",
+              "supplements": null
+            },
+            {
+              "type": "Hotel (HB)",
+              "price_per_week": "\u20ac515",
+              "description": "Staying in a shared hotel room with meals provided.",
+              "supplements": {
+                "Available": "From January to December."
+              }
+            }
+          ],
+          "additional_fees": {
+            "details": "Rates are for groups with a minimum of 20 participants and provide access to course materials, activities, and facilities."
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Conditions specific to groups depend on contract agreements."
+      },
+      "repeat": null
+    },
+    {
+      "name": "Parent & Child Programme",
+      "locations": [
+        {
+          "city": "N/A",
+          "country": "N/A",
+          "address": "N/A",
+          "courses": [
+            {
+              "name": "Individual Lessons",
+              "lessons_per_week": 5,
+              "description": "Five individual lessons per week",
+              "prices": [
+                {
+                  "duration": "week",
+                  "price": "\u20ac180",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Semi-Individual Lessons",
+              "lessons_per_week": 5,
+              "description": "Five semi-individual lessons per week, for two students of the same level",
+              "prices": [
+                {
+                  "duration": "week",
+                  "price": "\u20ac90",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "General Group Lessons",
+              "lessons_per_week": 20,
+              "description": "Twenty lessons per week with a maximum of 15 students in a group",
+              "prices": [
+                {
+                  "duration": "week",
+                  "price": "\u20ac280",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "One Bedroom Suite",
+              "price_per_week": "\u20ac500 (low season), \u20ac660 (high season)",
+              "description": "St Andrew's One Bedroom Suite for one adult and one child, for at least one person attending a course",
+              "supplements": null
+            },
+            {
+              "type": "Two Bedroom Suite",
+              "price_per_week": "\u20ac640 (low season), \u20ac800 (high season)",
+              "description": "St Andrew's Two Bedroom Suite for one adult and one child, for at least two persons attending a course",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "Included",
+            "childcare": "Available at a charge."
+          }
+        }
+      ],
+      "terms": null,
+      "repeat": null
+    },
+    {
+      "name": "Liberty Programme",
+      "locations": [
+        {
+          "city": "Malta",
+          "country": "MT",
+          "address": "Not specified",
+          "courses": [
+            {
+              "name": "General English Program",
+              "lessons_per_week": 20,
+              "description": "Enhance your language skills through integrated academic learning and recreational activities.",
+              "prices": [
+                {
+                  "duration": "Weekly",
+                  "price": "\u20ac875",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "16-20 years old"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Garden View Complex",
+              "price_per_week": "\u20ac875",
+              "description": "Shared air-conditioned bedrooms with breakfast and dinner.",
+              "supplements": {
+                "extra_night": "\u20ac75"
+              }
+            },
+            {
+              "type": "Host Family",
+              "price_per_week": "\u20ac675",
+              "description": "Shared bedrooms with breakfast and dinner.",
+              "supplements": {
+                "extra_night": "\u20ac45"
+              }
+            }
+          ],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "Not provided"
+      },
+      "repeat": false
+    },
+    {
+      "name": "Clubclass Language School",
+      "locations": [
+        {
+          "city": "Swieqi",
+          "country": "MT",
+          "address": "Garden View Complex, Swieqi, Malta",
+          "courses": [
+            {
+              "name": "Liberty Programme",
+              "lessons_per_week": 0,
+              "description": "English language programme focused on various language skills including Reading, Writing, Listening, Speaking, and Grammar.",
+              "prices": [],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Residential Campus",
+              "price_per_week": "",
+              "description": "Garden View Complex: Curated facilities offering a smooth and enjoyable stay.",
+              "supplements": null
+            },
+            {
+              "type": "Homestay",
+              "price_per_week": "",
+              "description": "Stay with host families for a local cultural immersion.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Clubclass Malta",
+      "locations": [
+        {
+          "city": "Swieqi",
+          "country": "MT",
+          "address": "Swieqi, Malta",
+          "courses": [
+            {
+              "name": "Standard English course",
+              "lessons_per_week": 20,
+              "description": "Learn standard English with immersive lessons.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac200",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u20ac750",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Basic English understanding for beginners."
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Residential campus",
+              "price_per_week": "\u20ac150",
+              "description": "On-campus accommodation with ensuite options.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u20ac50"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Full refund if canceled 15 days before the start.",
+        "repeat_policy": "Courses can be retaken for a supplementary fee."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Unspecified Language School",
+      "locations": [
+        {
+          "city": "Unknown",
+          "country": "Unknown",
+          "address": "Unspecified",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Student Houses",
+              "price_per_week": "Unspecified",
+              "description": "Facilities associated with the school premises.",
+              "supplements": null
+            },
+            {
+              "type": "Garden View",
+              "price_per_week": "Unspecified",
+              "description": "Accommodations with a garden view close to school.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Clubclass Language Schools",
+      "locations": [
+        {
+          "city": "Malta",
+          "country": "MT",
+          "address": "Wilga Street, St Julian's, Malta",
+          "courses": [
+            {
+              "name": "General English",
+              "lessons_per_week": 20,
+              "description": "General English - Improve main language skills in a group (up to 12 students).",
+              "prices": [
+                {
+                  "duration": "1-4 weeks",
+                  "price": "\u20ac150",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4+ weeks",
+                  "price": "\u20ac130",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive English",
+              "lessons_per_week": 30,
+              "description": "Intensive English, combination of General English and individual lessons.",
+              "prices": [
+                {
+                  "duration": "1-4 weeks",
+                  "price": "\u20ac280",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4+ weeks",
+                  "price": "\u20ac260",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Host Family",
+              "price_per_week": "\u20ac200",
+              "description": "Stay with a local family, breakfast and dinner included.",
+              "supplements": {
+                "private_bathroom": "\u20ac50/week"
+              }
+            },
+            {
+              "type": "Student Residence",
+              "price_per_week": "\u20ac150",
+              "description": "Stay with fellow students in shared accommodation.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u20ac45",
+            "materials": "\u20ac25"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation_policy": "Cancellations are subject to a refund minus administrative fees and only with 2 weeks prior notification.",
+        "refund_policy": "Refunds are provided only if the cancellation occurs before the course start date. Material fees and registration fees are non-refundable."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Clubclass English Language School",
+      "locations": [
+        {
+          "city": "Swieqi",
+          "country": "MT",
+          "address": "Clubclass Malta, Swieqi, Malta",
+          "courses": [
+            {
+              "name": "General English Course",
+              "lessons_per_week": 20,
+              "description": "Morning classes for general improvement in English",
+              "prices": [
+                {
+                  "duration": "1-4 weeks",
+                  "price": "\u20ac130",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-12 weeks",
+                  "price": "\u20ac120",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "13+ weeks",
+                  "price": "\u20ac110",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Minimum age: 18"
+            },
+            {
+              "name": "Intensive English Course",
+              "lessons_per_week": 30,
+              "description": "Ideal for rapid progress",
+              "prices": [
+                {
+                  "duration": "1-4 weeks",
+                  "price": "\u20ac200",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-12 weeks",
+                  "price": "\u20ac190",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "13+ weeks",
+                  "price": "\u20ac180",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Minimum age: 18"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Host Family",
+              "price_per_week": "\u20ac175",
+              "description": "Single room with half board in local residences",
+              "supplements": {
+                "Summer": "\u20ac35 per week"
+              }
+            },
+            {
+              "type": "Student Residence",
+              "price_per_week": "\u20ac95",
+              "description": "Shared room self-catering option",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u20ac45",
+            "exam_fees": "\u20ac160 (if applicable)"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Cancellation possible with policies outlined in the agreement. Check for exact terms."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Clubclass Malta Ltd.",
+      "locations": [
+        {
+          "city": "St. Julian's",
+          "country": "MT",
+          "address": "104, Triq is Sidra, Swieqi, St. Julian's, SWQ 3150, Malta.",
+          "courses": [
+            {
+              "name": "General English",
+              "lessons_per_week": 20,
+              "description": "Improving everyday communication and English skills.",
+              "prices": [
+                {
+                  "duration": "1-4 weeks",
+                  "price": "\u20ac250",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-12 weeks",
+                  "price": "\u20ac220",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Beginner to Advanced Level"
+            },
+            {
+              "name": "Business English",
+              "lessons_per_week": 25,
+              "description": "Focused on using English in a business environment.",
+              "prices": [
+                {
+                  "duration": "1-4 weeks",
+                  "price": "\u20ac300",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Intermediate and above"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Shared Apartment",
+              "price_per_week": "\u20ac150",
+              "description": "Shared room in a fully furnished apartment.",
+              "supplements": {
+                "Summer": "\u20ac50/week"
+              }
+            },
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac220",
+              "description": "Single room with half-board",
+              "supplements": {
+                "En-suite": "\u20ac40/week"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u20ac50",
+            "materials_fee": "\u20ac35"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Cancellation must be done at least two weeks in advance."
+      },
+      "repeat": false
+    }
+  ],
+  "merged_results": {
+    "name": "Clubclass English Language School",
+    "locations": [
+      {
+        "city": "Swieqi",
+        "country": "MT",
+        "address": "Clubclass Residential Language School, Swieqi, Malta",
+        "courses": [
+          {
+            "name": "Liberty Programme",
+            "lessons_per_week": 0,
+            "description": "English language programme focused on various language skills including Reading, Writing, Listening, Speaking, and Grammar.",
+            "prices": [],
+            "requirements": null
+          },
+          {
+            "name": "Standard English course",
+            "lessons_per_week": 20,
+            "description": "Learn standard English with immersive lessons.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac200",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "\u20ac750",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Basic English understanding for beginners."
+          },
+          {
+            "name": "General English Course",
+            "lessons_per_week": 20,
+            "description": "Morning classes for general improvement in English",
+            "prices": [
+              {
+                "duration": "1-4 weeks",
+                "price": "\u20ac130",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-12 weeks",
+                "price": "\u20ac120",
+                "currency": "EUR"
+              },
+              {
+                "duration": "13+ weeks",
+                "price": "\u20ac110",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Minimum age: 18"
+          },
+          {
+            "name": "Intensive English Course",
+            "lessons_per_week": 30,
+            "description": "Ideal for rapid progress",
+            "prices": [
+              {
+                "duration": "1-4 weeks",
+                "price": "\u20ac200",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-12 weeks",
+                "price": "\u20ac190",
+                "currency": "EUR"
+              },
+              {
+                "duration": "13+ weeks",
+                "price": "\u20ac180",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Minimum age: 18"
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Residential Campus",
+            "price_per_week": "",
+            "description": "Garden View Complex: Curated facilities offering a smooth and enjoyable stay.",
+            "supplements": null
+          },
+          {
+            "type": "Homestay",
+            "price_per_week": "",
+            "description": "Stay with host families for a local cultural immersion.",
+            "supplements": null
+          },
+          {
+            "type": "Residential campus",
+            "price_per_week": "\u20ac150",
+            "description": "On-campus accommodation with ensuite options.",
+            "supplements": null
+          },
+          {
+            "type": "Host Family",
+            "price_per_week": "\u20ac175",
+            "description": "Single room with half board in local residences",
+            "supplements": {
+              "Summer": "\u20ac35 per week"
+            }
+          },
+          {
+            "type": "Student Residence",
+            "price_per_week": "\u20ac95",
+            "description": "Shared room self-catering option",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u20ac45",
+          "exam_fees": "\u20ac160 (if applicable)"
+        }
+      },
+      {
+        "city": "Malta",
+        "country": "MT",
+        "address": "address not provided",
+        "courses": [
+          {
+            "name": "General English - Standard",
+            "lessons_per_week": 20,
+            "description": "Group class with up to 12 students.",
+            "prices": [
+              {
+                "duration": "1-7 weeks",
+                "price": "\u20ac200",
+                "currency": "EUR"
+              },
+              {
+                "duration": "8-23 weeks",
+                "price": "\u20ac160",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u20ac140",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Intermediate level."
+          },
+          {
+            "name": "General English - Intensive",
+            "lessons_per_week": 30,
+            "description": "Increased lesson involvement for faster improvement.",
+            "prices": [
+              {
+                "duration": "1-7 weeks",
+                "price": "\u20ac265",
+                "currency": "EUR"
+              },
+              {
+                "duration": "8-23 weeks",
+                "price": "\u20ac225",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24+ weeks",
+                "price": "\u20ac205",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Intermediate or higher level."
+          },
+          {
+            "name": "Individual English - 10 lessons",
+            "lessons_per_week": 10,
+            "description": "Individual lessons for focused language learning.",
+            "prices": [
+              {
+                "duration": "constant",
+                "price": "\u20ac360",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "General English Program",
+            "lessons_per_week": 20,
+            "description": "Enhance your language skills through integrated academic learning and recreational activities.",
+            "prices": [
+              {
+                "duration": "Weekly",
+                "price": "\u20ac875",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "16-20 years old"
+          },
+          {
+            "name": "General English",
+            "lessons_per_week": 20,
+            "description": "General English - Improve main language skills in a group (up to 12 students).",
+            "prices": [
+              {
+                "duration": "1-4 weeks",
+                "price": "\u20ac150",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4+ weeks",
+                "price": "\u20ac130",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive English",
+            "lessons_per_week": 30,
+            "description": "Intensive English, combination of General English and individual lessons.",
+            "prices": [
+              {
+                "duration": "1-4 weeks",
+                "price": "\u20ac280",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4+ weeks",
+                "price": "\u20ac260",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u20ac180",
+            "description": "Shared accommodation with a host family.",
+            "supplements": {
+              "Summer": "\u20ac80 per week"
+            }
+          },
+          {
+            "type": "Self-Catering Apartment",
+            "price_per_week": "\u20ac260",
+            "description": "Independence living with self-catering options.",
+            "supplements": {
+              "Summer": "\u20ac100 per week additional"
+            }
+          },
+          {
+            "type": "Garden View Complex",
+            "price_per_week": "\u20ac875",
+            "description": "Shared air-conditioned bedrooms with breakfast and dinner.",
+            "supplements": {
+              "extra_night": "\u20ac75"
+            }
+          },
+          {
+            "type": "Host Family",
+            "price_per_week": "\u20ac200",
+            "description": "Stay with a local family, breakfast and dinner included.",
+            "supplements": {
+              "extra_night": "\u20ac45",
+              "private_bathroom": "\u20ac50/week"
+            }
+          },
+          {
+            "type": "Student Residence",
+            "price_per_week": "\u20ac150",
+            "description": "Stay with fellow students in shared accommodation.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u20ac45",
+          "exam_fee": "\u20ac100",
+          "materials": "\u20ac25"
+        }
+      },
+      {
+        "city": "Not provided",
+        "country": "Not provided",
+        "address": "Not provided",
+        "courses": [
+          {
+            "name": "Exam Preparation - Classic",
+            "lessons_per_week": 30,
+            "description": "One to One 10 + General English - Standard",
+            "prices": [],
+            "requirements": null
+          },
+          {
+            "name": "Exam Preparation - Fluency",
+            "lessons_per_week": 30,
+            "description": "One to One 20 + General English - Fluency",
+            "prices": [],
+            "requirements": null
+          },
+          {
+            "name": "Exam Preparation - 30",
+            "lessons_per_week": 30,
+            "description": "One to One 30",
+            "prices": [],
+            "requirements": null
+          },
+          {
+            "name": "Combination Course - Standard",
+            "lessons_per_week": 30,
+            "description": "General English - Standard + Individual English 10",
+            "prices": [],
+            "requirements": null
+          },
+          {
+            "name": "Combination Course - Intensive",
+            "lessons_per_week": 30,
+            "description": "Individual English 20 + General English - Fluency",
+            "prices": [],
+            "requirements": null
+          },
+          {
+            "name": "Business English - Intensive",
+            "lessons_per_week": 30,
+            "description": "Business English - Mini Group + General English - Fluency",
+            "prices": [],
+            "requirements": null
+          },
+          {
+            "name": "Business English - Combination",
+            "lessons_per_week": 30,
+            "description": "Business English - Mini Group + Individual English 10",
+            "prices": [],
+            "requirements": null
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": {
+          "Airport Transfers": ". On Arrival: Free (when booking accommodation). On Departure: \u20ac28.50.",
+          "Pocket Money Fee": "\u20ac10",
+          "Courier Fee for Original Documents": "Europe \u20ac65; Asia incl. CIS \u20ac75; South America \u20ac85",
+          "Specific Lessons Time Supplement": "\u20ac45 per week"
+        }
+      },
+      {
+        "city": "Unknown",
+        "country": "MT",
+        "address": "Unavailable",
+        "courses": [],
+        "accommodations": [
+          {
+            "type": "Student House (SC)",
+            "price_per_week": "\u20ac155-\u20ac145 (1-7 to 24+ weeks respectively)",
+            "description": "Shared room (up to 4) self-catered.",
+            "supplements": {
+              "High season supplement": "\u20ac80/week"
+            }
+          },
+          {
+            "type": "Sidra Apartments (SC)",
+            "price_per_week": "\u20ac160-\u20ac150 (1-7 to 24+ weeks respectively)",
+            "description": "Shared room self-catered.",
+            "supplements": null
+          },
+          {
+            "type": "Host Family (HB)",
+            "price_per_week": "\u20ac220-\u20ac200 (1-7 to 24+ weeks respectively)",
+            "description": "Half board (shared room).",
+            "supplements": {
+              "High season supplement": "None for >24 weeks."
+            }
+          }
+        ],
+        "additional_fees": {
+          "Airport transfer on booking accommodation (min one week)": "FREE",
+          "Additional fees": "EUr 100 refundable upon departure."
+        }
+      },
+      {
+        "city": "Sliema",
+        "country": "MT",
+        "address": "Exact address not mentioned in the image",
+        "courses": [],
+        "accommodations": [
+          {
+            "type": "St. Andrews Suites - One Bedroom",
+            "price_per_week": "",
+            "description": "Walking distance from the school, shared and private options available, kitchen, wi-fi, and air conditioning.",
+            "supplements": null
+          },
+          {
+            "type": "Sunshine Court - One Bedroom Suite",
+            "price_per_week": "",
+            "description": "Within same building as school, all available features such as kitchen, air conditioning, and multiple room styles supported.",
+            "supplements": null
+          },
+          {
+            "type": "Garden View - One Bedroom Apartment",
+            "price_per_week": "",
+            "description": "Provided with options for twin, shared, and excellent features like kitchen and wi-fi.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "extra_nights": "Calculated on pro-rata basis for any extensions."
+        }
+      },
+      {
+        "city": "Valletta",
+        "country": "MT",
+        "address": "N/A",
+        "courses": [
+          {
+            "name": "Unpaid Internship",
+            "lessons_per_week": 0,
+            "description": "Practical work placements to enhance language skills and work experience.",
+            "prices": [
+              {
+                "duration": "Standard",
+                "price": "\u20ac395",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Available to individuals of 16 years old and upward, with elementary level of English, requiring no previous work experience."
+          },
+          {
+            "name": "Paid Internship",
+            "lessons_per_week": 0,
+            "description": "Work experience placements compensating with a stipend.",
+            "prices": [
+              {
+                "duration": "Standard",
+                "price": "\u20ac595",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Available to European citizens only, 16 years old and upward, with elementary level of English, requiring no previous work experience."
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": {
+          "additional_week_per_fee_over_12_weeks": "\u20ac20"
+        }
+      },
+      {
+        "city": "Madrid",
+        "country": "ES",
+        "address": "N/A",
+        "courses": [
+          {
+            "name": "Unpaid Internship",
+            "lessons_per_week": 0,
+            "description": "Practical work placements to enhance language skills and work experience.",
+            "prices": [
+              {
+                "duration": "Standard",
+                "price": "\u20ac325",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Available to individuals of 16 years old and upward, with elementary level of English, requiring no previous work experience."
+          },
+          {
+            "name": "Spanish for Beginners",
+            "lessons_per_week": 20,
+            "description": "An introduction to Spanish language and culture.",
+            "prices": [
+              {
+                "duration": "2 weeks",
+                "price": "\u20ac300",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "\u20ac500",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "None"
+          },
+          {
+            "name": "Spanish Immersion",
+            "lessons_per_week": 30,
+            "description": "Intensive Spanish course with cultural activities.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac350",
+                "currency": "EUR"
+              },
+              {
+                "duration": "3 weeks",
+                "price": "\u20ac900",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Basic understanding of Spanish"
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u20ac200",
+            "description": "Single room with breakfast and dinner.",
+            "supplements": null
+          },
+          {
+            "type": "Shared Apartment",
+            "price_per_week": "\u20ac150",
+            "description": "Shared room in an apartment with access to kitchen.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "additional_week_per_fee_over_12_weeks": "\u20ac20",
+          "registration_fee": "\u20ac50",
+          "materials_fee": "\u20ac20"
+        }
+      },
+      {
+        "city": "Dublin",
+        "country": "IE",
+        "address": "N/A",
+        "courses": [
+          {
+            "name": "Unpaid Internship",
+            "lessons_per_week": 0,
+            "description": "Practical work placements to enhance language skills and work experience.",
+            "prices": [
+              {
+                "duration": "Standard",
+                "price": "\u20ac695",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Available to individuals of 16 years old and upward, with elementary level of English, requiring no previous work experience."
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": {
+          "additional_week_per_fee_over_12_weeks": "\u20ac20"
+        }
+      },
+      {
+        "city": "Unknown",
+        "country": "Unknown",
+        "address": "Unspecified",
+        "courses": [
+          {
+            "name": "Group English Course",
+            "lessons_per_week": 20,
+            "description": "Classes with a maximum of 15 students aimed for groups aged 7 and older.",
+            "prices": [],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Host Family (FB)",
+            "price_per_week": "\u20ac420",
+            "description": "Staying with a host family including breakfast, packed lunch, and dinner.",
+            "supplements": null
+          },
+          {
+            "type": "Hotel (HB)",
+            "price_per_week": "\u20ac515",
+            "description": "Staying in a shared hotel room with meals provided.",
+            "supplements": {
+              "Available": "From January to December."
+            }
+          },
+          {
+            "type": "Student Houses",
+            "price_per_week": "Unspecified",
+            "description": "Facilities associated with the school premises.",
+            "supplements": null
+          },
+          {
+            "type": "Garden View",
+            "price_per_week": "Unspecified",
+            "description": "Accommodations with a garden view close to school.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "details": "Rates are for groups with a minimum of 20 participants and provide access to course materials, activities, and facilities."
+        }
+      },
+      {
+        "city": "N/A",
+        "country": "N/A",
+        "address": "N/A",
+        "courses": [
+          {
+            "name": "Individual Lessons",
+            "lessons_per_week": 5,
+            "description": "Five individual lessons per week",
+            "prices": [
+              {
+                "duration": "week",
+                "price": "\u20ac180",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Semi-Individual Lessons",
+            "lessons_per_week": 5,
+            "description": "Five semi-individual lessons per week, for two students of the same level",
+            "prices": [
+              {
+                "duration": "week",
+                "price": "\u20ac90",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "General Group Lessons",
+            "lessons_per_week": 20,
+            "description": "Twenty lessons per week with a maximum of 15 students in a group",
+            "prices": [
+              {
+                "duration": "week",
+                "price": "\u20ac280",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "One Bedroom Suite",
+            "price_per_week": "\u20ac500 (low season), \u20ac660 (high season)",
+            "description": "St Andrew's One Bedroom Suite for one adult and one child, for at least one person attending a course",
+            "supplements": null
+          },
+          {
+            "type": "Two Bedroom Suite",
+            "price_per_week": "\u20ac640 (low season), \u20ac800 (high season)",
+            "description": "St Andrew's Two Bedroom Suite for one adult and one child, for at least two persons attending a course",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration_fee": "Included",
+          "childcare": "Available at a charge."
+        }
+      },
+      {
+        "city": "St. Julian's",
+        "country": "MT",
+        "address": "104, Triq is Sidra, Swieqi, St. Julian's, SWQ 3150, Malta.",
+        "courses": [
+          {
+            "name": "General English",
+            "lessons_per_week": 20,
+            "description": "Improving everyday communication and English skills.",
+            "prices": [
+              {
+                "duration": "1-4 weeks",
+                "price": "\u20ac250",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-12 weeks",
+                "price": "\u20ac220",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Beginner to Advanced Level"
+          },
+          {
+            "name": "Business English",
+            "lessons_per_week": 25,
+            "description": "Focused on using English in a business environment.",
+            "prices": [
+              {
+                "duration": "1-4 weeks",
+                "price": "\u20ac300",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Intermediate and above"
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Shared Apartment",
+            "price_per_week": "\u20ac150",
+            "description": "Shared room in a fully furnished apartment.",
+            "supplements": {
+              "Summer": "\u20ac50/week"
+            }
+          },
+          {
+            "type": "Homestay",
+            "price_per_week": "\u20ac220",
+            "description": "Single room with half-board",
+            "supplements": {
+              "En-suite": "\u20ac40/week"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u20ac50",
+          "materials_fee": "\u20ac35"
+        }
+      }
+    ],
+    "terms": {
+      "cancellation": "Cancellation must be done at least two weeks in advance.",
+      "notes": "Students traveling to this school and settings might be required for shared or private accommodations through reservations. Policies for cancellation or early departure might apply.",
+      "other_inclusions": "Placement service includes pre-internship coaching, consultation, CV revision, and support throughout the program.",
+      "cancellation_policy": "Cancellations are subject to a refund minus administrative fees and only with 2 weeks prior notification.",
+      "payment_terms": "A 20% deposit is required within two weeks of enrollment to secure your spot.",
+      "repeat_policy": "Courses can be retaken for a supplementary fee.",
+      "refund_policy": "Refunds are provided only if the cancellation occurs before the course start date. Material fees and registration fees are non-refundable."
+    },
+    "repeat": false
+  }
+}

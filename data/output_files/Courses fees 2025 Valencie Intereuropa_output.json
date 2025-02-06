@@ -1,0 +1,735 @@
+{
+  "raw_results": [
+    {
+      "name": "Intereuropa Idiomas",
+      "locations": [
+        {
+          "city": "Valencia",
+          "country": "ES",
+          "address": "Plaza del Ayuntamiento, 5, 46002 Valencia, Espa\u00f1a",
+          "courses": [
+            {
+              "name": "Intensive 10",
+              "lessons_per_week": 10,
+              "description": "10 classes per week, 2 per day",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "100 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "190 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "285 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "360 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5 weeks",
+                  "price": "450 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "6 weeks",
+                  "price": "540 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "7 weeks",
+                  "price": "630 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "8 weeks",
+                  "price": "680 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12 weeks",
+                  "price": "840 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24 weeks",
+                  "price": "1,440 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36 weeks",
+                  "price": "1,980 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "52 weeks",
+                  "price": "2,600 \u20ac",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive 20",
+              "lessons_per_week": 20,
+              "description": "20 classes per week, 4 per day",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "170 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "310 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "465 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "580 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5 weeks",
+                  "price": "725 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "6 weeks",
+                  "price": "870 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "7 weeks",
+                  "price": "1,015 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "8 weeks",
+                  "price": "1,120 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12 weeks",
+                  "price": "1,560 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24 weeks",
+                  "price": "2,760 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36 weeks",
+                  "price": "3,600 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "52 weeks",
+                  "price": "4,560 \u20ac",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive 25",
+              "lessons_per_week": 25,
+              "description": "20 classes in group + 5 individual (DELE, business, conversation)",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "315 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "575 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "863 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "1,100 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5 weeks",
+                  "price": "1,375 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "6 weeks",
+                  "price": "1,650 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "7 weeks",
+                  "price": "1,925 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "8 weeks",
+                  "price": "2,120 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12 weeks",
+                  "price": "3,000 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24 weeks",
+                  "price": "5,750 \u20ac",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Individual classes",
+              "lessons_per_week": 0,
+              "description": "Customized individual lessons",
+              "prices": [
+                {
+                  "duration": "1-10 hours",
+                  "price": "32 \u20ac per hour",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": ">10 hours",
+                  "price": "29 \u20ac per hour",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "DELE examination course",
+              "lessons_per_week": 0,
+              "description": "Preparation for DELE examination",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "410 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "795 \u20ac",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Teenagers programme",
+              "lessons_per_week": 15,
+              "description": "Available in July and August",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "540 \u20ac",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "Each extra week",
+                  "price": "495 \u20ac",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "14-17 years old"
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "enrolment_fee": "30 \u20ac"
+          }
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Intereuropa Idiomas",
+      "locations": [
+        {
+          "city": "Valencia",
+          "country": "ES",
+          "address": "Plaza del Ayuntamiento, 5, 46002 Valencia, Spain",
+          "courses": [
+            {
+              "name": "General Spanish for Beginners",
+              "lessons_per_week": 20,
+              "description": "Course start dates for beginners as listed in the schedule; non-beginners can start any Monday.",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "DELE Preparation Courses",
+              "lessons_per_week": 20,
+              "description": "Dedicated course for preparation for the DELE exams.",
+              "prices": [],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "airport_pick_up": "50 EUR per person (each way)"
+          }
+        }
+      ],
+      "terms": {
+        "public_holidays": "Courses are not held on public holidays."
+      },
+      "repeat": false
+    },
+    {
+      "name": "intereuropa idiomas",
+      "locations": [
+        {
+          "city": "Valencia",
+          "country": "ES",
+          "address": "Plaza del Ayuntamiento, 5, 46002 Valencia, Espa\u00f1a",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Host family - single room, half board",
+              "price_per_week": "195\u20ac",
+              "description": "Half board accommodation with single room.",
+              "supplements": {
+                "Additional nights": "33\u20ac per night"
+              }
+            },
+            {
+              "type": "Host family - single room, full board",
+              "price_per_week": "235\u20ac",
+              "description": "Full board accommodation with single room.",
+              "supplements": {
+                "Additional nights": "38\u20ac per night"
+              }
+            },
+            {
+              "type": "Host family - double room, half board",
+              "price_per_week": "180\u20ac",
+              "description": "Half board accommodation with double room.",
+              "supplements": {
+                "Additional nights": "30\u20ac per night"
+              }
+            },
+            {
+              "type": "Host family - double room, full board",
+              "price_per_week": "225\u20ac",
+              "description": "Full board accommodation with double room.",
+              "supplements": {
+                "Additional nights": "36\u20ac per night"
+              }
+            },
+            {
+              "type": "University Residence - Individual, without meals",
+              "price_per_week": "45\u20ac per day",
+              "description": "University accommodation without meals, individual room.",
+              "supplements": null
+            },
+            {
+              "type": "University Residence - Individual, breakfast included",
+              "price_per_week": "50\u20ac per day",
+              "description": "University accommodation with breakfast, individual room.",
+              "supplements": null
+            },
+            {
+              "type": "University Residence - Individual, half board",
+              "price_per_week": "57\u20ac per day",
+              "description": "University accommodation with half board, individual room.",
+              "supplements": null
+            },
+            {
+              "type": "University Residence - Individual, full board",
+              "price_per_week": "65\u20ac per day",
+              "description": "University accommodation with full board, individual room.",
+              "supplements": null
+            },
+            {
+              "type": "Shared Apartment - Individual",
+              "price_per_week": "150\u20ac per week",
+              "description": "Individual room in a shared apartment.",
+              "supplements": {
+                "Additional nights": "30\u20ac per night"
+              }
+            }
+          ],
+          "additional_fees": {
+            "special_diet_supplement": "A 15% additional fee will be charged for special diets."
+          }
+        }
+      ],
+      "terms": null,
+      "repeat": null
+    }
+  ],
+  "merged_results": {
+    "name": "Intereuropa Idiomas",
+    "locations": [
+      {
+        "city": "Valencia",
+        "country": "ES",
+        "address": "Plaza del Ayuntamiento, 5, 46002 Valencia, Espa\u00f1a",
+        "courses": [
+          {
+            "name": "Intensive 10",
+            "lessons_per_week": 10,
+            "description": "10 classes per week, 2 per day",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "100 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "190 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "3 weeks",
+                "price": "285 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "360 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5 weeks",
+                "price": "450 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "6 weeks",
+                "price": "540 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "7 weeks",
+                "price": "630 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "8 weeks",
+                "price": "680 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12 weeks",
+                "price": "840 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24 weeks",
+                "price": "1,440 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "36 weeks",
+                "price": "1,980 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "52 weeks",
+                "price": "2,600 \u20ac",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive 20",
+            "lessons_per_week": 20,
+            "description": "20 classes per week, 4 per day",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "170 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "310 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "3 weeks",
+                "price": "465 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "580 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5 weeks",
+                "price": "725 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "6 weeks",
+                "price": "870 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "7 weeks",
+                "price": "1,015 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "8 weeks",
+                "price": "1,120 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12 weeks",
+                "price": "1,560 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24 weeks",
+                "price": "2,760 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "36 weeks",
+                "price": "3,600 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "52 weeks",
+                "price": "4,560 \u20ac",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive 25",
+            "lessons_per_week": 25,
+            "description": "20 classes in group + 5 individual (DELE, business, conversation)",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "315 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "575 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "3 weeks",
+                "price": "863 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "1,100 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5 weeks",
+                "price": "1,375 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "6 weeks",
+                "price": "1,650 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "7 weeks",
+                "price": "1,925 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "8 weeks",
+                "price": "2,120 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12 weeks",
+                "price": "3,000 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24 weeks",
+                "price": "5,750 \u20ac",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Individual classes",
+            "lessons_per_week": 0,
+            "description": "Customized individual lessons",
+            "prices": [
+              {
+                "duration": "1-10 hours",
+                "price": "32 \u20ac per hour",
+                "currency": "EUR"
+              },
+              {
+                "duration": ">10 hours",
+                "price": "29 \u20ac per hour",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "DELE examination course",
+            "lessons_per_week": 0,
+            "description": "Preparation for DELE examination",
+            "prices": [
+              {
+                "duration": "2 weeks",
+                "price": "410 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "795 \u20ac",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Teenagers programme",
+            "lessons_per_week": 15,
+            "description": "Available in July and August",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "540 \u20ac",
+                "currency": "EUR"
+              },
+              {
+                "duration": "Each extra week",
+                "price": "495 \u20ac",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "14-17 years old"
+          },
+          {
+            "name": "General Spanish for Beginners",
+            "lessons_per_week": 20,
+            "description": "Course start dates for beginners as listed in the schedule; non-beginners can start any Monday.",
+            "prices": [],
+            "requirements": null
+          },
+          {
+            "name": "DELE Preparation Courses",
+            "lessons_per_week": 20,
+            "description": "Dedicated course for preparation for the DELE exams.",
+            "prices": [],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Host family - single room, half board",
+            "price_per_week": "195\u20ac",
+            "description": "Half board accommodation with single room.",
+            "supplements": {
+              "Additional nights": "33\u20ac per night"
+            }
+          },
+          {
+            "type": "Host family - single room, full board",
+            "price_per_week": "235\u20ac",
+            "description": "Full board accommodation with single room.",
+            "supplements": {
+              "Additional nights": "38\u20ac per night"
+            }
+          },
+          {
+            "type": "Host family - double room, half board",
+            "price_per_week": "180\u20ac",
+            "description": "Half board accommodation with double room.",
+            "supplements": {
+              "Additional nights": "30\u20ac per night"
+            }
+          },
+          {
+            "type": "Host family - double room, full board",
+            "price_per_week": "225\u20ac",
+            "description": "Full board accommodation with double room.",
+            "supplements": {
+              "Additional nights": "36\u20ac per night"
+            }
+          },
+          {
+            "type": "University Residence - Individual, without meals",
+            "price_per_week": "45\u20ac per day",
+            "description": "University accommodation without meals, individual room.",
+            "supplements": null
+          },
+          {
+            "type": "University Residence - Individual, breakfast included",
+            "price_per_week": "50\u20ac per day",
+            "description": "University accommodation with breakfast, individual room.",
+            "supplements": null
+          },
+          {
+            "type": "University Residence - Individual, half board",
+            "price_per_week": "57\u20ac per day",
+            "description": "University accommodation with half board, individual room.",
+            "supplements": null
+          },
+          {
+            "type": "University Residence - Individual, full board",
+            "price_per_week": "65\u20ac per day",
+            "description": "University accommodation with full board, individual room.",
+            "supplements": null
+          },
+          {
+            "type": "Shared Apartment - Individual",
+            "price_per_week": "150\u20ac per week",
+            "description": "Individual room in a shared apartment.",
+            "supplements": {
+              "Additional nights": "30\u20ac per night"
+            }
+          }
+        ],
+        "additional_fees": {
+          "enrolment_fee": "30 \u20ac",
+          "airport_pick_up": "50 EUR per person (each way)",
+          "special_diet_supplement": "A 15% additional fee will be charged for special diets."
+        }
+      }
+    ],
+    "terms": {
+      "public_holidays": "Courses are not held on public holidays."
+    },
+    "repeat": false
+  }
+}

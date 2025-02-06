@@ -1,0 +1,253 @@
+{
+  "raw_results": [
+    {
+      "name": "Bayswater",
+      "locations": [
+        {
+          "city": "London",
+          "country": "GB",
+          "address": "N/A",
+          "courses": [
+            {
+              "name": "Discover Summer Plus",
+              "lessons_per_week": 20,
+              "description": "Includes industry professional visits and related activity programs.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u00a33600",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Minimum B1 English level."
+            },
+            {
+              "name": "Classic Course Programmes",
+              "lessons_per_week": 15,
+              "description": "Includes group lessons and activity programs.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u00a31355",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Available for ages 12 to 17."
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Residence",
+              "price_per_week": "Included",
+              "description": "Single en-suite rooms for students.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "damage_deposit": "\u00a320/week"
+          }
+        },
+        {
+          "city": "Brighton",
+          "country": "GB",
+          "address": "N/A",
+          "courses": [
+            {
+              "name": "Classic Course Programmes",
+              "lessons_per_week": 15,
+              "description": "Includes group lessons and activity programs.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u00a3705",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Available for ages 12 to 17."
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "Included",
+              "description": "Shared rooms for students.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "damage_deposit": "\u00a320/week"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Non-refundable deposit upon booking.",
+        "travel_requirements": "Students to provide travel arrangements themselves if required."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Bayswater Summer Individuals",
+      "locations": [
+        {
+          "city": "London",
+          "country": "GB",
+          "address": "Not specified for London",
+          "courses": [
+            {
+              "name": "Day Camp",
+              "lessons_per_week": 15,
+              "description": "Includes tuition, lunch, and activities.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u00a3450",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Parent & Child Tuition Only",
+              "lessons_per_week": 15,
+              "description": "Parents attend classes alongside children.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u00a3360",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "registration": "\u00a360"
+          }
+        },
+        {
+          "city": "Brighton",
+          "country": "GB",
+          "address": "Not specified for Brighton",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    }
+  ],
+  "merged_results": {
+    "name": "Bayswater",
+    "locations": [
+      {
+        "city": "London",
+        "country": "GB",
+        "address": "N/A",
+        "courses": [
+          {
+            "name": "Discover Summer Plus",
+            "lessons_per_week": 20,
+            "description": "Includes industry professional visits and related activity programs.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u00a33600",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Minimum B1 English level."
+          },
+          {
+            "name": "Classic Course Programmes",
+            "lessons_per_week": 15,
+            "description": "Includes group lessons and activity programs.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u00a31355",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Available for ages 12 to 17."
+          },
+          {
+            "name": "Day Camp",
+            "lessons_per_week": 15,
+            "description": "Includes tuition, lunch, and activities.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u00a3450",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Parent & Child Tuition Only",
+            "lessons_per_week": 15,
+            "description": "Parents attend classes alongside children.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u00a3360",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Residence",
+            "price_per_week": "Included",
+            "description": "Single en-suite rooms for students.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "damage_deposit": "\u00a320/week",
+          "registration": "\u00a360"
+        }
+      },
+      {
+        "city": "Brighton",
+        "country": "GB",
+        "address": "N/A",
+        "courses": [
+          {
+            "name": "Classic Course Programmes",
+            "lessons_per_week": 15,
+            "description": "Includes group lessons and activity programs.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u00a3705",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Available for ages 12 to 17."
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "Included",
+            "description": "Shared rooms for students.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "damage_deposit": "\u00a320/week"
+        }
+      }
+    ],
+    "terms": {
+      "cancellation": "Non-refundable deposit upon booking.",
+      "travel_requirements": "Students to provide travel arrangements themselves if required."
+    },
+    "repeat": false
+  }
+}

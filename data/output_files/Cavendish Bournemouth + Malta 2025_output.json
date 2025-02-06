@@ -1,0 +1,1637 @@
+{
+  "raw_results": [
+    {
+      "name": "Cavendish School of English",
+      "locations": [
+        {
+          "city": "Bournemouth",
+          "country": "UK",
+          "address": "Address not displayed on image",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Valletta",
+          "country": "MT",
+          "address": "Address not displayed on image",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Cavendish School of English",
+      "locations": [
+        {
+          "city": "Bournemouth",
+          "country": "GB",
+          "address": "-",
+          "courses": [
+            {
+              "name": "General / Intensive / Business English",
+              "lessons_per_week": 20,
+              "description": "General English and specialized business courses.",
+              "prices": [
+                {
+                  "duration": "-",
+                  "price": "See pricing booklet.",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Cambridge and IELTS Examination Programs",
+              "lessons_per_week": 20,
+              "description": "Examination preparation courses for C1, C2, and C3.",
+              "prices": [
+                {
+                  "duration": "-",
+                  "price": "See pricing booklet.",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "See pricing booklet.",
+              "description": "Homestay accommodation for students.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "See pricing conditions."
+          }
+        },
+        {
+          "city": "Malta",
+          "country": "MT",
+          "address": "-",
+          "courses": [
+            {
+              "name": "General / Intensive / Business English",
+              "lessons_per_week": 20,
+              "description": "General English and specialized business courses.",
+              "prices": [
+                {
+                  "duration": "-",
+                  "price": "See pricing booklet.",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Cambridge and IELTS Examination Programs",
+              "lessons_per_week": 20,
+              "description": "Examination preparation courses for C1, C2, and C3.",
+              "prices": [
+                {
+                  "duration": "-",
+                  "price": "See pricing booklet.",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "See pricing booklet.",
+              "description": "Homestay accommodation for students.",
+              "supplements": null
+            },
+            {
+              "type": "Residence",
+              "price_per_week": "See pricing booklet.",
+              "description": "Residential accommodation option.",
+              "supplements": null
+            },
+            {
+              "type": "Hotel",
+              "price_per_week": "See pricing booklet.",
+              "description": "Hotel accommodation option.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "See pricing conditions."
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Please refer to the Enrolment Conditions document."
+      },
+      "repeat": true
+    },
+    {
+      "name": "Cavendish School of English",
+      "locations": [
+        {
+          "city": "Bournemouth",
+          "country": "GB",
+          "address": "-",
+          "courses": [
+            {
+              "name": "One to One Tuition",
+              "lessons_per_week": 1,
+              "description": "Individual tuition tailored to student needs.",
+              "prices": [
+                {
+                  "duration": "-",
+                  "price": "See pricing document.",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Junior Courses - Seasonal",
+              "lessons_per_week": 20,
+              "description": "Courses available during spring, autumn, winter, and summer.",
+              "prices": [
+                {
+                  "duration": "-",
+                  "price": "See pricing document.",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "Refer to the enrolment conditions."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Cavendish School of English",
+      "locations": [
+        {
+          "city": "England",
+          "country": "GB",
+          "address": "Not specified",
+          "courses": [
+            {
+              "name": "General English",
+              "lessons_per_week": 20,
+              "description": "4 free conversation sessions (15 hours + 3 hours)",
+              "prices": [
+                {
+                  "duration": "1-12 weeks",
+                  "price": "\u00a3245",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "13-25 weeks",
+                  "price": "\u00a3225",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "26+ weeks",
+                  "price": "\u00a3205",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive English",
+              "lessons_per_week": 25,
+              "description": "20 General English AM + 5 Intensive English PM) + 4 free conversation sessions (18.8 hours + 3 hours)",
+              "prices": [
+                {
+                  "duration": "1-12 weeks",
+                  "price": "\u00a3285",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "13-25 weeks",
+                  "price": "\u00a3265",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "26+ weeks",
+                  "price": "\u00a3245",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "enrollment_fee": "\u00a370",
+            "accommodation_registration_fee": "\u00a335"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Provide cancellation at least 14 days before the start of the course."
+      },
+      "repeat": true
+    },
+    {
+      "name": "Cavendish School of English",
+      "locations": [
+        {
+          "city": "England",
+          "country": "GB",
+          "address": "Not specified",
+          "courses": [
+            {
+              "name": "Super Intensive English",
+              "lessons_per_week": 30,
+              "description": "(20 General English AM + 10 Intensive English PM) + 4 free conversation sessions (22.5 hours + 3 hours)",
+              "prices": [
+                {
+                  "duration": "1-12 weeks",
+                  "price": "\u00a3305",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "13-25 weeks",
+                  "price": "\u00a3285",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "26+ weeks",
+                  "price": "\u00a3265",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Business English",
+              "lessons_per_week": 25,
+              "description": "(20 General English AM + 5 Intensive Business PM) + 4 free conversation sessions (18.8 hours+3 hours)",
+              "prices": [
+                {
+                  "duration": "1-12 weeks",
+                  "price": "\u00a3315",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "13-25 weeks",
+                  "price": "\u00a3295",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "26+ weeks",
+                  "price": "\u00a3275",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "enrollment_fee": "\u00a370",
+            "accommodation_registration_fee": "\u00a335"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Provide cancellation at least 14 days before the start of the course."
+      },
+      "repeat": true
+    },
+    {
+      "name": "Cavendish School of English",
+      "locations": [
+        {
+          "city": "England",
+          "country": "GB",
+          "address": "Not specified",
+          "courses": [
+            {
+              "name": "Cambridge and IELTS Examination programme - FCE",
+              "lessons_per_week": 25,
+              "description": "University of Cambridge First Certificate in English with 4 free conversation lessons.",
+              "prices": [
+                {
+                  "duration": "4-12 weeks",
+                  "price": "\u00a3285",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Cambridge and IELTS Examination programme - CAE",
+              "lessons_per_week": 25,
+              "description": "University of Cambridge Certificate in Advanced English with 4 free conversation lessons.",
+              "prices": [
+                {
+                  "duration": "4-12 weeks",
+                  "price": "\u00a3285",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Cambridge and IELTS Examination programme - IELTS",
+              "lessons_per_week": 25,
+              "description": "IELTS exam preparation suitable for Universities and higher education.",
+              "prices": [
+                {
+                  "duration": "4-12 weeks",
+                  "price": "\u00a3285",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Individual Tuition - 10 Hours",
+              "lessons_per_week": 10,
+              "description": "Individual tuition for customized learning.",
+              "prices": [
+                {
+                  "duration": "1-12 weeks",
+                  "price": "\u00a3500",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Individual Tuition - 20 Hours",
+              "lessons_per_week": 20,
+              "description": "Individual tuition for customized learning.",
+              "prices": [
+                {
+                  "duration": "1-12 weeks",
+                  "price": "\u00a3950",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Individual Tuition - 25 Hours",
+              "lessons_per_week": 25,
+              "description": "Individual tuition for customized learning.",
+              "prices": [
+                {
+                  "duration": "1-12 weeks",
+                  "price": "\u00a31150",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Individual Tuition - 30 Hours",
+              "lessons_per_week": 30,
+              "description": "Individual tuition for customized learning.",
+              "prices": [
+                {
+                  "duration": "1-12 weeks",
+                  "price": "\u00a31350",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Combination Course Standard",
+              "lessons_per_week": 25,
+              "description": "General English with One-to-One PM tuition.",
+              "prices": [
+                {
+                  "duration": "per week",
+                  "price": "\u00a3445",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Combination Course Premium",
+              "lessons_per_week": 25,
+              "description": "General English with One-to-One PM tuition.",
+              "prices": [
+                {
+                  "duration": "per week",
+                  "price": "\u00a3475",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "enrollment_fee": "\u00a370",
+            "accommodation_registration_fee": "\u00a335"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Provide cancellation at least 14 days before the start of the course."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Cavendish School of English",
+      "locations": [
+        {
+          "city": "Multiple Locations in England",
+          "country": "GB",
+          "address": "Please contact the school for exact location details.",
+          "courses": [
+            {
+              "name": "General English Course",
+              "lessons_per_week": 20,
+              "description": "General English lessons featuring comprehensive English skills improvement.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u00a3200",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "\u00a3700",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Basic understanding of English required."
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay (Single room, half board)",
+              "price_per_week": "\u00a3180",
+              "description": "Comfortable family homestay accommodation.",
+              "supplements": {
+                "peak_period": "\u00a340/week"
+              }
+            },
+            {
+              "type": "Executive Homestay",
+              "price_per_week": "\u00a3245",
+              "description": "Luxury homestay for adults only.",
+              "supplements": {
+                "peak_period": "\u00a350/week"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u00a350",
+            "course_book": "\u00a340"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required",
+        "refund_policy": "Administrative deduction may apply upon course cancellation."
+      },
+      "repeat": null
+    },
+    {
+      "name": "Cavendish School of English",
+      "locations": [
+        {
+          "city": "Bournemouth",
+          "country": "GB",
+          "address": "Bournemouth, United Kingdom",
+          "courses": [
+            {
+              "name": "Winter Camp Bournemouth Premium",
+              "lessons_per_week": 20,
+              "description": "Interactive lessons with activities",
+              "prices": [
+                {
+                  "duration": "1 to 5 weeks",
+                  "price": "\u20ac479",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Spring Camp Bournemouth Premium",
+              "lessons_per_week": 20,
+              "description": "Courses promoting English proficiency with extracurricular activities",
+              "prices": [
+                {
+                  "duration": "1 to 2 weeks",
+                  "price": "\u20ac679",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Summer Camps Bournemouth Premium",
+              "lessons_per_week": 20,
+              "description": "Interactive summer lessons",
+              "prices": [
+                {
+                  "duration": "1 to 11 weeks",
+                  "price": "\u20ac829",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac280",
+              "description": "Single room, full board",
+              "supplements": {
+                "Summer": "\u20ac35/week"
+              }
+            },
+            {
+              "type": "Residence",
+              "price_per_week": "\u20ac250",
+              "description": "Shared room, full board",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "peak_week_supplement": "\u20ac35 per week"
+          }
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Cavendish School of English",
+      "locations": [
+        {
+          "city": "Oxford",
+          "country": "GB",
+          "address": "Thornton",
+          "courses": [
+            {
+              "name": "Gold Edition",
+              "lessons_per_week": 24,
+              "description": "Activities over two-week stay including excursions and boat trip",
+              "prices": [
+                {
+                  "duration": "1-6 weeks",
+                  "price": "\u00a31,019",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "1-6 weeks (single room)",
+                  "price": "\u00a31,069",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Residence (Shared Room)",
+              "price_per_week": "\u00a31,019",
+              "description": "Activities and excursions included",
+              "supplements": null
+            },
+            {
+              "type": "Residence (Single Room)",
+              "price_per_week": "\u00a31,069",
+              "description": "Activities and excursions included",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "Airport Transfer": "\u00a355 per person",
+            "Deposit": "\u00a380 refundable deposit"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "\u00a380 enrolment fee applies to all courses"
+      },
+      "repeat": null
+    },
+    {
+      "name": "Cavendish School of English",
+      "locations": [
+        {
+          "city": "Malta",
+          "country": "MT",
+          "address": "Malta location address",
+          "courses": [
+            {
+              "name": "Intensive Individual Tuition T10",
+              "lessons_per_week": 10,
+              "description": "One-to-one private tuition for individual focus.",
+              "prices": [
+                {
+                  "duration": "1-12 weeks",
+                  "price": "\u20ac500",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Individual Tuition T20",
+              "lessons_per_week": 20,
+              "description": "One-to-one private tuition for enhanced learning.",
+              "prices": [
+                {
+                  "duration": "1-12 weeks",
+                  "price": "\u20ac950",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Individual Tuition T25",
+              "lessons_per_week": 25,
+              "description": "One-to-one intensive private classes.",
+              "prices": [
+                {
+                  "duration": "1-12 weeks",
+                  "price": "\u20ac1,150",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Individual Tuition T30",
+              "lessons_per_week": 30,
+              "description": "One-to-one tuition for up to 30 lessons a week.",
+              "prices": [
+                {
+                  "duration": "1-12 weeks",
+                  "price": "\u20ac1,350",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Combination Course G1 & T5",
+              "lessons_per_week": 25,
+              "description": "Combination of general English and one-to-one tuition.",
+              "prices": [
+                {
+                  "duration": "November - February: 1-12 weeks",
+                  "price": "\u20ac375",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "March - May, September - October: 1-12 weeks",
+                  "price": "\u20ac405",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Not available during June, July, August."
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "from \u20ac169",
+              "description": "Twin and single room options, half board.",
+              "supplements": {
+                "Summer (Peak Period)": "+\u20ac50-40 per week",
+                "Christmas supplement": "+\u20ac85 per week in peak season"
+              }
+            },
+            {
+              "type": "Residences (Apartment, Self-Catering)",
+              "price_per_week": "from \u20ac425",
+              "description": "Two-bedroom apartment near school.",
+              "supplements": {
+                "Cleaning fee": "\u20ac45"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration": "N/A"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required"
+      },
+      "repeat": false
+    },
+    {
+      "name": "Cavendish School of English",
+      "locations": [
+        {
+          "city": "Malta",
+          "country": "MT",
+          "address": "Not Specified",
+          "courses": [
+            {
+              "name": "Junior Course - Spring & Early Summer Premium 2 weeks",
+              "lessons_per_week": 27,
+              "description": "Includes 54 lessons over 2 weeks, activities and excursions included.",
+              "prices": [
+                {
+                  "duration": "2 Weeks",
+                  "price": "\u20ac1254",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Junior Course - Summer Premium 2 weeks",
+              "lessons_per_week": 27,
+              "description": "Includes 54 lessons over 2 weeks, activities and excursions included.",
+              "prices": [
+                {
+                  "duration": "2 Weeks",
+                  "price": "\u20ac1630",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Junior Course - Autumn Premium 2 weeks",
+              "lessons_per_week": 27,
+              "description": "Includes 54 lessons over 2 weeks, activities and excursions included.",
+              "prices": [
+                {
+                  "duration": "2 Weeks",
+                  "price": "\u20ac1178",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac589-\u20ac815",
+              "description": "Full board accommodation with included activities.",
+              "supplements": {
+                "type": "Summer",
+                "price": "\u20ac145"
+              }
+            },
+            {
+              "type": "Residence",
+              "price_per_week": "\u20ac684-\u20ac722",
+              "description": "Full board accommodation with included activities.",
+              "supplements": {
+                "type": "Summer",
+                "price": "\u20ac99"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u20ac100 Booking Fee"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "4 weeks notice prior to arrival.",
+        "deposit": "\u20ac100 deposit required upon booking."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Cavendish School of English",
+      "locations": [
+        {
+          "city": "Bournemouth",
+          "country": "GB",
+          "address": "Exact address unavailable",
+          "courses": [
+            {
+              "name": "Bournemouth Junior Camp",
+              "lessons_per_week": 15,
+              "description": "Intensive junior camp focusing on English learning.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u00a3400",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Below the age of 18."
+            },
+            {
+              "name": "Bournemouth Intensive Summer Camp",
+              "lessons_per_week": 20,
+              "description": "Junior summer camp with extra focus on English language.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u00a3900",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "None."
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u00a3150",
+              "description": "Shared room with peers.",
+              "supplements": {
+                "Summer Supplement": "\u00a330/week"
+              }
+            },
+            {
+              "type": "Residence",
+              "price_per_week": "\u00a3220",
+              "description": "Single room, close to school.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u00a350",
+            "exam fee": "\u00a330"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice is required for cancellation."
+      },
+      "repeat": null
+    },
+    {
+      "name": "Cavendish School",
+      "locations": [
+        {
+          "city": "Bournemouth",
+          "country": "GB",
+          "address": "Cavendish School Campus",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "varies",
+              "description": "Different styles of homestays are available.",
+              "supplements": null
+            },
+            {
+              "type": "Residence Accommodation",
+              "price_per_week": "varies",
+              "description": "Residence type accommodations are provided.",
+              "supplements": null
+            },
+            {
+              "type": "Hotel",
+              "price_per_week": "varies",
+              "description": "Hotel options are available for students.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "UM Service for Junior Summer Camps": "\u00a355/way"
+          }
+        }
+      ],
+      "terms": {
+        "notes": "Allergy, dietary requirements, allergies or special maintanence may have additional fees."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Cavendish School of English",
+      "locations": [],
+      "terms": {
+        "payment": "Courses must be paid in full before commencement. No student will be allowed in class otherwise.",
+        "cancellation_and_refunds": "Various refund policies apply based on the timeline of cancellation before the start date, ranging from no refund for same-day cancellations to minimal fees for cancellations more than 6 weeks ahead.",
+        "attendance_and_discipline": "Students are required to attend classes punctually and regularly.",
+        "liability": "The school accepts no responsibility for personal injury or loss unless coverage exists under public or private policies."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Cavendish School of English",
+      "locations": [
+        {
+          "city": "Bournemouth",
+          "country": "UK",
+          "address": "63 Cavendish Road, Bournemouth, Dorset, BH1 1RA, England",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Valletta",
+          "country": "MT",
+          "address": "124 Melita Street, Valletta, VLT 1123, Malta",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": null
+    }
+  ],
+  "merged_results": {
+    "name": "Cavendish School of English",
+    "locations": [
+      {
+        "city": "Bournemouth",
+        "country": "UK",
+        "address": "Address not displayed on image",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": {}
+      },
+      {
+        "city": "Valletta",
+        "country": "MT",
+        "address": "Address not displayed on image",
+        "courses": [],
+        "accommodations": [],
+        "additional_fees": {}
+      },
+      {
+        "city": "Bournemouth",
+        "country": "GB",
+        "address": "-",
+        "courses": [
+          {
+            "name": "General / Intensive / Business English",
+            "lessons_per_week": 20,
+            "description": "General English and specialized business courses.",
+            "prices": [
+              {
+                "duration": "-",
+                "price": "See pricing booklet.",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge and IELTS Examination Programs",
+            "lessons_per_week": 20,
+            "description": "Examination preparation courses for C1, C2, and C3.",
+            "prices": [
+              {
+                "duration": "-",
+                "price": "See pricing booklet.",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "One to One Tuition",
+            "lessons_per_week": 1,
+            "description": "Individual tuition tailored to student needs.",
+            "prices": [
+              {
+                "duration": "-",
+                "price": "See pricing document.",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Junior Courses - Seasonal",
+            "lessons_per_week": 20,
+            "description": "Courses available during spring, autumn, winter, and summer.",
+            "prices": [
+              {
+                "duration": "-",
+                "price": "See pricing document.",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Winter Camp Bournemouth Premium",
+            "lessons_per_week": 20,
+            "description": "Interactive lessons with activities",
+            "prices": [
+              {
+                "duration": "1 to 5 weeks",
+                "price": "\u20ac479",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Spring Camp Bournemouth Premium",
+            "lessons_per_week": 20,
+            "description": "Courses promoting English proficiency with extracurricular activities",
+            "prices": [
+              {
+                "duration": "1 to 2 weeks",
+                "price": "\u20ac679",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Summer Camps Bournemouth Premium",
+            "lessons_per_week": 20,
+            "description": "Interactive summer lessons",
+            "prices": [
+              {
+                "duration": "1 to 11 weeks",
+                "price": "\u20ac829",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Bournemouth Junior Camp",
+            "lessons_per_week": 15,
+            "description": "Intensive junior camp focusing on English learning.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u00a3400",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Below the age of 18."
+          },
+          {
+            "name": "Bournemouth Intensive Summer Camp",
+            "lessons_per_week": 20,
+            "description": "Junior summer camp with extra focus on English language.",
+            "prices": [
+              {
+                "duration": "2 weeks",
+                "price": "\u00a3900",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "None."
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "varies",
+            "description": "Different styles of homestays are available.",
+            "supplements": {
+              "Summer": "\u20ac35/week",
+              "Summer Supplement": "\u00a330/week"
+            }
+          },
+          {
+            "type": "Residence",
+            "price_per_week": "\u00a3220",
+            "description": "Single room, close to school.",
+            "supplements": {}
+          },
+          {
+            "type": "Residence Accommodation",
+            "price_per_week": "varies",
+            "description": "Residence type accommodations are provided.",
+            "supplements": null
+          },
+          {
+            "type": "Hotel",
+            "price_per_week": "varies",
+            "description": "Hotel options are available for students.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u00a350",
+          "peak_week_supplement": "\u20ac35 per week",
+          "exam fee": "\u00a330",
+          "UM Service for Junior Summer Camps": "\u00a355/way"
+        }
+      },
+      {
+        "city": "Malta",
+        "country": "MT",
+        "address": "-",
+        "courses": [
+          {
+            "name": "General / Intensive / Business English",
+            "lessons_per_week": 20,
+            "description": "General English and specialized business courses.",
+            "prices": [
+              {
+                "duration": "-",
+                "price": "See pricing booklet.",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge and IELTS Examination Programs",
+            "lessons_per_week": 20,
+            "description": "Examination preparation courses for C1, C2, and C3.",
+            "prices": [
+              {
+                "duration": "-",
+                "price": "See pricing booklet.",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive Individual Tuition T10",
+            "lessons_per_week": 10,
+            "description": "One-to-one private tuition for individual focus.",
+            "prices": [
+              {
+                "duration": "1-12 weeks",
+                "price": "\u20ac500",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive Individual Tuition T20",
+            "lessons_per_week": 20,
+            "description": "One-to-one private tuition for enhanced learning.",
+            "prices": [
+              {
+                "duration": "1-12 weeks",
+                "price": "\u20ac950",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive Individual Tuition T25",
+            "lessons_per_week": 25,
+            "description": "One-to-one intensive private classes.",
+            "prices": [
+              {
+                "duration": "1-12 weeks",
+                "price": "\u20ac1,150",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive Individual Tuition T30",
+            "lessons_per_week": 30,
+            "description": "One-to-one tuition for up to 30 lessons a week.",
+            "prices": [
+              {
+                "duration": "1-12 weeks",
+                "price": "\u20ac1,350",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Combination Course G1 & T5",
+            "lessons_per_week": 25,
+            "description": "Combination of general English and one-to-one tuition.",
+            "prices": [
+              {
+                "duration": "November - February: 1-12 weeks",
+                "price": "\u20ac375",
+                "currency": "EUR"
+              },
+              {
+                "duration": "March - May, September - October: 1-12 weeks",
+                "price": "\u20ac405",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Not available during June, July, August."
+          },
+          {
+            "name": "Junior Course - Spring & Early Summer Premium 2 weeks",
+            "lessons_per_week": 27,
+            "description": "Includes 54 lessons over 2 weeks, activities and excursions included.",
+            "prices": [
+              {
+                "duration": "2 Weeks",
+                "price": "\u20ac1254",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Junior Course - Summer Premium 2 weeks",
+            "lessons_per_week": 27,
+            "description": "Includes 54 lessons over 2 weeks, activities and excursions included.",
+            "prices": [
+              {
+                "duration": "2 Weeks",
+                "price": "\u20ac1630",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Junior Course - Autumn Premium 2 weeks",
+            "lessons_per_week": 27,
+            "description": "Includes 54 lessons over 2 weeks, activities and excursions included.",
+            "prices": [
+              {
+                "duration": "2 Weeks",
+                "price": "\u20ac1178",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u20ac589-\u20ac815",
+            "description": "Full board accommodation with included activities.",
+            "supplements": {
+              "Summer (Peak Period)": "+\u20ac50-40 per week",
+              "Christmas supplement": "+\u20ac85 per week in peak season",
+              "type": "Summer",
+              "price": "\u20ac145"
+            }
+          },
+          {
+            "type": "Residence",
+            "price_per_week": "\u20ac684-\u20ac722",
+            "description": "Full board accommodation with included activities.",
+            "supplements": {
+              "type": "Summer",
+              "price": "\u20ac99"
+            }
+          },
+          {
+            "type": "Hotel",
+            "price_per_week": "See pricing booklet.",
+            "description": "Hotel accommodation option.",
+            "supplements": null
+          },
+          {
+            "type": "Residences (Apartment, Self-Catering)",
+            "price_per_week": "from \u20ac425",
+            "description": "Two-bedroom apartment near school.",
+            "supplements": {
+              "Cleaning fee": "\u20ac45"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u20ac100 Booking Fee"
+        }
+      },
+      {
+        "city": "England",
+        "country": "GB",
+        "address": "Not specified",
+        "courses": [
+          {
+            "name": "General English",
+            "lessons_per_week": 20,
+            "description": "4 free conversation sessions (15 hours + 3 hours)",
+            "prices": [
+              {
+                "duration": "1-12 weeks",
+                "price": "\u00a3245",
+                "currency": "GBP"
+              },
+              {
+                "duration": "13-25 weeks",
+                "price": "\u00a3225",
+                "currency": "GBP"
+              },
+              {
+                "duration": "26+ weeks",
+                "price": "\u00a3205",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive English",
+            "lessons_per_week": 25,
+            "description": "20 General English AM + 5 Intensive English PM) + 4 free conversation sessions (18.8 hours + 3 hours)",
+            "prices": [
+              {
+                "duration": "1-12 weeks",
+                "price": "\u00a3285",
+                "currency": "GBP"
+              },
+              {
+                "duration": "13-25 weeks",
+                "price": "\u00a3265",
+                "currency": "GBP"
+              },
+              {
+                "duration": "26+ weeks",
+                "price": "\u00a3245",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Super Intensive English",
+            "lessons_per_week": 30,
+            "description": "(20 General English AM + 10 Intensive English PM) + 4 free conversation sessions (22.5 hours + 3 hours)",
+            "prices": [
+              {
+                "duration": "1-12 weeks",
+                "price": "\u00a3305",
+                "currency": "GBP"
+              },
+              {
+                "duration": "13-25 weeks",
+                "price": "\u00a3285",
+                "currency": "GBP"
+              },
+              {
+                "duration": "26+ weeks",
+                "price": "\u00a3265",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Business English",
+            "lessons_per_week": 25,
+            "description": "(20 General English AM + 5 Intensive Business PM) + 4 free conversation sessions (18.8 hours+3 hours)",
+            "prices": [
+              {
+                "duration": "1-12 weeks",
+                "price": "\u00a3315",
+                "currency": "GBP"
+              },
+              {
+                "duration": "13-25 weeks",
+                "price": "\u00a3295",
+                "currency": "GBP"
+              },
+              {
+                "duration": "26+ weeks",
+                "price": "\u00a3275",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge and IELTS Examination programme - FCE",
+            "lessons_per_week": 25,
+            "description": "University of Cambridge First Certificate in English with 4 free conversation lessons.",
+            "prices": [
+              {
+                "duration": "4-12 weeks",
+                "price": "\u00a3285",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge and IELTS Examination programme - CAE",
+            "lessons_per_week": 25,
+            "description": "University of Cambridge Certificate in Advanced English with 4 free conversation lessons.",
+            "prices": [
+              {
+                "duration": "4-12 weeks",
+                "price": "\u00a3285",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge and IELTS Examination programme - IELTS",
+            "lessons_per_week": 25,
+            "description": "IELTS exam preparation suitable for Universities and higher education.",
+            "prices": [
+              {
+                "duration": "4-12 weeks",
+                "price": "\u00a3285",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive Individual Tuition - 10 Hours",
+            "lessons_per_week": 10,
+            "description": "Individual tuition for customized learning.",
+            "prices": [
+              {
+                "duration": "1-12 weeks",
+                "price": "\u00a3500",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive Individual Tuition - 20 Hours",
+            "lessons_per_week": 20,
+            "description": "Individual tuition for customized learning.",
+            "prices": [
+              {
+                "duration": "1-12 weeks",
+                "price": "\u00a3950",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive Individual Tuition - 25 Hours",
+            "lessons_per_week": 25,
+            "description": "Individual tuition for customized learning.",
+            "prices": [
+              {
+                "duration": "1-12 weeks",
+                "price": "\u00a31150",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive Individual Tuition - 30 Hours",
+            "lessons_per_week": 30,
+            "description": "Individual tuition for customized learning.",
+            "prices": [
+              {
+                "duration": "1-12 weeks",
+                "price": "\u00a31350",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Combination Course Standard",
+            "lessons_per_week": 25,
+            "description": "General English with One-to-One PM tuition.",
+            "prices": [
+              {
+                "duration": "per week",
+                "price": "\u00a3445",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Combination Course Premium",
+            "lessons_per_week": 25,
+            "description": "General English with One-to-One PM tuition.",
+            "prices": [
+              {
+                "duration": "per week",
+                "price": "\u00a3475",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": {
+          "enrollment_fee": "\u00a370",
+          "accommodation_registration_fee": "\u00a335"
+        }
+      },
+      {
+        "city": "Multiple Locations in England",
+        "country": "GB",
+        "address": "Please contact the school for exact location details.",
+        "courses": [
+          {
+            "name": "General English Course",
+            "lessons_per_week": 20,
+            "description": "General English lessons featuring comprehensive English skills improvement.",
+            "prices": [
+              {
+                "duration": "2 weeks",
+                "price": "\u00a3200",
+                "currency": "GBP"
+              },
+              {
+                "duration": "4 weeks",
+                "price": "\u00a3700",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Basic understanding of English required."
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay (Single room, half board)",
+            "price_per_week": "\u00a3180",
+            "description": "Comfortable family homestay accommodation.",
+            "supplements": {
+              "peak_period": "\u00a340/week"
+            }
+          },
+          {
+            "type": "Executive Homestay",
+            "price_per_week": "\u00a3245",
+            "description": "Luxury homestay for adults only.",
+            "supplements": {
+              "peak_period": "\u00a350/week"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u00a350",
+          "course_book": "\u00a340"
+        }
+      },
+      {
+        "city": "Oxford",
+        "country": "GB",
+        "address": "Thornton",
+        "courses": [
+          {
+            "name": "Gold Edition",
+            "lessons_per_week": 24,
+            "description": "Activities over two-week stay including excursions and boat trip",
+            "prices": [
+              {
+                "duration": "1-6 weeks",
+                "price": "\u00a31,019",
+                "currency": "GBP"
+              },
+              {
+                "duration": "1-6 weeks (single room)",
+                "price": "\u00a31,069",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Residence (Shared Room)",
+            "price_per_week": "\u00a31,019",
+            "description": "Activities and excursions included",
+            "supplements": null
+          },
+          {
+            "type": "Residence (Single Room)",
+            "price_per_week": "\u00a31,069",
+            "description": "Activities and excursions included",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "Airport Transfer": "\u00a355 per person",
+          "Deposit": "\u00a380 refundable deposit"
+        }
+      }
+    ],
+    "terms": {
+      "cancellation": "14 days notice is required for cancellation.",
+      "refund_policy": "Administrative deduction may apply upon course cancellation.",
+      "deposit": "\u20ac100 deposit required upon booking.",
+      "notes": "Allergy, dietary requirements, allergies or special maintanence may have additional fees.",
+      "payment": "Courses must be paid in full before commencement. No student will be allowed in class otherwise.",
+      "cancellation_and_refunds": "Various refund policies apply based on the timeline of cancellation before the start date, ranging from no refund for same-day cancellations to minimal fees for cancellations more than 6 weeks ahead.",
+      "attendance_and_discipline": "Students are required to attend classes punctually and regularly.",
+      "liability": "The school accepts no responsibility for personal injury or loss unless coverage exists under public or private policies."
+    },
+    "repeat": false
+  }
+}

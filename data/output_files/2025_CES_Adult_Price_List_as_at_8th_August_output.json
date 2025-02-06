@@ -1,44 +1,51 @@
 {
-  "parsed_results": [
+  "raw_results": [
     {
       "name": "Centre of English Studies",
       "locations": [
         {
           "city": "Dublin",
           "country": "IE",
-          "address": "Details not provided in the image",
-          "courses": [
-            {
-              "name": "IELTS Preparation",
-              "lessons_per_week": 30,
-              "description": "IELTS preparation course",
-              "prices": [
-                {
-                  "duration": "4 weeks",
-                  "price": "\u20ac500",
-                  "currency": "EUR"
-                }
-              ],
-              "requirements": null
-            }
-          ],
-          "accommodations": [
-            {
-              "type": "Homestay",
-              "price_per_week": "\u20ac200",
-              "description": "Single room with half board",
-              "supplements": {
-                "Summer": "\u20ac30 weekly surcharge"
-              }
-            }
-          ],
-          "additional_fees": {
-            "registration": "\u20ac85"
-          }
+          "address": "Dublin, Ireland",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Cork",
+          "country": "IE",
+          "address": "Cork, Ireland",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Leeds",
+          "country": "GB",
+          "address": "Leeds, United Kingdom",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Edinburgh",
+          "country": "GB",
+          "address": "Edinburgh, United Kingdom",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Toronto",
+          "country": "CA",
+          "address": "Toronto, Canada",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
         }
       ],
       "terms": {
-        "cancellation": "14 days notice required"
+        "cancellation": "Details not provided."
       },
       "repeat": false
     },
@@ -48,140 +55,12 @@
         {
           "city": "Dublin",
           "country": "IE",
-          "address": "",
+          "address": "Dublin, Ireland",
           "courses": [
             {
               "name": "Standard General English",
               "lessons_per_week": 20,
-              "description": "Morning classes Mon-Fri",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "355",
-                  "currency": "EUR"
-                },
-                {
-                  "duration": "12+ weeks",
-                  "price": "315",
-                  "currency": "EUR"
-                }
-              ],
-              "requirements": null
-            },
-            {
-              "name": "Intensive General English",
-              "lessons_per_week": 26,
-              "description": "Additional Afternoon General English classes",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "",
-                  "currency": "EUR"
-                }
-              ],
-              "requirements": null
-            }
-          ],
-          "accommodations": [
-            {
-              "type": "Home stay",
-              "price_per_week": "280",
-              "description": "",
-              "supplements": null
-            }
-          ],
-          "additional_fees": null
-        }
-      ],
-      "terms": null,
-      "repeat": true
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Dublin",
-          "country": "IE",
-          "address": "",
-          "courses": [
-            {
-              "name": "Afternoon Lessons",
-              "lessons_per_week": 15,
-              "description": "Classes Mon-Fri. Afternoon sessions.",
-              "prices": [
-                {
-                  "duration": "4 weeks minimum",
-                  "price": "\u20ac200",
-                  "currency": "EUR"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "\u20ac190",
-                  "currency": "EUR"
-                },
-                {
-                  "duration": "12-23 weeks",
-                  "price": "\u20ac180",
-                  "currency": "EUR"
-                },
-                {
-                  "duration": "24-35 weeks",
-                  "price": "\u20ac160",
-                  "currency": "EUR"
-                },
-                {
-                  "duration": "36+ weeks",
-                  "price": "\u20ac155",
-                  "currency": "EUR"
-                }
-              ],
-              "requirements": null
-            },
-            {
-              "name": "Combination Course",
-              "lessons_per_week": 25,
-              "description": "General English combined with one-to-one lessons.",
-              "prices": [
-                {
-                  "duration": "2-35 weeks",
-                  "price": "\u20ac735",
-                  "currency": "EUR"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "\u20ac700",
-                  "currency": "EUR"
-                },
-                {
-                  "duration": "12+ weeks",
-                  "price": "\u20ac675",
-                  "currency": "EUR"
-                }
-              ],
-              "requirements": null
-            }
-          ],
-          "accommodations": [],
-          "additional_fees": {
-            "registration": "\u20ac85"
-          }
-        }
-      ],
-      "terms": null,
-      "repeat": true
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Dublin",
-          "country": "IE",
-          "address": "",
-          "courses": [
-            {
-              "name": "Standard IELTS Preparation Course",
-              "lessons_per_week": 20,
-              "description": "Morning classes Mon-Fri",
+              "description": "Morning classes Monday to Friday; 09:00 - 13:00",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -209,12 +88,12 @@
                   "currency": "EUR"
                 }
               ],
-              "requirements": null
+              "requirements": "Age 16+"
             },
             {
-              "name": "Intensive IELTS Preparation Course",
+              "name": "Intensive General English",
               "lessons_per_week": 26,
-              "description": "Additional Afternoon General English classes",
+              "description": "Morning classes Monday to Friday; 09:00 - 13:00 General English with afternoon classes Tuesday and Thursday; 14:00 - 16:00",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -227,21 +106,89 @@
                   "currency": "EUR"
                 },
                 {
-                  "duration": "12+ weeks",
+                  "duration": "12-23 weeks",
                   "price": "\u20ac385",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac345",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac330",
                   "currency": "EUR"
                 }
               ],
-              "requirements": null
+              "requirements": "Age 16+"
+            },
+            {
+              "name": "Afternoon Lessons",
+              "lessons_per_week": 15,
+              "description": "Afternoon classes Monday to Friday; 13:45 - 17:00",
+              "prices": [
+                {
+                  "duration": "minimum 4 weeks",
+                  "price": "\u20ac200",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac190",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac180",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac160",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac155",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Age 16+"
+            },
+            {
+              "name": "Combination Course",
+              "lessons_per_week": 25,
+              "description": "20 group lessons per week with 5 hours of one-to-one lessons per week; Monday to Friday hours: Group lessons 09:00 - 13:00; One-to-One lesson times available upon request",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac735",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac700",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12+ weeks",
+                  "price": "\u20ac675",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Age 16+"
             }
           ],
           "accommodations": [],
           "additional_fees": {
-            "registration": "\u20ac85"
+            "registration_fee": "\u20ac85"
           }
         }
       ],
-      "terms": null,
+      "terms": {
+        "cancellation": "14 days notice required"
+      },
       "repeat": true
     },
     {
@@ -250,12 +197,78 @@
         {
           "city": "Dublin",
           "country": "IE",
-          "address": "",
+          "address": "Dublin, Ireland",
           "courses": [
             {
-              "name": "Cambridge Preparation Course",
+              "name": "Standard IELTS Preparation Course",
+              "lessons_per_week": 20,
+              "description": "Morning classes Monday to Friday; 09:00 - 13:00",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac355",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac315",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac285",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac265",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac255",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Age 16+"
+            },
+            {
+              "name": "Intensive IELTS Preparation Course",
               "lessons_per_week": 26,
-              "description": "Morning classes Mon-Fri",
+              "description": "Classes Monday to Friday; 09:00 - 13:00 for IELTS and 14:00 - 16:00 Tuesdays to Thursdays",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac425",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac400",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac385",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac345",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac330",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Age 16+"
+            },
+            {
+              "name": "Cambridge Preparation Courses",
+              "lessons_per_week": 26,
+              "description": "Courses available at specific intervals throughout the year for CAE and FCE preparation; Monday to Friday 09:00 - 13:00 and General English for 14:00 - 16:00",
               "prices": [
                 {
                   "duration": "9 weeks",
@@ -268,25 +281,12 @@
                   "currency": "EUR"
                 }
               ],
-              "requirements": null
-            },
-            {
-              "name": "Long Term Course",
-              "lessons_per_week": 20,
-              "description": "Available year-round. Includes tuition along with holidays.",
-              "prices": [
-                {
-                  "duration": "25 weeks + 8 weeks holidays",
-                  "price": "\u20ac6575",
-                  "currency": "EUR"
-                }
-              ],
-              "requirements": null
+              "requirements": "Age 16+"
             },
             {
               "name": "University Pathway Program",
               "lessons_per_week": 26,
-              "description": "Prepare for higher education with a focus on academic English.",
+              "description": "Monday to Friday 09:00 - 13:00 and 14:00 - 16:00 Tuesdays to Thursdays",
               "prices": [
                 {
                   "duration": "12 weeks",
@@ -304,11 +304,69 @@
                   "currency": "EUR"
                 }
               ],
-              "requirements": null
+              "requirements": "Age 16+"
             }
           ],
           "accommodations": [],
-          "additional_fees": null
+          "additional_fees": {
+            "registration_fee": "\u20ac85"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required"
+      },
+      "repeat": true
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Dublin",
+          "country": "IE",
+          "address": "Dublin, Ireland",
+          "courses": [
+            {
+              "name": "General Business English",
+              "lessons_per_week": 26,
+              "description": "Tuesday and Thursday afternoons are Business English. 26 hours per week.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac425",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac400",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Age 16+."
+            },
+            {
+              "name": "One-to-One Lessons",
+              "lessons_per_week": 1,
+              "description": "One to one lessons (96% success IELTS rate).",
+              "prices": [
+                {
+                  "duration": "1 hour",
+                  "price": "\u20ac85",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "10 hours",
+                  "price": "\u20ac700",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "None"
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "registration": "\u20ac85"
+          }
         }
       ],
       "terms": null,
@@ -320,79 +378,44 @@
         {
           "city": "Dublin",
           "country": "IE",
-          "address": "Not provided",
-          "courses": [
-            {
-              "name": "General English Standard",
-              "lessons_per_week": 18,
-              "description": "General English course with 18.33 contact hours per week",
-              "prices": [],
-              "requirements": "Students need to have required level of English at the start of the course, otherwise they may need to be placed in a Standard General English class until ready."
-            },
-            {
-              "name": "Intensive General English",
-              "lessons_per_week": 23,
-              "description": "An intensive General English course with 23.83 contact hours per week",
-              "prices": [],
-              "requirements": "Students need to have required knowledge at the start of the course, otherwise they will be placed in standard courses until required knowledge is reached."
-            }
-          ],
+          "address": "Not Provided",
+          "courses": [],
           "accommodations": [
             {
-              "type": "Homestay Accommodation",
-              "price_per_week": "280 EUR",
-              "description": "Half-board, single room accommodation homes",
+              "type": "Homestay",
+              "price_per_week": "\u20ac280",
+              "description": "Single room not available for students aged 16-18",
               "supplements": {
-                "Special Diet": "35 EUR",
-                "Summer Price Increase": "35 EUR from June to September"
+                "Single Room Summer Supplement": "\u20ac35/week",
+                "Special Diet Supplement": "\u20ac35/week"
               }
             },
             {
-              "type": "Residential Stay Auburn and Crestfield",
-              "price_per_week": "300 EUR for Single Room, 265 EUR for Shared Room",
-              "description": "Self Catering, closeness to school.",
-              "supplements": null
+              "type": "Residential (Auburn and Crestfield)",
+              "price_per_week": "\u20ac300 (single room), \u20ac265 (shared room)",
+              "description": "Self-catering, minimum 2 week stay",
+              "supplements": {
+                "Airport transfer fee": "\u20ac85"
+              }
             },
             {
-              "type": "Residential Stay Heyday",
-              "price_per_week": "399 EUR",
-              "description": "Self catering living suite, within 14 minutes walking distance to the school in Dublin.",
+              "type": "Residential (Heyday)",
+              "price_per_week": "\u20ac399",
+              "description": "Located 14 minutes walking distance from the school, self-catering",
               "supplements": null
             }
           ],
           "additional_fees": {
-            "registration": "85 EUR - Placement Fee",
-            "insurance": "130 EUR for Medical Protection Enrolled Learners Insurance",
-            "text_material_fee": "28 EUR"
+            "Accommodation placement fee": "\u20ac85",
+            "Airport transfer": "\u20ac85"
           }
-        },
-        {
-          "city": "Dublin",
-          "country": "IE",
-          "address": "additional location not provided",
-          "courses": [
-            {
-              "name": "IELTS Test Preparation",
-              "lessons_per_week": 20,
-              "description": "Focused for better score in IELTS Test, the preparation offered by CES Dublin",
-              "prices": [
-                {
-                  "duration": "Test Registration",
-                  "price": "215 EUR",
-                  "currency": "Euro"
-                }
-              ],
-              "requirements": null
-            }
-          ],
-          "accommodations": [],
-          "additional_fees": null
         }
       ],
       "terms": {
-        "Accommodation": "Failure cancellations required charges 60 EUR for homestay own arrangement interrupts unavailable periods",
-        "Holidays": "The school observes main public holidays including those provided below, there is no refund for public holidays scheduled automatically.",
-        "Insurance": "Documents inclusive by Enrolled Learner formal applicants citizens equals with European zone healthcare card, provisions may also need to additional coverage prior during sessions"
+        "Accommodation policies": "Accommodation must be arranged via CES. Cancellation policies and refund policies apply.",
+        "Insurance requirements": "Mandatory Medi-PEL at \u20ac130 per annum.",
+        "Exam fees": "IELTS \u20ac215, CAE \u20ac210",
+        "Material charges": "Textbook + eBooks: \u20ac28, IELTS Materials \u20ac45"
       },
       "repeat": false
     },
@@ -402,12 +425,12 @@
         {
           "city": "Cork",
           "country": "IE",
-          "address": "Cork, Ireland",
+          "address": "N/A",
           "courses": [
             {
               "name": "Standard General English",
               "lessons_per_week": 20,
-              "description": "Classes 09:00-13:00, Monday to Friday.",
+              "description": "Morning classes Mon-Fri",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -440,7 +463,7 @@
             {
               "name": "Intensive General English",
               "lessons_per_week": 26,
-              "description": "Classes 09:00-13:00, Monday to Friday and two afternoons.",
+              "description": "Morning and afternoon classes different days",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -469,44 +492,24 @@
                 }
               ],
               "requirements": null
-            }
-          ],
-          "accommodations": [],
-          "additional_fees": {
-            "registration": "\u20ac85"
-          }
-        }
-      ],
-      "terms": {
-        "cancellation": "14 days' notice is required for cancellations."
-      },
-      "repeat": true
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Cork",
-          "country": "IE",
-          "address": "Cork, Ireland",
-          "courses": [
+            },
             {
               "name": "Afternoon Lessons",
               "lessons_per_week": 15,
-              "description": "Classes 14:00-17:15, Monday to Friday.",
+              "description": "Afternoon classes Mon-Fri",
               "prices": [
                 {
-                  "duration": "4+ weeks",
-                  "price": "\u20ac185",
+                  "duration": "4 weeks minimum",
+                  "price": "\u20ac185-145 per week, depending on duration",
                   "currency": "EUR"
                 }
               ],
-              "requirements": "Minimum 4 weeks"
+              "requirements": null
             },
             {
               "name": "Combination Course",
               "lessons_per_week": 30,
-              "description": "Group lessons for 20 hours per week and 5 hours One-to-One lessons.",
+              "description": "Morning and afternoon, group and one-to-one lessons",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -525,11 +528,31 @@
                 }
               ],
               "requirements": null
-            },
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "registration_fee": "\u20ac85"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required"
+      },
+      "repeat": true
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Cork",
+          "country": "IE",
+          "address": "N/A",
+          "courses": [
             {
               "name": "Standard IELTS Preparation Course",
               "lessons_per_week": 20,
-              "description": "Prepare for the IELTS exams.",
+              "description": "Preparation for IELTS exam, 20 lessons.",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -540,34 +563,29 @@
                   "duration": "5-11 weeks",
                   "price": "\u20ac250",
                   "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac225",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac200",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac190",
+                  "currency": "EUR"
                 }
               ],
               "requirements": null
-            }
-          ],
-          "accommodations": [],
-          "additional_fees": {
-            "registration": "\u20ac85"
-          }
-        }
-      ],
-      "terms": {
-        "cancellation": "14 days' notice is required for cancellations."
-      },
-      "repeat": true
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Cork",
-          "country": "IE",
-          "address": "Cork, Ireland",
-          "courses": [
+            },
             {
               "name": "Intensive IELTS Preparation Course",
               "lessons_per_week": 26,
-              "description": "Classes preparing for the IELTS test with intensive training.",
+              "description": "Preparation for IELTS exam, 26 lessons.",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -598,9 +616,9 @@
               "requirements": null
             },
             {
-              "name": "FCE/CAE Cambridge Preparation Course",
+              "name": "FCE or CAE Cambridge Preparation",
               "lessons_per_week": 26,
-              "description": "Specialized preparation for Cambridge FCE and CAE examinations.",
+              "description": "Preparation for Cambridge exams.",
               "prices": [
                 {
                   "duration": "9 weeks",
@@ -616,13 +634,26 @@
               "requirements": null
             },
             {
-              "name": "Long-term Visa Eligible Program",
+              "name": "Long Term Study Visa eligible",
               "lessons_per_week": 20,
-              "description": "Long-term study program eligible for study and work visa.",
+              "description": "Language study for long duration.",
               "prices": [
                 {
-                  "duration": "25 weeks + holidays",
+                  "duration": "25 weeks + 8 weeks of holidays",
                   "price": "\u20ac5000",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Afternoon Only Long Term",
+              "lessons_per_week": 15,
+              "description": "Afternoon classes only.",
+              "prices": [
+                {
+                  "duration": "25 weeks + 8 weeks of holidays",
+                  "price": "\u20ac3750",
                   "currency": "EUR"
                 }
               ],
@@ -631,7 +662,7 @@
             {
               "name": "University Pathway Program",
               "lessons_per_week": 26,
-              "description": "Prepares students for university academic success.",
+              "description": "Preparation for university entry.",
               "prices": [
                 {
                   "duration": "12 weeks",
@@ -644,7 +675,7 @@
                   "currency": "EUR"
                 },
                 {
-                  "duration": "Extra Weeks",
+                  "duration": "Extra week",
                   "price": "\u20ac265",
                   "currency": "EUR"
                 }
@@ -652,9 +683,9 @@
               "requirements": null
             },
             {
-              "name": "Overseas Teacher Training Course",
+              "name": "Overseas Teacher Training",
               "lessons_per_week": 20,
-              "description": "Improves teaching skills and methodologies.",
+              "description": "For qualified teachers.",
               "prices": [
                 {
                   "duration": "1 week",
@@ -672,15 +703,15 @@
             {
               "name": "CELTA Training Course",
               "lessons_per_week": 0,
-              "description": "CELTA-certified teacher training.",
+              "description": "CELTA Teacher training qualification.",
               "prices": [
                 {
-                  "duration": "Online Part-Time",
+                  "duration": "Online Part Time",
                   "price": "\u20ac1800",
                   "currency": "EUR"
                 },
                 {
-                  "duration": "Online Full-Time",
+                  "duration": "Online Full Time",
                   "price": "\u20ac1665",
                   "currency": "EUR"
                 }
@@ -688,30 +719,25 @@
               "requirements": null
             },
             {
-              "name": "General English with Business",
+              "name": "General English for Business",
               "lessons_per_week": 26,
-              "description": "Focuses on business communication and skills.",
+              "description": "Focused on improving business English.",
               "prices": [
                 {
-                  "duration": "2-4 weeks",
+                  "duration": "July-Aug",
                   "price": "\u20ac350",
-                  "currency": "EUR"
-                },
-                {
-                  "duration": "4+ weeks",
-                  "price": "\u20ac315",
                   "currency": "EUR"
                 }
               ],
               "requirements": null
             },
             {
-              "name": "One-to-One Personalized Lessons",
+              "name": "One-to-One Lessons",
               "lessons_per_week": 0,
-              "description": "Customized individual lessons based on student needs.",
+              "description": "Personalized lessons.",
               "prices": [
                 {
-                  "duration": "Per hour",
+                  "duration": "Per Hour",
                   "price": "\u20ac85",
                   "currency": "EUR"
                 }
@@ -721,12 +747,12 @@
           ],
           "accommodations": [],
           "additional_fees": {
-            "registration": "\u20ac85"
+            "registration_fee": "\u20ac85"
           }
         }
       ],
       "terms": {
-        "cancellation": "14 days' notice is required for cancellations."
+        "cancellation": "14 days notice required"
       },
       "repeat": false
     },
@@ -736,57 +762,215 @@
         {
           "city": "Cork",
           "country": "IE",
-          "address": "Not Provided",
+          "address": "",
           "courses": [],
           "accommodations": [
             {
               "type": "Homestay",
               "price_per_week": "\u20ac270",
-              "description": "Half board (breakfast and dinner from Monday to Friday; full board weekends) located in suburbs of Cork.",
+              "description": "Homestay accommodation",
               "supplements": {
-                "Single Room Summer Supplement (May 17 to September 28)": "\u20ac50/week",
-                "Special Diet Supplement (Coeliac, gluten free, lactose free, vegan, vegetarian)": "\u20ac35/week",
-                "Christmas Holidays Homestay Accommodation (December 20 to January 3, 2026)": "\u20ac345/week"
+                "Extra Night": "\u20ac50"
               }
             },
             {
-              "type": "Residential (University College Cork)",
-              "price_per_week": "From \u20ac285",
-              "description": "Residential accommodation option.",
+              "type": "Single Room Supplement",
+              "price_per_week": "\u20ac50",
+              "description": "Applied during: May 17 to September 28",
+              "supplements": null
+            },
+            {
+              "type": "Special Diet Supplement",
+              "price_per_week": "\u20ac35",
+              "description": "Coeliac, gluten free, lactose free, vegan and vegetarian",
+              "supplements": null
+            },
+            {
+              "type": "Christmas Holidays Homestay",
+              "price_per_week": "\u20ac345",
+              "description": "Dec 20 to Jan 3, 2026",
+              "supplements": null
+            },
+            {
+              "type": "University College Cork Residence",
+              "price_per_week": "\u20ac285",
+              "description": "Residence option",
               "supplements": {
-                "Extra Night": "\u20ac50 per night"
+                "Extra Night": "\u20ac50"
               }
             }
           ],
           "additional_fees": {
-            "Accommodation Placement Fee": "\u20ac85",
-            "Airport Transfer (Arrive One Way)": "\u20ac60"
+            "accommodation_placement_fee": "\u20ac85",
+            "airport_transfer": "\u20ac60"
           }
         }
       ],
       "terms": {
-        "Accommodation": "Carefully selected homestays; arrangements for absences and late arrivals; retainer fee for five days or longer: \u20ac60/week.",
-        "Insurance": "Mandatory for ILEP students (\u20ac130 per annum, including PEL). Medical insurance required.",
-        "Tuition Hours": "Standard course: 18.33 hours/week; Intensive course: 23.33 hours/week.",
-        "Examinations": "IELTS Exam Costs: \u20ac215, Cambridge Tests: \u20ac205-\u20ac210",
-        "Text Books": "\u20ac28 for text book; \u20ac45 for IELTS course book.",
-        "Policy of Care": "Specific rules for 16 and 17 year old students; range of protected school holidays, with dates defined annually.",
-        "School Holidays": "Various specific dates listed, no refunds for public holidays."
+        "cancellation": "14 days notice required",
+        "insurance_mandatory": "All courses require insurance at \u20ac130/year",
+        "exam_fees": "IELTS \u20ac215, Cambridge Exam \u20ac205-210",
+        "holidays": "January 1, Good Friday, December 25-26, etc."
       },
-      "repeat": false
+      "repeat": true
     },
     {
-      "name": "Toronto Language Center",
+      "name": "Centre of English Studies",
       "locations": [
         {
-          "city": "Toronto",
-          "country": "CA",
-          "address": "Unknown",
+          "city": "Cork",
+          "country": "IE",
+          "address": "",
           "courses": [
             {
               "name": "Standard General English",
               "lessons_per_week": 20,
-              "description": "Morning classes Mon-Fri, suitable for all levels.",
+              "description": "Morning classes Mon-Fri",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac355",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-8 weeks",
+                  "price": "\u20ac335",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive General English",
+              "lessons_per_week": 32,
+              "description": "Morning and afternoon classes Mon-Fri",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac480",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-8 weeks",
+                  "price": "\u20ac450",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Intermediate Level"
+            },
+            {
+              "name": "IELTS Preparation",
+              "lessons_per_week": 20,
+              "description": "Preparation for IELTS exam",
+              "prices": [
+                {
+                  "duration": "4 weeks",
+                  "price": "\u20ac1455",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "Upper-intermediate Level"
+            },
+            {
+              "name": "Cambridge Exam Preparation",
+              "lessons_per_week": 20,
+              "description": "Preparation for Cambridge exams",
+              "prices": [
+                {
+                  "duration": "8 weeks",
+                  "price": "\u20ac2960",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": "B2 level or higher"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac270",
+              "description": "Homestay accommodation, half-board during weekdays, full-board on weekends",
+              "supplements": {
+                "Extra Night": "\u20ac50"
+              }
+            },
+            {
+              "type": "Single Room Summer Supplement",
+              "price_per_week": "\u20ac50",
+              "description": "Available between May 17 and September 28.",
+              "supplements": null
+            },
+            {
+              "type": "Special Diet Supplement",
+              "price_per_week": "\u20ac35",
+              "description": "Adapted for requirements like coeliac, gluten-free, vegan, or vegetarian",
+              "supplements": null
+            },
+            {
+              "type": "Christmas Holidays Homestay",
+              "price_per_week": "\u20ac345",
+              "description": "December 20 to January 3 period",
+              "supplements": null
+            },
+            {
+              "type": "University College Cork Residence",
+              "price_per_week": "\u20ac285",
+              "description": "Student residence option. Meal plans not included",
+              "supplements": {
+                "Extra Night": "\u20ac50"
+              }
+            }
+          ],
+          "additional_fees": {
+            "accommodation_placement_fee": "\u20ac85",
+            "exam_fees": "IELTS \u20ac215, Cambridge Exam \u20ac210",
+            "medical_insurance": "\u20ac130 per year",
+            "airport_transfer": "\u20ac60"
+          }
+        },
+        {
+          "city": "Dublin",
+          "country": "IE",
+          "address": "",
+          "courses": [
+            {
+              "name": "General English",
+              "lessons_per_week": 20,
+              "description": "Morning classes",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac290",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "payment_terms": "Fees must be paid in advance to confirm enrollment.",
+        "cancellation_policy": "Minimum 14 days notice required for cancellation.",
+        "refund_policy": "Non-refundable booking fee of \u20ac65 applies.",
+        "additional_policies": "Public holidays listed separately."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Toronto English School",
+      "locations": [
+        {
+          "city": "Toronto",
+          "country": "CA",
+          "address": "Not explicitly mentioned in the image",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "Morning classes Mon-Fri",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -814,12 +998,12 @@
                   "currency": "USD"
                 }
               ],
-              "requirements": "None"
+              "requirements": null
             },
             {
               "name": "Intensive General English",
               "lessons_per_week": 25,
-              "description": "Intensive course with additional study for faster improvement.",
+              "description": "Enhanced course Mon-Fri",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -847,12 +1031,12 @@
                   "currency": "USD"
                 }
               ],
-              "requirements": "None"
+              "requirements": null
             },
             {
               "name": "Super Intensive General English",
               "lessons_per_week": 30,
-              "description": "Extensive program for achieving fluency swiftly.",
+              "description": "Full class schedule Mon-Fri",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -880,35 +1064,12 @@
                   "currency": "USD"
                 }
               ],
-              "requirements": "None"
-            }
-          ],
-          "accommodations": [],
-          "additional_fees": {
-            "registration": "$195",
-            "private lessons per hour": "$85 - $95",
-            "exam fees": "$575",
-            "material fees": "$20"
-          }
-        }
-      ],
-      "terms": {
-        "cancellation": "14 days notice required for full refund."
-      },
-      "repeat": true
-    },
-    {
-      "name": "Toronto Language Center",
-      "locations": [
-        {
-          "city": "Toronto",
-          "country": "CA",
-          "address": "Unknown",
-          "courses": [
+              "requirements": null
+            },
             {
               "name": "English for Digital Marketing",
-              "lessons_per_week": 30,
-              "description": "Focused on skills for digital marketing. Split into 20 general English lessons and 10 digital marketing training lessons.",
+              "lessons_per_week": 20,
+              "description": "Specialized classes, B2 Entry required",
               "prices": [
                 {
                   "duration": "12 weeks",
@@ -916,12 +1077,12 @@
                   "currency": "USD"
                 }
               ],
-              "requirements": "B2 Entry Required"
+              "requirements": "B2 Entry required"
             },
             {
               "name": "University Pathway Program",
               "lessons_per_week": 30,
-              "description": "Preparation for university education. Focus on academic English.",
+              "description": "Preparatory course for university, B2 Entry required",
               "prices": [
                 {
                   "duration": "12 weeks",
@@ -929,12 +1090,12 @@
                   "currency": "USD"
                 }
               ],
-              "requirements": "B2 Entry Required"
+              "requirements": "B2 Entry required"
             },
             {
               "name": "English for Business",
               "lessons_per_week": 25,
-              "description": "Focused on Business and General English for professionals",
+              "description": "Business English, general English enhancement",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -952,12 +1113,12 @@
                   "currency": "USD"
                 }
               ],
-              "requirements": "None"
+              "requirements": null
             },
             {
               "name": "General English for 30+",
               "lessons_per_week": 20,
-              "description": "General English classes designed for learners aged 30+",
+              "description": "Advanced English learning for ages 30 and above, (B1-B2 level)",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -985,12 +1146,34 @@
                   "currency": "USD"
                 }
               ],
-              "requirements": "B1-B2 Level"
-            },
+              "requirements": "Intermediate, 30+ age"
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "registration": "$195",
+            "materials_fee": "$20 per week",
+            "exam_fees": "Varies"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required"
+      },
+      "repeat": true
+    },
+    {
+      "name": "Toronto English School",
+      "locations": [
+        {
+          "city": "Toronto",
+          "country": "CA",
+          "address": "Not explicitly mentioned in the image",
+          "courses": [
             {
               "name": "Intensive IELTS Preparation Course",
               "lessons_per_week": 25,
-              "description": "Advanced preparation for the IELTS certification test",
+              "description": "Mon to Fri, preparation for IELTS exam.",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -1008,12 +1191,12 @@
                   "currency": "USD"
                 }
               ],
-              "requirements": "None"
+              "requirements": null
             },
             {
               "name": "Super Intensive IELTS Preparation Course",
               "lessons_per_week": 30,
-              "description": "High-paced IELTS courses for advanced preparation",
+              "description": "Mon to Fri, intense preparation for IELTS exam.",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -1026,12 +1209,12 @@
                   "currency": "USD"
                 }
               ],
-              "requirements": "None"
+              "requirements": null
             },
             {
-              "name": "Cambridge Examination Preparation Course",
-              "lessons_per_week": 25,
-              "description": "Preparation for FCE/CAE Cambridge certifications",
+              "name": "Cambridge Examination Preparation Course (FCE/CAE)",
+              "lessons_per_week": 20,
+              "description": "Mon to Fri, with 5 hours One-to-One preparation per week.",
               "prices": [
                 {
                   "duration": "2-4 weeks",
@@ -1049,12 +1232,12 @@
                   "currency": "USD"
                 }
               ],
-              "requirements": "None"
+              "requirements": null
             },
             {
-              "name": "Cambridge Examination Fast Track Preparation Course",
+              "name": "Cambridge Examination Fast Track Preparation Courses (FCE/CAE)",
               "lessons_per_week": 30,
-              "description": "Fast paced preparation for Cambridge certifications.",
+              "description": "Intensive preparation, available specific dates.",
               "prices": [
                 {
                   "duration": "4 weeks",
@@ -1062,31 +1245,21 @@
                   "currency": "USD"
                 }
               ],
-              "requirements": "None"
+              "requirements": null
             }
           ],
           "accommodations": [],
           "additional_fees": {
-            "Private lessons per hour (general)": "$85",
-            "Private lessons per hour (exam preparation)": "$95",
-            "Exam fees": "$575",
-            "Material fees": "$20.00",
-            "IELTS paper based examination": "$370.00",
-            "IELTS computer-based examination (CD IELTS)": "$370.00"
+            "registration": "$195",
+            "materials_exam": "$575",
+            "IELTS_paper_exam": "$370",
+            "IELTS_computer_exam": "$370",
+            "materials_fee": "$20 per week"
           }
-        },
-        {
-          "city": "Unknown",
-          "country": "Unknown",
-          "address": "NA",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": null
         }
       ],
       "terms": {
-        "cancellation": "14 working days prior start for a refund less than administrative fees.",
-        "notice_period": "2 consent"
+        "cancellation": "14 days notice required"
       },
       "repeat": false
     },
@@ -1097,51 +1270,31 @@
           "city": "Toronto",
           "country": "CA",
           "address": "Details not provided",
-          "courses": [
-            {
-              "name": "General English",
-              "lessons_per_week": 15,
-              "description": "15 hours of general English classes per week.",
-              "prices": [
-                {
-                  "duration": "4 weeks",
-                  "price": "CA$1400",
-                  "currency": "CAD"
-                },
-                {
-                  "duration": "8 weeks",
-                  "price": "CA$2700",
-                  "currency": "CAD"
-                }
-              ],
-              "requirements": null
-            }
-          ],
+          "courses": [],
           "accommodations": [
             {
-              "type": "Homestay Full-Board",
-              "price_per_week": "CA$350",
-              "description": "Full-board single accommodation with a host family.",
+              "type": "Homestay Full-Board (single)",
+              "price_per_week": "$350",
+              "description": "Includes accommodation with meal plan.",
               "supplements": {
-                "Summer": "Extra CA$30/week"
+                "Summer Period (01 June - 31 Aug)": "+$30/week"
               }
             },
             {
-              "type": "Residence Economy Suite",
-              "price_per_week": "CA$550",
-              "description": "Economy suite in a student residence.",
+              "type": "Residential Self-Catering (Casa Canada, 1 Bedroom)",
+              "price_per_week": "$650",
+              "description": "Self-catered accommodation at Casa Canada.",
               "supplements": null
             }
           ],
           "additional_fees": {
-            "registration": "CA$100",
-            "accommodation_placement": "CA$275"
+            "Accommodation Placement Fee": "$275",
+            "Airport Transfer (one way)": "$150"
           }
         }
       ],
       "terms": {
-        "cancellation": "Standard cancellation terms apply. 14 days notice required.",
-        "other": "Students should secure their medical insurance before travel."
+        "notes": "Accommodation is managed through specified terms detailed in accompanying documentation. Tuition includes organized social activities."
       },
       "repeat": false
     },
@@ -1151,31 +1304,31 @@
         {
           "city": "Vancouver",
           "country": "CA",
-          "address": "Unknown",
+          "address": "",
           "courses": [
             {
               "name": "Standard General English",
               "lessons_per_week": 20,
-              "description": "Morning classes Mon-Fri",
+              "description": "Classes from Monday to Friday, 09:00 to 12:15",
               "prices": [
                 {
                   "duration": "2-4 weeks",
-                  "price": "440",
+                  "price": "$440",
                   "currency": "USD"
                 },
                 {
                   "duration": "5-11 weeks",
-                  "price": "415",
+                  "price": "$415",
                   "currency": "USD"
                 },
                 {
                   "duration": "12-23 weeks",
-                  "price": "395",
+                  "price": "$395",
                   "currency": "USD"
                 },
                 {
                   "duration": "24 weeks",
-                  "price": "365",
+                  "price": "$365",
                   "currency": "USD"
                 }
               ],
@@ -1184,26 +1337,26 @@
             {
               "name": "Intensive General English",
               "lessons_per_week": 25,
-              "description": "Morning classes with extended hours Mon-Thu",
+              "description": "Classes from Monday to Friday, afternoons included (09:00 to 14:00 Mon to Thu)",
               "prices": [
                 {
                   "duration": "2-4 weeks",
-                  "price": "465",
+                  "price": "$465",
                   "currency": "USD"
                 },
                 {
                   "duration": "5-11 weeks",
-                  "price": "445",
+                  "price": "$445",
                   "currency": "USD"
                 },
                 {
                   "duration": "12-23 weeks",
-                  "price": "420",
+                  "price": "$420",
                   "currency": "USD"
                 },
                 {
                   "duration": "24 weeks",
-                  "price": "400",
+                  "price": "$400",
                   "currency": "USD"
                 }
               ],
@@ -1212,67 +1365,26 @@
             {
               "name": "Super Intensive General English",
               "lessons_per_week": 30,
-              "description": "Extended hours Mon-Thu",
+              "description": "Classes from Monday to Friday, with extended hours",
               "prices": [
                 {
                   "duration": "2-4 weeks",
-                  "price": "500",
+                  "price": "$500",
                   "currency": "USD"
                 },
                 {
                   "duration": "5-11 weeks",
-                  "price": "475",
+                  "price": "$475",
                   "currency": "USD"
                 },
                 {
                   "duration": "12-23 weeks",
-                  "price": "445",
+                  "price": "$445",
                   "currency": "USD"
                 },
                 {
                   "duration": "24 weeks",
-                  "price": "420",
-                  "currency": "USD"
-                }
-              ],
-              "requirements": null
-            },
-            {
-              "name": "Intensive IELTS Preparation Course",
-              "lessons_per_week": 25,
-              "description": "IELTS focus with morning classes",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "465",
-                  "currency": "USD"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "445",
-                  "currency": "USD"
-                },
-                {
-                  "duration": "12 weeks",
-                  "price": "420",
-                  "currency": "USD"
-                }
-              ],
-              "requirements": null
-            },
-            {
-              "name": "Super Intensive IELTS Preparation Course",
-              "lessons_per_week": 30,
-              "description": "IELTS focus with extended hours",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "500",
-                  "currency": "USD"
-                },
-                {
-                  "duration": "5-9 weeks",
-                  "price": "475",
+                  "price": "$420",
                   "currency": "USD"
                 }
               ],
@@ -1281,15 +1393,14 @@
           ],
           "accommodations": [],
           "additional_fees": {
-            "registration": "195",
-            "private_lessons": "85 (general)",
-            "preparation_lessons": "95",
-            "material_fee": "20/week"
+            "registration": "$195",
+            "material_fee": "$20/week",
+            "exam_preparation": "Starting at $85 per lesson"
           }
         }
       ],
       "terms": {
-        "notation": "For all courses: registration and fees required."
+        "cancellation": "14 days notice required"
       },
       "repeat": false
     },
@@ -1299,26 +1410,26 @@
         {
           "city": "Vancouver",
           "country": "CA",
-          "address": "Not provided",
+          "address": "Not Provided",
           "courses": [
             {
               "name": "Standard Course",
               "lessons_per_week": 15,
-              "description": "English language classes including breaks",
+              "description": "Standard course of 15 hours per week, excluding breaks.",
               "prices": [],
               "requirements": null
             },
             {
               "name": "Intensive Course",
               "lessons_per_week": 18,
-              "description": "Extended English language classes excluding breaks",
+              "description": "Intensive course of 18.75 hours per week, excluding breaks.",
               "prices": [],
               "requirements": null
             },
             {
               "name": "Super Intensive Course",
               "lessons_per_week": 22,
-              "description": "Advanced English language classes excluding breaks",
+              "description": "Super intensive course of 22.50 hours per week, excluding breaks.",
               "prices": [],
               "requirements": null
             }
@@ -1327,331 +1438,61 @@
             {
               "type": "Host Family",
               "price_per_week": "$375",
-              "description": "Single room, Full-board",
-              "supplements": {}
+              "description": "Full-board accommodation (single room).",
+              "supplements": {
+                "Summer": "$30/week"
+              }
             },
             {
               "type": "Host Family",
               "price_per_week": "$360",
-              "description": "Single room, Half-board",
-              "supplements": {}
-            },
-            {
-              "type": "Residential GEC Viva",
-              "price_per_week": "N/A",
-              "description": "Economy Downtown, Shared Room",
+              "description": "Half-board accommodation (single room).",
               "supplements": {
-                "Monthly": "$1600"
-              }
-            }
-          ],
-          "additional_fees": {
-            "Accommodation placement": "$275",
-            "Airport transfer": "$150",
-            "Medical insurance": "$3/day"
-          }
-        }
-      ],
-      "terms": {},
-      "repeat": false
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "London",
-          "country": "GB",
-          "address": "Not specified",
-          "courses": [
-            {
-              "name": "Standard General English",
-              "lessons_per_week": 20,
-              "description": "Morning classes Mon-Fri",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "\u00a3275",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "\u00a3265",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "12-23 weeks",
-                  "price": "\u00a3255",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "24-35 weeks",
-                  "price": "\u00a3250",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "36+ weeks",
-                  "price": "\u00a3240",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": null
-            },
-            {
-              "name": "Intensive General English",
-              "lessons_per_week": 30,
-              "description": "Morning and afternoon classes Mon-Fri",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "\u00a3390",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "\u00a3370",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "12-23 weeks",
-                  "price": "\u00a3365",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "24-35 weeks",
-                  "price": "\u00a3355",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "36+ weeks",
-                  "price": "\u00a3345",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": null
-            }
-          ],
-          "accommodations": [],
-          "additional_fees": {
-            "registration": "\u00a375"
-          }
-        },
-        {
-          "city": "Edinburgh",
-          "country": "GB",
-          "address": "Not specified",
-          "courses": [
-            {
-              "name": "Cambridge Exam Preparation Course (FCE)",
-              "lessons_per_week": 20,
-              "description": "Combination of group and one-to-one lessons",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "\u00a3615",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "\u00a3605",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "Extra weeks",
-                  "price": "\u00a3595",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": null
-            }
-          ],
-          "accommodations": [],
-          "additional_fees": {
-            "registration": "\u00a375"
-          }
-        }
-      ],
-      "terms": {
-        "cancellation": "14 days notice required"
-      },
-      "repeat": false
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "London",
-          "country": "UK",
-          "address": "Not specified",
-          "courses": [],
-          "accommodations": [
-            {
-              "type": "Host Family",
-              "price_per_week": "\u00a3280",
-              "description": "Half-Board, London, Single",
-              "supplements": {
-                "Summer Supplement": "\u00a335/week (July and August)"
+                "Summer": "$30/week"
               }
             },
             {
               "type": "Residential",
-              "price_per_week": "\u00a3275-\u00a3560",
-              "description": "Rathbone Apartments, Zone 1 Central London: Various room types, minimum stay 4 weeks",
+              "price_per_week": "$600",
+              "description": "Casa Canada (shared room, includes amenities).",
               "supplements": null
             }
           ],
           "additional_fees": {
-            "placement_fee": "\u00a375",
-            "medical_insurance": "Not included"
+            "Accommodation Placement Fee": "$275",
+            "Registration Fee": "Not Specified"
           }
         },
         {
-          "city": "Edinburgh",
-          "country": "UK",
-          "address": "Not specified",
-          "courses": [],
+          "city": "Vancouver",
+          "country": "CA",
+          "address": "Not Provided",
+          "courses": [
+            {
+              "name": "Standard Course",
+              "lessons_per_week": 15,
+              "description": "Standard course of 15 hours per week.",
+              "prices": [],
+              "requirements": null
+            }
+          ],
           "accommodations": [
             {
               "type": "Host Family",
-              "price_per_week": "\u00a3280",
-              "description": "Half-Board, Edinburgh, Single",
-              "supplements": {
-                "Summer Supplement": "\u00a335/week (July and August)"
-              }
-            }
-          ],
-          "additional_fees": {
-            "placement_fee": "\u00a375",
-            "medical_insurance": "Not included"
-          }
-        }
-      ],
-      "terms": {
-        "accommodation_policy": "Carefully selected host family regulations apply.",
-        "medical_insurance_advice": "Travel insurance is recommended"
-      },
-      "repeat": false
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Oxford",
-          "country": "GB",
-          "address": "Oxford, United Kingdom",
-          "courses": [
-            {
-              "name": "Standard General English",
-              "lessons_per_week": 20,
-              "description": "20 lessons/week, Mon-Fri, 09:30-13:00",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "\u00a3275",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "\u00a3265",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "12-23 weeks",
-                  "price": "\u00a3255",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "24-35 weeks",
-                  "price": "\u00a3250",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "36+ weeks",
-                  "price": "\u00a3240",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": "Minimum age 16"
-            },
-            {
-              "name": "Intensive General English",
-              "lessons_per_week": 30,
-              "description": "30 lessons/week, Mon-Fri, 09:30-13:00, 14:00-16:30",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "\u00a3390",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "\u00a3370",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "12-23 weeks",
-                  "price": "\u00a3365",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "24-35 weeks",
-                  "price": "\u00a3355",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "36+ weeks",
-                  "price": "\u00a3345",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": "Minimum age 16"
-            },
-            {
-              "name": "Combination Course",
-              "lessons_per_week": 25,
-              "description": "25 lessons/week - group and one-to-one, Mon-Fri, 09:30-13:00, and afternoon one-to-ones",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "\u00a3615",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "\u00a3605",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "Extra week",
-                  "price": "\u00a3595",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": "Minimum age 16"
-            }
-          ],
-          "accommodations": [
-            {
-              "type": "Homestay",
-              "price_per_week": "\u00a3170",
-              "description": "Single room with full board",
-              "supplements": {
-                "Summer": "\u00a325/week"
-              }
-            },
-            {
-              "type": "Student house",
-              "price_per_week": "\u00a3220",
-              "description": "Shared room with no meals",
+              "price_per_week": "$375",
+              "description": "Full-board accommodation.",
               "supplements": null
             }
           ],
           "additional_fees": {
-            "registration": "\u00a375"
+            "Registration Fee": "$85"
           }
         }
       ],
       "terms": {
-        "cancellation": "14 days notice required"
+        "Medical Insurance": "You are strongly advised to take out travel and medical insurance before leaving home to cover emergencies.",
+        "Policy Of Care": "CES has a strict policy of care and welfare for all students under 19 years of age studying in our adult schools.",
+        "Cancellations": "14 days notice is required for cancellations."
       },
       "repeat": false
     },
@@ -1659,86 +1500,38 @@
       "name": "Centre of English Studies",
       "locations": [
         {
-          "city": "Oxford",
+          "city": "London",
           "country": "GB",
-          "address": "Not specified",
-          "courses": [],
-          "accommodations": [
-            {
-              "type": "Homestay",
-              "price_per_week": "\u00a3280",
-              "description": "Single room, half-board in Oxford",
-              "supplements": {
-                "Summer": "\u00a335 p/w",
-                "Special Diet Supplement": "\u00a335 p/w",
-                "Christmas Supplement": "\u00a3350"
-              }
-            },
-            {
-              "type": "Homestay",
-              "price_per_week": "\u00a3235",
-              "description": "Shared room, half-board in Oxford",
-              "supplements": {
-                "Summer": "\u00a335 p/w",
-                "Special Diet Supplement": "\u00a335 p/w",
-                "Christmas Supplement": "\u00a3350"
-              }
-            }
-          ],
-          "additional_fees": {
-            "Accomodation placement": "\u00a375",
-            "Airport transfer from Heathrow": "\u00a3165",
-            "Airport transfer from Gatwick": "\u00a3205",
-            "Airport transfer from Stansted": "\u00a3215"
-          }
-        }
-      ],
-      "terms": {
-        "Cancellation": "Refer to Terms and Conditions displayed in the image.",
-        "Medical insurance": "Insurance coverage recommended prior to starting the course.",
-        "Tuition Hours": "Standard courses are 15 hours per week. Intensive 22 hours per week with breaks excluded.",
-        "Exams": "IELTS Exam \u00a3220.",
-        "Textbooks": "Digital E-Book Price: \u00a332.",
-        "Social Activity Costs": "Full day - \u00a375 - \u00a3120, Half day - \u00a38 - \u00a390."
-      },
-      "repeat": false
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Leeds",
-          "country": "GB",
-          "address": "Leeds, UK",
+          "address": "",
           "courses": [
             {
               "name": "Standard General English",
               "lessons_per_week": 20,
-              "description": "Morning classes: Monday to Friday, 09:30 to 13:00.",
+              "description": "Morning classes 09:30-13:00 Mon-Fri.",
               "prices": [
                 {
                   "duration": "2-4 weeks",
+                  "price": "275",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "265",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
                   "price": "255",
                   "currency": "GBP"
                 },
                 {
-                  "duration": "5-11 weeks",
+                  "duration": "24-35 weeks",
                   "price": "250",
                   "currency": "GBP"
                 },
                 {
-                  "duration": "12-23 weeks",
-                  "price": "240",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "24-35 weeks",
-                  "price": "230",
-                  "currency": "GBP"
-                },
-                {
                   "duration": "36+ weeks",
-                  "price": "225",
+                  "price": "240",
                   "currency": "GBP"
                 }
               ],
@@ -1747,49 +1540,42 @@
             {
               "name": "Intensive General English",
               "lessons_per_week": 30,
-              "description": "Morning general English classes with additional afternoon lessons.",
+              "description": "General English morning and afternoon lessons.",
               "prices": [
                 {
                   "duration": "2-4 weeks",
-                  "price": "375",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "360",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "12-23 weeks",
-                  "price": "355",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "24-35 weeks",
-                  "price": "335",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "36+ weeks",
-                  "price": "330",
+                  "price": "390",
                   "currency": "GBP"
                 }
               ],
               "requirements": null
-            },
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "200 GBP",
+              "description": "Single room accommodation.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "registration_fee": "75 GBP"
+          }
+        },
+        {
+          "city": "Edinburgh",
+          "country": "GB",
+          "address": "",
+          "courses": [
             {
               "name": "Combination Course",
               "lessons_per_week": 25,
-              "description": "20 group lessons per week with 5 individual one-to-one lessons.",
+              "description": "Combination of group and one-to-one lessons.",
               "prices": [
                 {
                   "duration": "2-4 weeks",
-                  "price": "595",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "590",
+                  "price": "615",
                   "currency": "GBP"
                 }
               ],
@@ -1797,13 +1583,56 @@
             }
           ],
           "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "London",
+          "country": "GB",
+          "address": "Not specified",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u00a3280",
+              "description": "Single room, half-board",
+              "supplements": {
+                "Summer": "\u00a335/week (July and August)"
+              }
+            }
+          ],
           "additional_fees": {
-            "registration": "75 GBP"
+            "registration": "\u00a375"
+          }
+        },
+        {
+          "city": "Edinburgh",
+          "country": "GB",
+          "address": "Not specified",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u00a3280",
+              "description": "Single room, half-board",
+              "supplements": {
+                "Summer": "\u00a335/week (July and August)"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u00a375"
           }
         }
       ],
       "terms": {
-        "cancellation": "14 days notice required"
+        "accommodation": "Accommodations are carefully selected with options including homestay and residential."
       },
       "repeat": false
     },
@@ -1811,252 +1640,38 @@
       "name": "Centre of English Studies",
       "locations": [
         {
-          "city": "Leeds",
+          "city": "Oxford",
           "country": "GB",
-          "address": "",
-          "courses": [],
-          "accommodations": [
-            {
-              "type": "Homestay - Single",
-              "price_per_week": "\u00a3240",
-              "description": "Half Board (Single)",
-              "supplements": {
-                "Summer": "\u00a335 p/w",
-                "Christmas": "\u00a3350 p/w"
-              }
-            },
-            {
-              "type": "Homestay - Shared",
-              "price_per_week": "\u00a3215",
-              "description": "Half Board (Shared accommodations can't exceed 2 per arrangement)",
-              "supplements": {
-                "Summer": "\u00a335 p/w"
-              }
-            },
-            {
-              "type": "Residence",
-              "price_per_week": "\u00a3225",
-              "description": "Leeds Residence, 18+ years, Minimum 4 weeks",
-              "supplements": null
-            }
-          ],
-          "additional_fees": {
-            "Accommodation Placement Fee": "\u00a375"
-          }
-        }
-      ],
-      "terms": {
-        "Accommodation": "Half Board; Special dietary supplement \u00a335 p/w",
-        "Exams and Text book": "IELTS exams cost \u00a3220. Digital Textbook fee is \u00a332",
-        "Social Activities": "Activity costs vary between \u00a35 and \u00a375",
-        "School Holidays": "01 January, 18 April, 21 April, 05 May, 26 May, 25 August, 22 December 2025 - 02 January 2026"
-      },
-      "repeat": true
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Leeds",
-          "country": "GB",
-          "address": "",
-          "courses": [],
-          "accommodations": [
-            {
-              "type": "Homestay - Single",
-              "price_per_week": "\u00a3240",
-              "description": "Half Board (Single)",
-              "supplements": {
-                "Summer": "\u00a335 p/w",
-                "Christmas": "\u00a3350 p/w"
-              }
-            },
-            {
-              "type": "Homestay - Shared",
-              "price_per_week": "\u00a3215",
-              "description": "Half Board (Shared accommodations can't exceed 2 per arrangement)",
-              "supplements": {
-                "Summer": "\u00a335 p/w"
-              }
-            },
-            {
-              "type": "Residence",
-              "price_per_week": "\u00a3225",
-              "description": "Leeds Residence, 18+ years, Minimum 4 weeks",
-              "supplements": null
-            }
-          ],
-          "additional_fees": {
-            "Accommodation Placement Fee": "\u00a375"
-          }
-        }
-      ],
-      "terms": {
-        "Accommodation": "Half Board; Special dietary supplement \u00a335 p/w",
-        "Exams and Text book": "IELTS exams cost \u00a3220. Digital Textbook fee is \u00a332",
-        "Social Activities": "Activity costs vary between \u00a35 and \u00a375",
-        "School Holidays": "01 January, 18 April, 21 April, 05 May, 26 May, 25 August, 22 December 2025 - 02 January 2026"
-      },
-      "repeat": true
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Leeds",
-          "country": "GB",
-          "address": "",
-          "courses": [],
-          "accommodations": [
-            {
-              "type": "Homestay - Single",
-              "price_per_week": "\u00a3240",
-              "description": "Half Board (Single)",
-              "supplements": {
-                "Summer": "\u00a335 p/w",
-                "Christmas": "\u00a3350 p/w (20 Dec to 3 Jan 2026)",
-                "Special Diet": "\u00a335 p/w"
-              }
-            },
-            {
-              "type": "Homestay - Shared",
-              "price_per_week": "\u00a3215",
-              "description": "Half Board (Shared accommodations can't exceed 2 per arrangement)",
-              "supplements": {
-                "Summer": "\u00a335 p/w"
-              }
-            },
-            {
-              "type": "Residence",
-              "price_per_week": "\u00a3225",
-              "description": "Leeds Residence, 18+ years, Minimum 4 weeks",
-              "supplements": null
-            }
-          ],
-          "additional_fees": {
-            "Accommodation Placement Fee": "\u00a375"
-          }
-        }
-      ],
-      "terms": {
-        "Accommodation": "Half Board; Special dietary supplement \u00a335 p/w",
-        "Exams and Text book": "IELTS exams cost \u00a3220. Digital Textbook fee is \u00a332",
-        "Social Activities": "Activity costs vary between \u00a35 and \u00a375",
-        "School Holidays": "01 January, 18 April, 21 April, 05 May, 26 May, 25 August, 22 December 2025 - 02 January 2026"
-      },
-      "repeat": true
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Leeds",
-          "country": "GB",
-          "address": "Centre of English Studies, Leeds, United Kingdom",
-          "courses": [
-            {
-              "name": "Standard General English",
-              "lessons_per_week": 15,
-              "description": "Standard course focused on general English learning, 15 contact hours per week (excluding breaks), Monday to Friday.",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "\u00a3355",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": null
-            },
-            {
-              "name": "Intensive English",
-              "lessons_per_week": 22,
-              "description": "Intensive course with 22 contact hours per week; offering a deeper English learning experience, Monday to Friday.",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "\u00a3450",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": null
-            }
-          ],
-          "accommodations": [
-            {
-              "type": "Homestay - Single",
-              "price_per_week": "\u00a3240",
-              "description": "Single room with half board (bed, breakfast, and dinner). Seasonal supplements apply.",
-              "supplements": {
-                "Summer": "\u00a335 p/w",
-                "Special Diet": "\u00a335 p/w",
-                "Christmas Holidays": "\u00a3350 p/w"
-              }
-            },
-            {
-              "type": "Homestay - Shared",
-              "price_per_week": "\u00a3215",
-              "description": "Shared room (maximum of 2 per arrangement) with half board. Seasonal supplements apply.",
-              "supplements": {
-                "Summer": "\u00a335 p/w",
-                "Special Diet": "\u00a335 p/w"
-              }
-            },
-            {
-              "type": "Residential",
-              "price_per_week": "\u00a3225",
-              "description": "Private en-suite room located in Leeds Residential campus. Must be 18 years or older. Minimum 4-week stay required.",
-              "supplements": null
-            }
-          ],
-          "additional_fees": {
-            "Accommodation Placement Fee": "\u00a375",
-            "TextBook Fee": "\u00a332",
-            "IELTS Exam Fee": "\u00a3220"
-          }
-        }
-      ],
-      "terms": {
-        "cancellation": "Notify the school at least 14 days prior to the scheduled start date.",
-        "school_holidays": "January 01; April 18, 21; May 05, 26; August 25; December 22, 2025 - January 02, 2026 (inclusive of public holidays)."
-      },
-      "repeat": false
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Worthing",
-          "country": "GB",
-          "address": "",
+          "address": "N/A",
           "courses": [
             {
               "name": "Standard General English",
               "lessons_per_week": 20,
-              "description": "Morning classes Mon-Fri, 09:30 - 13:00",
+              "description": "Morning classes Monday-Friday, 09:30-13:00.",
               "prices": [
                 {
                   "duration": "2-4 weeks",
-                  "price": "\u00a3245",
+                  "price": "\u00a3275",
                   "currency": "GBP"
                 },
                 {
                   "duration": "5-11 weeks",
-                  "price": "\u00a3235",
+                  "price": "\u00a3265",
                   "currency": "GBP"
                 },
                 {
                   "duration": "12-23 weeks",
-                  "price": "\u00a3225",
+                  "price": "\u00a3255",
                   "currency": "GBP"
                 },
                 {
                   "duration": "24-35 weeks",
-                  "price": "\u00a3220",
+                  "price": "\u00a3250",
                   "currency": "GBP"
                 },
                 {
                   "duration": "36+ weeks",
-                  "price": "\u00a3210",
+                  "price": "\u00a3240",
                   "currency": "GBP"
                 }
               ],
@@ -2065,182 +1680,31 @@
             {
               "name": "Intensive General English",
               "lessons_per_week": 30,
-              "description": "Morning and afternoon classes, 09:30 - 16:30",
+              "description": "Morning and afternoon classes Monday-Friday, 09:30-15:00.",
               "prices": [
                 {
                   "duration": "2-4 weeks",
-                  "price": "\u00a3355",
+                  "price": "\u00a3390",
                   "currency": "GBP"
                 },
                 {
                   "duration": "5-11 weeks",
-                  "price": "\u00a3335",
+                  "price": "\u00a3370",
                   "currency": "GBP"
                 },
                 {
                   "duration": "12-23 weeks",
-                  "price": "\u00a3325",
+                  "price": "\u00a3365",
                   "currency": "GBP"
                 },
                 {
                   "duration": "24-35 weeks",
-                  "price": "\u00a3315",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "36+ weeks",
-                  "price": "\u00a3305",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": null
-            },
-            {
-              "name": "Combination Course",
-              "lessons_per_week": 25,
-              "description": "20 group lessons and 5 one-to-one lessons, 09:30 - 16:30",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "\u00a3585",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "\u00a3575",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "Extra week",
-                  "price": "\u00a3565",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": null
-            },
-            {
-              "name": "IELTS Preparation Course",
-              "lessons_per_week": 30,
-              "description": "General and IELTS specific preparation, 09:30 - 16:30",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
                   "price": "\u00a3355",
                   "currency": "GBP"
                 },
                 {
-                  "duration": "5-11 weeks",
-                  "price": "\u00a3335",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "12-23 weeks",
-                  "price": "\u00a3325",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "24-35 weeks",
-                  "price": "\u00a3315",
-                  "currency": "GBP"
-                },
-                {
                   "duration": "36+ weeks",
-                  "price": "\u00a3305",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": null
-            },
-            {
-              "name": "Cambridge Exam Preparation (FCE)",
-              "lessons_per_week": 25,
-              "description": "Group lessons and FCE preparation, 09:30 - 16:30",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "\u00a3585",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "\u00a3575",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "Extra week",
-                  "price": "\u00a3565",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": null
-            },
-            {
-              "name": "Long Term / Multi Destination Course",
-              "lessons_per_week": 20,
-              "description": "Various destinations with Ireland and UK",
-              "prices": [
-                {
-                  "duration": "24 weeks",
-                  "price": "\u00a35280",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "36 weeks",
-                  "price": "\u00a37560",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": null
-            },
-            {
-              "name": "University Pathway Programme",
-              "lessons_per_week": 30,
-              "description": "Group lessons and pathway preparation, 09:30 - 16:30",
-              "prices": [
-                {
-                  "duration": "12 weeks",
-                  "price": "\u00a34260",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "24 weeks",
-                  "price": "\u00a37560",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "Extra week",
-                  "price": "\u00a3315",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": null
-            },
-            {
-              "name": "General English with Business",
-              "lessons_per_week": 30,
-              "description": "General and Business English, 09:30 - 16:30",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "\u00a3355",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "5-11 weeks",
-                  "price": "\u00a3335",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": null
-            },
-            {
-              "name": "One-to-One Lessons",
-              "lessons_per_week": 1,
-              "description": "Individual sessions based on request",
-              "prices": [
-                {
-                  "duration": "Per hour",
-                  "price": "\u00a375",
+                  "price": "\u00a3345",
                   "currency": "GBP"
                 }
               ],
@@ -2254,7 +1718,656 @@
         }
       ],
       "terms": {
+        "class_size": "Maximum 9 students per class",
+        "class_duration": "45 minutes"
+      },
+      "repeat": true
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Oxford",
+          "country": "GB",
+          "address": "N/A",
+          "courses": [
+            {
+              "name": "Combination Course",
+              "lessons_per_week": 25,
+              "description": "20 group lessons + 5 One-to-One lessons per week",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u00a3615",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u00a3605",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "IELTS Preparation Course",
+              "lessons_per_week": 30,
+              "description": "For improving academic English and exam preparation",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u00a3390",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u00a3370",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Cambridge Exam Preparation Course",
+              "lessons_per_week": 25,
+              "description": "20 hours + 5 one-to-one exam preparation lessons",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u00a3615",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u00a3605",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Long Term / Multi Destination Course Ireland and UK",
+              "lessons_per_week": 20,
+              "description": "Dedicated long term program for multi location exposure",
+              "prices": [
+                {
+                  "duration": "24 weeks",
+                  "price": "\u00a36000",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "36 weeks",
+                  "price": "\u00a38640",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "CELTA Training Course",
+              "lessons_per_week": 20,
+              "description": "Teacher training certification",
+              "prices": [
+                {
+                  "duration": "6 months",
+                  "price": "\u00a31515",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "registration_fee": "\u00a375"
+          }
+        }
+      ],
+      "terms": {
+        "class_duration": "All teaching / tuition hours are 45 minutes",
+        "class_size": "Max 9 students."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Oxford",
+          "country": "GB",
+          "address": "Unknown",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 15,
+              "description": "Standard course with 15 hours of tuition each week.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "Unknown",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive General English",
+              "lessons_per_week": 22,
+              "description": "Intensive course with 22 hours of tuition each week.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "Unknown",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay - Single Room",
+              "price_per_week": "\u00a3280",
+              "description": "Homestay accommodation with half-board.",
+              "supplements": {
+                "Summer Supplement": "\u00a335/week",
+                "Special Dietary Supplement": "\u00a335/week",
+                "Christmas Supplement": "\u00a3350/week"
+              }
+            },
+            {
+              "type": "Homestay - Shared Room",
+              "price_per_week": "\u00a3235",
+              "description": "Homestay accommodation with half-board.",
+              "supplements": {
+                "Summer Supplement": "\u00a335/week",
+                "Special Dietary Supplement": "\u00a335/week",
+                "Christmas Supplement": "\u00a3350/week"
+              }
+            }
+          ],
+          "additional_fees": {
+            "Accommodation Placement Fee": "\u00a375",
+            "Airport Transfers from Heathrow": "\u00a3165 (one-way)",
+            "Airport Transfers from Gatwick": "\u00a3205 (one-way)",
+            "Airport Transfers from Stansted": "\u00a3215 (one-way)",
+            "Digital E-Book": "\u00a332",
+            "Exams (IELTS)": "\u00a3220"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Unknown",
+        "school_holidays": "22 December 2025 \u2013 2 January 2026"
+      },
+      "repeat": false
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Leeds",
+          "country": "GB",
+          "address": "Leeds, United Kingdom",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "Morning classes Mon-Fri, 09:30 - 13:00",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u00a3255",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u00a3250",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u00a3240",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u00a3230",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u00a3225",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "None"
+            },
+            {
+              "name": "Intensive General English",
+              "lessons_per_week": 30,
+              "description": "Morning and afternoon classes Mon-Fri, 09:30 - 16:30",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u00a3375",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u00a3360",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u00a3355",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u00a3335",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u00a3330",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "None"
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "registration": "\u00a375"
+          }
+        }
+      ],
+      "terms": {
         "cancellation": "14 days notice required"
+      },
+      "repeat": false
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Leeds",
+          "country": "UK",
+          "address": "Details not provided in the image.",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 15,
+              "description": "15 contact hours per week, excluding breaks.",
+              "prices": [
+                {
+                  "duration": "Details not provided in the image.",
+                  "price": "Details not provided in the image.",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive General English",
+              "lessons_per_week": 22,
+              "description": "22 contact hours per week, excluding breaks.",
+              "prices": [
+                {
+                  "duration": "Details not provided in the image.",
+                  "price": "Details not provided in the image.",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay Single Room",
+              "price_per_week": "\u00a3240",
+              "description": "Half-board accommodation.",
+              "supplements": {
+                "Summer Supplement": "\u00a335 p/w, July-August"
+              }
+            },
+            {
+              "type": "Homestay Shared Room",
+              "price_per_week": "\u00a3215",
+              "description": "Half-board shared accommodation.",
+              "supplements": {
+                "Summer Supplement": "\u00a335 p/w, July-August"
+              }
+            },
+            {
+              "type": "Leeds Residence",
+              "price_per_week": "\u00a3225",
+              "description": "Single en suite room, year-round, minimum 4 weeks.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": {
+            "Accommodation Placement Fee": "\u00a375",
+            "Special diet supplement": "\u00a335 p/w",
+            "Christmas Holidays Fee": "\u00a3350"
+          }
+        }
+      ],
+      "terms": {
+        "Accommodation Policy": "Accommodation pair to homestay arrangements as noted.",
+        "Medical Insurance": "Strongly advised, covers loss, etc.",
+        "Teaching hours": "Standard course - 15 hrs.",
+        "Exam fees": "IELTS: \u00a3220",
+        "Holidays & Observances": "Image lists specific dates for closure."
+      },
+      "repeat": null
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Worthing",
+          "country": "GB",
+          "address": "",
+          "courses": [
+            {
+              "name": "Standard General English",
+              "lessons_per_week": 20,
+              "description": "Morning group lessons Mon to Fri.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "245",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "235",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "225",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "220",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "210",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive General English",
+              "lessons_per_week": 30,
+              "description": "Morning and afternoon group lessons Mon to Fri.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "355",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "335",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "325",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "315",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "305",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Combination Course",
+              "lessons_per_week": 25,
+              "description": "Group lessons combined with individual lessons.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "585",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "575",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "Extra Week: 565",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "IELTS Preparation Course",
+              "lessons_per_week": 30,
+              "description": "Preparation for the IELTS exam.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "355",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "335",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "325",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "315",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "305",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Cambridge Exam Preparation Course (FCE)",
+              "lessons_per_week": 25,
+              "description": "Preparation for the Cambridge FCE exam.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "585",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "575",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "Extra Week: 565",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Long Term / Multi Destination Course (Ireland and UK)",
+              "lessons_per_week": 20,
+              "description": "Long term course for extended study.",
+              "prices": [
+                {
+                  "duration": "24 weeks",
+                  "price": "5280",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "36 weeks",
+                  "price": "7560",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Flights included between destinations."
+            },
+            {
+              "name": "University Pathway Programme",
+              "lessons_per_week": 30,
+              "description": "Preparation for university, with intensive lessons and support.",
+              "prices": [
+                {
+                  "duration": "12 weeks",
+                  "price": "4260",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24 weeks",
+                  "price": "7560",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "Extra Week",
+                  "price": "315",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "registration_fee": "75",
+            "currency": "GBP"
+          }
+        }
+      ],
+      "terms": null,
+      "repeat": true
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Worthing",
+          "country": "GB",
+          "address": "",
+          "courses": [
+            {
+              "name": "Teacher Training Course",
+              "lessons_per_week": 20,
+              "description": "An intensive training course for future teachers, consisting of lectures, practical classes, and seminars.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u00a3385",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "\u00a3770",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Participants must have a teaching-related background or interest."
+            },
+            {
+              "name": "CELTA Training Course",
+              "lessons_per_week": 30,
+              "description": "Official CELTA certification course, with rigorous training and assessments.",
+              "prices": [
+                {
+                  "duration": "24-week part-time course",
+                  "price": "\u00a31515",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "Full-time course",
+                  "price": "\u00a31400",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Applicants must pass a CELTA-specific entrance exam."
+            },
+            {
+              "name": "General English with Business",
+              "lessons_per_week": 30,
+              "description": "Learn English with a focus on business-related terminology and practices.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u00a3355 p/w",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u00a3335 p/w",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u00a3325 p/w",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u00a3315 p/w",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u00a3305 p/w",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Intermediate English level or higher."
+            },
+            {
+              "name": "One-to-One Lessons",
+              "lessons_per_week": 10,
+              "description": "Personalized, one-to-one classes tailored to your individual goals.",
+              "prices": [
+                {
+                  "duration": "Per lesson",
+                  "price": "\u00a375/hour",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": "Available to students of all levels."
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": {
+            "registration_fee": "\u00a375",
+            "currency": "GBP"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "Students must provide a notice period for amendments or cancellations based on specific courses and durations."
       },
       "repeat": false
     },
@@ -2264,220 +2377,1959 @@
         {
           "city": "Worthing",
           "country": "GB",
-          "address": "Undisclosed",
-          "courses": [
-            {
-              "name": "Standard General English",
-              "lessons_per_week": 15,
-              "description": "Morning classes Monday-Friday",
-              "prices": [
-                {
-                  "duration": "2-4 weeks",
-                  "price": "\u00a3350",
-                  "currency": "GBP"
-                },
-                {
-                  "duration": "5-8 weeks",
-                  "price": "\u00a3330",
-                  "currency": "GBP"
-                }
-              ],
-              "requirements": null
-            }
-          ],
+          "address": "Not provided",
+          "courses": [],
           "accommodations": [
             {
               "type": "Homestay",
               "price_per_week": "\u00a3240",
-              "description": "Single room, half board",
+              "description": "Half-board, single room. Summer supplement not included.",
               "supplements": {
-                "Summer Supplement": "\u00a335/week (July and August)",
-                "Special Diet Supplement": "\u00a335/week",
-                "Christmas Holidays Homestay": "\u00a3350 (20 Dec to 3 Jan 2026)"
-              }
-            },
-            {
-              "type": "Homestay",
-              "price_per_week": "\u00a3215",
-              "description": "Shared room, half board",
-              "supplements": {
-                "Summer Supplement": "\u00a335/week (July and August)"
+                "Summer Supplement": "\u00a335/week during July and August",
+                "Special Diet Supplement": "\u00a335/week for gluten free, lactose free, vegan, halal, kosher, vegetarian, food allergy",
+                "Christmas Holidays accommodation fee": "\u00a3350 for 20 December to 3 January"
               }
             }
           ],
           "additional_fees": {
-            "Accommodation Placement Fee": "\u00a375",
-            "Airport Transfer": "\u00a3170 (Heathrow one way)",
-            "IELTS Exam": "\u00a3225",
-            "Digital Text Book": "\u00a332"
+            "Accommodation Placement": "\u00a375"
           }
         }
       ],
       "terms": {
-        "Accommodation": "Arranged with local host families, subject to availability.",
-        "Medical Insurance": "Recommended for all students.",
-        "Tuition Hours": "45 minutes per lesson. Standard Course is 15 lessons per week.",
-        "Examinations": "IELTS preparation is available.",
-        "School Holidays": "01 January, 18 April...",
-        "Social Activities": "Organized excursions and events available."
+        "overview": "Accommodation arranged at carefully selected homes. Standard hours are 15 hours per week for Standard Courses and 22 hours for Intensive Courses.",
+        "Exam Fees": "IELTS exam costs \u00a3220 (subject to changes).",
+        "Extras": "Digital E-book costs \u00a332."
+      },
+      "repeat": null
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Dublin",
+          "country": "IE",
+          "address": "28 Dame Street, Dublin 2, Ireland",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Toronto",
+          "country": "CA",
+          "address": "90 Bloor Street West, Toronto, Ontario, Canada M4W 1A3",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Worthing",
+          "country": "GB",
+          "address": "27 South Street, Worthing, West Sussex, BN11 3AR",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "Students must give 2 weeks' notice for accommodation cancellation; Tuition cancellations must be notified up to 14 days before the course starts."
       },
       "repeat": false
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Dublin",
-          "country": "IE",
-          "address": "28 Dame Street, Dublin 2, Ireland",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": {
-            "registration_fee": "\u20ac250"
-          }
-        },
-        {
-          "city": "London",
-          "country": "UK",
-          "address": "27 South Street, Worthing, West Sussex, BN11 3AR, United Kingdom",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": {
-            "registration_fee": "\u00a3250"
-          }
-        },
-        {
-          "city": "Toronto",
-          "country": "CA",
-          "address": "180 Bloor Street West, Toronto, Ontario, Canada, M4W 1C3",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": {
-            "registration_fee": "CAD$195"
-          }
-        }
-      ],
-      "terms": {
-        "cancellation_policy": "Notice provided up to 14 days prior to the arrival date may incur a cancellation fee of \u20ac250 (Ireland), \u00a3250 (UK), or CAD$350 (Canada)."
-      },
-      "repeat": true
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Dublin",
-          "country": "IE",
-          "address": "28 Dame Street, Dublin 2, Ireland",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": {
-            "registration_fee": "\u20ac250"
-          }
-        },
-        {
-          "city": "London",
-          "country": "UK",
-          "address": "27 South Street, Worthing, West Sussex, BN11 3AR, United Kingdom",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": {
-            "registration_fee": "\u00a3250"
-          }
-        },
-        {
-          "city": "Toronto",
-          "country": "CA",
-          "address": "180 Bloor Street West, Toronto, Ontario, Canada, M4W 1C3",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": {
-            "registration_fee": "CAD$350"
-          }
-        }
-      ],
-      "terms": {
-        "cancellation_policy": "Notice provided up to 14 days prior to the arrival date may incur a cancellation fee of \u20ac250 (Ireland), \u00a3250 (UK), or CAD$350 (Canada)."
-      },
-      "repeat": true
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Dublin",
-          "country": "IE",
-          "address": "28 Dame Street, Dublin 2, Ireland",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": {
-            "registration": "\u20ac250"
-          }
-        },
-        {
-          "city": "London",
-          "country": "UK",
-          "address": "27 South Street, Worthing, West Sussex, BN11 3AR, United Kingdom",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": {
-            "registration": "\u00a3250"
-          }
-        },
-        {
-          "city": "Toronto",
-          "country": "CA",
-          "address": "180 Bloor Street West, Toronto, Ontario, M4W 1C3, Canada",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": {
-            "registration": "CAD$195"
-          }
-        }
-      ],
-      "terms": {
-        "cancellation": "Notice provided up to 14 days prior to the arrival date may incur a cancellation fee of \u20ac250 (Ireland), \u00a3250 (UK), or CAD$350 (Canada)."
-      },
-      "repeat": true
-    },
-    {
-      "name": "Centre of English Studies",
-      "locations": [
-        {
-          "city": "Dublin",
-          "country": "IE",
-          "address": "28 Dame Street, Dublin, Ireland",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": {
-            "registration_fee": "\u20ac250"
-          }
-        },
-        {
-          "city": "London",
-          "country": "UK",
-          "address": "27 South Street, Worthing, West Sussex, BN11 3AR, United Kingdom",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": {
-            "registration_fee": "\u00a3250"
-          }
-        },
-        {
-          "city": "Toronto",
-          "country": "CA",
-          "address": "180 Bloor Street West, Toronto, Ontario, M4W 1C3, Canada",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": {
-            "registration_fee": "CAD$350"
-          }
-        }
-      ],
-      "terms": {
-        "terms_summary": "All cancellations must be notified in writing. Full payment of fees is due 4 weeks prior to the starting date. Additional conditions apply for registration and refunds."
-      },
-      "repeat": true
     }
-  ]
+  ],
+  "merged_results": {
+    "name": "Centre of English Studies",
+    "locations": [
+      {
+        "city": "Dublin",
+        "country": "IE",
+        "address": "Dublin, Ireland",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "Morning classes Monday to Friday; 09:00 - 13:00",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac355",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac315",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac285",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u20ac265",
+                "currency": "EUR"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u20ac255",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Age 16+"
+          },
+          {
+            "name": "Intensive General English",
+            "lessons_per_week": 26,
+            "description": "Morning classes Monday to Friday; 09:00 - 13:00 General English with afternoon classes Tuesday and Thursday; 14:00 - 16:00",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac425",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac400",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac385",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u20ac345",
+                "currency": "EUR"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u20ac330",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Age 16+"
+          },
+          {
+            "name": "Afternoon Lessons",
+            "lessons_per_week": 15,
+            "description": "Afternoon classes Monday to Friday; 13:45 - 17:00",
+            "prices": [
+              {
+                "duration": "minimum 4 weeks",
+                "price": "\u20ac200",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac190",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac180",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u20ac160",
+                "currency": "EUR"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u20ac155",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Age 16+"
+          },
+          {
+            "name": "Combination Course",
+            "lessons_per_week": 25,
+            "description": "20 group lessons per week with 5 hours of one-to-one lessons per week; Monday to Friday hours: Group lessons 09:00 - 13:00; One-to-One lesson times available upon request",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac735",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac700",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12+ weeks",
+                "price": "\u20ac675",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Age 16+"
+          },
+          {
+            "name": "Standard IELTS Preparation Course",
+            "lessons_per_week": 20,
+            "description": "Morning classes Monday to Friday; 09:00 - 13:00",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac355",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac315",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac285",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u20ac265",
+                "currency": "EUR"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u20ac255",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Age 16+"
+          },
+          {
+            "name": "Intensive IELTS Preparation Course",
+            "lessons_per_week": 26,
+            "description": "Classes Monday to Friday; 09:00 - 13:00 for IELTS and 14:00 - 16:00 Tuesdays to Thursdays",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac425",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac400",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac385",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u20ac345",
+                "currency": "EUR"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u20ac330",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Age 16+"
+          },
+          {
+            "name": "Cambridge Preparation Courses",
+            "lessons_per_week": 26,
+            "description": "Courses available at specific intervals throughout the year for CAE and FCE preparation; Monday to Friday 09:00 - 13:00 and General English for 14:00 - 16:00",
+            "prices": [
+              {
+                "duration": "9 weeks",
+                "price": "\u20ac3600",
+                "currency": "EUR"
+              },
+              {
+                "duration": "10 weeks",
+                "price": "\u20ac4000",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Age 16+"
+          },
+          {
+            "name": "University Pathway Program",
+            "lessons_per_week": 26,
+            "description": "Monday to Friday 09:00 - 13:00 and 14:00 - 16:00 Tuesdays to Thursdays",
+            "prices": [
+              {
+                "duration": "12 weeks",
+                "price": "\u20ac4620",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24 weeks",
+                "price": "\u20ac8280",
+                "currency": "EUR"
+              },
+              {
+                "duration": "Extra week",
+                "price": "\u20ac345",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Age 16+"
+          },
+          {
+            "name": "General Business English",
+            "lessons_per_week": 26,
+            "description": "Tuesday and Thursday afternoons are Business English. 26 hours per week.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac425",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac400",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Age 16+."
+          },
+          {
+            "name": "One-to-One Lessons",
+            "lessons_per_week": 1,
+            "description": "One to one lessons (96% success IELTS rate).",
+            "prices": [
+              {
+                "duration": "1 hour",
+                "price": "\u20ac85",
+                "currency": "EUR"
+              },
+              {
+                "duration": "10 hours",
+                "price": "\u20ac700",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "None"
+          },
+          {
+            "name": "General English",
+            "lessons_per_week": 20,
+            "description": "Morning classes",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac290",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u20ac280",
+            "description": "Single room not available for students aged 16-18",
+            "supplements": {
+              "Single Room Summer Supplement": "\u20ac35/week",
+              "Special Diet Supplement": "\u20ac35/week"
+            }
+          },
+          {
+            "type": "Residential (Auburn and Crestfield)",
+            "price_per_week": "\u20ac300 (single room), \u20ac265 (shared room)",
+            "description": "Self-catering, minimum 2 week stay",
+            "supplements": {
+              "Airport transfer fee": "\u20ac85"
+            }
+          },
+          {
+            "type": "Residential (Heyday)",
+            "price_per_week": "\u20ac399",
+            "description": "Located 14 minutes walking distance from the school, self-catering",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration_fee": "\u20ac85",
+          "registration": "\u20ac85",
+          "Accommodation placement fee": "\u20ac85",
+          "Airport transfer": "\u20ac85"
+        }
+      },
+      {
+        "city": "Cork",
+        "country": "IE",
+        "address": "Cork, Ireland",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "Morning classes Mon-Fri",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac355",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac250",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac225",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u20ac200",
+                "currency": "EUR"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u20ac190",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-8 weeks",
+                "price": "\u20ac335",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive General English",
+            "lessons_per_week": 32,
+            "description": "Morning and afternoon classes Mon-Fri",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac480",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac315",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac290",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u20ac265",
+                "currency": "EUR"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u20ac255",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-8 weeks",
+                "price": "\u20ac450",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Intermediate Level"
+          },
+          {
+            "name": "Afternoon Lessons",
+            "lessons_per_week": 15,
+            "description": "Afternoon classes Mon-Fri",
+            "prices": [
+              {
+                "duration": "4 weeks minimum",
+                "price": "\u20ac185-145 per week, depending on duration",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Combination Course",
+            "lessons_per_week": 30,
+            "description": "Morning and afternoon, group and one-to-one lessons",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac670",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac635",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12+ weeks",
+                "price": "\u20ac615",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Standard IELTS Preparation Course",
+            "lessons_per_week": 20,
+            "description": "Preparation for IELTS exam, 20 lessons.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac285",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac250",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac225",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u20ac200",
+                "currency": "EUR"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u20ac190",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive IELTS Preparation Course",
+            "lessons_per_week": 26,
+            "description": "Preparation for IELTS exam, 26 lessons.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u20ac350",
+                "currency": "EUR"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u20ac315",
+                "currency": "EUR"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u20ac290",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u20ac265",
+                "currency": "EUR"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u20ac255",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "FCE or CAE Cambridge Preparation",
+            "lessons_per_week": 26,
+            "description": "Preparation for Cambridge exams.",
+            "prices": [
+              {
+                "duration": "9 weeks",
+                "price": "\u20ac2835",
+                "currency": "EUR"
+              },
+              {
+                "duration": "10 weeks",
+                "price": "\u20ac3150",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Long Term Study Visa eligible",
+            "lessons_per_week": 20,
+            "description": "Language study for long duration.",
+            "prices": [
+              {
+                "duration": "25 weeks + 8 weeks of holidays",
+                "price": "\u20ac5000",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Afternoon Only Long Term",
+            "lessons_per_week": 15,
+            "description": "Afternoon classes only.",
+            "prices": [
+              {
+                "duration": "25 weeks + 8 weeks of holidays",
+                "price": "\u20ac3750",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "University Pathway Program",
+            "lessons_per_week": 26,
+            "description": "Preparation for university entry.",
+            "prices": [
+              {
+                "duration": "12 weeks",
+                "price": "\u20ac3480",
+                "currency": "EUR"
+              },
+              {
+                "duration": "24 weeks",
+                "price": "\u20ac6630",
+                "currency": "EUR"
+              },
+              {
+                "duration": "Extra week",
+                "price": "\u20ac265",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Overseas Teacher Training",
+            "lessons_per_week": 20,
+            "description": "For qualified teachers.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u20ac450",
+                "currency": "EUR"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "\u20ac900",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "CELTA Training Course",
+            "lessons_per_week": 0,
+            "description": "CELTA Teacher training qualification.",
+            "prices": [
+              {
+                "duration": "Online Part Time",
+                "price": "\u20ac1800",
+                "currency": "EUR"
+              },
+              {
+                "duration": "Online Full Time",
+                "price": "\u20ac1665",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "General English for Business",
+            "lessons_per_week": 26,
+            "description": "Focused on improving business English.",
+            "prices": [
+              {
+                "duration": "July-Aug",
+                "price": "\u20ac350",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "One-to-One Lessons",
+            "lessons_per_week": 0,
+            "description": "Personalized lessons.",
+            "prices": [
+              {
+                "duration": "Per Hour",
+                "price": "\u20ac85",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "IELTS Preparation",
+            "lessons_per_week": 20,
+            "description": "Preparation for IELTS exam",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "\u20ac1455",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "Upper-intermediate Level"
+          },
+          {
+            "name": "Cambridge Exam Preparation",
+            "lessons_per_week": 20,
+            "description": "Preparation for Cambridge exams",
+            "prices": [
+              {
+                "duration": "8 weeks",
+                "price": "\u20ac2960",
+                "currency": "EUR"
+              }
+            ],
+            "requirements": "B2 level or higher"
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u20ac270",
+            "description": "Homestay accommodation, half-board during weekdays, full-board on weekends",
+            "supplements": {
+              "Extra Night": "\u20ac50"
+            }
+          },
+          {
+            "type": "Single Room Supplement",
+            "price_per_week": "\u20ac50",
+            "description": "Applied during: May 17 to September 28",
+            "supplements": null
+          },
+          {
+            "type": "Special Diet Supplement",
+            "price_per_week": "\u20ac35",
+            "description": "Adapted for requirements like coeliac, gluten-free, vegan, or vegetarian",
+            "supplements": {}
+          },
+          {
+            "type": "Christmas Holidays Homestay",
+            "price_per_week": "\u20ac345",
+            "description": "December 20 to January 3 period",
+            "supplements": {}
+          },
+          {
+            "type": "University College Cork Residence",
+            "price_per_week": "\u20ac285",
+            "description": "Student residence option. Meal plans not included",
+            "supplements": {
+              "Extra Night": "\u20ac50"
+            }
+          },
+          {
+            "type": "Single Room Summer Supplement",
+            "price_per_week": "\u20ac50",
+            "description": "Available between May 17 and September 28.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration_fee": "\u20ac85",
+          "accommodation_placement_fee": "\u20ac85",
+          "airport_transfer": "\u20ac60",
+          "exam_fees": "IELTS \u20ac215, Cambridge Exam \u20ac210",
+          "medical_insurance": "\u20ac130 per year"
+        }
+      },
+      {
+        "city": "Leeds",
+        "country": "GB",
+        "address": "Leeds, United Kingdom",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "Morning classes Mon-Fri, 09:30 - 13:00",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u00a3255",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u00a3250",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u00a3240",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u00a3230",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u00a3225",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "None"
+          },
+          {
+            "name": "Intensive General English",
+            "lessons_per_week": 30,
+            "description": "Morning and afternoon classes Mon-Fri, 09:30 - 16:30",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u00a3375",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u00a3360",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u00a3355",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u00a3335",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u00a3330",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "None"
+          }
+        ],
+        "accommodations": [],
+        "additional_fees": {
+          "registration": "\u00a375"
+        }
+      },
+      {
+        "city": "Edinburgh",
+        "country": "GB",
+        "address": "Edinburgh, United Kingdom",
+        "courses": [
+          {
+            "name": "Combination Course",
+            "lessons_per_week": 25,
+            "description": "Combination of group and one-to-one lessons.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "615",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u00a3280",
+            "description": "Single room, half-board",
+            "supplements": {
+              "Summer": "\u00a335/week (July and August)"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration": "\u00a375"
+        }
+      },
+      {
+        "city": "Toronto",
+        "country": "CA",
+        "address": "Toronto, Canada",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "Morning classes Mon-Fri",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "$440",
+                "currency": "USD"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "$415",
+                "currency": "USD"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "$395",
+                "currency": "USD"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "$365",
+                "currency": "USD"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "$345",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive General English",
+            "lessons_per_week": 25,
+            "description": "Enhanced course Mon-Fri",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "$465",
+                "currency": "USD"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "$445",
+                "currency": "USD"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "$420",
+                "currency": "USD"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "$400",
+                "currency": "USD"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "$375",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Super Intensive General English",
+            "lessons_per_week": 30,
+            "description": "Full class schedule Mon-Fri",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "$500",
+                "currency": "USD"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "$475",
+                "currency": "USD"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "$445",
+                "currency": "USD"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "$420",
+                "currency": "USD"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "$400",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "English for Digital Marketing",
+            "lessons_per_week": 20,
+            "description": "Specialized classes, B2 Entry required",
+            "prices": [
+              {
+                "duration": "12 weeks",
+                "price": "$5340",
+                "currency": "USD"
+              }
+            ],
+            "requirements": "B2 Entry required"
+          },
+          {
+            "name": "University Pathway Program",
+            "lessons_per_week": 30,
+            "description": "Preparatory course for university, B2 Entry required",
+            "prices": [
+              {
+                "duration": "12 weeks",
+                "price": "$5340",
+                "currency": "USD"
+              }
+            ],
+            "requirements": "B2 Entry required"
+          },
+          {
+            "name": "English for Business",
+            "lessons_per_week": 25,
+            "description": "Business English, general English enhancement",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "$465",
+                "currency": "USD"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "$445",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 weeks",
+                "price": "$420",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "General English for 30+",
+            "lessons_per_week": 20,
+            "description": "Advanced English learning for ages 30 and above, (B1-B2 level)",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "$440",
+                "currency": "USD"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "$415",
+                "currency": "USD"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "$395",
+                "currency": "USD"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "$365",
+                "currency": "USD"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "$345",
+                "currency": "USD"
+              }
+            ],
+            "requirements": "Intermediate, 30+ age"
+          },
+          {
+            "name": "Intensive IELTS Preparation Course",
+            "lessons_per_week": 25,
+            "description": "Mon to Fri, preparation for IELTS exam.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "$465",
+                "currency": "USD"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "$445",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 weeks",
+                "price": "$420",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Super Intensive IELTS Preparation Course",
+            "lessons_per_week": 30,
+            "description": "Mon to Fri, intense preparation for IELTS exam.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "$500",
+                "currency": "USD"
+              },
+              {
+                "duration": "5-9 weeks",
+                "price": "$475",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge Examination Preparation Course (FCE/CAE)",
+            "lessons_per_week": 20,
+            "description": "Mon to Fri, with 5 hours One-to-One preparation per week.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "$915",
+                "currency": "USD"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "$890",
+                "currency": "USD"
+              },
+              {
+                "duration": "12 weeks",
+                "price": "$870",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge Examination Fast Track Preparation Courses (FCE/CAE)",
+            "lessons_per_week": 30,
+            "description": "Intensive preparation, available specific dates.",
+            "prices": [
+              {
+                "duration": "4 weeks",
+                "price": "$2000",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay Full-Board (single)",
+            "price_per_week": "$350",
+            "description": "Includes accommodation with meal plan.",
+            "supplements": {
+              "Summer Period (01 June - 31 Aug)": "+$30/week"
+            }
+          },
+          {
+            "type": "Residential Self-Catering (Casa Canada, 1 Bedroom)",
+            "price_per_week": "$650",
+            "description": "Self-catered accommodation at Casa Canada.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "$195",
+          "materials_fee": "$20 per week",
+          "exam_fees": "Varies",
+          "materials_exam": "$575",
+          "IELTS_paper_exam": "$370",
+          "IELTS_computer_exam": "$370",
+          "Accommodation Placement Fee": "$275",
+          "Airport Transfer (one way)": "$150"
+        }
+      },
+      {
+        "city": "Vancouver",
+        "country": "CA",
+        "address": "Not Provided",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "Classes from Monday to Friday, 09:00 to 12:15",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "$440",
+                "currency": "USD"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "$415",
+                "currency": "USD"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "$395",
+                "currency": "USD"
+              },
+              {
+                "duration": "24 weeks",
+                "price": "$365",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive General English",
+            "lessons_per_week": 25,
+            "description": "Classes from Monday to Friday, afternoons included (09:00 to 14:00 Mon to Thu)",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "$465",
+                "currency": "USD"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "$445",
+                "currency": "USD"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "$420",
+                "currency": "USD"
+              },
+              {
+                "duration": "24 weeks",
+                "price": "$400",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Super Intensive General English",
+            "lessons_per_week": 30,
+            "description": "Classes from Monday to Friday, with extended hours",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "$500",
+                "currency": "USD"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "$475",
+                "currency": "USD"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "$445",
+                "currency": "USD"
+              },
+              {
+                "duration": "24 weeks",
+                "price": "$420",
+                "currency": "USD"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Standard Course",
+            "lessons_per_week": 15,
+            "description": "Standard course of 15 hours per week.",
+            "prices": [],
+            "requirements": null
+          },
+          {
+            "name": "Intensive Course",
+            "lessons_per_week": 18,
+            "description": "Intensive course of 18.75 hours per week, excluding breaks.",
+            "prices": [],
+            "requirements": null
+          },
+          {
+            "name": "Super Intensive Course",
+            "lessons_per_week": 22,
+            "description": "Super intensive course of 22.50 hours per week, excluding breaks.",
+            "prices": [],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Host Family",
+            "price_per_week": "$375",
+            "description": "Full-board accommodation.",
+            "supplements": {
+              "Summer": "$30/week"
+            }
+          },
+          {
+            "type": "Residential",
+            "price_per_week": "$600",
+            "description": "Casa Canada (shared room, includes amenities).",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "registration": "$195",
+          "material_fee": "$20/week",
+          "exam_preparation": "Starting at $85 per lesson",
+          "Accommodation Placement Fee": "$275",
+          "Registration Fee": "$85"
+        }
+      },
+      {
+        "city": "London",
+        "country": "GB",
+        "address": "Not specified",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "Morning classes 09:30-13:00 Mon-Fri.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "275",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "265",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "255",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "250",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "240",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive General English",
+            "lessons_per_week": 30,
+            "description": "General English morning and afternoon lessons.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "390",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u00a3280",
+            "description": "Single room, half-board",
+            "supplements": {
+              "Summer": "\u00a335/week (July and August)"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration_fee": "75 GBP",
+          "registration": "\u00a375"
+        }
+      },
+      {
+        "city": "Oxford",
+        "country": "GB",
+        "address": "N/A",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 15,
+            "description": "Standard course with 15 hours of tuition each week.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u00a3275",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u00a3265",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u00a3255",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u00a3250",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u00a3240",
+                "currency": "GBP"
+              },
+              {
+                "duration": "1 week",
+                "price": "Unknown",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive General English",
+            "lessons_per_week": 22,
+            "description": "Intensive course with 22 hours of tuition each week.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u00a3390",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u00a3370",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u00a3365",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u00a3355",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u00a3345",
+                "currency": "GBP"
+              },
+              {
+                "duration": "1 week",
+                "price": "Unknown",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Combination Course",
+            "lessons_per_week": 25,
+            "description": "20 group lessons + 5 One-to-One lessons per week",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u00a3615",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u00a3605",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "IELTS Preparation Course",
+            "lessons_per_week": 30,
+            "description": "For improving academic English and exam preparation",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u00a3390",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u00a3370",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge Exam Preparation Course",
+            "lessons_per_week": 25,
+            "description": "20 hours + 5 one-to-one exam preparation lessons",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u00a3615",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u00a3605",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Long Term / Multi Destination Course Ireland and UK",
+            "lessons_per_week": 20,
+            "description": "Dedicated long term program for multi location exposure",
+            "prices": [
+              {
+                "duration": "24 weeks",
+                "price": "\u00a36000",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36 weeks",
+                "price": "\u00a38640",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "CELTA Training Course",
+            "lessons_per_week": 20,
+            "description": "Teacher training certification",
+            "prices": [
+              {
+                "duration": "6 months",
+                "price": "\u00a31515",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay - Single Room",
+            "price_per_week": "\u00a3280",
+            "description": "Homestay accommodation with half-board.",
+            "supplements": {
+              "Summer Supplement": "\u00a335/week",
+              "Special Dietary Supplement": "\u00a335/week",
+              "Christmas Supplement": "\u00a3350/week"
+            }
+          },
+          {
+            "type": "Homestay - Shared Room",
+            "price_per_week": "\u00a3235",
+            "description": "Homestay accommodation with half-board.",
+            "supplements": {
+              "Summer Supplement": "\u00a335/week",
+              "Special Dietary Supplement": "\u00a335/week",
+              "Christmas Supplement": "\u00a3350/week"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration_fee": "\u00a375",
+          "Accommodation Placement Fee": "\u00a375",
+          "Airport Transfers from Heathrow": "\u00a3165 (one-way)",
+          "Airport Transfers from Gatwick": "\u00a3205 (one-way)",
+          "Airport Transfers from Stansted": "\u00a3215 (one-way)",
+          "Digital E-Book": "\u00a332",
+          "Exams (IELTS)": "\u00a3220"
+        }
+      },
+      {
+        "city": "Leeds",
+        "country": "UK",
+        "address": "Details not provided in the image.",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 15,
+            "description": "15 contact hours per week, excluding breaks.",
+            "prices": [
+              {
+                "duration": "Details not provided in the image.",
+                "price": "Details not provided in the image.",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive General English",
+            "lessons_per_week": 22,
+            "description": "22 contact hours per week, excluding breaks.",
+            "prices": [
+              {
+                "duration": "Details not provided in the image.",
+                "price": "Details not provided in the image.",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay Single Room",
+            "price_per_week": "\u00a3240",
+            "description": "Half-board accommodation.",
+            "supplements": {
+              "Summer Supplement": "\u00a335 p/w, July-August"
+            }
+          },
+          {
+            "type": "Homestay Shared Room",
+            "price_per_week": "\u00a3215",
+            "description": "Half-board shared accommodation.",
+            "supplements": {
+              "Summer Supplement": "\u00a335 p/w, July-August"
+            }
+          },
+          {
+            "type": "Leeds Residence",
+            "price_per_week": "\u00a3225",
+            "description": "Single en suite room, year-round, minimum 4 weeks.",
+            "supplements": null
+          }
+        ],
+        "additional_fees": {
+          "Accommodation Placement Fee": "\u00a375",
+          "Special diet supplement": "\u00a335 p/w",
+          "Christmas Holidays Fee": "\u00a3350"
+        }
+      },
+      {
+        "city": "Worthing",
+        "country": "GB",
+        "address": "Not provided",
+        "courses": [
+          {
+            "name": "Standard General English",
+            "lessons_per_week": 20,
+            "description": "Morning group lessons Mon to Fri.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "245",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "235",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "225",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "220",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "210",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Intensive General English",
+            "lessons_per_week": 30,
+            "description": "Morning and afternoon group lessons Mon to Fri.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "355",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "335",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "325",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "315",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "305",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Combination Course",
+            "lessons_per_week": 25,
+            "description": "Group lessons combined with individual lessons.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "585",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "575",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "Extra Week: 565",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "IELTS Preparation Course",
+            "lessons_per_week": 30,
+            "description": "Preparation for the IELTS exam.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "355",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "335",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "325",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "315",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "305",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Cambridge Exam Preparation Course (FCE)",
+            "lessons_per_week": 25,
+            "description": "Preparation for the Cambridge FCE exam.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "585",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "575",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "Extra Week: 565",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Long Term / Multi Destination Course (Ireland and UK)",
+            "lessons_per_week": 20,
+            "description": "Long term course for extended study.",
+            "prices": [
+              {
+                "duration": "24 weeks",
+                "price": "5280",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36 weeks",
+                "price": "7560",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Flights included between destinations."
+          },
+          {
+            "name": "University Pathway Programme",
+            "lessons_per_week": 30,
+            "description": "Preparation for university, with intensive lessons and support.",
+            "prices": [
+              {
+                "duration": "12 weeks",
+                "price": "4260",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24 weeks",
+                "price": "7560",
+                "currency": "GBP"
+              },
+              {
+                "duration": "Extra Week",
+                "price": "315",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null
+          },
+          {
+            "name": "Teacher Training Course",
+            "lessons_per_week": 20,
+            "description": "An intensive training course for future teachers, consisting of lectures, practical classes, and seminars.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "price": "\u00a3385",
+                "currency": "GBP"
+              },
+              {
+                "duration": "2 weeks",
+                "price": "\u00a3770",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Participants must have a teaching-related background or interest."
+          },
+          {
+            "name": "CELTA Training Course",
+            "lessons_per_week": 30,
+            "description": "Official CELTA certification course, with rigorous training and assessments.",
+            "prices": [
+              {
+                "duration": "24-week part-time course",
+                "price": "\u00a31515",
+                "currency": "GBP"
+              },
+              {
+                "duration": "Full-time course",
+                "price": "\u00a31400",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Applicants must pass a CELTA-specific entrance exam."
+          },
+          {
+            "name": "General English with Business",
+            "lessons_per_week": 30,
+            "description": "Learn English with a focus on business-related terminology and practices.",
+            "prices": [
+              {
+                "duration": "2-4 weeks",
+                "price": "\u00a3355 p/w",
+                "currency": "GBP"
+              },
+              {
+                "duration": "5-11 weeks",
+                "price": "\u00a3335 p/w",
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "price": "\u00a3325 p/w",
+                "currency": "GBP"
+              },
+              {
+                "duration": "24-35 weeks",
+                "price": "\u00a3315 p/w",
+                "currency": "GBP"
+              },
+              {
+                "duration": "36+ weeks",
+                "price": "\u00a3305 p/w",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Intermediate English level or higher."
+          },
+          {
+            "name": "One-to-One Lessons",
+            "lessons_per_week": 10,
+            "description": "Personalized, one-to-one classes tailored to your individual goals.",
+            "prices": [
+              {
+                "duration": "Per lesson",
+                "price": "\u00a375/hour",
+                "currency": "GBP"
+              }
+            ],
+            "requirements": "Available to students of all levels."
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": "\u00a3240",
+            "description": "Half-board, single room. Summer supplement not included.",
+            "supplements": {
+              "Summer Supplement": "\u00a335/week during July and August",
+              "Special Diet Supplement": "\u00a335/week for gluten free, lactose free, vegan, halal, kosher, vegetarian, food allergy",
+              "Christmas Holidays accommodation fee": "\u00a3350 for 20 December to 3 January"
+            }
+          }
+        ],
+        "additional_fees": {
+          "registration_fee": "\u00a375",
+          "currency": "GBP",
+          "Accommodation Placement": "\u00a375"
+        }
+      }
+    ],
+    "terms": {
+      "cancellation": "Students must give 2 weeks' notice for accommodation cancellation; Tuition cancellations must be notified up to 14 days before the course starts.",
+      "Accommodation policies": "Accommodation must be arranged via CES. Cancellation policies and refund policies apply.",
+      "Insurance requirements": "Mandatory Medi-PEL at \u20ac130 per annum.",
+      "Exam fees": "IELTS: \u00a3220",
+      "Material charges": "Textbook + eBooks: \u20ac28, IELTS Materials \u20ac45",
+      "insurance_mandatory": "All courses require insurance at \u20ac130/year",
+      "exam_fees": "IELTS \u20ac215, Cambridge Exam \u20ac205-210",
+      "holidays": "January 1, Good Friday, December 25-26, etc.",
+      "payment_terms": "Fees must be paid in advance to confirm enrollment.",
+      "cancellation_policy": "Minimum 14 days notice required for cancellation.",
+      "refund_policy": "Non-refundable booking fee of \u20ac65 applies.",
+      "additional_policies": "Public holidays listed separately.",
+      "notes": "Accommodation is managed through specified terms detailed in accompanying documentation. Tuition includes organized social activities.",
+      "Medical Insurance": "Strongly advised, covers loss, etc.",
+      "Policy Of Care": "CES has a strict policy of care and welfare for all students under 19 years of age studying in our adult schools.",
+      "Cancellations": "14 days notice is required for cancellations.",
+      "accommodation": "Accommodations are carefully selected with options including homestay and residential.",
+      "class_size": "Max 9 students.",
+      "class_duration": "All teaching / tuition hours are 45 minutes",
+      "school_holidays": "22 December 2025 \u2013 2 January 2026",
+      "Accommodation Policy": "Accommodation pair to homestay arrangements as noted.",
+      "Teaching hours": "Standard course - 15 hrs.",
+      "Holidays & Observances": "Image lists specific dates for closure.",
+      "overview": "Accommodation arranged at carefully selected homes. Standard hours are 15 hours per week for Standard Courses and 22 hours for Intensive Courses.",
+      "Exam Fees": "IELTS exam costs \u00a3220 (subject to changes).",
+      "Extras": "Digital E-book costs \u00a332."
+    },
+    "repeat": false
+  }
 }
