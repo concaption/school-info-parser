@@ -1,5 +1,13 @@
 FROM python:3.9-slim
 
+# Add build arguments
+ARG OPENAI_API_KEY
+ARG REDIS_HOST=redis
+
+# Set environment variables
+ENV OPENAI_API_KEY=$OPENAI_API_KEY \
+    REDIS_HOST=$REDIS_HOST
+
 WORKDIR /app
 COPY requirements.txt .
 
