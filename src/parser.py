@@ -53,7 +53,11 @@ class PDFParser:
             logger.info("Sending request to OpenAI API")
             prompt = self.system_prompt
             if previous_output is not None and len(previous_output) > 0:
-                prompt += "\nPlease provide the remaining courses that were not included in the previous response. \n Previous response was: \n " + json.dumps(previous_output, indent=2) + "Do not repeat the locations and courses that are already in previous response."
+                prompt += (
+                    "\nPlease provide the remaining courses that were not included in the previous response. \n Previous response was: \n "
+                    + json.dumps(previous_output, indent=2)
+                    + "Do not repeat the locations and courses that are already in previous response."
+                )
             logger.debug(f"Prompt:\n {prompt}")
 
             # save the image to disk for debugging
@@ -111,34 +115,42 @@ class PDFProcessor:
         self.raw_results = []
         self.all_results = {}
         self.merged_results = {}
-    
+
     def process_pdf(self, pdf_path):
         logger.info(f"Processing PDF: {pdf_path}")
         try:
             if not os.path.exists(pdf_path):
                 logger.error(f"PDF file not found: {pdf_path}")
                 raise FileNotFoundError(f"PDF file not found: {pdf_path}")
-            
+
             pdf_document = fitz.open(pdf_path)
             logger.info(f"Opened PDF with {pdf_document.page_count} pages")
-            
+
             for page_num in range(pdf_document.page_count):
                 logger.info(f"Processing page {page_num + 1}/{pdf_document.page_count}")
                 page = pdf_document[page_num]
                 pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))
                 retry_count = 0
-                max_retries = 5  # Set a maximum number of retries to prevent infinite loops
+                max_retries = (
+                    5  # Set a maximum number of retries to prevent infinite loops
+                )
                 previous_outputs = []
-                
+
                 while True:
                     try:
-                        page_data = self.parser.parse_page(pix, previous_output=previous_outputs)
+                        page_data = self.parser.parse_page(
+                            pix, previous_output=previous_outputs
+                        )
                         self.raw_results.append(page_data)
                         previous_outputs.append(page_data)
                         if page_data.get("repeat") and retry_count < max_retries:
-                            logger.info("Repeat flag set. Processing the the page again")
+                            logger.info(
+                                "Repeat flag set. Processing the the page again"
+                            )
                             retry_count += 1
-                            logger.info(f"Repeat flag set. Processing page {page_num + 1} again (attempt {retry_count + 1})")
+                            logger.info(
+                                f"Repeat flag set. Processing page {page_num + 1} again (attempt {retry_count + 1})"
+                            )
                             continue
                         else:
                             logger.info(f"Successfully processed page {page_num + 1}")
@@ -148,9 +160,11 @@ class PDFProcessor:
                         logger.error("Retrying page processing")
                         retry_count += 1
                         if retry_count >= max_retries:
-                            logger.error(f"Max retries reached for page {page_num + 1}. Skipping page")
+                            logger.error(
+                                f"Max retries reached for page {page_num + 1}. Skipping page"
+                            )
                             break
-            
+
             pdf_document.close()
             logger.info("PDF processing completed")
             self.all_results["raw_results"] = self.raw_results
@@ -160,7 +174,7 @@ class PDFProcessor:
             except Exception as e:
                 logger.error(f"Error merging schools: {str(e)}")
             return self.all_results
-            
+
         except Exception as e:
             logger.error(f"Error in process_pdf: {str(e)}")
             raise

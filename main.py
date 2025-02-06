@@ -4,6 +4,7 @@ author: concaption
 description: FastAPI application that asynchronously processes PDF files,
 supports background job submission with an optional callback, and exposes a job status endpoint.
 """
+
 import os
 import json
 import uuid
@@ -35,7 +36,10 @@ app = FastAPI()
 
 # Initialize Redis client using asyncio
 
-redis_client = redis.Redis(host=os.getenv("REDIS_HOST", "redis"), port=6379, decode_responses=True)
+redis_client = redis.Redis(
+    host=os.getenv("REDIS_HOST", "redis"), port=6379, decode_responses=True
+)
+
 
 # Reuse existing pdf processing function for background tasks
 async def process_pdf(file_data: dict) -> Optional[dict]:
@@ -62,6 +66,7 @@ async def process_pdf(file_data: dict) -> Optional[dict]:
         logger.error(f"Failed to process PDF file: {str(e)}")
         return None
 
+
 # Background job processor
 async def process_job(job_id: str, files_data: list, callback_url: Optional[str]):
     results = []
@@ -79,16 +84,18 @@ async def process_job(job_id: str, files_data: list, callback_url: Optional[str]
             except Exception as e:
                 logger.error(f"Callback failed: {str(e)}")
 
+
 @app.get("/")
 def root():
     # Redirect root to docs page
     return RedirectResponse(url="/docs")
 
+
 @app.post("/submit-job/")
 async def submit_job(
     background_tasks: BackgroundTasks,
     files: List[UploadFile],
-    callback_url: Optional[str] = Query(None, description="Optional callback URL")
+    callback_url: Optional[str] = Query(None, description="Optional callback URL"),
 ):
     """Submits a job to process PDFs asynchronously."""
     if not files:
@@ -105,6 +112,7 @@ async def submit_job(
     background_tasks.add_task(process_job, job_id, files_data, callback_url)
     return {"job_id": job_id}
 
+
 @app.get("/job/{job_id}")
 async def get_job_status(job_id: str):
     """Returns the status or results of a submitted job."""
@@ -113,6 +121,8 @@ async def get_job_status(job_id: str):
         raise HTTPException(status_code=404, detail="Job not found")
     return JSONResponse(content=json.loads(data))
 
+
 if __name__ == "__main__":
     import uvicorn
+
     uvicorn.run(app, host="0.0.0.0", port=8000)
