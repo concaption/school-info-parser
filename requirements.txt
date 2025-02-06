@@ -9,3 +9,6 @@ PyMuPDF==1.25.2
 pillow==10.4.0
 fastapi==0.115.8
 uvicorn==0.34.0
+redis[asyncio]==5.2.1
+python-multipart==0.0.20
+colorlog==6.9.0
