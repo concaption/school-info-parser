@@ -4,7 +4,11 @@ pytest==7.4.2
 pylint==2.17.5
 python-dotenv==1.0.0
 pydantic==2.10.6
-pypdf==5.1.0
 openai==1.60.2
 PyMuPDF==1.25.2
 pillow==10.4.0
+fastapi==0.115.8
+uvicorn==0.34.0
+redis[asyncio]==5.2.1
+python-multipart==0.0.20
+colorlog==6.9.0
