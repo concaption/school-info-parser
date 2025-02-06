@@ -17,7 +17,7 @@ from PIL import Image
 from .schema import School
 from .prompts import system_prompt
 from .logger import setup_logging
-from .utils import merge_schools
+from .utils import merge_all_results
 
 # Initialize logger
 logger = setup_logging()
@@ -53,7 +53,7 @@ class PDFParser:
             logger.info("Sending request to OpenAI API")
             prompt = self.system_prompt
             if previous_output is not None and len(previous_output) > 0:
-                prompt += "\nPlease provide the remaining courses that were not included in the previous response. \n Previous response was: \n " + json.dumps(previous_output, indent=2)
+                prompt += "\nPlease provide the remaining courses that were not included in the previous response. \n Previous response was: \n " + json.dumps(previous_output, indent=2) + "Do not repeat the locations and courses that are already in previous response."
             logger.debug(f"Prompt:\n {prompt}")
 
             # save the image to disk for debugging
@@ -127,7 +127,7 @@ class PDFProcessor:
                 page = pdf_document[page_num]
                 pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))
                 retry_count = 0
-                max_retries = 3  # Set a maximum number of retries to prevent infinite loops
+                max_retries = 5  # Set a maximum number of retries to prevent infinite loops
                 previous_outputs = []
                 
                 while True:
@@ -155,7 +155,7 @@ class PDFProcessor:
             logger.info("PDF processing completed")
             self.all_results["raw_results"] = self.raw_results
             try:
-                self.merged_results = merge_schools(self.raw_results)
+                self.merged_results = merge_all_results(self.raw_results)
                 self.all_results["merged_results"] = self.merged_results
             except Exception as e:
                 logger.error(f"Error merging schools: {str(e)}")

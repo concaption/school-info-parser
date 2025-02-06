@@ -1,0 +1,576 @@
+{
+  "raw_results": [
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Dublin",
+          "country": "IE",
+          "address": "Dublin city",
+          "courses": [
+            {
+              "name": "Standard Course",
+              "lessons_per_week": 20,
+              "description": "General English classes held in Dublin.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac284.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac252.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac228.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac185.50",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac178.50",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Course",
+              "lessons_per_week": 26,
+              "description": "Additional focus in intensive English.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac340.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac320.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac308.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac241.50",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac231.00",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Afternoon Course",
+              "lessons_per_week": 15,
+              "description": "English course held in the afternoon.",
+              "prices": [
+                {
+                  "duration": "15 weeks",
+                  "price": "\u20ac2950",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac280",
+              "description": "Single room, half board",
+              "supplements": {
+                "Summer": "\u20ac35/week"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u20ac85.00"
+          }
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required"
+      },
+      "repeat": true
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Cork",
+          "country": "IE",
+          "address": "Cork city",
+          "courses": [
+            {
+              "name": "Standard Course",
+              "lessons_per_week": 20,
+              "description": "General English classes held in Cork.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac228.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac200.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac180.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac140.50",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac133.00",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Course",
+              "lessons_per_week": 26,
+              "description": "Additional focus English course, intensive.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac280.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac252.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac232.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac185.50",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac178.50",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "London",
+          "country": "UK",
+          "address": "London city",
+          "courses": [
+            {
+              "name": "Standard Course",
+              "lessons_per_week": 20,
+              "description": "General English standard.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u00a3220.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u00a3212.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u00a3204.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u00a3175.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u00a3168.00",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Course",
+              "lessons_per_week": 30,
+              "description": "Intensive English course.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u00a3312.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u00a3296.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u00a3292.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u00a3248.00",
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u00a3241.50",
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required"
+      },
+      "repeat": true
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Dublin",
+          "country": "IE",
+          "address": "Central Dublin City",
+          "courses": [
+            {
+              "name": "Standard Course",
+              "lessons_per_week": 20,
+              "description": "General English classes held in Dublin.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac284.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac252.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac228.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac185.50",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac178.50",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Course",
+              "lessons_per_week": 26,
+              "description": "Additional focus in intensive English.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac340.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac320.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac308.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac241.50",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac231.00",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Afternoon Course",
+              "lessons_per_week": 15,
+              "description": "15-hour lessons in the afternoon.",
+              "prices": [
+                {
+                  "duration": "15 weeks",
+                  "price": "\u20ac2950.00",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac280",
+              "description": "Single room, half board",
+              "supplements": {
+                "Summer": "\u20ac35/week"
+              }
+            }
+          ],
+          "additional_fees": {
+            "registration": "\u20ac85.00"
+          }
+        },
+        {
+          "city": "Cork",
+          "country": "IE",
+          "address": "Central Cork City",
+          "courses": [
+            {
+              "name": "Standard Course",
+              "lessons_per_week": 20,
+              "description": "General English standard in Cork.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac228.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac200.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac180.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac140.50",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac133.00",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Course",
+              "lessons_per_week": 26,
+              "description": "Additional focus in intensive English in Cork.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac280.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac252.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac232.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac185.50",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac178.50",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": {
+        "cancellation": "14 days notice required"
+      },
+      "repeat": true
+    },
+    {
+      "name": "Centre of English Studies",
+      "locations": [
+        {
+          "city": "Dublin",
+          "country": "IE",
+          "address": "Dublin city",
+          "courses": [
+            {
+              "name": "Standard Course",
+              "lessons_per_week": 20,
+              "description": "General English classes held in Dublin.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac284.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac252.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac228.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac185.50",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac178.50",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive Course",
+              "lessons_per_week": 26,
+              "description": "Intensive-focused English classes.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac340.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "5-11 weeks",
+                  "price": "\u20ac320.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "price": "\u20ac308.00",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "24-35 weeks",
+                  "price": "\u20ac241.50",
+                  "currency": "EUR"
+                },
+                {
+                  "duration": "36+ weeks",
+                  "price": "\u20ac231.00",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Afternoon Course",
+              "lessons_per_week": 15,
+              "description": "Classes conducted in the afternoon in Ireland.",
+              "prices": [
+                {
+                  "duration": "Fixed duration",
+                  "price": "\u20ac2950.00",
+                  "currency": "EUR"
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac280.00",
+              "description": "Includes single room, and half board.",
+              "supplements": {
+                "Summer": "\u20ac35.00"
+              }
+            },
+            {
+              "type": "Residential",
+              "price_per_week": "\u20ac350.00 - \u20ac420.00",
+              "description": "Accommodation including cleaning and amenities.",
+              "supplements": {
+                "Summer": "High (\u20ac50)"
+              }
+            },
+            {
+              "type": "Hotels",
+              "price_per_week": "Based Inquiry",
+              "description": "Multiple offers possible.",
+              "supplements": {}
+            }
+          ],
+          "additional_fees": {
+            "Registration Fee": "\u20ac85"
+          }
+        }
+      ],
+      "terms": {
+        "Cancellation Policy": "For Summer 14-day policy post visa App."
+      },
+      "repeat": true
+    }
+  ]
+}
