@@ -2,6 +2,8 @@
 
 A FastAPI application that processes PDF files containing language school information using OpenAI's GPT-4 Vision API. The application extracts structured data about courses, accommodations, and pricing.
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/concaption/school-info-parser)
+
 ## Features
 
 - Asynchronous PDF processing with background jobs
@@ -23,7 +25,7 @@ A FastAPI application that processes PDF files containing language school inform
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/school-info-parser.git
+git clone https://github.com/concaption/school-info-parser.git
 cd school-info-parser
 ```
 
