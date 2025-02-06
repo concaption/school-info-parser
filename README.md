@@ -101,6 +101,69 @@ school-info-parser/
 └── docker-compose.yml # Container orchestration
 ```
 
+## Architecture
+
+### System Architecture
+```mermaid
+graph TB
+    Client[Client] --> API[FastAPI Application]
+    API --> Redis[(Redis Queue)]
+    API --> Logger[Logger System]
+    
+    subgraph Worker Processing
+        Redis --> Worker[Background Worker]
+        Worker --> PDFProcessor[PDF Processor]
+        PDFProcessor --> OpenAI[OpenAI GPT-4V API]
+        PDFProcessor --> Storage[File Storage]
+    end
+    
+    Logger --> FileSystem[File System Logs]
+    Logger --> Console[Console Output]
+    
+    Worker --> Callback[Callback URL]
+    Worker --> Results[(Results Storage)]
+```
+
+### Workflow Diagram
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant A as FastAPI
+    participant R as Redis
+    participant W as Worker
+    participant P as PDF Processor
+    participant O as OpenAI API
+    participant CB as Callback URL
+
+    C->>A: POST /submit-job/ (PDF files)
+    A->>A: Generate job_id
+    A->>R: Store initial job status
+    A->>C: Return job_id
+    
+    activate W
+    W->>R: Poll for new jobs
+    R-->>W: Job details
+    W->>P: Process PDF
+    
+    loop Each Page
+        P->>O: Send image for analysis
+        O-->>P: Return structured data
+        P->>P: Merge results
+    end
+    
+    W->>R: Update job status
+    
+    opt If callback_url provided
+        W->>CB: Send results
+    end
+    deactivate W
+    
+    C->>A: GET /job/{job_id}
+    A->>R: Get job status
+    R-->>A: Return results
+    A->>C: Return job status/results
+```
+
 ## Contributing
 
 1. Fork the repository
