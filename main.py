@@ -114,7 +114,7 @@ async def submit_job(
     job_data = {"status": "processing", "results": None}
     await redis_client.set(job_id, json.dumps(job_data))
     background_tasks.add_task(process_job, job_id, files_data, callback_url)
-    return {"job_id": job_id}
+    return {"job_id": job_id, "status": "processing"}
 
 
 @app.get("/job/{job_id}")
