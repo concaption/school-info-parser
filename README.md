@@ -4,7 +4,15 @@ A FastAPI application that processes PDF files containing language school inform
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/concaption/school-info-parser)
 
-<!-- Read  Notion.md for detaiks -->
+<div>
+    <a href="https://www.loom.com/share/d018d31a1bd34387874f94361a5c8ffa">
+      <p>School Information Parser - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/d018d31a1bd34387874f94361a5c8ffa">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/d018d31a1bd34387874f94361a5c8ffa-f98922728e9badf7-full-play.gif">
+    </a>
+  </div>
+
 Read [Notion.md](notion.md) for more details. 
 
 ## Features
