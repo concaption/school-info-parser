@@ -1,4 +1,4 @@
-# Notion Document: PDF Data Extraction Enhancements
+# PDF Data Extraction Enhancements
 
 ## Challenges and Techniques
 

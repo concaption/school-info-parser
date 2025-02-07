@@ -4,6 +4,9 @@ A FastAPI application that processes PDF files containing language school inform
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/concaption/school-info-parser)
 
+<!-- Read  Notion.md for detaiks -->
+Read [Notion.md](notion.md) for more details. 
+
 ## Features
 
 - Asynchronous PDF processing with background jobs

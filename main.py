@@ -37,7 +37,11 @@ app = FastAPI()
 # Initialize Redis client using asyncio
 
 redis_client = redis.Redis(
-    host=os.getenv("REDIS_HOST", "redis"), port=6379, decode_responses=True
+    host=os.getenv("REDIS_HOST", "redis"),
+    port=6379,
+    password=os.getenv("REDIS_PASSWORD"),
+    db=0,
+    decode_responses=True
 )
 
 

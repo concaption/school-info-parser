@@ -1,5 +1,5 @@
 black==25.1.0
-click==8.1.7
+click==8.1.8
 pytest==7.4.2
 pylint==2.17.5
 python-dotenv==1.0.0
