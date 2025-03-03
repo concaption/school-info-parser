@@ -37,7 +37,7 @@ class PDFParser:
         self.client = OpenAI(api_key=api_key)
         self.system_prompt = system_prompt
 
-    def parse_page(self, pixmap, previous_output=[]):
+    def parse_page(self, pixmap, filename="", previous_output=[]):
         try:
             logger.debug("Converting PyMuPDF pixmap to PIL Image")
             img = Image.frombytes("RGB", [pixmap.width, pixmap.height], pixmap.samples)
@@ -51,7 +51,7 @@ class PDFParser:
             base64_image = base64.b64encode(img_byte_arr).decode("utf-8")
 
             logger.info("Sending request to OpenAI API")
-            prompt = self.system_prompt
+            prompt = f"Analyzing PDF file: {filename}\n" + self.system_prompt
             if previous_output is not None and len(previous_output) > 0:
                 prompt += (
                     "\nPlease provide the remaining courses that were not included in the previous response. \n Previous response was: \n "
@@ -139,7 +139,9 @@ class PDFProcessor:
                 while True:
                     try:
                         page_data = self.parser.parse_page(
-                            pix, previous_output=previous_outputs
+                            pix, 
+                            filename=os.path.basename(pdf_path),
+                            previous_output=previous_outputs
                         )
                         self.raw_results.append(page_data)
                         previous_outputs.append(page_data)

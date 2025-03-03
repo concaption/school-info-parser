@@ -1,0 +1,879 @@
+{
+  "raw_results": [
+    {
+      "name": "ActiLingua Academy",
+      "locations": [
+        {
+          "city": "Vienna",
+          "country": "AT",
+          "address": "Vienna, Austria",
+          "courses": [
+            {
+              "name": "German Course for Adults 16+",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 20,
+              "description": "German courses for adults provided in Vienna and online.",
+              "prices": [],
+              "requirements": "16+ years old"
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "ActiLingua Academy",
+      "locations": [
+        {
+          "city": "Vienna",
+          "country": "AT",
+          "address": "",
+          "courses": [
+            {
+              "name": "Year-round School for Adults",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 20,
+              "description": "Intensive German course for adults, providing modern facilities and experienced teachers.",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Summer School for Teenagers",
+              "course_type": "Teenagers",
+              "age_range": "12-17",
+              "total_fee": null,
+              "lessons_per_week": 30,
+              "description": "Full immersion in German language with engaging activities and cultural experiences.",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Holiday Course for Teenagers",
+              "course_type": "Teenagers",
+              "age_range": "16-19",
+              "total_fee": null,
+              "lessons_per_week": 35,
+              "description": "Special vacation course combined with cultural and social activities.",
+              "prices": [],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "On-Campus Residence",
+              "price_per_week": "",
+              "description": "Includes full board with multiple rooming options.",
+              "supplements": null
+            },
+            {
+              "type": "Partner Hotel",
+              "price_per_week": "",
+              "description": "Includes various board options for older teenagers.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": []
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "ActiLingua Academy",
+      "locations": [
+        {
+          "city": "Vienna",
+          "country": "AT",
+          "address": "Reisnerstra\u00dfe 61, 1030 Vienna",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": null
+    },
+    {
+      "name": "ActiLingua Language School",
+      "locations": [
+        {
+          "city": "Vienna",
+          "country": "AT",
+          "address": "Vienna, Austria",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Penthouse",
+              "price_per_week": "N/A",
+              "description": "Newly built Penthouse shared with other students. It consists of four rooms with modern facilities and access to a tram connection.",
+              "supplements": null
+            },
+            {
+              "type": "Apartment",
+              "price_per_week": "N/A",
+              "description": "Friendly and bright two-bedroom apartment shared with another student. Located 30 minutes away from the school.",
+              "supplements": null
+            },
+            {
+              "type": "The Social Hub",
+              "price_per_week": "N/A",
+              "description": "Modern and vibrant hotel offering studio apartments with private kitchenettes, fitness room access, and vibrant facilities.",
+              "supplements": null
+            },
+            {
+              "type": "Home Stay",
+              "price_per_week": "N/A",
+              "description": "Home stay accommodations with Austrian families, offering single or twin rooms with meal options.",
+              "supplements": null
+            },
+            {
+              "type": "Premium Partner B&B Hotel",
+              "price_per_week": "N/A",
+              "description": "Brand-new B&B hotel located 15 minutes from the school by public transport with a breakfast-inclusive arrangement.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": null
+    },
+    {
+      "name": "ActiLingua Academy",
+      "locations": [
+        {
+          "city": "Vienna",
+          "country": "AT",
+          "address": "",
+          "courses": [
+            {
+              "name": "Standard",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 25,
+              "description": "German course (20) + cultural and special interest programme (5)",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Intensive",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 35,
+              "description": "German course (20) + minigroup (10) + cultural and special interest programme (5)",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Super-Intensive",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 35,
+              "description": "German course (20) + individual tuition (10) + cultural and special interest programme (5)",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Live Online Course",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 30,
+              "description": "Live online individual tuition: You define the content of your language course yourself",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Individual Tuition",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 30,
+              "description": "10, 20 or 30 lessons per week",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Certificate Preparation",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 10,
+              "description": "Exam preparation of \u00d6SD certificates",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "German Teacher Course",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 20,
+              "description": "Teacher training (20) + cultural and special interest programme (5)",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Business German",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 10,
+              "description": "German course (20) + Business German (10) + cultural and special interest programme (5)",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "German and Work Experience",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 10,
+              "description": "German course followed by an internship in a selected Austrian company",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "German and Music",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 10,
+              "description": "Parallel to the German course, students have music tuition at the conservatory",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Holiday Course 25 or 35",
+              "course_type": "Teenagers",
+              "age_range": "16-19",
+              "total_fee": null,
+              "lessons_per_week": 25,
+              "description": "German course (20 or 30); Accommodation, activity programme (5) included",
+              "prices": [],
+              "requirements": null
+            },
+            {
+              "name": "Summer Course 20 or 30",
+              "course_type": "Teenagers",
+              "age_range": "12-17",
+              "total_fee": null,
+              "lessons_per_week": 20,
+              "description": "German course in groups of max. 15 students; Accommodation, full activity programme included",
+              "prices": [],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "ActiLingua Academy",
+      "locations": [
+        {
+          "city": "Vienna",
+          "country": "AT",
+          "address": "Vienna, Austria",
+          "courses": [
+            {
+              "name": "Standard German",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 25,
+              "description": "General German course focused on language skills.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac339",
+                  "currency": "EUR",
+                  "total_price": 339.0
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u20ac763",
+                  "currency": "EUR",
+                  "total_price": 763.0
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Intensive German",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 35,
+              "description": "Intensive German course for better fluency.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac493",
+                  "currency": "EUR",
+                  "total_price": 493.0
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u20ac1,225",
+                  "currency": "EUR",
+                  "total_price": 1225.0
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Super Intensive German",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 35,
+              "description": "Super-intensive German course for notable improvement.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac1,046",
+                  "currency": "EUR",
+                  "total_price": 1046.0
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Business German",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 35,
+              "description": "German course focused on professional and business language.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac493",
+                  "currency": "EUR",
+                  "total_price": 493.0
+                }
+              ],
+              "requirements": "B1 proficiency level."
+            },
+            {
+              "name": "Certificate Preparation OSD",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 6,
+              "description": "Preparation for certificate OSD.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "\u20ac128",
+                  "currency": "EUR",
+                  "total_price": 128.0
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": [
+            {
+              "name": "transfer_fee",
+              "price": "\u20ac65",
+              "currency": "EUR"
+            },
+            {
+              "name": "public_transport_fee",
+              "price": "\u20ac25",
+              "currency": "EUR"
+            },
+            {
+              "name": "medical_insurance_fee",
+              "price": "\u20ac28/week",
+              "currency": "EUR"
+            }
+          ]
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "ActiLingua Academy",
+      "locations": [
+        {
+          "city": "Vienna",
+          "country": "AT",
+          "address": "Not provided",
+          "courses": [
+            {
+              "name": "University Preparation and Enrolment Guidance",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": 977.0,
+              "lessons_per_week": 6,
+              "description": "Guidance for study document preparation and Austrian university enrollment.",
+              "prices": [
+                {
+                  "duration": "variable",
+                  "price": "\u20ac348",
+                  "currency": "EUR",
+                  "total_price": 348.0
+                },
+                {
+                  "duration": "variable",
+                  "price": "\u20ac629",
+                  "currency": "EUR",
+                  "total_price": 629.0
+                }
+              ],
+              "requirements": "University admission prerequisites and relevant documents."
+            },
+            {
+              "name": "German and Work Experience",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": 535.0,
+              "lessons_per_week": 4,
+              "description": "Includes German lessons and employment search guidance.",
+              "prices": [
+                {
+                  "duration": "8-52 weeks",
+                  "price": "\u20ac535",
+                  "currency": "EUR",
+                  "total_price": 535.0
+                }
+              ],
+              "requirements": "Language proficiency and work permission in Austria."
+            },
+            {
+              "name": "German and Music Lessons",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": 120.0,
+              "lessons_per_week": 4,
+              "description": "Includes additional music lessons while learning German.",
+              "prices": [
+                {
+                  "duration": "4-52 weeks",
+                  "price": "\u20ac120",
+                  "currency": "EUR",
+                  "total_price": 120.0
+                }
+              ],
+              "requirements": "Interest in music and German proficiency."
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "\u20ac280",
+              "description": "Includes breakfast and dinner.",
+              "supplements": {
+                "summer_supplement": "\u20ac35/week"
+              }
+            },
+            {
+              "type": "Shared Apartment",
+              "price_per_week": "\u20ac185",
+              "description": "Shared lodging with other students.",
+              "supplements": {
+                "summer_supplement": "\u20ac20/week"
+              }
+            }
+          ],
+          "additional_fees": [
+            {
+              "name": "enrollment_fee",
+              "price": "45",
+              "currency": "EUR"
+            },
+            {
+              "name": "course_material_fee",
+              "price": "15/week",
+              "currency": "EUR"
+            }
+          ]
+        }
+      ],
+      "terms": {
+        "payment": "Full payment due 2 weeks before start date.",
+        "cancellation": "14 days notice required for refund."
+      },
+      "repeat": false
+    },
+    {
+      "name": "ActiLingua Academy",
+      "locations": [
+        {
+          "city": "Vienna",
+          "country": "AT",
+          "address": "Vienna, Austria",
+          "courses": [
+            {
+              "name": "Holiday Course 25",
+              "course_type": "Teenagers",
+              "age_range": "16-19",
+              "total_fee": 1784.0,
+              "lessons_per_week": 25,
+              "description": "Holiday course including 25 lessons per week of language tuition.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "1,784",
+                  "currency": "EUR",
+                  "total_price": 1784.0
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "2,529",
+                  "currency": "EUR",
+                  "total_price": 2529.0
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "3,274",
+                  "currency": "EUR",
+                  "total_price": 3274.0
+                },
+                {
+                  "duration": "6 weeks",
+                  "price": "4,764",
+                  "currency": "EUR",
+                  "total_price": 4764.0
+                }
+              ],
+              "requirements": "None specified."
+            },
+            {
+              "name": "Holiday Course 35",
+              "course_type": "Teenagers",
+              "age_range": "16-19",
+              "total_fee": 2036.0,
+              "lessons_per_week": 35,
+              "description": "Holiday course including 35 lessons per week of language tuition.",
+              "prices": [
+                {
+                  "duration": "2 weeks",
+                  "price": "2,036",
+                  "currency": "EUR",
+                  "total_price": 2036.0
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "2,907",
+                  "currency": "EUR",
+                  "total_price": 2907.0
+                },
+                {
+                  "duration": "4 weeks",
+                  "price": "3,778",
+                  "currency": "EUR",
+                  "total_price": 3778.0
+                },
+                {
+                  "duration": "6 weeks",
+                  "price": "5,520",
+                  "currency": "EUR",
+                  "total_price": 5520.0
+                }
+              ],
+              "requirements": "None specified."
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "B&B Hotel",
+              "price_per_week": "Included in course fee",
+              "description": "Shared room (2-3 students), breakfast & towels included.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": [
+            {
+              "name": "surcharge_for_single_room",
+              "price": "128",
+              "currency": "EUR"
+            },
+            {
+              "name": "transfer",
+              "price": "56",
+              "currency": "EUR"
+            },
+            {
+              "name": "public_transport",
+              "price": "25",
+              "currency": "EUR"
+            },
+            {
+              "name": "medical_and_travel_insurance",
+              "price": "28",
+              "currency": "EUR"
+            },
+            {
+              "name": "full_day_excursion",
+              "price": "80",
+              "currency": "EUR"
+            },
+            {
+              "name": "half_day_excursion",
+              "price": "50",
+              "currency": "EUR"
+            }
+          ]
+        }
+      ],
+      "terms": {
+        "cancellation": "Refer to the \"PAYMENT AND CANCELLATION TERMS\" section."
+      },
+      "repeat": false
+    },
+    {
+      "name": "ActiLingua Academy",
+      "locations": [
+        {
+          "city": "Vienna",
+          "country": "AT",
+          "address": "Vienna, Austria",
+          "courses": [
+            {
+              "name": "Summer School German 12-17 Years",
+              "course_type": "Teenagers",
+              "age_range": "12\u201317",
+              "total_fee": null,
+              "lessons_per_week": 20,
+              "description": "Residential summer school with sports and activities.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "price": "\u20ac1439",
+                  "currency": "EUR",
+                  "total_price": 1439.0
+                },
+                {
+                  "duration": "2 weeks",
+                  "price": "\u20ac2296",
+                  "currency": "EUR",
+                  "total_price": 2296.0
+                },
+                {
+                  "duration": "3 weeks",
+                  "price": "\u20ac3272",
+                  "currency": "EUR",
+                  "total_price": 3272.0
+                },
+                {
+                  "duration": "5 weeks",
+                  "price": "\u20ac5224",
+                  "currency": "EUR",
+                  "total_price": 5224.0
+                }
+              ],
+              "requirements": null
+            },
+            {
+              "name": "Online Individual German Training",
+              "course_type": "Adult",
+              "age_range": "16+",
+              "total_fee": null,
+              "lessons_per_week": 10,
+              "description": "Live online lessons delivered weekly.",
+              "prices": [
+                {
+                  "duration": "2-4 weeks",
+                  "price": "\u20ac796\u2013\u20ac2388/week",
+                  "currency": "EUR",
+                  "total_price": null
+                }
+              ],
+              "requirements": null
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Residence Standard",
+              "price_per_week": "Included",
+              "description": "Standard rooms, full board.",
+              "supplements": {
+                "Additional OSD Exam": "\u20ac128"
+              }
+            }
+          ],
+          "additional_fees": [
+            {
+              "name": "public_transport_weekly_fee",
+              "price": "25",
+              "currency": "EUR"
+            },
+            {
+              "name": "medical_and_travel_insurance_weekly",
+              "price": "28",
+              "currency": "EUR"
+            }
+          ]
+        }
+      ],
+      "terms": {
+        "general": "Cancellation requires advance notice."
+      },
+      "repeat": false
+    },
+    {
+      "name": "ActiLingua Language School",
+      "locations": [
+        {
+          "city": "Vienna",
+          "country": "AT",
+          "address": "N/A",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": "308",
+              "description": "Accommodation with local families, own room with shared bathroom and kitchen.",
+              "supplements": null
+            },
+            {
+              "type": "ActiLingua Apartment",
+              "price_per_week": "350",
+              "description": "Studio Apartment shared with other students or own apartment options.",
+              "supplements": null
+            },
+            {
+              "type": "Penthouse",
+              "price_per_week": "400",
+              "description": "Shared Penthouse accommodation with high standard features.",
+              "supplements": null
+            },
+            {
+              "type": "The Social Hub (1 person)",
+              "price_per_week": "566",
+              "description": "Experience a one-person studio-style accommodation for individual travelers.",
+              "supplements": null
+            },
+            {
+              "type": "The Social Hub (2 persons)",
+              "price_per_week": "398",
+              "description": "Shared studio for two people for an economical option.",
+              "supplements": null
+            },
+            {
+              "type": "B&B Hotel",
+              "price_per_week": "686",
+              "description": "Stay in a comfortable bed & breakfast room during your learning journey.",
+              "supplements": {
+                "Breakfast_Price_per_Week": "72",
+                "Halfboard": "177"
+              }
+            },
+            {
+              "type": "Hostel",
+              "price_per_week": "330",
+              "description": "Budget accommodation shared with other students or travelers.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": [
+            {
+              "name": "high_season_surcharge",
+              "price": "84",
+              "currency": "EUR"
+            },
+            {
+              "name": "transfer_fee",
+              "price": "56",
+              "currency": "EUR"
+            },
+            {
+              "name": "refundable_deposit_homestay",
+              "price": "100",
+              "currency": "EUR"
+            },
+            {
+              "name": "refundable_deposit_apartment",
+              "price": "400",
+              "currency": "EUR"
+            }
+          ]
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "ActiLingua Academy",
+      "locations": [
+        {
+          "city": "Vienna",
+          "country": "AT",
+          "address": "Nikolsdorfer Gasse 7-11/16, 1050 Wien, Austria",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": []
+        }
+      ],
+      "terms": {
+        "cancellation_and_refund": "Cancellations must be submitted in writing. Refunds are processed within 30 business days. Fees for cancellations: up to 4 weeks before the start of the course: 198 EUR, up to 2 weeks: 50%, up to 6 working days: 80%, fewer than 6 working days: no refund (terms change for holiday courses)."
+      },
+      "repeat": false
+    },
+    {
+      "name": "ActiLingua Academy",
+      "locations": [
+        {
+          "city": "Vienna",
+          "country": "AT",
+          "address": "Reisnerstra\u00dfe 61, 1030 Vienna",
+          "courses": [
+            {
+              "name": "Holiday Course",
+              "course_type": "Teenagers",
+              "age_range": "16\u201319 years",
+              "total_fee": null,
+              "lessons_per_week": 0,
+              "description": "German courses tailored for teenagers including holiday activities.",
+              "prices": [],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        },
+        {
+          "city": "Vienna",
+          "country": "AT",
+          "address": "Favoritenstra\u00dfe 15, 1040 Vienna",
+          "courses": [
+            {
+              "name": "Summer School",
+              "course_type": "Teenagers",
+              "age_range": "12\u201317 years",
+              "total_fee": null,
+              "lessons_per_week": 0,
+              "description": "German courses in summer especially designed for younger learners.",
+              "prices": [],
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": null
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    }
+  ]
+}

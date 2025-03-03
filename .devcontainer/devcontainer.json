@@ -10,7 +10,8 @@
                 "ms-vscode.makefile-tools",
                 "twixes.pypi-assistant",
                 "mechatroner.rainbow-csv",
-                "ZainChen.json"
+                "ZainChen.json",
+                "mathematic.vscode-pdf"
             ]
         }
     }
