@@ -16,7 +16,7 @@
               "age_range_display": "16+",
               "lessons_per_week": 20,
               "course_intensity": "General English - 20",
-              "description": null,
+              "description": "13 hours and 20 minutes per week",
               "prices": [
                 {
                   "duration": "2-7 weeks",
@@ -43,9 +43,15 @@
                   "currency": "GBP"
                 }
               ],
-              "total_fee_calculation": "",
-              "total_fee": null,
-              "requirements": null
+              "requirements": null,
+              "additional_fees": [
+                {
+                  "fee_type": "enrolment",
+                  "description": "Enrolment fee for all courses",
+                  "price": 100.0,
+                  "currency": "GBP"
+                }
+              ]
             },
             {
               "name": "English Plus Course (A2-C2)",
@@ -54,8 +60,8 @@
               "max_age": null,
               "age_range_display": "16+",
               "lessons_per_week": 28,
-              "course_intensity": "Intensive English - 28",
-              "description": null,
+              "course_intensity": "General English - 28",
+              "description": "18 hours and 40 minutes per week",
               "prices": [
                 {
                   "duration": "2-7 weeks",
@@ -82,19 +88,25 @@
                   "currency": "GBP"
                 }
               ],
-              "total_fee_calculation": "",
-              "total_fee": null,
-              "requirements": null
+              "requirements": null,
+              "additional_fees": [
+                {
+                  "fee_type": "enrolment",
+                  "description": "Enrolment fee for all courses",
+                  "price": 100.0,
+                  "currency": "GBP"
+                }
+              ]
             },
             {
-              "name": "Examination Courses - Cambridge (B2 and C1)",
+              "name": "Examination Courses Cambridge",
               "course_type": "Adult",
               "min_age": 16,
               "max_age": null,
               "age_range_display": "16+",
               "lessons_per_week": 28,
-              "course_intensity": "Examination English - 28",
-              "description": null,
+              "course_intensity": "Cambridge English - 28",
+              "description": "Cambridge B2 First Certificate (B2) and Advanced (C1)",
               "prices": [
                 {
                   "duration": "10-16 weeks",
@@ -103,9 +115,42 @@
                   "currency": "GBP"
                 }
               ],
-              "total_fee_calculation": "",
-              "total_fee": null,
-              "requirements": "Students should enroll based on their examination targets."
+              "requirements": null,
+              "additional_fees": [
+                {
+                  "fee_type": "exam",
+                  "description": "Exam fee if applicable",
+                  "price": 0.0,
+                  "currency": "GBP"
+                }
+              ]
+            },
+            {
+              "name": "IELTS Course (B1-C2)",
+              "course_type": "Adult",
+              "min_age": 16,
+              "max_age": null,
+              "age_range_display": "16+",
+              "lessons_per_week": 20,
+              "course_intensity": "IELTS Preparation - 20",
+              "description": "Preparation for IELTS exams",
+              "prices": [
+                {
+                  "duration": "8 weeks",
+                  "description": null,
+                  "price": 201.0,
+                  "currency": "GBP"
+                }
+              ],
+              "requirements": null,
+              "additional_fees": [
+                {
+                  "fee_type": "exam",
+                  "description": "Exam fee if applicable",
+                  "price": 0.0,
+                  "currency": "GBP"
+                }
+              ]
             },
             {
               "name": "Extra Intensive Course (A2-C1)",
@@ -114,8 +159,8 @@
               "max_age": null,
               "age_range_display": "16+",
               "lessons_per_week": 40,
-              "course_intensity": "Extra Intensive - 40",
-              "description": null,
+              "course_intensity": "Intensive English - 40",
+              "description": "For those who require additional lessons",
               "prices": [
                 {
                   "duration": "1-4 weeks",
@@ -124,45 +169,74 @@
                   "currency": "GBP"
                 }
               ],
-              "total_fee_calculation": "",
-              "total_fee": null,
-              "requirements": null
+              "requirements": null,
+              "additional_fees": [
+                {
+                  "fee_type": "material",
+                  "description": "Course material fee",
+                  "price": 50.0,
+                  "currency": "GBP"
+                }
+              ]
             },
             {
-              "name": "Junior Programme A",
+              "name": "Junior Programme (A2-C1)",
               "course_type": "Teenagers",
               "min_age": 12,
               "max_age": 17,
               "age_range_display": "12-17",
               "lessons_per_week": 20,
-              "course_intensity": "Junior English - 223",
-              "description": "Children focused program",
+              "course_intensity": "Junior Programme - 20",
+              "description": "Standard programme for juniors",
               "prices": [
                 {
                   "duration": "1-3 weeks",
-                  "description": null,
+                  "description": "Participants aged 12-17.",
                   "price": 228.0,
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "4+ weeks",
+                  "description": "Participants aged 16+.",
+                  "price": 220.0,
                   "currency": "GBP"
                 }
               ],
-              "total_fee_calculation": "",
-              "total_fee": null,
-              "requirements": null
+              "requirements": null,
+              "additional_fees": [
+                {
+                  "fee_type": "activities",
+                  "description": "Optional social activities",
+                  "price": 100.0,
+                  "currency": "GBP"
+                }
+              ]
             }
           ],
-          "accommodations": [],
-          "additional_fees": [
+          "accommodations": [
             {
-              "name": "enrollment_fee",
-              "price": 100.0,
-              "currency": "GBP"
+              "name": "Homestay Accommodation",
+              "description": "Accommodation with local families",
+              "type": "homestay",
+              "price_per_week": 161.0,
+              "currency": "GBP",
+              "food_suplements": [
+                {
+                  "name": "Full-board Supplement",
+                  "description": "Extra meal service",
+                  "price_per_week": 20.0,
+                  "currency": "GBP",
+                  "meals_per_week": 21,
+                  "meal_type": "standard"
+                }
+              ]
             }
-          ]
+          ],
+          "suplements": null,
+          "additional_fees": null
         }
       ],
-      "terms": {
-        "cancellation_notes": "Prices subject to revisions."
-      },
+      "terms": null,
       "repeat": false
     },
     {
@@ -175,51 +249,61 @@
           "courses": [],
           "accommodations": [
             {
-              "type": "Homestay",
-              "price_per_week": 195.0,
+              "name": "Homestay",
+              "description": "Homestay for students, including meals.",
+              "type": "homestay",
+              "price_per_week": 195,
               "currency": "GBP",
-              "total_price": null,
-              "description": "Single room, breakfast, and evening meal; no lunch on weekdays",
-              "supplements": {
-                "Lactose Free per week in GBP": "30.00",
-                "Vegetarian per week in GBP": "30.00",
-                "Gluten Free per week in GBP": "30.00",
-                "Vegan per week in GBP": "30.00"
-              }
-            },
-            {
-              "type": "Homestay",
-              "price_per_week": 205.0,
-              "currency": "GBP",
-              "total_price": null,
-              "description": "Twin room (not available to students older than 16), breakfast, and evening meal; no lunch on weekdays",
-              "supplements": {
-                "Lactose Free per week in GBP": "30.00",
-                "Vegetarian per week in GBP": "30.00",
-                "Gluten Free per week in GBP": "30.00",
-                "Vegan per week in GBP": "30.00"
-              }
+              "food_suplements": [
+                {
+                  "name": "Lactose Free Diet",
+                  "description": "Special diet accommodation option.",
+                  "price_per_week": 30,
+                  "currency": "GBP",
+                  "meals_per_week": 21,
+                  "meal_type": "lactose_free"
+                },
+                {
+                  "name": "Vegetarian Diet",
+                  "description": "Special diet accommodation option.",
+                  "price_per_week": 30,
+                  "currency": "GBP",
+                  "meals_per_week": 21,
+                  "meal_type": "vegetarian"
+                },
+                {
+                  "name": "Gluten Free Diet",
+                  "description": "Special diet accommodation option.",
+                  "price_per_week": 30,
+                  "currency": "GBP",
+                  "meals_per_week": 21,
+                  "meal_type": "gluten_free"
+                },
+                {
+                  "name": "Vegan Diet",
+                  "description": "Special diet accommodation option.",
+                  "price_per_week": 30,
+                  "currency": "GBP",
+                  "meals_per_week": 21,
+                  "meal_type": "vegan"
+                }
+              ]
             }
           ],
-          "additional_fees": [
-            {
-              "name": "Homestay_week_Extra_child",
-              "price": 30.0,
-              "currency": "GBP"
-            }
-          ]
+          "suplements": null,
+          "additional_fees": null
         }
       ],
       "terms": null,
-      "repeat": false
+      "repeat": null
     },
     {
       "name": "Westbourne Academy",
       "locations": [
         {
           "city": "Bournemouth",
-          "country": "GB",
-          "address": "31 Alumhurst Road, Bournemouth BH4 8EN",
+          "country": "UK",
+          "address": "31 Alumhurst Road, Bournemouth, BH4 8EN",
           "courses": [
             {
               "name": "General Main English",
@@ -228,19 +312,24 @@
               "max_age": null,
               "age_range_display": "16+",
               "lessons_per_week": 20,
-              "course_intensity": "General Main English - 20 lessons per week",
-              "description": "General English course focusing on improving fluency and accuracy.",
+              "course_intensity": "General English - 20",
+              "description": "Morning and afternoon classes available. Covers general and conversational English.",
               "prices": [
                 {
-                  "duration": "1 week",
-                  "description": "Standard weekly price",
-                  "price": 200,
+                  "duration": "Two-week course",
+                  "description": null,
+                  "price": 230,
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "Four-week course",
+                  "description": null,
+                  "price": 450,
                   "currency": "GBP"
                 }
               ],
-              "total_fee_calculation": "1 week * 200 GBP/week",
-              "total_fee": 200.0,
-              "requirements": "None"
+              "requirements": null,
+              "additional_fees": []
             },
             {
               "name": "English Plus",
@@ -248,50 +337,73 @@
               "min_age": 16,
               "max_age": null,
               "age_range_display": "16+",
-              "lessons_per_week": 30,
-              "course_intensity": "English Plus - 30 lessons per week",
-              "description": "An advanced course for improving English speaking skills.",
+              "lessons_per_week": 20,
+              "course_intensity": "General English - 20",
+              "description": "Additional activities complimenting general English lessons.",
               "prices": [
                 {
-                  "duration": "1 week",
-                  "description": "Standard weekly price",
-                  "price": 300,
+                  "duration": "Two-week course",
+                  "description": null,
+                  "price": 250,
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "Four-week course",
+                  "description": null,
+                  "price": 490,
                   "currency": "GBP"
                 }
               ],
-              "total_fee_calculation": "1 week * 300 GBP/week",
-              "total_fee": 300.0,
-              "requirements": "None"
+              "requirements": null,
+              "additional_fees": []
             }
           ],
           "accommodations": [
             {
-              "type": "Homestay",
-              "price_per_week": 230,
+              "name": "Host Family Accommodation",
+              "description": "Half board. Option for single or double rooms.",
+              "type": "host_family",
+              "price_per_week": 180,
               "currency": "GBP",
-              "total_price": 230.0,
-              "description": "Hosted in a supportive family setting with meals included.",
-              "supplements": null
+              "food_suplements": [
+                {
+                  "name": "Full board supplement",
+                  "description": "All meals included.",
+                  "price_per_week": 30,
+                  "currency": "GBP",
+                  "meals_per_week": 21,
+                  "meal_type": "full_board"
+                }
+              ]
             }
           ],
+          "suplements": [],
           "additional_fees": [
             {
-              "name": "registration_fee",
-              "price": 50,
+              "fee_type": "exam_fee",
+              "description": "Cambridge First Certificate in English",
+              "price": 230,
               "currency": "GBP"
             },
             {
-              "name": "deposit_fee",
-              "price": 150,
+              "fee_type": "exam_fee",
+              "description": "Cambridge Certificate in Advanced English",
+              "price": 235,
+              "currency": "GBP"
+            },
+            {
+              "fee_type": "exam_fee",
+              "description": "Cambridge IELTS",
+              "price": 245,
               "currency": "GBP"
             }
           ]
         }
       ],
       "terms": {
-        "cancellation": "All cancellations must be received in writing at least 2 weeks prior to the start of the course."
+        "cancellation_policy": "Notice required a minimum of four weeks before commencement for changes or cancellations and subject to charges as listed. Possible deductions for unused services apply."
       },
-      "repeat": null
+      "repeat": false
     },
     {
       "name": "Westbourne Academy",
@@ -302,19 +414,14 @@
           "address": "31 Alumhurst Road, Bournemouth, BH4 8EN",
           "courses": [],
           "accommodations": [],
-          "additional_fees": []
-        },
-        {
-          "city": "Bournemouth",
-          "country": "GB",
-          "address": "31 Alumhurst Road",
-          "courses": [],
-          "accommodations": [],
-          "additional_fees": []
+          "suplements": null,
+          "additional_fees": null
         }
       ],
-      "terms": null,
-      "repeat": null
+      "terms": {
+        "source_details": "See the website for additional details about courses, location, student activities, and care for students under 18."
+      },
+      "repeat": false
     }
   ],
   "merged_results": {
@@ -333,7 +440,7 @@
             "age_range_display": "16+",
             "lessons_per_week": 20,
             "course_intensity": "General English - 20",
-            "description": null,
+            "description": "13 hours and 20 minutes per week",
             "prices": [
               {
                 "duration": "2-7 weeks",
@@ -360,9 +467,15 @@
                 "currency": "GBP"
               }
             ],
-            "total_fee_calculation": "",
-            "total_fee": null,
-            "requirements": null
+            "requirements": null,
+            "additional_fees": [
+              {
+                "fee_type": "enrolment",
+                "description": "Enrolment fee for all courses",
+                "price": 100.0,
+                "currency": "GBP"
+              }
+            ]
           },
           {
             "name": "English Plus Course (A2-C2)",
@@ -371,8 +484,8 @@
             "max_age": null,
             "age_range_display": "16+",
             "lessons_per_week": 28,
-            "course_intensity": "Intensive English - 28",
-            "description": null,
+            "course_intensity": "General English - 28",
+            "description": "18 hours and 40 minutes per week",
             "prices": [
               {
                 "duration": "2-7 weeks",
@@ -399,19 +512,25 @@
                 "currency": "GBP"
               }
             ],
-            "total_fee_calculation": "",
-            "total_fee": null,
-            "requirements": null
+            "requirements": null,
+            "additional_fees": [
+              {
+                "fee_type": "enrolment",
+                "description": "Enrolment fee for all courses",
+                "price": 100.0,
+                "currency": "GBP"
+              }
+            ]
           },
           {
-            "name": "Examination Courses - Cambridge (B2 and C1)",
+            "name": "Examination Courses Cambridge",
             "course_type": "Adult",
             "min_age": 16,
             "max_age": null,
             "age_range_display": "16+",
             "lessons_per_week": 28,
-            "course_intensity": "Examination English - 28",
-            "description": null,
+            "course_intensity": "Cambridge English - 28",
+            "description": "Cambridge B2 First Certificate (B2) and Advanced (C1)",
             "prices": [
               {
                 "duration": "10-16 weeks",
@@ -420,9 +539,42 @@
                 "currency": "GBP"
               }
             ],
-            "total_fee_calculation": "",
-            "total_fee": null,
-            "requirements": "Students should enroll based on their examination targets."
+            "requirements": null,
+            "additional_fees": [
+              {
+                "fee_type": "exam",
+                "description": "Exam fee if applicable",
+                "price": 0.0,
+                "currency": "GBP"
+              }
+            ]
+          },
+          {
+            "name": "IELTS Course (B1-C2)",
+            "course_type": "Adult",
+            "min_age": 16,
+            "max_age": null,
+            "age_range_display": "16+",
+            "lessons_per_week": 20,
+            "course_intensity": "IELTS Preparation - 20",
+            "description": "Preparation for IELTS exams",
+            "prices": [
+              {
+                "duration": "8 weeks",
+                "description": null,
+                "price": 201.0,
+                "currency": "GBP"
+              }
+            ],
+            "requirements": null,
+            "additional_fees": [
+              {
+                "fee_type": "exam",
+                "description": "Exam fee if applicable",
+                "price": 0.0,
+                "currency": "GBP"
+              }
+            ]
           },
           {
             "name": "Extra Intensive Course (A2-C1)",
@@ -431,8 +583,8 @@
             "max_age": null,
             "age_range_display": "16+",
             "lessons_per_week": 40,
-            "course_intensity": "Extra Intensive - 40",
-            "description": null,
+            "course_intensity": "Intensive English - 40",
+            "description": "For those who require additional lessons",
             "prices": [
               {
                 "duration": "1-4 weeks",
@@ -441,31 +593,78 @@
                 "currency": "GBP"
               }
             ],
-            "total_fee_calculation": "",
-            "total_fee": null,
-            "requirements": null
+            "requirements": null,
+            "additional_fees": [
+              {
+                "fee_type": "material",
+                "description": "Course material fee",
+                "price": 50.0,
+                "currency": "GBP"
+              }
+            ]
           },
           {
-            "name": "Junior Programme A",
+            "name": "Junior Programme (A2-C1)",
             "course_type": "Teenagers",
             "min_age": 12,
             "max_age": 17,
             "age_range_display": "12-17",
             "lessons_per_week": 20,
-            "course_intensity": "Junior English - 223",
-            "description": "Children focused program",
+            "course_intensity": "Junior Programme - 20",
+            "description": "Standard programme for juniors",
             "prices": [
               {
                 "duration": "1-3 weeks",
-                "description": null,
+                "description": "Participants aged 12-17.",
                 "price": 228.0,
+                "currency": "GBP"
+              },
+              {
+                "duration": "4+ weeks",
+                "description": "Participants aged 16+.",
+                "price": 220.0,
                 "currency": "GBP"
               }
             ],
-            "total_fee_calculation": "",
-            "total_fee": null,
-            "requirements": null
-          },
+            "requirements": null,
+            "additional_fees": [
+              {
+                "fee_type": "activities",
+                "description": "Optional social activities",
+                "price": 100.0,
+                "currency": "GBP"
+              }
+            ]
+          }
+        ],
+        "accommodations": [
+          {
+            "name": "Homestay Accommodation",
+            "description": "Homestay for students, including meals.",
+            "type": "homestay",
+            "price_per_week": 195,
+            "currency": "GBP",
+            "food_suplements": [
+              {
+                "name": "Full-board Supplement",
+                "description": "Extra meal service",
+                "price_per_week": 20.0,
+                "currency": "GBP",
+                "meals_per_week": 21,
+                "meal_type": "standard"
+              }
+            ],
+            "supplements": {}
+          }
+        ],
+        "suplements": null,
+        "additional_fees": []
+      },
+      {
+        "city": "Bournemouth",
+        "country": "UK",
+        "address": "31 Alumhurst Road, Bournemouth, BH4 8EN",
+        "courses": [
           {
             "name": "General Main English",
             "course_type": "Adult",
@@ -473,19 +672,24 @@
             "max_age": null,
             "age_range_display": "16+",
             "lessons_per_week": 20,
-            "course_intensity": "General Main English - 20 lessons per week",
-            "description": "General English course focusing on improving fluency and accuracy.",
+            "course_intensity": "General English - 20",
+            "description": "Morning and afternoon classes available. Covers general and conversational English.",
             "prices": [
               {
-                "duration": "1 week",
-                "description": "Standard weekly price",
-                "price": 200,
+                "duration": "Two-week course",
+                "description": null,
+                "price": 230,
+                "currency": "GBP"
+              },
+              {
+                "duration": "Four-week course",
+                "description": null,
+                "price": 450,
                 "currency": "GBP"
               }
             ],
-            "total_fee_calculation": "1 week * 200 GBP/week",
-            "total_fee": 200.0,
-            "requirements": "None"
+            "requirements": null,
+            "additional_fees": []
           },
           {
             "name": "English Plus",
@@ -493,64 +697,72 @@
             "min_age": 16,
             "max_age": null,
             "age_range_display": "16+",
-            "lessons_per_week": 30,
-            "course_intensity": "English Plus - 30 lessons per week",
-            "description": "An advanced course for improving English speaking skills.",
+            "lessons_per_week": 20,
+            "course_intensity": "General English - 20",
+            "description": "Additional activities complimenting general English lessons.",
             "prices": [
               {
-                "duration": "1 week",
-                "description": "Standard weekly price",
-                "price": 300,
+                "duration": "Two-week course",
+                "description": null,
+                "price": 250,
+                "currency": "GBP"
+              },
+              {
+                "duration": "Four-week course",
+                "description": null,
+                "price": 490,
                 "currency": "GBP"
               }
             ],
-            "total_fee_calculation": "1 week * 300 GBP/week",
-            "total_fee": 300.0,
-            "requirements": "None"
+            "requirements": null,
+            "additional_fees": []
           }
         ],
         "accommodations": [
           {
-            "type": "Homestay",
-            "price_per_week": 230,
+            "name": "Host Family Accommodation",
+            "description": "Half board. Option for single or double rooms.",
+            "type": "host_family",
+            "price_per_week": 180,
             "currency": "GBP",
-            "total_price": null,
-            "description": "Hosted in a supportive family setting with meals included.",
-            "supplements": {
-              "Lactose Free per week in GBP": "30.00",
-              "Vegetarian per week in GBP": "30.00",
-              "Gluten Free per week in GBP": "30.00",
-              "Vegan per week in GBP": "30.00"
-            }
+            "food_suplements": [
+              {
+                "name": "Full board supplement",
+                "description": "All meals included.",
+                "price_per_week": 30,
+                "currency": "GBP",
+                "meals_per_week": 21,
+                "meal_type": "full_board"
+              }
+            ]
           }
         ],
+        "suplements": [],
         "additional_fees": [
           {
-            "name": "enrollment_fee",
-            "price": 100.0,
+            "fee_type": "exam_fee",
+            "description": "Cambridge First Certificate in English",
+            "price": 230,
             "currency": "GBP"
           },
           {
-            "name": "Homestay_week_Extra_child",
-            "price": 30.0,
+            "fee_type": "exam_fee",
+            "description": "Cambridge Certificate in Advanced English",
+            "price": 235,
             "currency": "GBP"
           },
           {
-            "name": "registration_fee",
-            "price": 50,
-            "currency": "GBP"
-          },
-          {
-            "name": "deposit_fee",
-            "price": 150,
+            "fee_type": "exam_fee",
+            "description": "Cambridge IELTS",
+            "price": 245,
             "currency": "GBP"
           }
         ]
       }
     ],
     "terms": {
-      "cancellation_notes": "Prices subject to revisions.",
-      "cancellation": "All cancellations must be received in writing at least 2 weeks prior to the start of the course."
+      "cancellation_policy": "Notice required a minimum of four weeks before commencement for changes or cancellations and subject to charges as listed. Possible deductions for unused services apply.",
+      "source_details": "See the website for additional details about courses, location, student activities, and care for students under 18."
     },
     "repeat": false
   }

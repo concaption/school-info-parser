@@ -1,0 +1,557 @@
+{
+  "raw_results": [
+    {
+      "name": "Westbourne Academy",
+      "locations": [
+        {
+          "city": "Bournemouth",
+          "country": "GB",
+          "address": "31 Alumhurst Road, Bournemouth, BH4 8EN",
+          "courses": [
+            {
+              "name": "General Main English Course (A1-C2)",
+              "course_type": "Adult",
+              "min_age": 16,
+              "max_age": null,
+              "age_range_display": "16+",
+              "lessons_per_week": 20,
+              "course_intensity": "General English - 20",
+              "description": null,
+              "prices": [
+                {
+                  "duration": "2-7 weeks",
+                  "description": null,
+                  "price": 215.0,
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "8-11 weeks",
+                  "description": null,
+                  "price": 201.0,
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "description": null,
+                  "price": 187.0,
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "description": null,
+                  "price": 170.0,
+                  "currency": "GBP"
+                }
+              ],
+              "total_fee_calculation": "",
+              "total_fee": null,
+              "requirements": null
+            },
+            {
+              "name": "English Plus Course (A2-C2)",
+              "course_type": "Adult",
+              "min_age": 16,
+              "max_age": null,
+              "age_range_display": "16+",
+              "lessons_per_week": 28,
+              "course_intensity": "Intensive English - 28",
+              "description": null,
+              "prices": [
+                {
+                  "duration": "2-7 weeks",
+                  "description": null,
+                  "price": 262.0,
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "8-11 weeks",
+                  "description": null,
+                  "price": 245.0,
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "12-23 weeks",
+                  "description": null,
+                  "price": 227.0,
+                  "currency": "GBP"
+                },
+                {
+                  "duration": "24+ weeks",
+                  "description": null,
+                  "price": 199.0,
+                  "currency": "GBP"
+                }
+              ],
+              "total_fee_calculation": "",
+              "total_fee": null,
+              "requirements": null
+            },
+            {
+              "name": "Examination Courses - Cambridge (B2 and C1)",
+              "course_type": "Adult",
+              "min_age": 16,
+              "max_age": null,
+              "age_range_display": "16+",
+              "lessons_per_week": 28,
+              "course_intensity": "Examination English - 28",
+              "description": null,
+              "prices": [
+                {
+                  "duration": "10-16 weeks",
+                  "description": null,
+                  "price": 227.0,
+                  "currency": "GBP"
+                }
+              ],
+              "total_fee_calculation": "",
+              "total_fee": null,
+              "requirements": "Students should enroll based on their examination targets."
+            },
+            {
+              "name": "Extra Intensive Course (A2-C1)",
+              "course_type": "Adult",
+              "min_age": 16,
+              "max_age": null,
+              "age_range_display": "16+",
+              "lessons_per_week": 40,
+              "course_intensity": "Extra Intensive - 40",
+              "description": null,
+              "prices": [
+                {
+                  "duration": "1-4 weeks",
+                  "description": null,
+                  "price": 329.0,
+                  "currency": "GBP"
+                }
+              ],
+              "total_fee_calculation": "",
+              "total_fee": null,
+              "requirements": null
+            },
+            {
+              "name": "Junior Programme A",
+              "course_type": "Teenagers",
+              "min_age": 12,
+              "max_age": 17,
+              "age_range_display": "12-17",
+              "lessons_per_week": 20,
+              "course_intensity": "Junior English - 223",
+              "description": "Children focused program",
+              "prices": [
+                {
+                  "duration": "1-3 weeks",
+                  "description": null,
+                  "price": 228.0,
+                  "currency": "GBP"
+                }
+              ],
+              "total_fee_calculation": "",
+              "total_fee": null,
+              "requirements": null
+            }
+          ],
+          "accommodations": [],
+          "additional_fees": [
+            {
+              "name": "enrollment_fee",
+              "price": 100.0,
+              "currency": "GBP"
+            }
+          ]
+        }
+      ],
+      "terms": {
+        "cancellation_notes": "Prices subject to revisions."
+      },
+      "repeat": false
+    },
+    {
+      "name": "Westbourne Academy",
+      "locations": [
+        {
+          "city": "Bournemouth",
+          "country": "GB",
+          "address": "31 Alumhurst Road, Bournemouth, BH4 8EN",
+          "courses": [],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": 195.0,
+              "currency": "GBP",
+              "total_price": null,
+              "description": "Single room, breakfast, and evening meal; no lunch on weekdays",
+              "supplements": {
+                "Lactose Free per week in GBP": "30.00",
+                "Vegetarian per week in GBP": "30.00",
+                "Gluten Free per week in GBP": "30.00",
+                "Vegan per week in GBP": "30.00"
+              }
+            },
+            {
+              "type": "Homestay",
+              "price_per_week": 205.0,
+              "currency": "GBP",
+              "total_price": null,
+              "description": "Twin room (not available to students older than 16), breakfast, and evening meal; no lunch on weekdays",
+              "supplements": {
+                "Lactose Free per week in GBP": "30.00",
+                "Vegetarian per week in GBP": "30.00",
+                "Gluten Free per week in GBP": "30.00",
+                "Vegan per week in GBP": "30.00"
+              }
+            }
+          ],
+          "additional_fees": [
+            {
+              "name": "Homestay_week_Extra_child",
+              "price": 30.0,
+              "currency": "GBP"
+            }
+          ]
+        }
+      ],
+      "terms": null,
+      "repeat": false
+    },
+    {
+      "name": "Westbourne Academy",
+      "locations": [
+        {
+          "city": "Bournemouth",
+          "country": "GB",
+          "address": "31 Alumhurst Road, Bournemouth BH4 8EN",
+          "courses": [
+            {
+              "name": "General Main English",
+              "course_type": "Adult",
+              "min_age": 16,
+              "max_age": null,
+              "age_range_display": "16+",
+              "lessons_per_week": 20,
+              "course_intensity": "General Main English - 20 lessons per week",
+              "description": "General English course focusing on improving fluency and accuracy.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "description": "Standard weekly price",
+                  "price": 200,
+                  "currency": "GBP"
+                }
+              ],
+              "total_fee_calculation": "1 week * 200 GBP/week",
+              "total_fee": 200.0,
+              "requirements": "None"
+            },
+            {
+              "name": "English Plus",
+              "course_type": "Adult",
+              "min_age": 16,
+              "max_age": null,
+              "age_range_display": "16+",
+              "lessons_per_week": 30,
+              "course_intensity": "English Plus - 30 lessons per week",
+              "description": "An advanced course for improving English speaking skills.",
+              "prices": [
+                {
+                  "duration": "1 week",
+                  "description": "Standard weekly price",
+                  "price": 300,
+                  "currency": "GBP"
+                }
+              ],
+              "total_fee_calculation": "1 week * 300 GBP/week",
+              "total_fee": 300.0,
+              "requirements": "None"
+            }
+          ],
+          "accommodations": [
+            {
+              "type": "Homestay",
+              "price_per_week": 230,
+              "currency": "GBP",
+              "total_price": 230.0,
+              "description": "Hosted in a supportive family setting with meals included.",
+              "supplements": null
+            }
+          ],
+          "additional_fees": [
+            {
+              "name": "registration_fee",
+              "price": 50,
+              "currency": "GBP"
+            },
+            {
+              "name": "deposit_fee",
+              "price": 150,
+              "currency": "GBP"
+            }
+          ]
+        }
+      ],
+      "terms": {
+        "cancellation": "All cancellations must be received in writing at least 2 weeks prior to the start of the course."
+      },
+      "repeat": null
+    },
+    {
+      "name": "Westbourne Academy",
+      "locations": [
+        {
+          "city": "Bournemouth",
+          "country": "GB",
+          "address": "31 Alumhurst Road, Bournemouth, BH4 8EN",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": []
+        },
+        {
+          "city": "Bournemouth",
+          "country": "GB",
+          "address": "31 Alumhurst Road",
+          "courses": [],
+          "accommodations": [],
+          "additional_fees": []
+        }
+      ],
+      "terms": null,
+      "repeat": null
+    }
+  ],
+  "merged_results": {
+    "name": "Westbourne Academy",
+    "locations": [
+      {
+        "city": "Bournemouth",
+        "country": "GB",
+        "address": "31 Alumhurst Road, Bournemouth, BH4 8EN",
+        "courses": [
+          {
+            "name": "General Main English Course (A1-C2)",
+            "course_type": "Adult",
+            "min_age": 16,
+            "max_age": null,
+            "age_range_display": "16+",
+            "lessons_per_week": 20,
+            "course_intensity": "General English - 20",
+            "description": null,
+            "prices": [
+              {
+                "duration": "2-7 weeks",
+                "description": null,
+                "price": 215.0,
+                "currency": "GBP"
+              },
+              {
+                "duration": "8-11 weeks",
+                "description": null,
+                "price": 201.0,
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "description": null,
+                "price": 187.0,
+                "currency": "GBP"
+              },
+              {
+                "duration": "24+ weeks",
+                "description": null,
+                "price": 170.0,
+                "currency": "GBP"
+              }
+            ],
+            "total_fee_calculation": "",
+            "total_fee": null,
+            "requirements": null
+          },
+          {
+            "name": "English Plus Course (A2-C2)",
+            "course_type": "Adult",
+            "min_age": 16,
+            "max_age": null,
+            "age_range_display": "16+",
+            "lessons_per_week": 28,
+            "course_intensity": "Intensive English - 28",
+            "description": null,
+            "prices": [
+              {
+                "duration": "2-7 weeks",
+                "description": null,
+                "price": 262.0,
+                "currency": "GBP"
+              },
+              {
+                "duration": "8-11 weeks",
+                "description": null,
+                "price": 245.0,
+                "currency": "GBP"
+              },
+              {
+                "duration": "12-23 weeks",
+                "description": null,
+                "price": 227.0,
+                "currency": "GBP"
+              },
+              {
+                "duration": "24+ weeks",
+                "description": null,
+                "price": 199.0,
+                "currency": "GBP"
+              }
+            ],
+            "total_fee_calculation": "",
+            "total_fee": null,
+            "requirements": null
+          },
+          {
+            "name": "Examination Courses - Cambridge (B2 and C1)",
+            "course_type": "Adult",
+            "min_age": 16,
+            "max_age": null,
+            "age_range_display": "16+",
+            "lessons_per_week": 28,
+            "course_intensity": "Examination English - 28",
+            "description": null,
+            "prices": [
+              {
+                "duration": "10-16 weeks",
+                "description": null,
+                "price": 227.0,
+                "currency": "GBP"
+              }
+            ],
+            "total_fee_calculation": "",
+            "total_fee": null,
+            "requirements": "Students should enroll based on their examination targets."
+          },
+          {
+            "name": "Extra Intensive Course (A2-C1)",
+            "course_type": "Adult",
+            "min_age": 16,
+            "max_age": null,
+            "age_range_display": "16+",
+            "lessons_per_week": 40,
+            "course_intensity": "Extra Intensive - 40",
+            "description": null,
+            "prices": [
+              {
+                "duration": "1-4 weeks",
+                "description": null,
+                "price": 329.0,
+                "currency": "GBP"
+              }
+            ],
+            "total_fee_calculation": "",
+            "total_fee": null,
+            "requirements": null
+          },
+          {
+            "name": "Junior Programme A",
+            "course_type": "Teenagers",
+            "min_age": 12,
+            "max_age": 17,
+            "age_range_display": "12-17",
+            "lessons_per_week": 20,
+            "course_intensity": "Junior English - 223",
+            "description": "Children focused program",
+            "prices": [
+              {
+                "duration": "1-3 weeks",
+                "description": null,
+                "price": 228.0,
+                "currency": "GBP"
+              }
+            ],
+            "total_fee_calculation": "",
+            "total_fee": null,
+            "requirements": null
+          },
+          {
+            "name": "General Main English",
+            "course_type": "Adult",
+            "min_age": 16,
+            "max_age": null,
+            "age_range_display": "16+",
+            "lessons_per_week": 20,
+            "course_intensity": "General Main English - 20 lessons per week",
+            "description": "General English course focusing on improving fluency and accuracy.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "description": "Standard weekly price",
+                "price": 200,
+                "currency": "GBP"
+              }
+            ],
+            "total_fee_calculation": "1 week * 200 GBP/week",
+            "total_fee": 200.0,
+            "requirements": "None"
+          },
+          {
+            "name": "English Plus",
+            "course_type": "Adult",
+            "min_age": 16,
+            "max_age": null,
+            "age_range_display": "16+",
+            "lessons_per_week": 30,
+            "course_intensity": "English Plus - 30 lessons per week",
+            "description": "An advanced course for improving English speaking skills.",
+            "prices": [
+              {
+                "duration": "1 week",
+                "description": "Standard weekly price",
+                "price": 300,
+                "currency": "GBP"
+              }
+            ],
+            "total_fee_calculation": "1 week * 300 GBP/week",
+            "total_fee": 300.0,
+            "requirements": "None"
+          }
+        ],
+        "accommodations": [
+          {
+            "type": "Homestay",
+            "price_per_week": 230,
+            "currency": "GBP",
+            "total_price": null,
+            "description": "Hosted in a supportive family setting with meals included.",
+            "supplements": {
+              "Lactose Free per week in GBP": "30.00",
+              "Vegetarian per week in GBP": "30.00",
+              "Gluten Free per week in GBP": "30.00",
+              "Vegan per week in GBP": "30.00"
+            }
+          }
+        ],
+        "additional_fees": [
+          {
+            "name": "enrollment_fee",
+            "price": 100.0,
+            "currency": "GBP"
+          },
+          {
+            "name": "Homestay_week_Extra_child",
+            "price": 30.0,
+            "currency": "GBP"
+          },
+          {
+            "name": "registration_fee",
+            "price": 50,
+            "currency": "GBP"
+          },
+          {
+            "name": "deposit_fee",
+            "price": 150,
+            "currency": "GBP"
+          }
+        ]
+      }
+    ],
+    "terms": {
+      "cancellation_notes": "Prices subject to revisions.",
+      "cancellation": "All cancellations must be received in writing at least 2 weeks prior to the start of the course."
+    },
+    "repeat": false
+  }
+}
