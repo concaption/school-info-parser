@@ -30,12 +30,13 @@ def find_similar_course(courses: List[Dict], course_name: str, threshold: float 
             return i
     return -1
 
-def merge_all_results(raw_results: List[Dict]) -> Dict:
+def merge_all_results(raw_results: List[Dict], source_filename: str = None) -> Dict:
     """
     Merge all raw results into a consolidated school information dictionary.
     
     Args:
         raw_results: List of parsed school data from individual PDF pages
+        source_filename: Original filename of the PDF document
         
     Returns:
         Dict containing merged school information
@@ -51,6 +52,10 @@ def merge_all_results(raw_results: List[Dict]) -> Dict:
         "name": raw_results[0].get("name", "Unknown School"),
         "locations": []
     }
+    
+    # Add source filename if provided
+    if source_filename:
+        merged_result["source_filename"] = source_filename
     
     # Process all raw results
     for result in raw_results:

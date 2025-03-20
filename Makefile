@@ -1,4 +1,4 @@
-setup:
+ssetup:
 	chmod +x ./setup.sh &&\
 		./setup.sh
 install:

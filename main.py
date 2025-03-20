@@ -18,7 +18,8 @@ import tempfile
 import httpx
 import redis.asyncio as redis
 import traceback
-from src.csv_converter import json_to_dataframe, dataframe_to_csv_string, json_to_csv
+from src.utils import melt_results, export_to_excel
+import pandas as pd
 
 from src.parser import PDFProcessor
 from src.logger import setup_logging
@@ -36,14 +37,59 @@ if not OPENAI_API_KEY:
 app = FastAPI(title="School Prospectus Processor", version="0.1.0")
 
 # Initialize Redis client using asyncio
+redis_client = None
 
-redis_client = redis.Redis(
-    host=os.getenv("REDIS_HOST", "redis"),
-    port=6379,
-    password=os.getenv("REDIS_PASSWORD"),
-    db=0,
-    decode_responses=True
-)
+# Configure Redis connection with better error handling
+def setup_redis_connection():
+    global redis_client
+    
+    redis_host = os.getenv("REDIS_HOST", "redis")
+    redis_port = int(os.getenv("REDIS_PORT", "6379"))
+    redis_password = os.getenv("REDIS_PASSWORD", None)
+    
+    # Log connection details (without password)
+    logger.info(f"Connecting to Redis at {redis_host}:{redis_port}")
+    
+    # Create Redis connection
+    if redis_password:
+        redis_client = redis.Redis(
+            host=redis_host,
+            port=redis_port,
+            password=redis_password,
+            db=0,
+            decode_responses=True,
+            socket_timeout=5,  # Add timeout to prevent hanging on connection issues
+            socket_connect_timeout=5,
+            retry_on_timeout=True
+        )
+    else:
+        redis_client = redis.Redis(
+            host=redis_host,
+            port=redis_port,
+            db=0,
+            decode_responses=True,
+            socket_timeout=5,
+            socket_connect_timeout=5,
+            retry_on_timeout=True
+        )
+
+# Set up Redis connection on startup
+setup_redis_connection()
+
+# Test Redis connection and handle errors during startup
+@app.on_event("startup")
+async def startup_db_client():
+    try:
+        # Test the connection
+        await redis_client.ping()
+        logger.info("Successfully connected to Redis")
+    except redis.exceptions.ConnectionError as e:
+        logger.error(f"Failed to connect to Redis: {str(e)}")
+        logger.error("Make sure Redis is running and the connection details are correct.")
+        # Don't raise an exception here to allow the app to start even if Redis is not available
+        # The app will handle Redis errors gracefully in the endpoints
+    except Exception as e:
+        logger.error(f"Unexpected Redis error during startup: {str(e)}")
 
 
 # Reuse existing pdf processing function for background tasks
@@ -81,45 +127,14 @@ async def process_job(job_id: str, files_data: list, callback_url: Optional[str]
             results.append({file_data["filename"]: res})
     status = "failed" if not results else "completed"
     job_data = {"status": status, "results": results}
-    await redis_client.set(job_id, json.dumps(job_data))
     
-    if status == "completed":
-        try:
-            logger.info(f"Job {job_id} completed successfully, generating CSV data")
-            for result_idx, result_entry in enumerate(results):
-                logger.info(f"Processing result {result_idx+1}/{len(results)}")
-                for filename, result_data in result_entry.items():
-                    logger.info(f"Generating CSV for file: {filename}")
-                    if "merged_results" in result_data:
-                        try:
-                            logger.debug("Converting to DataFrame")
-                            if result_data["merged_results"] and isinstance(result_data["merged_results"], dict):
-                                logger.debug(f"School name in merged_results: {result_data['merged_results'].get('name', 'Not found')}")
-                            else:
-                                logger.warning("merged_results is empty or not a dictionary")
-                            
-                            df = json_to_dataframe(result_data)
-                            if not df.empty:
-                                logger.debug(f"DataFrame created with {len(df)} rows, converting to CSV")
-                                csv_data = dataframe_to_csv_string(df)
-                                logger.debug(f"CSV string created, length: {len(csv_data)}")
-                                
-                                if csv_data:
-                                    logger.debug(f"Storing CSV data in Redis with key: {job_id}_csv_{filename}")
-                                    await redis_client.set(f"{job_id}_csv_{filename}", csv_data)
-                                    logger.info(f"CSV data for {filename} stored in Redis")
-                                else:
-                                    logger.error(f"Failed to generate CSV string for {filename}")
-                            else:
-                                logger.warning(f"Empty DataFrame for {filename}, no CSV generated")
-                        except Exception as e:
-                            logger.error(f"Error generating CSV for {filename}: {str(e)}")
-                            logger.debug(traceback.format_exc())
-                    else:
-                        logger.warning(f"No merged_results found for {filename}, skipping CSV generation")
-        except Exception as e:
-            logger.error(f"Failed to create CSV data: {str(e)}")
-            logger.debug(traceback.format_exc())
+    try:
+        await redis_client.set(job_id, json.dumps(job_data))
+        
+        # We only store job results in Redis now, Excel is generated on-the-fly when requested
+        logger.info(f"Job {job_id} completed successfully with {len(results)} processed files")
+    except Exception as e:
+        logger.error(f"Error when storing job results: {str(e)}")
     
     if callback_url:
         async with httpx.AsyncClient() as client:
@@ -144,90 +159,210 @@ async def submit_job(
     """Submits a job to process PDFs asynchronously."""
     if not files:
         raise HTTPException(status_code=400, detail="No PDF files uploaded")
+    
     job_id = str(uuid.uuid4())
+    
     # Read each file's content and prepare a list of file data dictionaries
     files_data = []
     for file in files:
         file_content = await file.read()
         files_data.append({"filename": file.filename, "content": file_content})
+    
     # Save initial job status
     job_data = {"status": "processing", "results": None}
-    await redis_client.set(job_id, json.dumps(job_data))
-    background_tasks.add_task(process_job, job_id, files_data, callback_url)
-    return {"job_id": job_id, "status": "processing"}
+    
+    try:
+        await redis_client.set(job_id, json.dumps(job_data))
+        background_tasks.add_task(process_job, job_id, files_data, callback_url)
+        return {"job_id": job_id, "status": "processing"}
+    except redis.exceptions.ConnectionError as e:
+        logger.error(f"Redis connection error: {str(e)}")
+        raise HTTPException(
+            status_code=503, 
+            detail="Service temporarily unavailable: Could not connect to the database."
+        )
+    except Exception as e:
+        logger.error(f"Error submitting job: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error submitting job: {str(e)}")
 
 
 @app.get("/job/{job_id}")
 async def get_job_status(job_id: str):
     """Returns the status or results of a submitted job."""
-    data = await redis_client.get(job_id)
-    if not data:
-        raise HTTPException(status_code=404, detail="Job not found")
-    return JSONResponse(content=json.loads(data))
-
-
-@app.get("/job/{job_id}/csv")
-async def get_job_csv(job_id: str, filename: Optional[str] = None):
     try:
-        logger.info(f"CSV request for job {job_id}, filename: {filename}")
-        job_data_str = await redis_client.get(job_id)
-        if not job_data_str:
-            logger.warning(f"Job {job_id} not found")
+        data = await redis_client.get(job_id)
+        if not data:
             raise HTTPException(status_code=404, detail="Job not found")
-        
-        job_data = json.loads(job_data_str)
-        if job_data.get("status") != "completed":
-            logger.warning(f"Job {job_id} not completed yet, status: {job_data.get('status')}")
-            raise HTTPException(status_code=400, detail="Job not completed yet")
-        
-        results = job_data.get("results", [])
-        if not results:
-            logger.warning(f"No results found for job {job_id}")
-            raise HTTPException(status_code=404, detail="No results found for this job")
-        
-        if filename:
-            logger.info(f"Looking for CSV data for specific file: {filename}")
-            csv_data = await redis_client.get(f"{job_id}_csv_{filename}")
-            if not csv_data:
-                logger.warning(f"CSV for file {filename} not found in job {job_id}")
-                raise HTTPException(status_code=404, detail=f"CSV for file {filename} not found")
-        else:
-            logger.info("No filename specified, using first file in results")
-            first_file_entry = results[0]
-            first_filename = next(iter(first_file_entry))
-            logger.info(f"Using first file: {first_filename}")
-            
-            csv_data = await redis_client.get(f"{job_id}_csv_{first_filename}")
-            if not csv_data:
-                logger.warning(f"CSV data for {first_filename} not found in Redis, attempting to generate on-the-fly")
-                try:
-                    first_result = first_file_entry[first_filename]
-                    df = json_to_dataframe(first_result)
-                    if df.empty:
-                        logger.error("Generated DataFrame is empty")
-                        raise HTTPException(status_code=404, detail="Could not generate CSV data")
-                    
-                    csv_data = dataframe_to_csv_string(df)
-                    if not csv_data:
-                        logger.error("Generated CSV string is empty")
-                        raise HTTPException(status_code=500, detail="Generated empty CSV data")
-                    
-                    logger.info(f"Storing generated CSV data in Redis for {first_filename}")
-                    await redis_client.set(f"{job_id}_csv_{first_filename}", csv_data)
-                except Exception as e:
-                    logger.error(f"Error generating CSV on-the-fly: {str(e)}")
-                    raise HTTPException(status_code=500, detail=f"Error generating CSV: {str(e)}")
-        
-        return Response(content=csv_data, media_type="text/csv", headers={
-            "Content-Disposition": f"attachment; filename=school_data_{job_id}.csv"
-        })
-        
+        return JSONResponse(content=json.loads(data))
+    except redis.exceptions.ConnectionError as e:
+        logger.error(f"Redis connection error: {str(e)}")
+        raise HTTPException(
+            status_code=503, 
+            detail="Service temporarily unavailable: Could not connect to the database."
+        )
     except HTTPException:
         raise
     except Exception as e:
-        logger.error(f"Error retrieving CSV: {str(e)}")
+        logger.error(f"Error retrieving job status: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error retrieving job status: {str(e)}")
+
+
+@app.get("/job/{job_id}/xlsx")
+async def get_job_xlsx(job_id: str):
+    """Returns Excel file containing all processed data for the job."""
+    try:
+        logger.info(f"Excel request for job {job_id}")
+        
+        try:
+            # Get job data
+            job_data_str = await redis_client.get(job_id)
+            if not job_data_str:
+                logger.warning(f"Job {job_id} not found")
+                raise HTTPException(status_code=404, detail="Job not found")
+            
+            job_data = json.loads(job_data_str)
+            if job_data.get("status") != "completed":
+                logger.warning(f"Job {job_id} not completed yet, status: {job_data.get('status')}")
+                raise HTTPException(status_code=400, detail="Job not completed yet")
+            
+            results = job_data.get("results", [])
+            if not results:
+                logger.warning(f"No results found for job {job_id}")
+                raise HTTPException(status_code=404, detail="No results found for this job")
+            
+            # Generate Excel file on-the-fly, combining ALL results
+            all_melted_data = []
+            files_processed = []
+            
+            # Process all files in job results
+            logger.info("Processing all files in job results")
+            
+            for result_entry in results:
+                for file_name, result_data in result_entry.items():
+                    files_processed.append(file_name)
+                    if "merged_results" in result_data and result_data["merged_results"]:
+                        logger.info(f"Processing merged results for {file_name}")
+                        try:
+                            # The source_filename should already be in merged_results from the parser
+                            # If not, we'll add it here as a fallback
+                            if result_data["merged_results"] and isinstance(result_data["merged_results"], dict):
+                                if "source_filename" not in result_data["merged_results"]:
+                                    result_data["merged_results"]["source_filename"] = file_name
+                            
+                            melted_data = melt_results(result_data["merged_results"])
+                            if melted_data:
+                                # The source_filename should now be included in each row from melt_results
+                                # This is a failsafe to ensure it's there
+                                for row in melted_data:
+                                    if "source_filename" not in row:
+                                        row["source_filename"] = file_name
+                                
+                                all_melted_data.extend(melted_data)
+                                logger.info(f"Added {len(melted_data)} rows from {file_name}")
+                            else:
+                                logger.warning(f"No melted data generated for {file_name}")
+                        except Exception as e:
+                            logger.error(f"Error melting results for {file_name}: {str(e)}")
+                            logger.debug(traceback.format_exc())
+                    else:
+                        logger.warning(f"No merged_results found for {file_name}")
+            
+            if not all_melted_data:
+                logger.error("No data available for Excel generation")
+                raise HTTPException(status_code=404, detail="No data available for Excel generation")
+            
+            # Create the Excel file in memory
+            logger.info(f"Creating Excel file with {len(all_melted_data)} total rows from {len(files_processed)} files")
+            
+            # Create DataFrame from all melted data
+            df = pd.DataFrame(all_melted_data)
+            
+            # Generate a descriptive filename that includes original filenames (up to a reasonable length)
+            max_files_in_name = 3  # Max number of filenames to include in output filename
+            filename_parts = []
+            for i, name in enumerate(files_processed):
+                if i < max_files_in_name:
+                    # Get base filename without extension and add to parts
+                    base_name = os.path.splitext(name)[0]
+                    filename_parts.append(base_name)
+            
+            # Create Excel filename
+            if filename_parts:
+                if len(filename_parts) < len(files_processed):
+                    # If we truncated the list, add indication of more files
+                    excel_filename = f"{'-'.join(filename_parts)}_plus_{len(files_processed) - len(filename_parts)}_more_{job_id}.xlsx"
+                else:
+                    excel_filename = f"{'-'.join(filename_parts)}_{job_id}.xlsx"
+            else:
+                excel_filename = f"school_data_{job_id}.xlsx"
+            
+            # Ensure the filename doesn't get too long
+            if len(excel_filename) > 100:
+                excel_filename = f"school_data_{job_id}.xlsx"
+            
+            # Write DataFrame to Excel file in memory
+            with tempfile.NamedTemporaryFile(suffix='.xlsx', delete=False) as temp_file:
+                excel_path = temp_file.name
+                
+                # Use ExcelWriter for better formatting
+                with pd.ExcelWriter(excel_path, engine='openpyxl') as writer:
+                    df.to_excel(writer, sheet_name='School Info', index=False)
+                    
+                    # Auto-adjust column widths
+                    worksheet = writer.sheets['School Info']
+                    for i, col in enumerate(df.columns):
+                        max_width = max(
+                            df[col].astype(str).map(len).max() if len(df) > 0 else 0,  # Width of data
+                            len(col)  # Width of column header
+                        ) + 2  # Add a little extra space
+                        
+                        # Limit max width to avoid very wide columns
+                        max_width = min(max_width, 50)
+                        
+                        # Excel column widths are measured in characters
+                        col_letter = chr(65 + i) if i < 26 else chr(64 + i // 26) + chr(65 + i % 26)
+                        worksheet.column_dimensions[col_letter].width = max_width
+            
+            # Read the generated Excel file
+            with open(excel_path, 'rb') as f:
+                excel_data = f.read()
+            
+            # Clean up the temp file
+            os.unlink(excel_path)
+            
+            # Return the Excel file as a response
+            logger.info(f"Returning Excel file: {excel_filename}")
+            return Response(
+                content=excel_data, 
+                media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", 
+                headers={"Content-Disposition": f"attachment; filename=\"{excel_filename}\""}
+            )
+                          
+        except Exception as e:
+            if isinstance(e, HTTPException):
+                raise
+            logger.error(f"Error generating Excel: {str(e)}")
+            logger.debug(traceback.format_exc())
+            raise HTTPException(status_code=500, detail=f"Error generating Excel file: {str(e)}")
+            
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error retrieving Excel: {str(e)}")
         logger.debug(traceback.format_exc())
-        raise HTTPException(status_code=500, detail=f"Error retrieving CSV: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error retrieving Excel: {str(e)}")
+
+
+# Health check endpoint to verify Redis connection
+@app.get("/health")
+async def health_check():
+    try:
+        if await redis_client.ping():
+            return {"status": "healthy", "redis": "connected"}
+        return {"status": "unhealthy", "redis": "not responding"}
+    except Exception as e:
+        logger.error(f"Health check failed: {str(e)}")
+        return {"status": "unhealthy", "redis": str(e)}
 
 
 if __name__ == "__main__":

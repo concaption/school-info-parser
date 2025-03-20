@@ -123,6 +123,7 @@ class PDFProcessor:
                 logger.error(f"PDF file not found: {pdf_path}")
                 raise FileNotFoundError(f"PDF file not found: {pdf_path}")
 
+            filename = os.path.basename(pdf_path)
             pdf_document = fitz.open(pdf_path)
             logger.info(f"Opened PDF with {pdf_document.page_count} pages")
 
@@ -171,7 +172,8 @@ class PDFProcessor:
             logger.info("PDF processing completed")
             self.all_results["raw_results"] = self.raw_results
             try:
-                self.merged_results = merge_all_results(self.raw_results)
+                # Pass the filename to merge_all_results
+                self.merged_results = merge_all_results(self.raw_results, source_filename=filename)
                 self.all_results["merged_results"] = self.merged_results
             except Exception as e:
                 logger.error(f"Error merging schools: {str(e)}")
