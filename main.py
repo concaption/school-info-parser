@@ -36,61 +36,14 @@ if not OPENAI_API_KEY:
 
 app = FastAPI(title="School Prospectus Processor", version="0.1.0")
 
-# Initialize Redis client using asyncio
-redis_client = None
-
-# Configure Redis connection with better error handling
-def setup_redis_connection():
-    global redis_client
-    
-    redis_host = os.getenv("REDIS_HOST", "redis")
-    redis_port = int(os.getenv("REDIS_PORT", "6379"))
-    redis_password = os.getenv("REDIS_PASSWORD", None)
-    
-    # Log connection details (without password)
-    logger.info(f"Connecting to Redis at {redis_host}:{redis_port}")
-    
-    # Create Redis connection
-    if redis_password:
-        redis_client = redis.Redis(
-            host=redis_host,
-            port=redis_port,
-            password=redis_password,
-            db=0,
-            decode_responses=True,
-            socket_timeout=5,  # Add timeout to prevent hanging on connection issues
-            socket_connect_timeout=5,
-            retry_on_timeout=True
-        )
-    else:
-        redis_client = redis.Redis(
-            host=redis_host,
-            port=redis_port,
-            db=0,
-            decode_responses=True,
-            socket_timeout=5,
-            socket_connect_timeout=5,
-            retry_on_timeout=True
-        )
-
-# Set up Redis connection on startup
-setup_redis_connection()
-
-# Test Redis connection and handle errors during startup
-@app.on_event("startup")
-async def startup_db_client():
-    try:
-        # Test the connection
-        await redis_client.ping()
-        logger.info("Successfully connected to Redis")
-    except redis.exceptions.ConnectionError as e:
-        logger.error(f"Failed to connect to Redis: {str(e)}")
-        logger.error("Make sure Redis is running and the connection details are correct.")
-        # Don't raise an exception here to allow the app to start even if Redis is not available
-        # The app will handle Redis errors gracefully in the endpoints
-    except Exception as e:
-        logger.error(f"Unexpected Redis error during startup: {str(e)}")
-
+# Initialize Redis client using asyncio - simple connection that was working fine
+redis_client = redis.Redis(
+    host=os.getenv("REDIS_HOST", "redis"),
+    port=6379,
+    password=os.getenv("REDIS_PASSWORD"),
+    db=0,
+    decode_responses=True
+)
 
 # Reuse existing pdf processing function for background tasks
 async def process_pdf(file_data: dict) -> Optional[dict]:
@@ -175,12 +128,6 @@ async def submit_job(
         await redis_client.set(job_id, json.dumps(job_data))
         background_tasks.add_task(process_job, job_id, files_data, callback_url)
         return {"job_id": job_id, "status": "processing"}
-    except redis.exceptions.ConnectionError as e:
-        logger.error(f"Redis connection error: {str(e)}")
-        raise HTTPException(
-            status_code=503, 
-            detail="Service temporarily unavailable: Could not connect to the database."
-        )
     except Exception as e:
         logger.error(f"Error submitting job: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error submitting job: {str(e)}")
@@ -194,14 +141,6 @@ async def get_job_status(job_id: str):
         if not data:
             raise HTTPException(status_code=404, detail="Job not found")
         return JSONResponse(content=json.loads(data))
-    except redis.exceptions.ConnectionError as e:
-        logger.error(f"Redis connection error: {str(e)}")
-        raise HTTPException(
-            status_code=503, 
-            detail="Service temporarily unavailable: Could not connect to the database."
-        )
-    except HTTPException:
-        raise
     except Exception as e:
         logger.error(f"Error retrieving job status: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error retrieving job status: {str(e)}")
