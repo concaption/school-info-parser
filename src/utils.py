@@ -169,26 +169,66 @@ def melt_results(merged_results: Dict) -> List[Dict]:
     
     melted_rows = []
     
-    if not merged_results or "name" not in merged_results:
+    if not merged_results or not isinstance(merged_results, dict) or "name" not in merged_results:
         logger.warning("No valid results to melt")
         return []
     
     school_name = merged_results.get("name", "Unknown School")
     terms = merged_results.get("terms", {})
+    source_filename = merged_results.get("source_filename", "")
     
     # Convert terms dictionary to a paragraph if present
     terms_paragraph = ""
-    if terms:
+    if terms and isinstance(terms, dict):
         terms_paragraph = "\n\n".join([f"{key}: {value}" for key, value in terms.items()])
     
     # Process each location
     for location in merged_results.get("locations", []):
+        # Skip locations with no valid data
+        if not location or not isinstance(location, dict):
+            logger.warning("Skipping invalid location entry")
+            continue
+            
         location_city = location.get("city", "")
         location_country = location.get("country", "")
         location_address = location.get("address", "")
         
         # Process courses for this location
-        for course in location.get("courses", []):
+        courses = location.get("courses", [])
+        if not courses:
+            # If no courses, still create a row for the location
+            base_location_row = {
+                "school_name": school_name,
+                "source_filename": source_filename,  # Include source filename in every row
+                "location_city": location_city,
+                "location_country": location_country,
+                "location_address": location_address,
+                "course_name": "",
+                "course_type": "",
+                "course_min_age": "",
+                "course_max_age": "",
+                "course_age_range": "",
+                "course_lessons_per_week": "",
+                "course_intensity": "",
+                "course_description": "",
+                "course_requirements": "",
+                "terms": terms_paragraph,
+                "fee_type": "location_info",
+                "duration": "",
+                "price_per_week": "",
+                "currency": "",
+                "description": f"Location in {location_city}, {location_country}",
+                "name": "",
+                "type": ""
+            }
+            melted_rows.append(base_location_row)
+        
+        for course in courses:
+            # Skip invalid course entries
+            if not course or not isinstance(course, dict):
+                logger.warning("Skipping invalid course entry")
+                continue
+                
             # Extract course metadata
             course_name = course.get("name", "")
             course_type = course.get("course_type", "")
@@ -203,6 +243,7 @@ def melt_results(merged_results: Dict) -> List[Dict]:
             # Common metadata for all fees related to this course
             base_metadata = {
                 "school_name": school_name,
+                "source_filename": source_filename,  # Include source filename in every row
                 "location_city": location_city,
                 "location_country": location_country,
                 "location_address": location_address,
@@ -220,8 +261,11 @@ def melt_results(merged_results: Dict) -> List[Dict]:
             
             # Process weekly course fees
             weekly_course_fees = course.get("weekly_course_fees", [])
-            if weekly_course_fees:
+            if weekly_course_fees and isinstance(weekly_course_fees, list):
                 for fee in weekly_course_fees:
+                    if not fee or not isinstance(fee, dict):
+                        continue
+                        
                     fee_row = base_metadata.copy()
                     fee_row.update({
                         "fee_type": "weekly_course_fee",
@@ -249,57 +293,34 @@ def melt_results(merged_results: Dict) -> List[Dict]:
             
             # Process course additional fees - ensure additional_fees is a list
             additional_fees = course.get("additional_fees")
-            if additional_fees is None:
-                additional_fees = []
-            elif not isinstance(additional_fees, list):
-                logger.warning(f"additional_fees is not a list: {additional_fees}")
-                additional_fees = []
-            
-            for fee in additional_fees:
-                fee_row = base_metadata.copy()
-                fee_row.update({
-                    "fee_type": fee.get("fee_type", "course_additional_fee"),
-                    "duration": "",
-                    "price_per_week": fee.get("price_per_week", ""),
-                    "currency": fee.get("currency", ""),
-                    "description": fee.get("description", ""),
-                    "name": "",
-                    "type": ""
-                })
-                melted_rows.append(fee_row)
+            if additional_fees and isinstance(additional_fees, list):
+                for fee in additional_fees:
+                    if not fee or not isinstance(fee, dict):
+                        continue
+                        
+                    fee_row = base_metadata.copy()
+                    fee_row.update({
+                        "fee_type": fee.get("fee_type", "course_additional_fee"),
+                        "duration": "",
+                        "price_per_week": fee.get("price_per_week", ""),
+                        "currency": fee.get("currency", ""),
+                        "description": fee.get("description", ""),
+                        "name": "",
+                        "type": ""
+                    })
+                    melted_rows.append(fee_row)
         
         # Process accommodation fees
-        for acc in location.get("accommodation_fees", []):
-            # Create a base row for accommodation
-            acc_base = {
-                "school_name": school_name,
-                "location_city": location_city,
-                "location_country": location_country,
-                "location_address": location_address,
-                "course_name": "",
-                "course_type": "",
-                "course_min_age": "",
-                "course_max_age": "",
-                "course_age_range": "",
-                "course_lessons_per_week": "",
-                "course_intensity": "",
-                "course_description": "",
-                "course_requirements": "",
-                "terms": terms_paragraph,
-                "fee_type": "accommodation_fee",
-                "duration": "",
-                "price_per_week": acc.get("price_per_week", ""),
-                "currency": acc.get("currency", ""),
-                "description": acc.get("name", ""),
-                "name": "",
-                "type": acc.get("type", "")
-            }
-            melted_rows.append(acc_base)
-            
-            # Process food supplements for this accommodation
-            for food in acc.get("food_suplements", []):
-                food_row = {
+        accommodation_fees = location.get("accommodation_fees", [])
+        if accommodation_fees and isinstance(accommodation_fees, list):
+            for acc in accommodation_fees:
+                if not acc or not isinstance(acc, dict):
+                    continue
+                    
+                # Create a base row for accommodation
+                acc_base = {
                     "school_name": school_name,
+                    "source_filename": source_filename,  # Include source filename in every row
                     "location_city": location_city,
                     "location_country": location_country,
                     "location_address": location_address,
@@ -313,69 +334,142 @@ def melt_results(merged_results: Dict) -> List[Dict]:
                     "course_description": "",
                     "course_requirements": "",
                     "terms": terms_paragraph,
-                    "fee_type": "food_supplement_fee",
+                    "fee_type": "accommodation_fee",
                     "duration": "",
-                    "price_per_week": food.get("price_per_week", ""),
-                    "currency": food.get("currency", ""),
-                    "description": "",
-                    "name": food.get("name", ""),
-                    "type": food.get("meal_type", "")
+                    "price_per_week": acc.get("price_per_week", ""),
+                    "currency": acc.get("currency", ""),
+                    "description": acc.get("name", ""),
+                    "name": "",
+                    "type": acc.get("type", "")
                 }
-                melted_rows.append(food_row)
+                melted_rows.append(acc_base)
+                
+                # Process food supplements for this accommodation
+                food_supplements = acc.get("food_suplements", [])
+                if food_supplements and isinstance(food_supplements, list):
+                    for food in food_supplements:
+                        if not food or not isinstance(food, dict):
+                            continue
+                            
+                        food_row = {
+                            "school_name": school_name,
+                            "source_filename": source_filename,  # Include source filename in every row
+                            "location_city": location_city,
+                            "location_country": location_country,
+                            "location_address": location_address,
+                            "course_name": "",
+                            "course_type": "",
+                            "course_min_age": "",
+                            "course_max_age": "",
+                            "course_age_range": "",
+                            "course_lessons_per_week": "",
+                            "course_intensity": "",
+                            "course_description": "",
+                            "course_requirements": "",
+                            "terms": terms_paragraph,
+                            "fee_type": "food_supplement_fee",
+                            "duration": "",
+                            "price_per_week": food.get("price_per_week", ""),
+                            "currency": food.get("currency", ""),
+                            "description": "",
+                            "name": food.get("name", ""),
+                            "type": food.get("meal_type", "")
+                        }
+                        melted_rows.append(food_row)
         
         # Process supplement fees
-        for supp in location.get("suplement_fees", []):
-            supp_row = {
-                "school_name": school_name,
-                "location_city": location_city,
-                "location_country": location_country,
-                "location_address": location_address,
-                "course_name": "",
-                "course_type": "",
-                "course_min_age": "",
-                "course_max_age": "",
-                "course_age_range": "",
-                "course_lessons_per_week": "",
-                "course_intensity": "",
-                "course_description": "",
-                "course_requirements": "",
-                "terms": terms_paragraph,
-                "fee_type": supp.get("type", "supplement_fee"),  # Use the type field as the fee_type
-                "duration": "",
-                "price_per_week": supp.get("price_per_week", ""),
-                "currency": supp.get("currency", ""),
-                "description": "",
-                "name": "",
-                "type": ""
-            }
-            melted_rows.append(supp_row)
+        supplement_fees = location.get("suplement_fees", [])
+        if supplement_fees and isinstance(supplement_fees, list):
+            for supp in supplement_fees:
+                if not supp or not isinstance(supp, dict):
+                    continue
+                    
+                supp_row = {
+                    "school_name": school_name,
+                    "source_filename": source_filename,  # Include source filename in every row
+                    "location_city": location_city,
+                    "location_country": location_country,
+                    "location_address": location_address,
+                    "course_name": "",
+                    "course_type": "",
+                    "course_min_age": "",
+                    "course_max_age": "",
+                    "course_age_range": "",
+                    "course_lessons_per_week": "",
+                    "course_intensity": "",
+                    "course_description": "",
+                    "course_requirements": "",
+                    "terms": terms_paragraph,
+                    "fee_type": supp.get("type", "supplement_fee"),  # Use the type field as the fee_type
+                    "duration": "",
+                    "price_per_week": supp.get("price_per_week", ""),
+                    "currency": supp.get("currency", ""),
+                    "description": "",
+                    "name": "",
+                    "type": ""
+                }
+                melted_rows.append(supp_row)
         
         # Process location additional fees
-        for fee in location.get("additional_fees", []):
-            fee_row = {
-                "school_name": school_name,
-                "location_city": location_city,
-                "location_country": location_country,
-                "location_address": location_address,
-                "course_name": "",
-                "course_type": "",
-                "course_min_age": "",
-                "course_max_age": "",
-                "course_age_range": "",
-                "course_lessons_per_week": "",
-                "course_intensity": "",
-                "course_description": "",
-                "course_requirements": "",
-                "terms": terms_paragraph,
-                "fee_type": fee.get("fee_type", "location_additional_fee"),  # Use the fee_type field value
-                "duration": "",
-                "price_per_week": fee.get("price_per_week", ""),
-                "currency": fee.get("currency", ""),
-                "description": fee.get("description", ""),  # Include description
-                "name": "",
-                "type": ""
-            }
-            melted_rows.append(fee_row)
+        additional_fees = location.get("additional_fees", [])
+        if additional_fees and isinstance(additional_fees, list):
+            for fee in additional_fees:
+                if not fee or not isinstance(fee, dict):
+                    continue
+                    
+                fee_row = {
+                    "school_name": school_name,
+                    "source_filename": source_filename,  # Include source filename in every row
+                    "location_city": location_city,
+                    "location_country": location_country,
+                    "location_address": location_address,
+                    "course_name": "",
+                    "course_type": "",
+                    "course_min_age": "",
+                    "course_max_age": "",
+                    "course_age_range": "",
+                    "course_lessons_per_week": "",
+                    "course_intensity": "",
+                    "course_description": "",
+                    "course_requirements": "",
+                    "terms": terms_paragraph,
+                    "fee_type": fee.get("fee_type", "location_additional_fee"),  # Use the fee_type field value
+                    "duration": "",
+                    "price_per_week": fee.get("price_per_week", ""),
+                    "currency": fee.get("currency", ""),
+                    "description": fee.get("description", ""),  # Include description
+                    "name": "",
+                    "type": ""
+                }
+                melted_rows.append(fee_row)
+    
+    if not melted_rows:
+        logger.warning("No data was melted from the input. Creating basic entry to prevent empty results.")
+        basic_entry = {
+            "school_name": school_name,
+            "source_filename": source_filename,
+            "location_city": "",
+            "location_country": "",
+            "location_address": "",
+            "course_name": "",
+            "course_type": "",
+            "course_min_age": "",
+            "course_max_age": "",
+            "course_age_range": "",
+            "course_lessons_per_week": "",
+            "course_intensity": "",
+            "course_description": "",
+            "course_requirements": "",
+            "terms": terms_paragraph,
+            "fee_type": "school_info",
+            "duration": "",
+            "price_per_week": "",
+            "currency": "",
+            "description": "Basic school information",
+            "name": "",
+            "type": ""
+        }
+        melted_rows.append(basic_entry)
     
     logger.info(f"Melted results into {len(melted_rows)} rows")
     return melted_rows
